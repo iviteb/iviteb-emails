@@ -1,11 +1,18 @@
-{{#compare items.0.selectedDeliveryChannel '==' null}}
-  <div class="bg-light-gray pa3 mw5-5 mb3">
-    <!-- partial:address-delivery-info.hbs --><!-- partial -->
-  </div>
+{{#compare items.0.selectedDeliveryChannel "==" null}}
+  <table border="0" cellpadding="0" cellspacing="0" class="br-12 bg-light-blue">
+    <tr>
+      <td align="center" class="pa3 fs-15">
+        <!-- partial:address-delivery-info.hbs --><!-- partial -->
+      </td>
+    </tr>
+  </table>
 {{/compare}}
-
 {{#eq items.0.selectedDeliveryChannel "delivery"}}
-  <div class="bg-light-gray pa3 mw5-5 mb3">
-    <!-- partial:address-delivery-info.hbs --><!-- partial -->
-  </div>
+  <table border="0" cellpadding="0" cellspacing="0" class="br-12 bg-light-blue">
+    <tr>
+      <td align="center" class="pa3 fs-15">
+        <!-- partial:address-delivery-info.hbs --><!-- partial -->
+      </td>
+    </tr>
+  </table>
 {{/eq}}

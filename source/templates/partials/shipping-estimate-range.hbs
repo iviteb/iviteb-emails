@@ -2,18 +2,16 @@
 {{#eq ../shippingEstimateDays "0"}}
   {{#eq ../selectedDeliveryChannel "pickup-in-point"}}
     ((i18n.shipping.fromToday))
-  {{else}}
-    ((i18n.shipping.today))
+    {{else}}
+      ((i18n.shipping.today))
   {{/eq}}
-
-<!-- Available in another day -->
-{{else}}
-  <!-- Delivery or Pickup -->
-  {{#eq ../selectedDeliveryChannel "pickup-in-point"}}
-    ((i18n.shipping.from))
+  <!-- Available in another day -->
   {{else}}
-    ((i18n.shipping.inUpTo))
-  {{/eq}}
-
-  <!-- partial:shipping-estimate-range-time.hbs --><!-- partial -->
+    <!-- Delivery or Pickup -->
+    {{#eq ../selectedDeliveryChannel "pickup-in-point"}}
+      ((i18n.shipping.from))
+      {{else}}
+        ((i18n.shipping.inUpTo))
+    {{/eq}}
+    <!-- partial:shipping-estimate-range-time.hbs --><!-- partial -->
 {{/eq}}

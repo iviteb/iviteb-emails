@@ -1,7 +1,221 @@
+/****** Custom Margin, Padding & Spacer Classes Start ******/
+
+$spaceAmounts: (0, 2, 4, 6, 8, 10, 12, 16, 20, 24, 32, 36, 40, 48, auto);
+
+@each $space in $spaceAmounts {
+  @if $space==auto {
+    .m-#{$space} {
+      margin: #{$space};
+    }
+
+    .mx-#{$space} {
+      margin-left: #{$space};
+      margin-right: #{$space};
+    }
+
+    .my-#{$space} {
+      margin-top: #{$space};
+      margin-bottom: #{$space};
+    }
+
+    .ml-#{$space} {
+      margin-left: #{$space};
+    }
+
+    .mr-#{$space} {
+      margin-right: #{$space};
+    }
+
+    .mb-#{$space} {
+      margin-bottom: #{$space};
+    }
+
+    .mt-#{$space} {
+      margin-top: #{$space};
+    }
+  } @else {
+    .m-#{$space} {
+      margin: #{$space}px;
+    }
+
+    .mx-#{$space} {
+      margin-left: #{$space}px;
+      margin-right: #{$space}px;
+    }
+
+    .my-#{$space} {
+      margin-top: #{$space}px;
+      margin-bottom: #{$space}px;
+    }
+
+    .ml-#{$space} {
+      margin-left: #{$space}px;
+    }
+
+    .mr-#{$space} {
+      margin-right: #{$space}px;
+    }
+
+    .mb-#{$space} {
+      margin-bottom: #{$space}px;
+    }
+
+    .mt-#{$space} {
+      margin-top: #{$space}px;
+    }
+
+    .p-#{$space} {
+      padding: #{$space}px;
+    }
+
+    .px-#{$space} {
+      padding-left: #{$space}px;
+      padding-right: #{$space}px;
+    }
+
+    .py-#{$space} {
+      padding-top: #{$space}px;
+      padding-bottom: #{$space}px;
+    }
+
+    .pl-#{$space} {
+      padding-left: #{$space}px;
+    }
+
+    .pr-#{$space} {
+      padding-right: #{$space}px;
+    }
+
+    .pb-#{$space} {
+      padding-bottom: #{$space}px;
+    }
+
+    .pt-#{$space} {
+      padding-top: #{$space}px;
+    }
+
+    .spacer-#{$space} {
+      height: #{$space}px;
+      line-height: #{$space}px;
+    }
+  }
+}
+
+/****** Custom Margin, Padding & Spacer Classes End ******/
+
 .mw5-5 {
-  max-width: 24rem;
+  max-width: 390px;
 }
 
 .mw6-5 {
-  max-width: 40rem;
+  max-width: 640px;
+}
+
+.w-95 {
+  width: 95%;
+}
+
+.action-primary {
+  color: $action-primary;
+}
+
+.bg-action-primary {
+  background-color: $action-primary;
+}
+
+.base {
+  color: $base;
+}
+
+.dark-bg {
+  background-color: $base;
+}
+
+.br-8 {
+  border-radius: 8px;
+}
+
+.br-12 {
+  border-radius: 12px;
+}
+
+.letter-spacing {
+  letter-spacing: 0.08px;
+}
+
+.h-letter-spacing {
+  letter-spacing: 0.5px;
+}
+
+.containerTable {
+  width: 95%;
+  max-width: 640px;
+}
+
+.mainContainer {
+  border-style: solid;
+  border-width: 1px;
+  border-color: $light-gray;
+  border-radius: 12px;
+  border-collapse: separate !important;
+  overflow: hidden;
+}
+
+.footerInfo {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.footerSpacer > td {
+  padding-top: 48px;
+}
+
+.mailHeader {
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-image: url('https://hipestore.vtexassets.com/arquivos/hipe-header-bakground-image.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.mailHeader td {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+td,
+p {
+  color: $base;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $black;
+}
+
+.border-separate {
+  border-collapse: separate !important;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.totalsTable td {
+  line-height: 24px;
+}
+
+.productsTable p,
+.refundedProducts p {
+  line-height: 20px;
 }

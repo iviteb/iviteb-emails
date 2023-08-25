@@ -3,7 +3,7 @@
     <strong>{{pickupStoreInfo.friendlyName}}</strong>
     {{#with pickupStoreInfo.address}}
       <br />{{street}}, {{number}}{{#if complement}}, {{complement}}{{/if}}
-      <br />{{neighborhood}}
+      <br />{{#if neighborhood}}, {{neighborhood}}{{/if}}
     {{/with}}
   {{/compare}}
 {{/each}}

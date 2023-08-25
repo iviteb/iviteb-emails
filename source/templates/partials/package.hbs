@@ -5,31 +5,36 @@
     <!-- compare order's items to package items -->
     {{#each ../../../../items}}
       {{#eq id ../itemId}}
-          <div class="bg-light-gray ph3 pv2 mw5-5 mv3 fw5">
-            {{#compare ../selectedDeliveryChannel "!=" "pickup-in-point"}}
+        <table class="mw5-5 bg-light-blue br-12" width="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td class="pa3 fs-15">
+              <p class="ma0 fs-15 word-wrap">
+                {{#compare ../selectedDeliveryChannel "!=" "pickup-in-point"}}
+                  {{#if ../deliveryWindow}}
+                    ((i18n.shipping.scheduled))
+                  {{else}}
+                    {{../selectedSla}}
+                  {{/if}}
+                {{/compare}}
+              </p>
+              <!-- Scheduled shipping -->
               {{#if ../deliveryWindow}}
-                <div class="f7 gray">((i18n.shipping.scheduled))</div>
+                <!-- partial:shipping-estimate-scheduled.hbs --><!-- partial -->
               {{else}}
-                <div class="f7 gray">{{../selectedSla}}</div>
+                <!-- show info for estimate range or date -->
+                {{#unless ../shippingEstimateDate}}
+                  <!-- partial:shipping-estimate-range.hbs --><!-- partial -->
+                {{else}}
+                  <!-- partial:shipping-estimate-date.hbs --><!-- partial -->
+                {{/unless}}
               {{/if}}
-            {{/compare}}
-
-            <!-- Scheduled shipping -->
-            {{#if ../deliveryWindow}}
-              <!-- partial:shipping-estimate-scheduled.hbs --><!-- partial -->
-            {{else}}
-              <!-- show info for estimate range or date -->
-              {{#unless ../shippingEstimateDate}}
-                <!-- partial:shipping-estimate-range.hbs --><!-- partial -->
-              {{else}}
-                <!-- partial:shipping-estimate-date.hbs --><!-- partial -->
-              {{/unless}}
-            {{/if}}
-          </div>
+            </td>
+          </tr>
+        </table>
+        <div class="spacer-24"></div>
       {{/eq}}
     {{/each}}
   {{/compare}}
   <!-- back to items list -->
 {{/each}}
-
 <!-- partial:items.hbs --><!-- partial -->

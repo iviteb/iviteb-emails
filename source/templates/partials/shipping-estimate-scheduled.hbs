@@ -1,4 +1,4 @@
-{{formatDate ../deliveryWindow.startDateUtc}}
+{{replace (replace (formatDate ../deliveryWindow.startDateUtc) "/" ".") "/" "."}}
 ((i18n.common.lowercase.between))
 {{formatTime ../deliveryWindow.startDateUtc}}
 ((i18n.common.lowercase.and))

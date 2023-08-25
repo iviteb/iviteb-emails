@@ -1,24 +1,41 @@
-<div class="fl w-100 mw5-5 pb3 pr4-ns v-top">
-  <h3>((i18n.common.summary))</h3>
-  <table width="100%" border="0" cellpadding="0" cellspacing="0">
-    {{#each totals}}
-      {{#if value}}
-      <tr>
-        <td class="pv1 bb b--light-gray">
-          {{#eq id "Items"}}((i18n.common.items)){{/eq}}
-          {{#eq id "Shipping"}}((i18n.common.shipping)){{/eq}}
-          {{#eq id "Discounts"}}((i18n.common.discounts)){{/eq}}
-          {{#eq id "Tax"}}((i18n.common.taxes)){{/eq}}
-        </td>
-        <td class="pv1 bb b--light-gray tr">((i18n.common.currency)) {{formatCurrency value}}</td>
-      </tr>
-      {{/if}}
-    {{/each}}
+{{!-- <h3 class="mt4 mb2">((i18n.common.summary))</h3> --}}
+<table width="100%" border="0" cellpadding="0" cellspacing="0"
+  class="totalsTable mw5-5 pa2 br-12 ba b--light-gray border-separate ">
+  {{#each totals}}
     {{#if value}}
       <tr>
-        <td class="pv1 fw5">((i18n.common.total))</td>
-        <td class="pv1 fw5 align-right tr">((i18n.common.currency)) {{formatCurrency value}}</td>
+        <td class="pb2 pl3 pr1 f6">
+          {{#eq id "Items"}}
+            ((i18n.common.items))
+          {{/eq}}
+          {{#eq id "Shipping"}}
+            ((i18n.common.shipping))
+          {{/eq}}
+          {{#eq id "Discounts"}}
+            ((i18n.common.discounts))
+          {{/eq}}
+          {{#eq id "Tax"}}
+            ((i18n.common.taxes))
+          {{/eq}}
+          {{#eq id "CustomTax"}}
+            ((i18n.common.customTaxes))
+          {{/eq}}
+        </td>
+        <td class="pb2 pl1 pr3 fs-15 tr">{{formatCurrency value}}
+          ((i18n.common.currency))
+        </td>
       </tr>
     {{/if}}
-  </table>
-</div>
+  {{/each}}
+  {{#if value}}
+    <tr>
+      <td class="pv2 pl3 pr1 fs-15 fw7 black bg-light-blue"
+        style="border-top-left-radius: 8px; border-bottom-left-radius: 8px">
+        ((i18n.common.total))</td>
+      <td class="pv2 pl1 pr3 fs-18 fw7 black bg-light-blue tr"
+        style="border-top-right-radius: 8px; border-bottom-right-radius: 8px"> {{formatCurrency value}}
+        ((i18n.common.currency))
+      </td>
+    </tr>
+  {{/if}}
+</table>

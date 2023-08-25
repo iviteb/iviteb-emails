@@ -15,36 +15,36 @@
  */
 html,
 body {
-	width: 100% !important;
-	height: 100% !important;
-	-webkit-text-size-adjust: 100%; /* 1 */
-	-ms-text-size-adjust: 100%; /* 1 */
-	margin: 0 !important; /* 2 */
-	padding: 0 !important; /* 2 */
-	background: $email-bg-color !important; /* 3 */
-	-webkit-font-smoothing: antialiased; /* 4 */
-	-moz-osx-font-smoothing: grayscale; /* 4 */
+  width: 100% !important;
+  // height: 100% !important;
+  -webkit-text-size-adjust: 100%; /* 1 */
+  -ms-text-size-adjust: 100%; /* 1 */
+  margin: 0 !important; /* 2 */
+  padding: 0 !important; /* 2 */
+  background-color: $email-bg-color !important; /* 3 */
+  -webkit-font-smoothing: antialiased; /* 4 */
+  -moz-osx-font-smoothing: grayscale; /* 4 */
 }
 
 #body-table {
-	/* 5 */
-	margin: 0;
-	padding: 0;
-	width: 100% !important;
-	height: 100% !important;
-	line-height: 100% !important;
-	background: $email-bg-color;
+  /* 5 */
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+  // height: 100% !important;
+  line-height: 100% !important;
+  background-color: $email-bg-color;
 }
 
 .body-table-spacing {
-	/* 6 */
-	padding-top: 20px;
-	padding-bottom: 20px;
+  /* 6 */
+  padding-top: 20px;
+  padding-bottom: 20px;
 
-	@media (max-width: $breakpoint-mobile) {
-		padding-top: 0 !important;
-		padding-bottom: 0 !important;
-	}
+  @media (max-width: $breakpoint-mobile) {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
 }
 
 /* ----- Tables ----- */
@@ -61,16 +61,16 @@ body {
  * 3. Proper table cell alignment on all email clients.
  */
 table {
-	/* 1 */
-	border-collapse: collapse !important;
-	border-spacing: 0 !important;
-	mso-table-lspace: 0pt !important;
-	mso-table-rspace: 0pt !important;
+  /* 1 */
+  border-collapse: collapse !important;
+  border-spacing: 0 !important;
+  mso-table-lspace: 0pt !important;
+  mso-table-rspace: 0pt !important;
 
-	td {
-		border-collapse: collapse; /* 2 */
-		text-align: left; /* 3 */
-	}
+  td {
+    border-collapse: collapse; /* 2 */
+    text-align: left; /* 3 */
+  }
 }
 
 /* ----- Images ----- */
@@ -81,18 +81,12 @@ table {
  * 3. Removes border when linking images.
  */
 img {
-	vertical-align: top;
-	outline: none;
-	text-decoration: none;
-	-ms-interpolation-mode: bicubic; /* 1 */
+  vertical-align: top;
+  outline: none;
+  text-decoration: none;
+  -ms-interpolation-mode: bicubic; /* 1 */
 
-	@media (max-width: $breakpoint-mobile) {
-		/* 2 */
-		max-width: 100%;
-		height: auto !important;
-	}
-
-	a & {
-		border: none; /* 3 */
-	}
+  a & {
+    border: none; /* 3 */
+  }
 }

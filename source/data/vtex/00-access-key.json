@@ -1,0 +1,42 @@
+{
+  "to": [
+    {
+      "name": "claudiu+15",
+      "email": "c*********@i*****.c**"
+    }
+  ],
+  "aditionalData": {
+    "accessKey": "749527",
+    "locale": "ro-RO",
+    "userAgent": "Chrome, Mac OS X"
+  },
+  "_accountInfo": {
+    "MainAccountName": "iviteb",
+    "AccountName": "iviteb",
+    "Cnpj": "1",
+    "Id": "938dfd28-b682-4d6a-b188-a8b8045d640e",
+    "AppId": null,
+    "IsActive": true,
+    "IsOperating": false,
+    "CreationDate": "2020-03-20T01:39:08",
+    "OperationDate": null,
+    "CompanyName": "IVITEB",
+    "TradingName": "IVITEB",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [7],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null
+  }
+}
