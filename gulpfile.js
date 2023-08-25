@@ -42,7 +42,7 @@ gulp.task( 'i18n', function( done ) {
 	'use strict';
 	gulp.src( [ 'temp/*.hbs' ] )
 		.pipe( i18n( {
-			locales: [ 'pt-BR', 'en-US' ],
+			locales: [ 'ro-RO' ],
 			localeDir: 'source/locales',
 			delimeters: [ '((', '))' ]
 		} ) )
@@ -62,7 +62,7 @@ gulp.task( 'hbs', function( done ) {
 		.src( 'temp/*/*.hbs' )
 		.pipe( data( function( file ) {
 			return require(
-				file.path.replace( /(temp\/)(\w|-)+(\/)((\w|-)+)(\.hbs)/g, 'source/data/'+ orderJsonToRead +'/$4.json' )
+				file.path.replace('temp','source').replace('ro-RO','data\\vtex').replace('.hbs','.json')
 			);
 		} ) )
 		.pipe( hbStream )
