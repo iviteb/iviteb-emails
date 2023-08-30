@@ -10,16 +10,22 @@ $color-red: #e74c3c !default;
 $color-green: #2ecc71 !default;
 $color-blue: #3498db !default;
 
+$black: #06182d;
+$light-blue: #eff6ff;
+$action-primary: #ce1f4b;
+$light-gray: #e8ebef;
+$base: #1b3656;
+
 // Grid
 $color-container-bg: $color-white !default;
 
 /* ----- Generic ----- */
 // General
-$email-bg-color: #f1f1f1 !default;
+$email-bg-color: #ffffff !default;
 
 // Font sizes
-$font-size-base: 14px !default;
-$font-size-h1: 50px !default;
+$font-size-base: 16px !default;
+$font-size-h1: 26px !default;
 $font-size-h2: 24px !default;
 $font-size-h3: 20px !default;
 $font-size-h4: 16px !default;
@@ -27,13 +33,13 @@ $font-size-h5: 16px !default;
 $font-size-h6: 12px !default;
 
 // Line heights
-$line-height-base: 20px !default;
-$line-height-h1: 58px !default;
-$line-height-h2: 24px !default;
-$line-height-h3: 36px !default;
-$line-height-h4: 29px !default;
-$line-height-h5: 23px !default;
-$line-height-h6: 20px !default;
+$line-height-base: 1.5;
+$line-height-h1: 1.25;
+$line-height-h2: 1.25;
+$line-height-h3: 1.25;
+$line-height-h4: 1.25;
+$line-height-h5: 1.25;
+$line-height-h6: 1.25;
 
 /* ----- Objects ----- */
 // Grid
@@ -48,3 +54,25 @@ $button-bg-color: #bbbbbb !default;
 
 /* ----- RWD breakpoints ----- */
 $breakpoint-mobile: $grid-container-width !default;
+
+/****** Other Variables ******/
+
+$sans-serif: arial, sans-serif;
+
+$font-size-headline: 96px;
+$font-size-subheadline: 80px;
+$font-size-1: 48px;
+$font-size-2: 36px;
+$font-size-3: 24px;
+$font-size-4: 20px;
+$font-size-5: 16px;
+$font-size-6: 14px;
+$font-size-7: 12px;
+
+$spacing-extra-small: 4px;
+$spacing-small: 8px;
+$spacing-medium: 16px;
+$spacing-large: 32px;
+$spacing-extra-large: 64px;
+$spacing-extra-extra-large: 128px;
+$spacing-extra-extra-extra-large: 256px;

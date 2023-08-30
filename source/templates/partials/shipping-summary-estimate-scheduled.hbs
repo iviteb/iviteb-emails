@@ -1,6 +1,6 @@
 ((i18n.common.lowercase.on))
 <div class="f3 mt2 mb1">
-  {{formatDate deliveryWindow.startDateUtc}}
+  {{replace (replace (formatDate deliveryWindow.startDateUtc) "/" ".") "/" "."}}
 </div>
 <div class="pb3">
   ((i18n.common.lowercase.between))
