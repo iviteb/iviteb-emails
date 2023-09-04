@@ -1,4 +1,3 @@
-<div class="spacer-32"></div>
 <table class="productsTable" width="100%" border="0" cellpadding="0" cellspacing="0">
   {{#each items}}
     <!-- back to order items list -->
@@ -6,11 +5,15 @@
       <!-- show info for this shippingInfo item -->
       {{#eq @index ../itemIndex}}
         <tr>
-          <td class="v-top pr3 {{#unless @last}}pb3{{/unless}}"><img alt="{{name}}" src="{{replace imageUrl "-55-55" "-112-112"}}" width="56" height="56" style="min-width: 56px;" /></td>
+          <td width="72" class="v-top pr3 {{#unless @last}}pb3{{/unless}}">
+            <img alt="{{name}}" src="{{replace (replace imageUrl "-55-55" "-112-112" ) "-80-80" "-112-112" }}"
+              width="56" height="56" style="min-width: 56px;" />
+          </td>
           <td class="v-top {{#unless @last}}pb3{{/unless}}">
             <p class="ma0 fs-15">{{name}}</p>
             <p class="mt-6 mb0">
-              {{quantity}} {{#eq measurementUnit "un"}} ((i18n.common.units)) {{else}} {{measurementUnit}} {{/eq}}
+              {{quantity}} {{#eq measurementUnit "un"}} ((i18n.common.units))
+    {{else}} {{measurementUnit}} {{/eq}}
               <span class="fw7 action-primary">
                 {{#if sellingPrice}}
                   {{formatCurrency sellingPrice}} ((i18n.common.currency))
@@ -24,7 +27,10 @@
         {{#each bundleItems}}
           {{#if name}}
             <tr>
-              <td class="v-top pr3 {{#unless @last}}pb3{{/unless}}"><img alt="{{name}}" src="{{replace imageUrl "-55-55" "-112-112"}}" style="min-width: 56px;" /></td>
+              <td width="72" class="v-top pr3 {{#unless @last}}pb3{{/unless}}">
+                <img alt="{{name}}" src="{{replace (replace imageUrl "-55-55" "-112-112" ) "-80-80" "-112-112" }}"
+                  width="56" height="56" style="min-width: 56px;" />
+              </td>
               <td class="v-top {{#unless @last}}pb3{{/unless}}">
                 <p class="ma0 fs-15">{{name}}</p>
                 <p class="mt-6 mb0">
@@ -45,4 +51,3 @@
     {{/each}}
   {{/each}}
 </table>
-<div class="spacer-32"></div>

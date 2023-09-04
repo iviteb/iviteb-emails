@@ -1,13 +1,15 @@
-{{#compare shippingData.logisticsInfo.0.selectedDeliveryChannel '==' 'pickup-in-point'}}
-  {{#compare items.length '>' 1}}
-    ((i18n.invoice.handlingProductsPickup))
-  {{else}}
-    ((i18n.invoice.handlingProductPickup))
+<p class="ma0">
+  {{#compare shippingData.logisticsInfo.0.selectedDeliveryChannel '==' 'pickup-in-point'}}
+    {{#compare items.length '>' 1}}
+      ((i18n.invoice.handlingProductsPickup))
+      {{else}}
+        ((i18n.invoice.handlingProductPickup))
+    {{/compare}}
+    {{else}}
+      {{#compare items.length '>' 1}}
+        ((i18n.invoice.handlingProducts))
+        {{else}}
+          ((i18n.invoice.handlingProduct))
+      {{/compare}}
   {{/compare}}
-{{else}}
-  {{#compare items.length '>' 1}}
-    ((i18n.invoice.handlingProducts))
-  {{else}}
-    ((i18n.invoice.handlingProduct))
-  {{/compare}}
-{{/compare}}
+</p>
