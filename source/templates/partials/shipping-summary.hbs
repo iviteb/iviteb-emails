@@ -1,25 +1,25 @@
 {{#richShippingData shippingData}}
   {{#group logisticsInfo by="packageId"}}
+    {{#compare @index '>' 0}}
+      <div class="spacer-16"></div>
+    {{/compare}}
     {{#each items}}
       {{#compare @index '==' 0}}
-        <div class="mw5-5 pt3 pb2">
-          <!-- Change border color for each delivery channel -->
-
-          <div class="ba br-12 b--light-blue">
-
-            <div class="ph3 pt3">
-              <!-- Title: delivery or pickup -->
-              {{#eq selectedDeliveryChannel "pickup-in-point"}}
-                <h4 class="mb2">((i18n.shipping.pickup))</h4>
-              {{else}}
-                <h4 class="mb2">((i18n.shipping.delivery))</h4>
-              {{/eq}}
-
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" class="mw5-5 ba br-12 b--light-gray border-separate">
+        <!-- Change border color for each delivery channel -->
+        <tr>
+          <td class="pa3 fs-15">
+            <!-- Title: delivery or pickup -->
+              <h3 class="mb2 ttu fw4 h-letter-spacing">
+                {{#eq selectedDeliveryChannel "pickup-in-point"}} ((i18n.shipping.pickup))
+                {{else}} ((i18n.shipping.delivery))
+                 {{/eq}}
+              </h3>
               <!-- Quantity of items -->
               {{#eq ../items.length 1}}
                 {{#each ../../../items}}
                   {{#compare id '==' ../../items.0.itemId}}
-                    <div class="fw7 w-80">{{name}}</div>
+                    <p class="mv0 fw7 fs-15">{{name}}</p>
                   {{/compare}}
                 {{/each}}
               {{else}}
@@ -38,11 +38,11 @@
                   <!-- partial:shipping-summary-estimate-range.hbs --><!-- partial -->
                 {{/if}}
               {{/if}}
-            </div>
-
-            <!-- Change border color for each delivery channel -->
-            <div class="ph3 pv2 bt b--light-silver">
-              <!-- Show Pickup Store name -->
+          </td>
+        </tr>
+        <tr>
+          <td class="ph3 pv2 bt b--light-gray fs-15">
+             <!-- Show Pickup Store name -->
               {{#eq selectedDeliveryChannel "pickup-in-point"}}
                 {{#each slas}}
                   {{#compare ../selectedSla '==' id}}
@@ -62,10 +62,10 @@
                   {{/each}}
                 {{/if}}
               {{/eq}}
-            </div>
-          </div>
-        </div>
+          </td>
+        </tr>
+      </table>      
       {{/compare}}
-    {{/each}}
+    {{/each}}    
   {{/group}}
 {{/richShippingData}}

@@ -1,6 +1,6 @@
-/****** Custom Margin & Padding Classes Start ******/
+/****** Custom Margin, Padding & Spacer Classes Start ******/
 
-$spaceAmounts: (0, 6, 10, 12, 20, 24, 36, 40, 48, auto);
+$spaceAmounts: (0, 2, 4, 6, 8, 10, 12, 16, 20, 24, 32, 36, 40, 48, auto);
 
 @each $space in $spaceAmounts {
   @if $space==auto {
@@ -93,13 +93,18 @@ $spaceAmounts: (0, 6, 10, 12, 20, 24, 36, 40, 48, auto);
     .pt-#{$space} {
       padding-top: #{$space}px;
     }
+
+    .spacer-#{$space} {
+      height: #{$space}px;
+      line-height: #{$space}px;
+    }
   }
 }
 
-/****** Custom Margin & Padding Classes End ******/
+/****** Custom Margin, Padding & Spacer Classes End ******/
 
 .mw5-5 {
-  max-width: 384px;
+  max-width: 390px;
 }
 
 .mw6-5 {
@@ -126,12 +131,20 @@ $spaceAmounts: (0, 6, 10, 12, 20, 24, 36, 40, 48, auto);
   background-color: $base;
 }
 
+.br-8 {
+  border-radius: 8px;
+}
+
 .br-12 {
   border-radius: 12px;
 }
 
 .letter-spacing {
   letter-spacing: 0.08px;
+}
+
+.h-letter-spacing {
+  letter-spacing: 0.5px;
 }
 
 .containerTable {
@@ -142,7 +155,7 @@ $spaceAmounts: (0, 6, 10, 12, 20, 24, 36, 40, 48, auto);
 .mainContainer {
   border-style: solid;
   border-width: 1px;
-  border-color: $light-blue;
+  border-color: $light-gray;
   border-radius: 12px;
   border-collapse: separate !important;
   overflow: hidden;
@@ -184,4 +197,40 @@ h4,
 h5,
 h6 {
   color: $black;
+}
+
+.border-separate {
+  border-collapse: separate !important;
+}
+
+.fs-15 {
+  font-size: 15px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.totalsTable td {
+  line-height: 24px;
+}
+
+/****** Media Query ******/
+
+@media screen and (max-width: 480px), screen and (max-device-width: 480px) {
+  .mailHeader td {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .py-40 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .footerSpacer > td {
+    padding-top: 32px;
+  }
 }

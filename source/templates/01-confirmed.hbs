@@ -8,7 +8,7 @@
   <!-- Shipping Summary -->
   <tr>
     <td class="pv4">
-      <h3 class="mt0">((i18n.shipping.summaryTitle))</h3>
+      <h3 class="mb3">((i18n.shipping.summaryTitle))</h3>
       {{#each orders}}
         <!-- partial:partials/shipping-summary.hbs --><!-- partial -->
       {{/each}}
@@ -17,13 +17,10 @@
   <!-- Payment - not splitted -->
   {{#compare split "!=" true}}
     <tr>
-      <td class="w-100 ph4-ns pv4 bt b--light-gray">
-        <h3 class="ma0">((i18n.payment.title))</h3>
+      <td class="pv4 bt b--light-gray">
+        <h3 class="mt0 mb1">((i18n.payment.title))</h3>
         {{#each orders.0.paymentData.transactions}}
           <!-- partial:partials/payment.hbs --><!-- partial -->
-          <div
-            class="dib mt2 pv1 ph2 bg-moon-gray f6"
-          >((i18n.payment.pending))</div>
         {{/each}}
       </td>
     </tr>
@@ -31,39 +28,48 @@
   <!-- Order info -->
   {{#each orders}}
     <tr>
-      <td class="w-100 ph4-ns pv4 bt b--light-gray">
-        <h2>((i18n.common.order)) <span class="fw5">#{{orderId}}</span></h2>
-        <p class="mt1 mb2 silver">((i18n.package.seller)) {{sellers.0.name}}</p>
+      <td class="{{#unless @first}}pt4 bt b--light-gray{{/unless}} {{#unless @last}}pb4{{/unless}}">
+        <h2>((i18n.common.order)) <span class="action-primary">#{{orderId}}</span></h2>
+        <p class="mt1 mb3 f6">((i18n.package.seller)) {{sellers.0.name}}</p>
         <!-- Payment - splitted -->
         {{#compare split "==" true}}
-          <div class="fl w-100 w-50-ns pb3 v-top">
-            <h3>((i18n.payment.title))</h3>
-            {{#each paymentData.transactions}}
-              <!-- partial:partials/payment.hbs --><!-- partial -->
-              <div
-                class="dib mt2 pv1 ph2 bg-moon-gray f6"
-              >((i18n.payment.pending))</div>
-            {{/each}}
-          </div>
+          <h3>((i18n.payment.title))</h3>
+          {{#each paymentData.transactions}}
+            <!-- partial:partials/payment.hbs --><!-- partial -->
+            <p class="dib mt2 mb0 pv1 ph2 bg-light-gray f6">((i18n.payment.pending))</p>
+            <div class="spacer-16"></div>
+          {{/each}}
         {{/compare}}
-        <!-- partial:partials/totals.hbs --><!-- partial -->
         {{#richShippingData shippingData}}
           {{#group logisticsInfo by="addessId"}}
-            <div class="cb fn pt3">
-              <!-- Address info -->
-              <!-- partial:partials/address-delivery-title.hbs --><!-- partial -->
-              <!-- partial:partials/address-pickup-title.hbs --><!-- partial -->
-              <!-- Packages -->
-              {{#group items by="packageId"}}
-                {{#compare item.length ">" 1}}
-                  <h3 class="mb2">((i18n.package.title))
-                    {{#math index "+" 1}}{{/math}}</h3>
-                {{/compare}}
-                <!-- partial:partials/package.hbs --><!-- partial -->
-              {{/group}}
-            </div>
+            <!-- Address info -->
+            <table class="mw5-5 bg-light-blue br-12" width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td class="pt3 ph3 fs-15">
+                  <!-- partial:partials/address-delivery-title.hbs --><!-- partial -->
+                  <!-- partial:partials/address-pickup-title.hbs --><!-- partial -->
+                </td>
+              </tr>
+              <tr>
+                <td class="pb3 ph3 fs-15">
+                  <!-- Packages -->
+                  {{#group items by="packageId"}}
+                    <!-- partial:partials/package.hbs --><!-- partial -->
+                  {{/group}}
+                </td>
+              </tr>
+            </table>
+            {{#group items by="packageId"}}
+              {{#compare item.length ">" 1}}
+                <h3 class="ma2">((i18n.package.title))
+                  {{#math index "+" 1}}{{/math}}
+                </h3>
+              {{/compare}}
+              <!-- partial:partials/items.hbs --><!-- partial -->
+            {{/group}}
           {{/group}}
         {{/richShippingData}}
+        <!-- partial:partials/totals.hbs --><!-- partial -->
       </td>
     </tr>
   {{/each}}
