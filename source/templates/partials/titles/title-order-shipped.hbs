@@ -1,0 +1,21 @@
+<!-- Just 1 package -->
+{{#compare items.length "==" shippingData.logisticsInfo.length}}
+  {{#compare
+    shippingData.logisticsInfo.0.selectedDeliveryChannel "==" "pickup-in-point"
+  }}
+    <h1>((i18n.shipping.onePackagePickup))</h1>
+    {{else}}
+      <h1>((i18n.shipping.onePackageDelivery))</h1>
+  {{/compare}}
+  <!-- partial:../messages/order-reference.hbs --><!-- partial -->
+  <!-- More than 1 package -->
+  {{else}}
+    {{#compare
+    shippingData.logisticsInfo.0.selectedDeliveryChannel "==" "pickup-in-point"
+  }}
+      <h1>((i18n.shipping.manyPackagesPickup))</h1>
+      {{else}}
+        <h1>((i18n.shipping.manyPackagesDelivery))</h1>
+    {{/compare}}
+    <!-- partial:,../messages/order-reference.hbs --><!-- partial -->
+{{/compare}}

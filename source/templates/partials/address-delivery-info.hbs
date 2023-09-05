@@ -6,7 +6,7 @@
       <strong>{{receiverName}}</strong>
       <br />{{street}}, {{number}}{{#if complement}} - {{complement}}{{/if}}
       {{#if neighborhood}} - {{neighborhood}}{{/if}} {{city}}, {{state}}
-      {{#if postalCode}} ((i18n.shipping.postalCode)) {{postalCode}}{{/if}}
+      {{#if postalCode}}, ((i18n.shipping.postalCode)) {{postalCode}}{{/if}}
     {{/eq}}
   {{/each}}
 {{/if}}
