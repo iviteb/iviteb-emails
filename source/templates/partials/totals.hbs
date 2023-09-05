@@ -4,7 +4,7 @@
   {{#each totals}}
     {{#if value}}
       <tr>
-        <td class="pb2 {{#eq id "Items"}}pt2{{/eq}} pl3 pr1 f6">
+        <td class="pb2 pl3 pr1 f6">
           {{#eq id "Items"}}
             ((i18n.common.items))
           {{/eq}}
@@ -18,7 +18,8 @@
             ((i18n.common.taxes))
           {{/eq}}
         </td>
-        <td class="pb2 {{#eq id "Items"}}pt2 fw7{{/eq}} pl1 pr3 fs-15 tr">{{formatCurrency value}} ((i18n.common.currency))
+        <td class="pb2 pl1 pr3 fs-15 tr">{{formatCurrency value}}
+          ((i18n.common.currency))
         </td>
       </tr>
     {{/if}}
@@ -28,7 +29,7 @@
       <td class="pv2 pl3 pr1 fs-15 fw7 black bg-light-blue"
         style="border-top-left-radius: 8px; border-bottom-left-radius: 8px">
         ((i18n.common.total))</td>
-      <td class="pv2 pl1 pr3 fs-18 fw7 black bg-light-blue align-right tr"
+      <td class="pv2 pl1 pr3 fs-18 fw7 black bg-light-blue tr"
         style="border-top-right-radius: 8px; border-bottom-right-radius: 8px"> {{formatCurrency value}}
         ((i18n.common.currency))
       </td>

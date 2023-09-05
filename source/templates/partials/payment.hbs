@@ -15,10 +15,10 @@
 {{/compare}}
 <!-- N payments -->
 {{#compare payments.length "!=" 1}}
-  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="paymentTable">
     {{#each payments}}
       <tr>
-        <td class="pt-6 {{#unless @last}}pb-6{{/unless}} {{#compare @index '>' 0}}bt b--light-gray{{/compare}}">
+        <td class="py-6 bt b--light-gray">
           {{paymentSystemName}}
           {{#if lastDigits}} ((i18n.payment.lastDigits)) {{lastDigits}} {{/if}}
           {{#eq installments 1}}
@@ -27,8 +27,7 @@
       ((i18n.payment.in)) {{installments}}x
           {{/eq}}
         </td>
-        <td
-          class="pt-6 {{#unless @last}}pb-6{{/unless}} {{#compare @index '>' 0}}bt b--light-gray{{/compare}} align-right">
+        <td class="py-6 bt b--light-gray align-right">
           {{formatCurrency value}}
           ((i18n.common.currency))
         </td>
