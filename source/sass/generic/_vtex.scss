@@ -173,7 +173,7 @@ $spaceAmounts: (0, 2, 4, 6, 8, 10, 12, 16, 20, 24, 32, 36, 40, 48, auto);
 .mailHeader {
   border-bottom-right-radius: 12px;
   border-bottom-left-radius: 12px;
-  background-image: url(https://iviteb.vtexassets.com/arquivos/hipe-header-bakground-image.png);
+  background-image: url('https://iviteb.vtexassets.com/arquivos/hipe-header-bakground-image.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -215,54 +215,6 @@ h6 {
   line-height: 24px;
 }
 
-.paymentTable tr:first-child td {
-  border: none;
-}
-.paymentTable tr:last-child td {
-  padding-bottom: 0;
-}
-
-.totalsTable tr:first-child td {
-  padding-top: 8px;
-}
-
-.totalsTable tr:first-child td:last-child {
-  font-weight: bold;
-  color: $black;
-}
-
-.orderContainer:last-child > td {
-  padding-bottom: 0;
-}
-
-.productsTable tr:first-child td {
-  padding-top: 0;
-}
-
-.productsTable tr:last-child td {
-  padding-bottom: 0;
-}
-
-/****** Media Query ******/
-
-@media screen and (max-width: 480px), screen and (max-device-width: 480px) {
-  .mailHeader td {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-
-  .py-40 {
-    padding-top: 32px;
-    padding-bottom: 32px;
-  }
-
-  .footerSpacer > td {
-    padding-top: 32px;
-  }
-
-  .mt-40 {
-    margin-top: 32px;
-  }
+.productsTable p {
+  line-height: 20px;
 }

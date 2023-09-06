@@ -23,8 +23,7 @@ const gulp = require( 'gulp' ),
 		filesToWatch = [
 			'source/sass/**/*.scss',
 			'source/templates/**/*',
-		],
-		orderJsonToRead = 'vtex';
+		]
 
 j.codeBlocks.HBS = {};
 
@@ -144,7 +143,7 @@ gulp.task( 'clean:html', function( done ) {
 gulp.task( 'remove-css', function( done ) {
 	'use strict';
 	return gulp.src( 'temp/*/*.hbs' )
-		.pipe( remove() )
+		.pipe( remove({whitelist:["#outlook", ".yshortcuts", ".ExternalClass", ".ReadMsgBody", ".paymentTable", ".totalsTable", ".orderContainer", ".productsTable", ".mailHeader", ".footerSpacer", ".mt-40" ]}) )
 		.pipe( gulp.dest( 'temp' ) )
 		.on( 'end', done );
 } );
@@ -211,6 +210,7 @@ gulp.task(
 		'inline:css',
 		'clean:css',
 		'add-css-important',
+		'remove-css',
 		'copy-public',
 		'clean:temp',
 	] )

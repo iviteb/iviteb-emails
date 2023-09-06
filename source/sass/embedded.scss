@@ -1,3 +1,5 @@
+@import 'variables';
+
 /**
  * Embedded (embedded.scss)
  *
@@ -16,32 +18,91 @@
  *    More info: http://www.emailonacid.com/forum/viewthread/43
  */
 a[x-apple-data-detectors] {
-	/* 1 */
-	color: inherit !important;
-	text-decoration: none !important;
-	font-size: inherit !important;
-	font-family: inherit !important;
-	font-weight: inherit !important;
-	line-height: inherit !important;
+  /* 1 */
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
 }
 
 #outlook a {
-	padding: 0; /* 2 */
+  padding: 0 !important;
+  /* 2 */
 }
 
 .yshortcuts a {
-	border-bottom: none !important; /* 3 */
+  border-bottom: none !important;
+  /* 3 */
 }
 
 .ExternalClass {
-	width: 100%; /* 4 */
+  width: 100%; /* 4 */
 
-	&,
-	p,
-	span,
-	font,
-	td,
-	div {
-		line-height: 100%; /* 5 */
-	}
+  &,
+  p,
+  span,
+  font,
+  td,
+  div {
+    line-height: 100%; /* 5 */
+  }
+}
+
+.ReadMsgBody {
+  width: 100%;
+}
+
+.paymentTable tr:first-child td {
+  border: none;
+}
+
+.paymentTable tr:last-child td {
+  padding-bottom: 0;
+}
+
+.totalsTable tr:first-child td {
+  padding-top: 8px;
+}
+
+.totalsTable tr:first-child td:last-child {
+  font-weight: bold;
+  color: $black;
+}
+
+.orderContainer:last-child > td {
+  padding-bottom: 0;
+}
+
+.productsTable tr:first-child td {
+  padding-top: 0;
+}
+
+.productsTable tr:last-child td {
+  padding-bottom: 0;
+}
+
+/****** Media Query ******/
+
+@media screen and (max-width: 480px), screen and (max-device-width: 480px) {
+  .mailHeader td {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .py-40 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .footerSpacer > td {
+    padding-top: 32px;
+  }
+
+  .mt-40 {
+    margin-top: 32px;
+  }
 }

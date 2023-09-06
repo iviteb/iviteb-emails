@@ -11,6 +11,7 @@
  * 4. Apply anti-aliasing when fonts are rendered.
  * 5. The #body-table id helps reset some email client specific formatting while
  *    setting the canvas for you to work in.
+ * 6. Adding spacing around main table (Optional).
  */
 html,
 body {
@@ -33,6 +34,17 @@ body {
   // height: 100% !important;
   line-height: 100% !important;
   background-color: $email-bg-color;
+}
+
+.body-table-spacing {
+  /* 6 */
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  @media (max-width: $breakpoint-mobile) {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
 }
 
 /* ----- Tables ----- */
@@ -73,12 +85,6 @@ img {
   outline: none;
   text-decoration: none;
   -ms-interpolation-mode: bicubic; /* 1 */
-
-  @media (max-width: $breakpoint-mobile) {
-    /* 2 */
-    max-width: 100%;
-    height: auto !important;
-  }
 
   a & {
     border: none; /* 3 */
