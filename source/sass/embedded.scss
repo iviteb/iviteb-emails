@@ -90,20 +90,9 @@ a[x-apple-data-detectors] {
 /****** Media Query ******/
 
 @media screen and (max-width: 480px), screen and (max-device-width: 480px) {
-  .mailHeader td {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-
   .py-40 {
     padding-top: 32px;
     padding-bottom: 32px;
-  }
-
-  .footerSpacer > td {
-    padding-top: 32px;
   }
 
   .mt-40 {

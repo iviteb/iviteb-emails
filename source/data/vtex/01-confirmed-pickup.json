@@ -1,0 +1,677 @@
+{
+  "orders": [
+    {
+      "package": null,
+      "subjectItemAttachment": {
+        "item": "LARGE POTATOES",
+        "totalItems": 2,
+        "extraItems": 1
+      },
+      "cancellationReason": null,
+      "paymentData": {
+        "giftCards": [],
+        "transactions": [
+          {
+            "isActive": true,
+            "transactionId": "81B9ECB55EC7470D90EC8251DF1707D7",
+            "merchantName": "K*********",
+            "payments": [
+              {
+                "id": "A20EAF1C487C44ECA3C7F8EFB7B63699",
+                "paymentSystem": "201",
+                "paymentSystemName": "C**************",
+                "value": 106666,
+                "installments": 1,
+                "referenceValue": 106666,
+                "cardHolder": null,
+                "cardNumber": null,
+                "firstDigits": null,
+                "lastDigits": null,
+                "cvv2": null,
+                "expireMonth": null,
+                "expireYear": null,
+                "url": null,
+                "giftCardId": null,
+                "giftCardName": null,
+                "giftCardCaption": null,
+                "redemptionCode": null,
+                "group": "promissory",
+                "tid": null,
+                "dueDate": null,
+                "connectorResponses": {},
+                "giftCardProvider": null,
+                "giftCardAsDiscount": null,
+                "koinUrl": null,
+                "accountId": null,
+                "parentAccountId": null,
+                "bankIssuedInvoiceIdentificationNumber": null,
+                "bankIssuedInvoiceIdentificationNumberFormatted": null,
+                "bankIssuedInvoiceBarCodeNumber": null,
+                "bankIssuedInvoiceBarCodeType": null,
+                "billingAddress": null,
+                "paymentOrigin": null
+              }
+            ]
+          }
+        ]
+      },
+      "items": [
+        {
+          "additionalInfo": {
+            "categoriesIds": "/2/",
+            "productClusterId": "137",
+            "commercialConditionId": "1",
+            "dimension": {
+              "cubicweight": 1,
+              "height": 1,
+              "length": 1,
+              "weight": 1,
+              "width": 1
+            },
+            "brandName": "K**",
+            "brandId": "2000000",
+            "offeringInfo": null,
+            "offeringType": null,
+            "offeringTypeId": null
+          },
+          "sellerSku": "6",
+          "priceTable": null,
+          "priceValidUntil": "2024-10-27T11:14:59Z",
+          "callCenterOperator": null,
+          "commission": 0,
+          "freightCommission": 0,
+          "taxCode": "",
+          "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/6",
+          "uniqueId": "8EC1DED5841C44A4A1CC2B34AEAFC657",
+          "id": "6",
+          "productId": "5",
+          "productRefId": "largeportion120g",
+          "refId": "LARGEPOTATOES120g",
+          "ean": "LARGEPOTATOES120g",
+          "name": "L*************",
+          "skuName": "L*************",
+          "modalType": null,
+          "parentItemIndex": null,
+          "parentAssemblyBinding": null,
+          "assemblies": [],
+          "tax": 0,
+          "price": 6666,
+          "listPrice": 6666,
+          "manualPrice": null,
+          "manualPriceAppliedBy": null,
+          "sellingPrice": 6666,
+          "rewardValue": 0,
+          "isGift": false,
+          "preSaleDate": null,
+          "productCategoryIds": "/2/",
+          "productCategories": {
+            "2": "SIDES"
+          },
+          "quantity": 1,
+          "seller": "kfcromaniabucharest1",
+          "sellerChain": ["kfcromaniabucharest1"],
+          "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155409-55-55/Screenshot-2022-08-10-at-17.42.05.png?v=637957429691430000",
+          "detailUrl": "/large-potatoes/p",
+          "components": [],
+          "bundleItems": [],
+          "attachments": [],
+          "attachmentOfferings": [],
+          "offerings": [],
+          "priceTags": [],
+          "availability": "available",
+          "measurementUnit": "un",
+          "unitMultiplier": 1,
+          "manufacturerCode": null,
+          "priceDefinition": {
+            "calculatedSellingPrice": 6666,
+            "total": 6666,
+            "sellingPrices": [
+              {
+                "value": 6666,
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "additionalInfo": {
+            "categoriesIds": "/2/",
+            "productClusterId": "137",
+            "commercialConditionId": "1",
+            "dimension": {
+              "cubicweight": 1,
+              "height": 1,
+              "length": 1,
+              "weight": 1,
+              "width": 1
+            },
+            "brandName": "K**",
+            "brandId": "2000000",
+            "offeringInfo": null,
+            "offeringType": null,
+            "offeringTypeId": null
+          },
+          "sellerSku": "6",
+          "priceTable": null,
+          "priceValidUntil": "2024-10-27T11:14:59Z",
+          "callCenterOperator": null,
+          "commission": 0,
+          "freightCommission": 0,
+          "taxCode": "",
+          "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/6",
+          "uniqueId": "5214E58F584F489CA1B7971B01C26EF8",
+          "id": "6",
+          "productId": "5",
+          "productRefId": "largeportion120g",
+          "refId": "LARGEPOTATOES120g",
+          "ean": "LARGEPOTATOES120g",
+          "name": "L*************",
+          "skuName": "L*************",
+          "modalType": null,
+          "parentItemIndex": null,
+          "parentAssemblyBinding": null,
+          "assemblies": [],
+          "tax": 0,
+          "price": 6666,
+          "listPrice": 6666,
+          "manualPrice": null,
+          "manualPriceAppliedBy": null,
+          "sellingPrice": 0,
+          "rewardValue": 0,
+          "isGift": true,
+          "preSaleDate": null,
+          "productCategoryIds": "/2/",
+          "productCategories": {
+            "2": "SIDES"
+          },
+          "quantity": 1,
+          "seller": "kfcromaniabucharest1",
+          "sellerChain": ["kfcromaniabucharest1"],
+          "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155409-55-55/Screenshot-2022-08-10-at-17.42.05.png?v=637957429691430000",
+          "detailUrl": "/large-potatoes/p",
+          "components": [],
+          "bundleItems": [],
+          "attachments": [],
+          "attachmentOfferings": [],
+          "offerings": [],
+          "priceTags": [
+            {
+              "name": "D************",
+              "value": 100,
+              "rawValue": 1,
+              "isPercentual": true,
+              "identifier": "2f5becce-a137-4c48-a6a0-a19db26bbb2a"
+            }
+          ],
+          "availability": "available",
+          "measurementUnit": "un",
+          "unitMultiplier": 1,
+          "manufacturerCode": null,
+          "priceDefinition": {
+            "calculatedSellingPrice": 0,
+            "total": 0,
+            "sellingPrices": [
+              {
+                "value": 0,
+                "quantity": 1
+              }
+            ]
+          }
+        }
+      ],
+      "sellers": [
+        {
+          "subSellerId": "1",
+          "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=kfcromaniabucharest1&affiliateId=SLR&sc=1",
+          "id": "kfcromaniabucharest1",
+          "name": "k*******************",
+          "logo": ""
+        }
+      ],
+      "giftRegistryData": null,
+      "receiptData": null,
+      "contextData": null,
+      "marketPlaceOrderId": "",
+      "marketPlaceOrderGroup": null,
+      "marketplaceServicesEndpoint": null,
+      "orderFormId": "3356c6e92d0347c49930687bd0e15c26",
+      "sequence": "500160",
+      "affiliateId": "",
+      "status": "",
+      "callCenterOperator": "",
+      "userProfileId": "bc6d0f6c-dbd8-4e86-b2eb-cfb23a907c71",
+      "hostName": "k*********",
+      "creationVersion": null,
+      "creationEnvironment": null,
+      "lastChangeVersion": null,
+      "workflowInstanceId": null,
+      "marketplacePaymentValue": null,
+      "orderId": "1371870500160-01",
+      "orderGroup": "1371870500160",
+      "state": "payment-approved",
+      "isCheckedIn": false,
+      "sellerOrderId": "SLR-1371870500160-01",
+      "storeId": null,
+      "checkedInPickupPointId": null,
+      "value": 106666,
+      "totals": [
+        {
+          "id": "Items",
+          "name": "T*************",
+          "value": 6666
+        },
+        {
+          "id": "Discounts",
+          "name": "T*************",
+          "value": 0
+        },
+        {
+          "id": "Shipping",
+          "name": "T**************",
+          "value": 100000
+        },
+        {
+          "id": "Tax",
+          "name": "T*********",
+          "value": 0
+        }
+      ],
+      "clientProfileData": {
+        "email": "1*******************************@c*.v***.c**.b*",
+        "firstName": "E****",
+        "lastName": "P",
+        "document": null,
+        "documentType": "document",
+        "phone": "+4**********",
+        "corporateName": null,
+        "tradeName": null,
+        "corporateDocument": null,
+        "stateInscription": null,
+        "corporatePhone": null,
+        "isCorporate": false,
+        "profileCompleteOnLoading": true,
+        "profileErrorOnLoading": false,
+        "customerClass": null
+      },
+      "ratesAndBenefitsData": {
+        "rateAndBenefitsIdentifiers": [
+          {
+            "id": "2f5becce-a137-4c48-a6a0-a19db26bbb2a",
+            "name": "1*********",
+            "featured": false,
+            "description": "1 + 1 Gift",
+            "matchedParameters": {
+              "buyAndWin@Marketing": "6"
+            },
+            "additionalInfo": null
+          }
+        ],
+        "teaser": []
+      },
+      "shippingData": {
+        "address": {
+          "addressType": "pickup",
+          "receiverName": "E**** P",
+          "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+          "isDisposable": true,
+          "postalCode": "1*****",
+          "city": "O*** B******",
+          "state": "Prahova",
+          "country": "ROU",
+          "street": "S***** Z******",
+          "number": "1",
+          "neighborhood": "",
+          "complement": "",
+          "reference": null,
+          "geoCoordinates": [-51.4779552, -0.0039779]
+        },
+        "logisticsInfo": [
+          {
+            "itemIndex": 0,
+            "selectedSla": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+            "selectedDeliveryChannel": "pickup-in-point",
+            "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+            "slas": [
+              {
+                "id": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+                "deliveryChannel": "pickup-in-point",
+                "name": "K****************************************************************",
+                "deliveryIds": [
+                  {
+                    "courierId": "1630062",
+                    "warehouseId": "collect",
+                    "dockId": "collect",
+                    "courierName": "K*************************",
+                    "quantity": 1,
+                    "kitItemDetails": []
+                  }
+                ],
+                "shippingEstimate": "102d",
+                "shippingEstimateDate": "2024-02-06T11:17:09.9927227Z",
+                "lockTTL": "95d",
+                "availableDeliveryWindows": [],
+                "deliveryWindow": null,
+                "price": 50000,
+                "listPrice": 50000,
+                "tax": 0,
+                "pickupStoreInfo": {
+                  "isPickupStore": true,
+                  "friendlyName": "K********************",
+                  "address": {
+                    "addressType": "pickup",
+                    "receiverName": null,
+                    "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+                    "isDisposable": true,
+                    "postalCode": "1*****",
+                    "city": "O*** B******",
+                    "state": "Prahova",
+                    "country": "ROU",
+                    "street": "S***** Z******",
+                    "number": "1",
+                    "neighborhood": "",
+                    "complement": "",
+                    "reference": null,
+                    "geoCoordinates": [-51.4779552, -0.0039779]
+                  },
+                  "additionalInfo": "-Bucharest restaurant 1-\n\nDeliveries from 7.30 am to 9.00 pm\n\nTimp estimat de livrare: 40-80 min\n\nComandă minimă 30.00 lei\n\nCostul de livrare pentru orice comandă peste 30 lei este de 8.9 lei.",
+                  "dockId": null
+                },
+                "pickupPointId": "kfcromaniabucharest1_4ba30500-41e1-4918-a8ab-039042495431",
+                "pickupDistance": 0,
+                "polygonName": "b*********",
+                "transitTime": "72d"
+              }
+            ],
+            "shipsTo": ["ROU"],
+            "itemId": "6",
+            "deliveryChannels": [
+              {
+                "id": "pickup-in-point"
+              },
+              {
+                "id": "delivery"
+              }
+            ]
+          },
+          {
+            "itemIndex": 1,
+            "selectedSla": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+            "selectedDeliveryChannel": "pickup-in-point",
+            "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+            "slas": [
+              {
+                "id": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+                "deliveryChannel": "pickup-in-point",
+                "name": "K****************************************************************",
+                "deliveryIds": [
+                  {
+                    "courierId": "1630062",
+                    "warehouseId": "collect",
+                    "dockId": "collect",
+                    "courierName": "K*************************",
+                    "quantity": 1,
+                    "kitItemDetails": []
+                  }
+                ],
+                "shippingEstimate": "102d",
+                "shippingEstimateDate": "2024-02-06T11:17:09.9927227Z",
+                "lockTTL": "95d",
+                "availableDeliveryWindows": [],
+                "deliveryWindow": null,
+                "price": 50000,
+                "listPrice": 50000,
+                "tax": 0,
+                "pickupStoreInfo": {
+                  "isPickupStore": true,
+                  "friendlyName": "K********************",
+                  "address": {
+                    "addressType": "pickup",
+                    "receiverName": null,
+                    "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+                    "isDisposable": true,
+                    "postalCode": "1*****",
+                    "city": "O*** B******",
+                    "state": "Prahova",
+                    "country": "ROU",
+                    "street": "S***** Z******",
+                    "number": "1",
+                    "neighborhood": "",
+                    "complement": "",
+                    "reference": null,
+                    "geoCoordinates": [-51.4779552, -0.0039779]
+                  },
+                  "additionalInfo": "-Bucharest restaurant 1-\n\nDeliveries from 7.30 am to 9.00 pm\n\nTimp estimat de livrare: 40-80 min\n\nComandă minimă 30.00 lei\n\nCostul de livrare pentru orice comandă peste 30 lei este de 8.9 lei.",
+                  "dockId": null
+                },
+                "pickupPointId": "kfcromaniabucharest1_4ba30500-41e1-4918-a8ab-039042495431",
+                "pickupDistance": 0,
+                "polygonName": "b*********",
+                "transitTime": "72d"
+              }
+            ],
+            "shipsTo": ["ROU"],
+            "itemId": "6",
+            "deliveryChannels": [
+              {
+                "id": "pickup-in-point"
+              },
+              {
+                "id": "delivery"
+              }
+            ]
+          }
+        ],
+        "selectedAddresses": [
+          {
+            "addressType": "pickup",
+            "receiverName": "E**** P",
+            "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+            "isDisposable": true,
+            "postalCode": "1*****",
+            "city": "O*** B******",
+            "state": "Prahova",
+            "country": "ROU",
+            "street": "S***** Z******",
+            "number": "1",
+            "neighborhood": "",
+            "complement": "",
+            "reference": null,
+            "geoCoordinates": [-51.4779552, -0.0039779]
+          }
+        ],
+        "availableAddresses": [
+          {
+            "addressType": "pickup",
+            "receiverName": "E**** P",
+            "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+            "isDisposable": true,
+            "postalCode": "1*****",
+            "city": "O*** B******",
+            "state": "Prahova",
+            "country": "ROU",
+            "street": "S***** Z******",
+            "number": "1",
+            "neighborhood": "",
+            "complement": "",
+            "reference": null,
+            "geoCoordinates": [-51.4779552, -0.0039779]
+          }
+        ],
+        "pickupPoints": [
+          {
+            "friendlyName": "K********************",
+            "address": {
+              "addressType": "pickup",
+              "receiverName": null,
+              "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+              "isDisposable": true,
+              "postalCode": "1*****",
+              "city": "O*** B******",
+              "state": "Prahova",
+              "country": "ROU",
+              "street": "S***** Z******",
+              "number": "1",
+              "neighborhood": "",
+              "complement": "",
+              "reference": null,
+              "geoCoordinates": [-51.4779552, -0.0039779]
+            },
+            "additionalInfo": "-Bucharest restaurant 1-\n\nDeliveries from 7.30 am to 9.00 pm\n\nTimp estimat de livrare: 40-80 min\n\nComandă minimă 30.00 lei\n\nCostul de livrare pentru orice comandă peste 30 lei este de 8.9 lei.",
+            "id": "kfcromaniabucharest1_4ba30500-41e1-4918-a8ab-039042495431",
+            "businessHours": [
+              {
+                "DayOfWeek": 0,
+                "OpeningTime": "00:00:00",
+                "ClosingTime": "23:59:00"
+              },
+              {
+                "DayOfWeek": 1,
+                "OpeningTime": "00:00:00",
+                "ClosingTime": "23:59:00"
+              },
+              {
+                "DayOfWeek": 2,
+                "OpeningTime": "00:00:00",
+                "ClosingTime": "23:59:00"
+              },
+              {
+                "DayOfWeek": 3,
+                "OpeningTime": "00:00:00",
+                "ClosingTime": "23:59:00"
+              },
+              {
+                "DayOfWeek": 4,
+                "OpeningTime": "00:00:00",
+                "ClosingTime": "23:59:00"
+              },
+              {
+                "DayOfWeek": 5,
+                "OpeningTime": "00:00:00",
+                "ClosingTime": "23:59:00"
+              },
+              {
+                "DayOfWeek": 6,
+                "OpeningTime": "00:00:00",
+                "ClosingTime": "23:59:00"
+              }
+            ]
+          }
+        ]
+      },
+      "clientPreferencesData": {
+        "locale": "ro-RO",
+        "optinNewsLetter": false
+      },
+      "commercialConditionData": null,
+      "marketingData": {
+        "utmSource": null,
+        "utmMedium": null,
+        "utmCampaign": null,
+        "utmipage": null,
+        "utmiPart": null,
+        "utmiCampaign": null,
+        "coupon": null,
+        "marketingTags": ["vtexSocialSelling"]
+      },
+      "storePreferencesData": {
+        "countryCode": "ROU",
+        "saveUserData": false,
+        "timeZone": "GTB Standard Time",
+        "currencyCode": "RON",
+        "currencyLocale": 1048,
+        "currencySymbol": "lei",
+        "currencyFormatInfo": {
+          "currencyDecimalDigits": 2,
+          "currencyDecimalSeparator": ",",
+          "currencyGroupSeparator": ".",
+          "currencyGroupSize": 3,
+          "startsWithCurrencySymbol": false
+        }
+      },
+      "openTextField": null,
+      "invoiceData": {
+        "address": {
+          "postalCode": null,
+          "city": "B********",
+          "state": "BUCUREȘTI",
+          "country": "ROU",
+          "street": "S***** V* V* S******",
+          "number": "5",
+          "neighborhood": "",
+          "complement": "2",
+          "reference": null,
+          "geoCoordinates": [-51.4779552, -0.0039779]
+        }
+      },
+      "itemMetadata": null,
+      "taxData": null,
+      "customData": {
+        "customApps": [
+          {
+            "fields": {
+              "type": "eat-in"
+            },
+            "id": "orderpickuptype",
+            "major": 1
+          }
+        ]
+      },
+      "hooksData": null,
+      "changeData": null,
+      "subscriptionData": null,
+      "salesChannel": "1",
+      "followUpEmail": "7**********************************.v***.c**.b*",
+      "creationDate": "2023-10-27T11:17:05.6878033Z",
+      "lastChange": "2023-10-27T11:17:12.4897483Z",
+      "timeZoneCreationDate": "2023-10-27T14:17:05.6878033",
+      "timeZoneLastChange": "2023-10-27T14:17:12.4897483",
+      "isCompleted": true,
+      "merchantName": null,
+      "userType": "",
+      "roundingError": 0,
+      "allowEdition": false,
+      "allowCancellation": false,
+      "isUserDataVisible": false,
+      "allowChangeSeller": false
+    }
+  ],
+  "ordersUrl": "http://stage--kfcromania.myvtex.com/account#/orders",
+  "orderGroup": "1371870500160",
+  "subjectItemAttachment": {
+    "item": "LARGE POTATOES",
+    "totalItems": 2,
+    "extraItems": 1
+  },
+  "split": false,
+  "totalValue": 106666,
+  "callCenterOperatorData": null,
+  "_accountInfo": {
+    "MainAccountName": "k*********",
+    "AccountName": "k*********",
+    "Cnpj": null,
+    "Id": "f7ab254d-7021-4bb4-9e74-dcf376a73227",
+    "AppId": null,
+    "IsActive": true,
+    "IsOperating": false,
+    "CreationDate": "2022-06-22T15:18:43.7789785Z",
+    "OperationDate": null,
+    "CompanyName": "C************************************************",
+    "TradingName": "V***",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [7],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null
+  }
+}

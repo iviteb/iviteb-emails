@@ -1,12 +1,12 @@
 {
   "common": {
-    "currency": "lei",
+    "currency": "Lei",
     "order": "Comanda",
     "hi": "Salut",
     "summary": "Sumar",
-    "items": "Cost produse",
-    "shipping": "Taxă transport",
-    "discounts": "Reduceri",
+    "items": "Subtotal",
+    "shipping": "Taxă de livrare",
+    "discounts": "Discount",
     "taxes": "TVA",
     "customTaxes": "Alte Taxe",
     "total": "Total",
@@ -24,14 +24,14 @@
       "between": "între",
       "and": "și"
     },
-    "siteAddress": "https://hipe.ro",
-    "siteAddressText": "hipe.ro",
-    "siteName": "Hipe",
-    "accountName": "hipestore",
-    "logoName": "logo-hipe",
+    "siteAddress": "https://kfc.ro",
+    "siteAddressText": "kfc.ro",
+    "siteName": "Kentucky Fried Chicken - KFC Romania",
+    "accountName": "kfcromania",
+    "logoName": "email-kfc-logo-header",
     "phoneNumber": "021-9121",
     "phoneNumberText": "0219121",
-    "emailAddress": "contact@hipe.ro",
+    "emailAddress": "contact@kfc.ro",
     "footerInfo": "Sit at etiam bibendum urna, et. Pellentesque mi metus risus quis odio. Lectus vel enim quis lacus habitant diam mi non est. Mattis condimentum magna quam ultrices volutpat sit elementum. Ut in massa placerat semper fermentum facilisis ligula nec. Volutpat. Sit at etiam bibendum urna, et. Pellentesque mi metus risus quis odio. Lectus vel enim quis lacus habitant diam mi non est. Mattis condimentum magna quam ultrices volutpat sit elementum. Ut in massa placerat semper fermentum facilisis ligula nec. Volutpat.",
     "outro": {
       "text01": "Îți stăm cu drag la dispoziție! Dacă dorești să ne contactezi, te rugăm să ne suni la",
@@ -40,8 +40,8 @@
     }
   },
   "access": {
-    "title": "Codul tău de acces",
-    "text01": "Trebuie să îți confirmăm identitatea pentru a-ți permite accesul la pagina pe care încerci să o vizualizezi.",
+    "title": "Codul tău de acces este:",
+    "text01": "Întoarce-te la pagina de autentificare și introdu codul de mai sus pentru a-ți accesa contul.",
     "text02": "Te rugăm să revii la pagina de autentificare și să utilizezi codul de mai jos pentru a te conecta:"
   },
   "order": {
