@@ -45,7 +45,7 @@
     "text02": "Te rugăm să revii la pagina de autentificare și să utilizezi codul de mai jos pentru a te conecta:"
   },
   "order": {
-    "title": "Mulțumim pentru comanda ta nr.",
+    "title": "Mulțumim pentru comandă",
     "on": "pe",
     "detailsTitle": "Iată și detaliile despre comanda ta",
     "titleReplaced": "Comanda ta a fost înlocuită.",
@@ -60,7 +60,13 @@
     "product": "Produs",
     "products": "Produse",
     "package": "Colet",
-    "packages": "Colete"
+    "packages": "Colete",
+    "orderNumber": "Numărul tău de comandă",
+    "orderDate": "Comandă plasată pe",
+    "orderDateTime": "la",
+    "estimatedTime": "Timp estimat",
+    "address": "Adresa",
+    "fromHouse": "Din partea casei"
   },
   "payment": {
     "title": "Plată",

@@ -103,6 +103,10 @@ $spaceAmounts: (0, 2, 4, 6, 8, 10, 12, 16, 20, 24, 32, 36, 40, 48, 56, auto);
 
 /****** Custom Margin, Padding & Spacer Classes End ******/
 
+.mw-400 {
+  max-width: 400px;
+}
+
 .mw5-5 {
   max-width: 390px;
 }
@@ -195,7 +199,15 @@ h6 {
   font-size: 24px;
 }
 
-.totalsTable td {
+.fs-40 {
+  font-size: 40px;
+}
+
+.fs-56 {
+  font-size: 56px;
+}
+
+.lh-24 {
   line-height: 24px;
 }
 
@@ -235,4 +247,21 @@ h6 {
   letter-spacing: 0.24px;
   padding-bottom: 8px;
   border-bottom: 2px solid $action-primary;
+}
+
+.restaurantName {
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+.cardIcon {
+  vertical-align: sub;
+}
+
+.productsTable td {
+  border-bottom: 1px solid $light-gray;
+}
+
+.totalsTableLastLine {
+  border-top: 1px solid $light-gray;
 }

@@ -1,1 +1,16 @@
-<h1>((i18n.order.title)) {{orderGroup}} ((i18n.order.on)) <!-- partial:site.hbs --><!-- partial --> !</h1>
+{{#compare orders.0.shippingData.logisticsInfo.0.selectedDeliveryChannel '==' 'pickup-in-point'}}
+  <a href="((i18n.common.siteAddress))" title="((i18n.common.siteName))" target="_blank" rel="noopener noreferrer"
+    class="dib">
+    <img alt="((i18n.common.siteName))" border="0" width="87" height="44"
+      src="https://((i18n.common.accountName)).vtexassets.com/arquivos/email-kfc-logo-pickup.png" class="db">
+  </a>
+  <p class="my-12 fw7 action-primary">Te așteptăm în restaurantul KFC</p>
+  {{else}}
+    <a href="((i18n.common.siteAddress))" title="((i18n.common.siteName))" target="_blank" rel="noopener noreferrer"
+      class="dib">
+      <img alt="((i18n.common.siteName))" border="0" width="110" height="44"
+        src="https://((i18n.common.accountName)).vtexassets.com/arquivos/email-kfc-logo-delivery.png" class="db">
+    </a>
+    <p class="my-12 fw7 action-primary">#puipebune</p>
+{{/compare}}
+<h1 class="mw-400 center">((i18n.order.title))</h1>

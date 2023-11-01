@@ -36,6 +36,7 @@ const whitelist = [
   '.mailHeader',
   '.mt-40',
   '.word-wrap',
+  '.green-text',
 ]
 
 // Partials

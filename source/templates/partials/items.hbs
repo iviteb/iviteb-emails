@@ -5,42 +5,39 @@
       <!-- show info for this shippingInfo item -->
       {{#eq @index ../itemIndex}}
         <tr>
-          <td width="72" class="v-mid pr3 pv2">
-            <img alt="{{name}}" src="{{replace (replace imageUrl "-55-55" "-112-112" ) "-80-80" "-112-112" }}"
-              width="56" height="56" style="min-width: 56px; object-fit: contain;">
+          <td width="56" class="v-mid pa3">
+            <img alt="{{name}}" src="{{replace imageUrl '-55-55' '-80-80' }}" width="40" height="40"
+              style="min-width: 40px; object-fit: contain;">
           </td>
-          <td class="v-mid pv2">
-            <p class="ma0 fs-15 word-wrap">{{name}}</p>
-            <p class="mt-6 mb0">
-              {{quantity}} {{#eq measurementUnit "un"}} ((i18n.common.units))
-    {{else}} {{measurementUnit}} {{/eq}}
-              <span class="fw7 action-primary">
-                {{#if sellingPrice}}
-                  {{formatCurrency sellingPrice}} ((i18n.common.currency))
-                {{else}}
-                  ((i18n.common.free))
-                {{/if}}
-              </span>
+          <td class="v-mid pv3 pr3">
+            <p class="ma0 fs-15 word-wrap">
+              {{#compare quantity ">" 1}}{{quantity}}x {{/compare}}
+              <strong>{{name}}</strong>
             </p>
+            <p class="mt-4 mb0">
+              {{formatCurrency sellingPrice}} ((i18n.common.currency))
+              {{#compare sellingPrice "==" 0}}<span
+                  class="f6 green-text nowrap">((i18n.order.fromHouse))</span>{{/compare}}
+            </p>
+          </td>
+          <td width="96" class="pv3 pr3 fw7 tr">
+            {{formatCurrency priceDefinition.total}} ((i18n.common.currency))
           </td>
         </tr>
         {{#each bundleItems}}
           {{#if name}}
             <tr>
-              <td width="72" class="v-mid pr3 pv2">
-                <img alt="{{name}}" src="{{replace (replace imageUrl "-55-55" "-112-112" ) "-80-80" "-112-112" }}"
-                  width="56" height="56" style="min-width: 56px; object-fit: contain;">
+              <td width="56" class="v-mid pa3">
+                <img alt="{{name}}" src="{{replace imageUrl '-55-55' '-80-80' }}" width="40" height="40"
+                  style="min-width: 40px; object-fit: contain;">
               </td>
-              <td class="v-mid pv2">
-                <p class="ma0 fs-15 word-wrap">{{name}}</p>
-                <p class="mt-6 mb0">
-                  {{quantity}} ((i18n.common.units))
-                  <span class="fw7 action-primary">
-                    {{#if price}}
-                      {{formatCurrency price}} ((i18n.common.currency))
-                    {{else}}
-                      ((i18n.common.free))
-                    {{/if}}
+              <td class="v-mid pv3 pr3">
+                <p class="ma0 fs-15 word-wrap">
+                  {{#compare quantity ">" 1}}{{quantity}}x {{/compare}}
+                  <strong>{{name}}</strong>
+                </p>
+                <p class="mt-4 mb0">
+                  {{formatCurrency price}} ((i18n.common.currency))
                   </span>
                 </p>
               </td>

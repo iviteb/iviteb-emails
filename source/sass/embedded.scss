@@ -62,29 +62,20 @@ a[x-apple-data-detectors] {
   padding-bottom: 0;
 }
 
-.totalsTable tr:first-child td {
-  padding-top: 8px;
-}
-
-.totalsTable tr:first-child td:last-child {
-  font-weight: bold;
-  color: $black;
+.totalsTable tr:last-child td {
+  padding-bottom: 32px;
 }
 
 .orderContainer:last-child > td {
   padding-bottom: 0;
 }
 
-.productsTable tr:first-child td {
-  padding-top: 0;
-}
-
-.productsTable tr:last-child td {
-  padding-bottom: 0;
-}
-
 .word-wrap {
   word-break: break-word;
+}
+
+.green-text {
+  color: $color-green;
 }
 
 /****** Media Query ******/

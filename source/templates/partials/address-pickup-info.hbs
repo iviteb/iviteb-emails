@@ -1,9 +1,9 @@
 {{#each items.0.slas}}
   {{#compare ../items.0.selectedSla '==' id}}
     <strong>{{pickupStoreInfo.friendlyName}}</strong>
-    {{#with pickupStoreInfo.address}}
+    {{!-- {{#with pickupStoreInfo.address}}
       <br />{{street}}, {{number}}{{#if complement}}, {{complement}}{{/if}}
       <br />{{#if neighborhood}}, {{neighborhood}}{{/if}}
-    {{/with}}
+    {{/with}} --}}
   {{/compare}}
 {{/each}}
