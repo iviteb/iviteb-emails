@@ -171,5 +171,10 @@
   "refund": {
     "refundedItems": "Produse rambursate",
     "refundedTotal": "Total rambursat:"
+  },
+  "smg-form": {
+    "title": "Spune-ne cum a fost experiența ta",
+    "text": "Noi prețuim părerea dumneavoastră sinceră, și apreciem efortul dumneavoastră de a completa chestionarul.",
+    "buttonText": "Completează chestionar"
   }
 }

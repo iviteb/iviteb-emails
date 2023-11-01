@@ -1,6 +1,24 @@
 /****** Custom Margin, Padding & Spacer Classes Start ******/
 
-$spaceAmounts: (0, 2, 4, 6, 8, 10, 12, 16, 20, 24, 32, 36, 40, 48, 56, auto);
+$spaceAmounts: (
+  0,
+  2,
+  4,
+  6,
+  8,
+  10,
+  12,
+  16,
+  18,
+  20,
+  24,
+  32,
+  36,
+  40,
+  48,
+  56,
+  auto
+);
 
 @each $space in $spaceAmounts {
   @if $space==auto {
@@ -151,6 +169,10 @@ $spaceAmounts: (0, 2, 4, 6, 8, 10, 12, 16, 20, 24, 32, 36, 40, 48, 56, auto);
   border-radius: 12px;
 }
 
+.br-26 {
+  border-radius: 26px;
+}
+
 .containerTable {
   width: 100%;
   max-width: 600px;
@@ -264,4 +286,10 @@ h6 {
 
 .totalsTableLastLine {
   border-top: 1px solid $light-gray;
+}
+
+.smgFormText {
+  max-width: 448px;
+  margin-left: auto;
+  margin-right: auto;
 }
