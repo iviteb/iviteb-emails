@@ -24,15 +24,15 @@
       "between": "între",
       "and": "și"
     },
-    "siteAddress": "https://hipe.ro",
-    "siteAddressText": "hipe.ro",
+    "siteAddress": "https://hipeshop.ro/",
+    "siteAddressText": "hipeshop.ro",
     "siteName": "Hipe",
     "accountName": "hipestore",
     "logoName": "logo-hipe",
-    "phoneNumber": "021-9121",
-    "phoneNumberText": "0219121",
-    "emailAddress": "contact@hipe.ro",
-    "footerInfo": "Sit at etiam bibendum urna, et. Pellentesque mi metus risus quis odio. Lectus vel enim quis lacus habitant diam mi non est. Mattis condimentum magna quam ultrices volutpat sit elementum. Ut in massa placerat semper fermentum facilisis ligula nec. Volutpat. Sit at etiam bibendum urna, et. Pellentesque mi metus risus quis odio. Lectus vel enim quis lacus habitant diam mi non est. Mattis condimentum magna quam ultrices volutpat sit elementum. Ut in massa placerat semper fermentum facilisis ligula nec. Volutpat.",
+    "phoneNumber": "(+40) 766 068 078",
+    "phoneNumberText": "+40766068078",
+    "emailAddress": "info@hipeshop.ro",
+    "footerInfo": "Acest email conține informații confidențiale și este destinat exclusiv destinatarului menționat. În cazul în care a fost primit din greșeală, vă rugăm să ne anunțați și să ștergeți toate copiile. Datele personale furnizate vor fi utilizate doar în scopul procesării comenzii și nu vor fi dezvăluite terților fără consimțământul explicit al clientului. Vă mulțumim pentru alegerea de a cumpăra de la magazinul nostru online și suntem disponibili pentru orice întrebări sau nelămuriri pe care le aveți.",
     "outro": {
       "text01": "Îți stăm cu drag la dispoziție! Dacă dorești să ne contactezi, te rugăm să ne suni la",
       "text02": "sau să ne scrii un email la adresa",
@@ -45,9 +45,8 @@
     "text02": "Te rugăm să revii la pagina de autentificare și să utilizezi codul de mai jos pentru a te conecta:"
   },
   "order": {
-    "title": "Mulțumim pentru comanda ta nr.",
+    "title": "Proforma pentru comanda ta nr.",
     "on": "pe",
-    "detailsTitle": "Iată și detaliile despre comanda ta",
     "titleReplaced": "Comanda ta a fost înlocuită.",
     "titleCancelled": "Comanda ta a fost anulată.",
     "titleRefunded": "Comanda ta a fost rambursată.",
@@ -72,7 +71,16 @@
     "bankInvoiceReminder": "Nu uia să plătești factura dacă nu ai făcut-o deja.",
     "bankInvoiceShow": "Deschide factura",
     "preparingShippingOneProduct": "Îți oferim factura pentru comanda ta și expediem produsul tău.",
-    "preparingShippingManyProducts": "Îți oferim factura pentru comanda ta și expediem produsele tale."
+    "preparingShippingManyProducts": "Îți oferim factura pentru comanda ta și expediem produsele tale.",
+    "op": {
+      "text01": "Livrarea produselor se face după confirmarea plății în contul bancar specificat mai jos:",
+      "text02": "*vă rugăm să menționați numărul de comandă",
+      "text03": "în rubrica Detalii plată",
+      "iban": "RO93BACX0000002527972000",
+      "companyName": "Hipe Buildings SRL",
+      "cui": "Cod unic de înregistrare: RO48541523",
+      "nrReg": "Nr. Înmatriculare: J26/1123/2023"
+    }
   },
   "invoice": {
     "invoiced": "Factura ta a fost emisă.",
