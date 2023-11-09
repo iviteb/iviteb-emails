@@ -7,25 +7,26 @@
 $color-white: #ffffff !default;
 $color-dark: #2c3e50 !default;
 $color-red: #e74c3c !default;
-$color-green: #2ecc71 !default;
+$color-green: #188e39 !default;
 $color-blue: #3498db !default;
 
 $black: #06182d;
 $light-blue: #eff6ff;
-$action-primary: #ce1f4b;
-$light-gray: #e8ebef;
-$base: #1b3656;
+$action-primary: #e21e2d;
+$light-gray: #e5e5e5;
+$base: #000;
+$neutral-950: #0d0d0d;
 
 // Grid
 $color-container-bg: $color-white !default;
 
 /* ----- Generic ----- */
 // General
-$email-bg-color: #ffffff !default;
+$email-bg-color: $light-gray !default;
 
 // Font sizes
 $font-size-base: 16px !default;
-$font-size-h1: 26px !default;
+$font-size-h1: 32px !default;
 $font-size-h2: 24px !default;
 $font-size-h3: 20px !default;
 $font-size-h4: 16px !default;
@@ -33,7 +34,7 @@ $font-size-h5: 16px !default;
 $font-size-h6: 12px !default;
 
 // Line heights
-$line-height-base: 1.5;
+$line-height-base: 1.25;
 $line-height-h1: 1.25;
 $line-height-h2: 1.25;
 $line-height-h3: 1.25;
@@ -61,8 +62,8 @@ $sans-serif: arial, sans-serif;
 
 $font-size-headline: 96px;
 $font-size-subheadline: 80px;
-$font-size-1: 48px;
-$font-size-2: 36px;
+$font-size-1: 40px;
+$font-size-2: 32px;
 $font-size-3: 24px;
 $font-size-4: 20px;
 $font-size-5: 16px;

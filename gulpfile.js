@@ -34,9 +34,9 @@ const whitelist = [
   '.orderContainer',
   '.productsTable',
   '.mailHeader',
-  '.footerSpacer',
   '.mt-40',
   '.word-wrap',
+  '.green-text',
 ]
 
 // Partials

@@ -62,24 +62,11 @@ a[x-apple-data-detectors] {
   padding-bottom: 0;
 }
 
-.totalsTable tr:first-child td {
-  padding-top: 8px;
-}
-
-.totalsTable tr:first-child td:last-child {
-  font-weight: bold;
-  color: $black;
+.totalsTable tr:last-child td {
+  padding-bottom: 32px;
 }
 
 .orderContainer:last-child > td {
-  padding-bottom: 0;
-}
-
-.productsTable tr:first-child td {
-  padding-top: 0;
-}
-
-.productsTable tr:last-child td {
   padding-bottom: 0;
 }
 
@@ -87,23 +74,16 @@ a[x-apple-data-detectors] {
   word-break: break-word;
 }
 
+.green-text {
+  color: $color-green;
+}
+
 /****** Media Query ******/
 
 @media screen and (max-width: 480px), screen and (max-device-width: 480px) {
-  .mailHeader td {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-
   .py-40 {
     padding-top: 32px;
     padding-bottom: 32px;
-  }
-
-  .footerSpacer > td {
-    padding-top: 32px;
   }
 
   .mt-40 {

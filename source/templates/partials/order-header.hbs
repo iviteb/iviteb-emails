@@ -1,0 +1,53 @@
+<tr class="orderHeader01">
+  <td class="py-40 ph3 bg-near-white tc">
+    {{#compare shippingData.logisticsInfo.0.selectedDeliveryChannel '==' 'pickup-in-point'}}
+      <img alt="Comandă cu ridicare" border="0" width="220" height="39"
+        src="https://((i18n.common.accountName)).vtexassets.com/arquivos/email-pickup-badge.png" class="orderType">
+      <p class="restaurantName f2 action-primary word-wrap">
+        {{#richShippingData shippingData}}
+          {{#group logisticsInfo by="addessId"}}
+            <!-- partial:address-pickup-title.hbs --><!-- partial -->
+          {{/group}}
+        {{/richShippingData}}
+      </p>
+      <p class="orderNumberLabel mt-20 mb0 fs-18 lh-24 fw7">((i18n.order.orderNumber))</p>
+      <p class="ma0 fs-56 fw9 action-primary">0000</p>
+      <p class="my-12 fs-18 lh-24">Comandă <strong>La pachet</strong></p>
+      {{else}}
+        <p class="mt0 mb-12 fs-18 lh-24">((i18n.order.orderNumber)): <strong>0000</strong></p>
+    {{/compare}}
+    <p class="my-12 fs-18 lh-24">((i18n.order.orderDate)) <strong>{{formatDate timeZoneCreationDate}}</strong> la
+      <strong>{{formatTime timeZoneCreationDate}}</strong>
+    </p>
+    <p class="ma0 fs-18 lh-24">((i18n.payment.title)) <img alt="Card" border="0" width="22" height="22"
+        src="https://((i18n.common.accountName)).vtexassets.com/arquivos/email-card-icon.png" class="cardIcon">
+      <strong>
+        {{#each paymentData.transactions}}
+          {{#each payments}}
+            {{#compare @index '!=' 0}} / {{/compare}}
+            {{paymentSystemName}}
+          {{/each}}
+        {{/each}}
+      </strong>
+    </p>
+  </td>
+</tr>
+{{#compare shippingData.logisticsInfo.0.selectedDeliveryChannel '!=' 'pickup-in-point'}}
+  <tr class="orderHeader02">
+    <td class="py-40 ph3 tc">
+      <p class="ma0 f3 fw7">((i18n.order.estimatedTime))</p>
+      <p class="mt-0 mb-12 fs-40 fw7 action-primary">40-60 minute</p>
+      <img alt="Comandă cu livrare" border="0" width="216" height="39"
+        src="https://((i18n.common.accountName)).vtexassets.com/arquivos/email-delivery-badge.png" class="orderType">
+      <p class="mt-12 mb0 fs-18 lh-24">((i18n.order.address))
+        <strong>
+          {{#richShippingData shippingData}}
+            {{#group logisticsInfo by="addessId"}}
+              <!-- partial:address-delivery-info.hbs --><!-- partial -->
+        </strong>
+      </p>
+      {{/group}}
+      {{/richShippingData}}
+    </td>
+  </tr>
+{{/compare}}

@@ -1,10 +1,10 @@
 {{!-- <h3 class="mt4 mb2">((i18n.common.summary))</h3> --}}
-<table width="100%" border="0" cellpadding="0" cellspacing="0"
-  class="totalsTable mw5-5 pa2 br-12 ba b--light-gray border-separate ">
+<div class="spacer-36"></div>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="totalsTable">
   {{#each totals}}
     {{#if value}}
       <tr>
-        <td class="pb2 pl3 pr1 f6">
+        <td class="py-12 pl3 pr1">
           {{#eq id "Items"}}
             ((i18n.common.items))
           {{/eq}}
@@ -12,7 +12,8 @@
             ((i18n.common.shipping))
           {{/eq}}
           {{#eq id "Discounts"}}
-            ((i18n.common.discounts))
+            <span class="green-text">((i18n.common.discounts)) ({{formatCurrency (multiply (divide value
+              ../totals.0.value) -10000)}}%)</span>
           {{/eq}}
           {{#eq id "Tax"}}
             ((i18n.common.taxes))
@@ -21,21 +22,28 @@
             ((i18n.common.customTaxes))
           {{/eq}}
         </td>
-        <td class="pb2 pl1 pr3 fs-15 tr">{{formatCurrency value}}
-          ((i18n.common.currency))
+        <td class="py-12 pr1 pr3 fw7 tr">
+          {{#eq id "Discounts"}}
+            <span class="green-text">
+              {{formatCurrency value}} ((i18n.common.currency))
+            </span>
+          {{else}}
+            {{formatCurrency value}} ((i18n.common.currency))
+          {{/eq}}
         </td>
       </tr>
     {{/if}}
   {{/each}}
-  {{#if value}}
+</table>
+{{#if value}}
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="totalsTableLastLine">
     <tr>
-      <td class="pv2 pl3 pr1 fs-15 fw7 black bg-light-blue"
-        style="border-top-left-radius: 8px; border-bottom-left-radius: 8px">
+      <td class="pt-40 pl3 pr1 fs-15 f3 fw7">
         ((i18n.common.total))</td>
-      <td class="pv2 pl1 pr3 fs-18 fw7 black bg-light-blue tr"
-        style="border-top-right-radius: 8px; border-bottom-right-radius: 8px"> {{formatCurrency value}}
+      <td class="pt-40 pl1 pr3 fs-18 f3 fw7 tr">
+        {{formatCurrency value}}
         ((i18n.common.currency))
       </td>
     </tr>
-  {{/if}}
-</table>
+  </table>
+{{/if}}

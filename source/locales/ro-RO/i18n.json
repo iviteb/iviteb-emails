@@ -1,12 +1,12 @@
 {
   "common": {
-    "currency": "lei",
+    "currency": "Lei",
     "order": "Comanda",
     "hi": "Salut",
     "summary": "Sumar",
-    "items": "Cost produse",
-    "shipping": "Taxă transport",
-    "discounts": "Reduceri",
+    "items": "Subtotal",
+    "shipping": "Taxă de livrare",
+    "discounts": "Discount",
     "taxes": "TVA",
     "customTaxes": "Alte Taxe",
     "total": "Total",
@@ -24,14 +24,14 @@
       "between": "între",
       "and": "și"
     },
-    "siteAddress": "https://hipe.ro",
-    "siteAddressText": "hipe.ro",
-    "siteName": "Hipe",
-    "accountName": "hipestore",
-    "logoName": "logo-hipe",
+    "siteAddress": "https://kfc.ro",
+    "siteAddressText": "kfc.ro",
+    "siteName": "Kentucky Fried Chicken - KFC Romania",
+    "accountName": "kfcromania",
+    "logoName": "email-kfc-logo-header",
     "phoneNumber": "021-9121",
     "phoneNumberText": "0219121",
-    "emailAddress": "contact@hipe.ro",
+    "emailAddress": "contact@kfc.ro",
     "footerInfo": "Sit at etiam bibendum urna, et. Pellentesque mi metus risus quis odio. Lectus vel enim quis lacus habitant diam mi non est. Mattis condimentum magna quam ultrices volutpat sit elementum. Ut in massa placerat semper fermentum facilisis ligula nec. Volutpat. Sit at etiam bibendum urna, et. Pellentesque mi metus risus quis odio. Lectus vel enim quis lacus habitant diam mi non est. Mattis condimentum magna quam ultrices volutpat sit elementum. Ut in massa placerat semper fermentum facilisis ligula nec. Volutpat.",
     "outro": {
       "text01": "Îți stăm cu drag la dispoziție! Dacă dorești să ne contactezi, te rugăm să ne suni la",
@@ -40,12 +40,12 @@
     }
   },
   "access": {
-    "title": "Codul tău de acces",
-    "text01": "Trebuie să îți confirmăm identitatea pentru a-ți permite accesul la pagina pe care încerci să o vizualizezi.",
+    "title": "Codul tău de acces este:",
+    "text01": "Întoarce-te la pagina de autentificare și introdu codul de mai sus pentru a-ți accesa contul.",
     "text02": "Te rugăm să revii la pagina de autentificare și să utilizezi codul de mai jos pentru a te conecta:"
   },
   "order": {
-    "title": "Mulțumim pentru comanda ta nr.",
+    "title": "Mulțumim pentru comandă",
     "on": "pe",
     "detailsTitle": "Iată și detaliile despre comanda ta",
     "titleReplaced": "Comanda ta a fost înlocuită.",
@@ -60,7 +60,13 @@
     "product": "Produs",
     "products": "Produse",
     "package": "Colet",
-    "packages": "Colete"
+    "packages": "Colete",
+    "orderNumber": "Numărul tău de comandă",
+    "orderDate": "Comandă plasată pe",
+    "orderDateTime": "la",
+    "estimatedTime": "Timp estimat",
+    "address": "Adresa",
+    "fromHouse": "Din partea casei"
   },
   "payment": {
     "title": "Plată",
@@ -165,5 +171,10 @@
   "refund": {
     "refundedItems": "Produse rambursate",
     "refundedTotal": "Total rambursat:"
+  },
+  "smg-form": {
+    "title": "Spune-ne cum a fost experiența ta",
+    "text": "Noi prețuim părerea dumneavoastră sinceră, și apreciem efortul dumneavoastră de a completa chestionarul.",
+    "buttonText": "Completează chestionar"
   }
 }
