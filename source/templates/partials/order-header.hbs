@@ -11,10 +11,10 @@
         {{/richShippingData}}
       </p>
       <p class="orderNumberLabel mt-20 mb0 fs-18 lh-24 fw7">((i18n.order.orderNumber))</p>
-      <p class="ma0 fs-56 fw9 action-primary">0000</p>
+      <p class="ma0 fs-56 fw9 action-primary">{{package.invoiceNumber}}</p>
       <p class="my-12 fs-18 lh-24">Comandă <strong>La pachet</strong></p>
       {{else}}
-        <p class="mt0 mb-12 fs-18 lh-24">((i18n.order.orderNumber)): <strong>0000</strong></p>
+        <p class="mt0 mb-12 fs-18 lh-24">((i18n.order.orderNumber)): <strong>{{package.invoiceNumber}}</strong></p>
     {{/compare}}
     <p class="my-12 fs-18 lh-24">((i18n.order.orderDate)) <strong>{{formatDate timeZoneCreationDate}}</strong> la
       <strong>{{formatTime timeZoneCreationDate}}</strong>
