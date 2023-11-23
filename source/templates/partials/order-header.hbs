@@ -5,7 +5,7 @@
         src="https://((i18n.common.accountName)).vtexassets.com/arquivos/email-pickup-badge.png" class="orderType">
       <p class="restaurantName f2 action-primary word-wrap">
         {{#richShippingData shippingData}}
-          {{#group logisticsInfo by="addessId"}}
+          {{#group logisticsInfo by="addressId"}}
             <!-- partial:address-pickup-title.hbs --><!-- partial -->
           {{/group}}
         {{/richShippingData}}
@@ -42,7 +42,7 @@
       <p class="mt-12 mb0 fs-18 lh-24">((i18n.order.address))
         <strong>
           {{#richShippingData shippingData}}
-            {{#group logisticsInfo by="addessId"}}
+            {{#group logisticsInfo by="addressId"}}
               <!-- partial:address-delivery-info.hbs --><!-- partial -->
         </strong>
       </p>

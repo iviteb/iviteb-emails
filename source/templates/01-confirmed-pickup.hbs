@@ -9,7 +9,7 @@
     <tr class="orderContainer">
       <td class="pb4 ph3">
         {{#richShippingData shippingData}}
-          {{#group logisticsInfo by="addessId"}}
+          {{#group logisticsInfo by="addressId"}}
             {{#group items by="packageId"}}
               <!-- partial:partials/items.hbs --><!-- partial -->
             {{/group}}
