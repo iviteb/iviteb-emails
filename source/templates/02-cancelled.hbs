@@ -6,7 +6,7 @@
   <tr>
     <td>
       {{#richShippingData shippingData}}
-        {{#group logisticsInfo by="addessId"}}
+        {{#group logisticsInfo by="addressId"}}
           {{#compare items.length '>' 1}}
             <h3 class="mb3">((i18n.order.products))</h3>
             {{else}}

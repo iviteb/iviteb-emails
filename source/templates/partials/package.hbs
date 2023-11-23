@@ -17,17 +17,23 @@
                   {{/if}}
                 {{/compare}}
               </p>
-              <!-- Scheduled shipping -->
-              {{#if ../deliveryWindow}}
-                <!-- partial:shipping-estimate-scheduled.hbs --><!-- partial -->
-              {{else}}
-                <!-- show info for estimate range or date -->
-                {{#unless ../shippingEstimateDate}}
-                  <!-- partial:shipping-estimate-range.hbs --><!-- partial -->
-                {{else}}
-                  <!-- partial:shipping-estimate-date.hbs --><!-- partial -->
-                {{/unless}}
-              {{/if}}
+              {{#each ../paymentData.transactions}}
+                {{#each payments}}
+                  {{#compare paymentSystem "!=" 202}}
+                    <!-- Scheduled shipping -->
+                    {{#if ../deliveryWindow}}
+                      <!-- partial:shipping-estimate-scheduled.hbs --><!-- partial -->
+                    {{else}}
+                      <!-- show info for estimate range or date -->
+                      {{#unless ../shippingEstimateDate}}
+                        <!-- partial:shipping-estimate-range.hbs --><!-- partial -->
+                      {{else}}
+                        <!-- partial:shipping-estimate-date.hbs --><!-- partial -->
+                      {{/unless}}
+                    {{/if}}
+                  {{/compare}}
+                {{/each}}
+              {{/each}}
             </td>
           </tr>
         </table>
