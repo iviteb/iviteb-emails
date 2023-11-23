@@ -37,7 +37,7 @@
   <tr>
     <td>
       {{#richShippingData shippingData}}
-        {{#group logisticsInfo by="addessId"}}
+        {{#group logisticsInfo by="addressId"}}
           <h3 class="mv4">
             {{#compare items.length '>' 1}}
               ((i18n.invoice.products))
