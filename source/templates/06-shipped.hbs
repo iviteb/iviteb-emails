@@ -22,7 +22,7 @@
   <tr>
     <td class="pv4">
       {{#richShippingData shippingData}}
-        {{#group logisticsInfo by="addessId"}}
+        {{#group logisticsInfo by="addressId"}}
           <h3 class="ma0 mb2">((i18n.shipping.address))</h3>
           <!-- Address info -->
           <!-- partial:partials/address-delivery-no-title.hbs --><!-- partial -->
@@ -35,7 +35,7 @@
   <tr>
     <td class="pt4 bt b--light-gray">
       {{#richShippingData shippingData}}
-        {{#group logisticsInfo by="addessId"}}
+        {{#group logisticsInfo by="addressId"}}
           <h3 class="mt0 mb2">((i18n.order.package))</h3>
           <!-- Address info -->
           {{#group items by="packageId"}}

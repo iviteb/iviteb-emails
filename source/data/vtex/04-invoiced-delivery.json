@@ -1,0 +1,1754 @@
+{
+  "package": {
+    "items": [
+      {
+        "itemIndex": 0,
+        "quantity": 1,
+        "price": 6666,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 1,
+        "quantity": 1,
+        "price": 6666,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 2,
+        "quantity": 1,
+        "price": 6666,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 3,
+        "quantity": 1,
+        "price": 0,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 4,
+        "quantity": 1,
+        "price": 6666,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 5,
+        "quantity": 1,
+        "price": 0,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 6,
+        "quantity": 1,
+        "price": 0,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 7,
+        "quantity": 1,
+        "price": 0,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 8,
+        "quantity": 1,
+        "price": 0,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 9,
+        "quantity": 1,
+        "price": 0,
+        "description": null,
+        "unitMultiplier": 0
+      }
+    ],
+    "courier": "",
+    "invoiceNumber": "1850",
+    "invoiceValue": 126664,
+    "invoiceUrl": "",
+    "issuanceDate": "2023-11-10T10:22:37.907Z",
+    "trackingNumber": "",
+    "invoiceKey": "",
+    "trackingUrl": "",
+    "embeddedInvoice": "",
+    "type": "Output",
+    "courierStatus": null,
+    "cfop": null,
+    "restitutions": null,
+    "volumes": 1,
+    "EnableInferItems": true
+  },
+  "subjectItemAttachment": {
+    "item": "SALAD WITH FILLET BI...",
+    "totalItems": 10,
+    "extraItems": 9
+  },
+  "cancellationReason": null,
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "7C6EDBFCDFD24A5E95E43782BBF788AC",
+        "merchantName": "K*********",
+        "payments": [
+          {
+            "id": "4BBEF3F13AE047B785A8EB4A5DFC29D1",
+            "paymentSystem": "203",
+            "paymentSystemName": "C****************************************",
+            "value": 126664,
+            "installments": 1,
+            "referenceValue": 126664,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": null,
+            "lastDigits": null,
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "giftCardId": null,
+            "giftCardName": null,
+            "giftCardCaption": null,
+            "redemptionCode": null,
+            "group": "promissory",
+            "tid": null,
+            "dueDate": null,
+            "connectorResponses": {},
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "koinUrl": null,
+            "accountId": null,
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": {
+              "postalCode": "1*****",
+              "city": "B******",
+              "state": "PRAHOVA",
+              "country": "ROU",
+              "street": "S***** Z******",
+              "number": "1",
+              "neighborhood": null,
+              "complement": "2",
+              "reference": null,
+              "geoCoordinates": [-51.4779552, -0.0039779]
+            },
+            "paymentOrigin": null
+          }
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "additionalInfo": {
+        "categoriesIds": "/8/",
+        "productClusterId": "137",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "K**",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "66",
+      "priceTable": null,
+      "priceValidUntil": "2024-11-10T10:17:22Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/66",
+      "uniqueId": "D08C9972C55A4A5193D6F1B4765D135B",
+      "id": "66",
+      "productId": "65",
+      "productRefId": "SALAD WITH FILLET BITES®",
+      "refId": "SALADWITHFILLETBITES®",
+      "ean": "SALADWITHFILLETBITES®",
+      "name": "S***********************",
+      "skuName": "S***********************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 6666,
+      "listPrice": 6666,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 6666,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/8/",
+      "productCategories": {
+        "8": "SALAD"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155471-55-55/7a39928b-85f1-41c4-9fd1-7806b99cb49e.png?v=637967792184700000",
+      "detailUrl": "/salad-with-fillet-bites%C2%AE/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 6666,
+        "total": 6666,
+        "sellingPrices": [
+          {
+            "value": 6666,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/2/",
+        "productClusterId": "137",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "K**",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "6",
+      "priceTable": null,
+      "priceValidUntil": "2024-11-10T10:12:42Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/6",
+      "uniqueId": "CF360A436D1E4B1CBB1FDE70F234487F",
+      "id": "6",
+      "productId": "5",
+      "productRefId": "largeportion120g",
+      "refId": "LARGEPOTATOES120g",
+      "ean": "LARGEPOTATOES120g",
+      "name": "L*************",
+      "skuName": "L*************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 6666,
+      "listPrice": 6666,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 6666,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/2/",
+      "productCategories": {
+        "2": "SIDES"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155409-55-55/Screenshot-2022-08-10-at-17.42.05.png?v=637957429691430000",
+      "detailUrl": "/large-potatoes/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 6666,
+        "total": 6666,
+        "sellingPrices": [
+          {
+            "value": 6666,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/2/",
+        "productClusterId": "137",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "K**",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "6",
+      "priceTable": null,
+      "priceValidUntil": "2024-11-10T10:12:42Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/6",
+      "uniqueId": "87DC277D0A7844B6AEDF52B467D5224A",
+      "id": "6",
+      "productId": "5",
+      "productRefId": "largeportion120g",
+      "refId": "LARGEPOTATOES120g",
+      "ean": "LARGEPOTATOES120g",
+      "name": "L*************",
+      "skuName": "L*************",
+      "modalType": null,
+      "parentItemIndex": 4,
+      "parentAssemblyBinding": "vtex.assembly-option.TWISTER BOX CLASSIC_Side",
+      "assemblies": [],
+      "tax": 0,
+      "price": 6666,
+      "listPrice": 6666,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 6666,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/2/",
+      "productCategories": {
+        "2": "SIDES"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155409-55-55/Screenshot-2022-08-10-at-17.42.05.png?v=637957429691430000",
+      "detailUrl": "/large-potatoes/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 6666,
+        "total": 6666,
+        "sellingPrices": [
+          {
+            "value": 6666,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/2/",
+        "productClusterId": "137",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "K**",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "6",
+      "priceTable": null,
+      "priceValidUntil": "2024-11-10T10:12:42Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/6",
+      "uniqueId": "19673793C51C450895DFF50127F8AF5E",
+      "id": "6",
+      "productId": "5",
+      "productRefId": "largeportion120g",
+      "refId": "LARGEPOTATOES120g",
+      "ean": "LARGEPOTATOES120g",
+      "name": "L*************",
+      "skuName": "L*************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 0,
+      "listPrice": 0,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 0,
+      "rewardValue": 0,
+      "isGift": true,
+      "preSaleDate": null,
+      "productCategoryIds": "/2/",
+      "productCategories": {
+        "2": "SIDES"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155409-55-55/Screenshot-2022-08-10-at-17.42.05.png?v=637957429691430000",
+      "detailUrl": "/large-potatoes/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "D************",
+          "value": 100,
+          "rawValue": 1,
+          "isPercentual": true,
+          "identifier": "2f5becce-a137-4c48-a6a0-a19db26bbb2a"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 0,
+        "total": 0,
+        "sellingPrices": [
+          {
+            "value": 0,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/10/",
+        "productClusterId": "137",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "K**",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "72",
+      "priceTable": null,
+      "priceValidUntil": "2024-11-10T10:12:42Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/72",
+      "uniqueId": "44104C93E53347E9B17B387C34B4FFA0",
+      "id": "72",
+      "productId": "71",
+      "productRefId": "TWISTER®BOXCLASSIC",
+      "refId": "TWISTER®BOXCLASSIC",
+      "ean": "TWISTER®BOXCLASSIC",
+      "name": "T*******************",
+      "skuName": "T*******************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 6666,
+      "listPrice": 6666,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 6666,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/10/",
+      "productCategories": {
+        "10": "BOXES"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155477-55-55/82cd2e08-456b-4c81-b6d5-c8fff73693a3.png?v=637967954006000000",
+      "detailUrl": "/twister%C2%AE-box-classic/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 6666,
+        "total": 6666,
+        "sellingPrices": [
+          {
+            "value": 6666,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/1/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "K**",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "53",
+      "priceTable": null,
+      "priceValidUntil": "2024-11-10T10:12:42Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/53",
+      "uniqueId": "728D0D67E9F5439793B39B205BB549CA",
+      "id": "53",
+      "productId": "52",
+      "productRefId": "TWISTER®CLASSIC",
+      "refId": "TWISTER®CLASSIC",
+      "ean": "TWISTER®CLASSIC",
+      "name": "T***************",
+      "skuName": "T***************",
+      "modalType": null,
+      "parentItemIndex": 4,
+      "parentAssemblyBinding": "vtex.assembly-option.TWISTER BOX CLASSIC_Main 1",
+      "assemblies": [],
+      "tax": 0,
+      "price": 0,
+      "listPrice": 0,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 0,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/1/",
+      "productCategories": {
+        "1": "BURGERS & WRAPS"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155458-55-55/Twister_Classic_v2.png?v=637965213664200000",
+      "detailUrl": "/twister%C2%AE-classic/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 0,
+        "total": 0,
+        "sellingPrices": [
+          {
+            "value": 0,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/3/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "K**",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "57",
+      "priceTable": null,
+      "priceValidUntil": "2024-11-10T10:12:42Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/57",
+      "uniqueId": "80AF47C14F9847FF9AB04C7E63C1C337",
+      "id": "57",
+      "productId": "56",
+      "productRefId": "5HOTWINGS",
+      "refId": "5HOTWINGS",
+      "ean": "5HOTWINGS",
+      "name": "5***********",
+      "skuName": "5***********",
+      "modalType": null,
+      "parentItemIndex": 4,
+      "parentAssemblyBinding": "vtex.assembly-option.TWISTER BOX CLASSIC_Main 2",
+      "assemblies": [],
+      "tax": 0,
+      "price": 0,
+      "listPrice": 0,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 0,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/3/",
+      "productCategories": {
+        "3": "CHICKEN"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155462-55-55/5_Hot_Wings.png?v=637967747971530000",
+      "detailUrl": "/5-hot-wings%C2%AE/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 0,
+        "total": 0,
+        "sellingPrices": [
+          {
+            "value": 0,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/5/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "C********",
+        "brandId": "2000002",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "7",
+      "priceTable": null,
+      "priceValidUntil": "2024-11-10T10:16:53Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/7",
+      "uniqueId": "11BBC081B4F741BB92B3F7AEC64D2D9A",
+      "id": "7",
+      "productId": "6",
+      "productRefId": "COKE0.5L",
+      "refId": "COKE0.5L",
+      "ean": "COKE0.5L",
+      "name": "C********",
+      "skuName": "C********",
+      "modalType": null,
+      "parentItemIndex": 4,
+      "parentAssemblyBinding": "vtex.assembly-option.TWISTER BOX CLASSIC_Beverage",
+      "assemblies": [],
+      "tax": 0,
+      "price": 0,
+      "listPrice": 0,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 0,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/5/",
+      "productCategories": {
+        "5": "BEVERAGES"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155410-55-55/Screenshot-2022-08-10-at-17.47.36.png?v=637957432852970000",
+      "detailUrl": "/coke-0-5l/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 0,
+        "total": 0,
+        "sellingPrices": [
+          {
+            "value": 0,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/4/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "K**",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "5",
+      "priceTable": null,
+      "priceValidUntil": "2024-11-10T10:12:42Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/5",
+      "uniqueId": "D18BE0B8473C4A6AA9AD99315D5CD6ED",
+      "id": "5",
+      "productId": "4",
+      "productRefId": "SOSGLENN58g",
+      "refId": "SOSGLENN58g",
+      "ean": "SOSGLENN58g",
+      "name": "S********",
+      "skuName": "S********",
+      "modalType": null,
+      "parentItemIndex": 7,
+      "parentAssemblyBinding": "vtex.assembly-option.MENU 8 NON SPICY STRIPS_Sauce",
+      "assemblies": [],
+      "tax": 0,
+      "price": 0,
+      "listPrice": 0,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 0,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/4/",
+      "productCategories": {
+        "4": "SAUCES"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155408-55-55/Screenshot-2022-08-10-at-17.35.17.png?v=637957425620400000",
+      "detailUrl": "/sos-glenn/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 0,
+        "total": 0,
+        "sellingPrices": [
+          {
+            "value": 0,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/3/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "K**",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "64",
+      "priceTable": null,
+      "priceValidUntil": "2024-11-10T10:12:42Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/64",
+      "uniqueId": "E0ACBC7925B541C79C17AD9A3D6FF804",
+      "id": "64",
+      "productId": "63",
+      "productRefId": "8NONSPICYSTRIPS",
+      "refId": "8NONSPICYSTRIPS",
+      "ean": "8NONSPICYSTRIPS",
+      "name": "8*****************",
+      "skuName": "8*****************",
+      "modalType": null,
+      "parentItemIndex": 7,
+      "parentAssemblyBinding": "vtex.assembly-option.MENU 8 NON SPICY STRIPS_Main",
+      "assemblies": [],
+      "tax": 0,
+      "price": 0,
+      "listPrice": 0,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 0,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/3/",
+      "productCategories": {
+        "3": "CHICKEN"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155469-55-55/53d17905-04e8-457b-b047-6ba3e20cbda8.png?v=637967788845270000",
+      "detailUrl": "/8-non-spicy-strips/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 0,
+        "total": 0,
+        "sellingPrices": [
+          {
+            "value": 0,
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  ],
+  "sellers": [
+    {
+      "subSellerId": "1",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=kfcromaniabucharest1&affiliateId=SLR&sc=1",
+      "id": "kfcromaniabucharest1",
+      "name": "k*******************",
+      "logo": ""
+    }
+  ],
+  "giftRegistryData": null,
+  "receiptData": null,
+  "contextData": null,
+  "marketPlaceOrderId": "",
+  "marketPlaceOrderGroup": null,
+  "marketplaceServicesEndpoint": null,
+  "orderFormId": "7a6f10f2802f43049429ee048b4d7c2a",
+  "sequence": "500223",
+  "affiliateId": "",
+  "status": "",
+  "callCenterOperator": "",
+  "userProfileId": "bc6d0f6c-dbd8-4e86-b2eb-cfb23a907c71",
+  "hostName": "k*********",
+  "creationVersion": null,
+  "creationEnvironment": null,
+  "lastChangeVersion": null,
+  "workflowInstanceId": null,
+  "marketplacePaymentValue": null,
+  "orderId": "1375220500223-01",
+  "orderGroup": "1375220500223",
+  "state": "payment-approved",
+  "isCheckedIn": false,
+  "sellerOrderId": "SLR-1375220500223-01",
+  "storeId": null,
+  "checkedInPickupPointId": null,
+  "value": 126664,
+  "totals": [
+    {
+      "id": "Items",
+      "name": "T*************",
+      "value": 26664
+    },
+    {
+      "id": "Discounts",
+      "name": "T*************",
+      "value": 0
+    },
+    {
+      "id": "Shipping",
+      "name": "T**************",
+      "value": 100000
+    },
+    {
+      "id": "Tax",
+      "name": "T*********",
+      "value": 0
+    }
+  ],
+  "clientProfileData": {
+    "email": "9*******************************@c*.v***.c**.b*",
+    "firstName": "E****",
+    "lastName": "P",
+    "document": null,
+    "documentType": "document",
+    "phone": "+4**********",
+    "corporateName": null,
+    "tradeName": null,
+    "corporateDocument": null,
+    "stateInscription": null,
+    "corporatePhone": null,
+    "isCorporate": false,
+    "profileCompleteOnLoading": true,
+    "profileErrorOnLoading": false,
+    "customerClass": null
+  },
+  "ratesAndBenefitsData": {
+    "rateAndBenefitsIdentifiers": [
+      {
+        "id": "2f5becce-a137-4c48-a6a0-a19db26bbb2a",
+        "name": "1*********",
+        "featured": false,
+        "description": "1 + 1 Gift",
+        "matchedParameters": {
+          "buyAndWin@Marketing": "6,6"
+        },
+        "additionalInfo": null
+      }
+    ],
+    "teaser": []
+  },
+  "shippingData": {
+    "address": {
+      "addressType": "residential",
+      "receiverName": "E**** P",
+      "addressId": "1697787986009",
+      "isDisposable": false,
+      "postalCode": "1*****",
+      "city": "B******",
+      "state": "PRAHOVA",
+      "country": "ROU",
+      "street": "S***** Z******",
+      "number": "1",
+      "neighborhood": null,
+      "complement": "2",
+      "reference": null,
+      "geoCoordinates": [-51.4779552, -0.0039779]
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "selectedSla": "KFC Menu Delivery",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "1697787986009",
+        "slas": [
+          {
+            "id": "KFC Menu Delivery",
+            "deliveryChannel": "delivery",
+            "name": "K****************",
+            "deliveryIds": [
+              {
+                "courierId": "1a22238",
+                "warehouseId": "delivery",
+                "dockId": "delivery",
+                "courierName": "K****************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:17:41.1796545Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 10000,
+            "listPrice": 10000,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "66",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 1,
+        "selectedSla": "KFC Menu Delivery",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "1697787986009",
+        "slas": [
+          {
+            "id": "KFC Menu Delivery",
+            "deliveryChannel": "delivery",
+            "name": "K****************",
+            "deliveryIds": [
+              {
+                "courierId": "1a22238",
+                "warehouseId": "delivery",
+                "dockId": "delivery",
+                "courierName": "K****************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:17:41.1807377Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 10000,
+            "listPrice": 10000,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "6",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 2,
+        "selectedSla": "KFC Menu Delivery",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "1697787986009",
+        "slas": [
+          {
+            "id": "KFC Menu Delivery",
+            "deliveryChannel": "delivery",
+            "name": "K****************",
+            "deliveryIds": [
+              {
+                "courierId": "1a22238",
+                "warehouseId": "delivery",
+                "dockId": "delivery",
+                "courierName": "K****************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:17:41.1807377Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 10000,
+            "listPrice": 10000,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "6",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 3,
+        "selectedSla": "KFC Menu Delivery",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "1697787986009",
+        "slas": [
+          {
+            "id": "KFC Menu Delivery",
+            "deliveryChannel": "delivery",
+            "name": "K****************",
+            "deliveryIds": [
+              {
+                "courierId": "1a22238",
+                "warehouseId": "delivery",
+                "dockId": "delivery",
+                "courierName": "K****************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:17:41.1807377Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 10000,
+            "listPrice": 10000,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "6",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 4,
+        "selectedSla": "KFC Menu Delivery",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "1697787986009",
+        "slas": [
+          {
+            "id": "KFC Menu Delivery",
+            "deliveryChannel": "delivery",
+            "name": "K****************",
+            "deliveryIds": [
+              {
+                "courierId": "1a22238",
+                "warehouseId": "delivery",
+                "dockId": "delivery",
+                "courierName": "K****************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:17:41.1807377Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 10000,
+            "listPrice": 10000,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "72",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 5,
+        "selectedSla": "KFC Menu Delivery",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "1697787986009",
+        "slas": [
+          {
+            "id": "KFC Menu Delivery",
+            "deliveryChannel": "delivery",
+            "name": "K****************",
+            "deliveryIds": [
+              {
+                "courierId": "1a22238",
+                "warehouseId": "delivery",
+                "dockId": "delivery",
+                "courierName": "K****************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:17:41.1807377Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 10000,
+            "listPrice": 10000,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "53",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 6,
+        "selectedSla": "KFC Menu Delivery",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "1697787986009",
+        "slas": [
+          {
+            "id": "KFC Menu Delivery",
+            "deliveryChannel": "delivery",
+            "name": "K****************",
+            "deliveryIds": [
+              {
+                "courierId": "1a22238",
+                "warehouseId": "delivery",
+                "dockId": "delivery",
+                "courierName": "K****************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:17:41.1807377Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 10000,
+            "listPrice": 10000,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "57",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 7,
+        "selectedSla": "KFC Menu Delivery",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "1697787986009",
+        "slas": [
+          {
+            "id": "KFC Menu Delivery",
+            "deliveryChannel": "delivery",
+            "name": "K****************",
+            "deliveryIds": [
+              {
+                "courierId": "1a22238",
+                "warehouseId": "delivery",
+                "dockId": "delivery",
+                "courierName": "K****************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:17:41.1807377Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 10000,
+            "listPrice": 10000,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "7",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 8,
+        "selectedSla": "KFC Menu Delivery",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "1697787986009",
+        "slas": [
+          {
+            "id": "KFC Menu Delivery",
+            "deliveryChannel": "delivery",
+            "name": "K****************",
+            "deliveryIds": [
+              {
+                "courierId": "1a22238",
+                "warehouseId": "delivery",
+                "dockId": "delivery",
+                "courierName": "K****************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:17:41.1807377Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 10000,
+            "listPrice": 10000,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "5",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 9,
+        "selectedSla": "KFC Menu Delivery",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "1697787986009",
+        "slas": [
+          {
+            "id": "KFC Menu Delivery",
+            "deliveryChannel": "delivery",
+            "name": "K****************",
+            "deliveryIds": [
+              {
+                "courierId": "1a22238",
+                "warehouseId": "delivery",
+                "dockId": "delivery",
+                "courierName": "K****************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:17:41.1807377Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 10000,
+            "listPrice": 10000,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": null,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "64",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      }
+    ],
+    "selectedAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "E**** P",
+        "addressId": "1697787986009",
+        "isDisposable": false,
+        "postalCode": "1*****",
+        "city": "B******",
+        "state": "PRAHOVA",
+        "country": "ROU",
+        "street": "S***** Z******",
+        "number": "1",
+        "neighborhood": null,
+        "complement": "2",
+        "reference": null,
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "E**** P",
+        "addressId": "1697787986009",
+        "isDisposable": false,
+        "postalCode": "1*****",
+        "city": "B******",
+        "state": "PRAHOVA",
+        "country": "ROU",
+        "street": "S***** Z******",
+        "number": "1",
+        "neighborhood": null,
+        "complement": "2",
+        "reference": null,
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "pickupPoints": [
+      {
+        "friendlyName": "K********************",
+        "address": {
+          "addressType": "pickup",
+          "receiverName": null,
+          "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+          "isDisposable": true,
+          "postalCode": "1*****",
+          "city": "O*** B******",
+          "state": "Prahova",
+          "country": "ROU",
+          "street": "S***** Z******",
+          "number": "1",
+          "neighborhood": "",
+          "complement": "",
+          "reference": null,
+          "geoCoordinates": [-51.4779552, -0.0039779]
+        },
+        "additionalInfo": "-Bucharest restaurant 1-\n\nDeliveries from 7.30 am to 9.00 pm\n\nTimp estimat de livrare: 40-80 min\n\nComandă minimă 30.00 lei\n\nCostul de livrare pentru orice comandă peste 30 lei este de 8.9 lei.",
+        "id": "kfcromaniabucharest1_4ba30500-41e1-4918-a8ab-039042495431",
+        "businessHours": [
+          {
+            "DayOfWeek": 0,
+            "OpeningTime": "00:00:00",
+            "ClosingTime": "23:59:00"
+          },
+          {
+            "DayOfWeek": 1,
+            "OpeningTime": "00:00:00",
+            "ClosingTime": "23:59:00"
+          },
+          {
+            "DayOfWeek": 2,
+            "OpeningTime": "00:00:00",
+            "ClosingTime": "23:59:00"
+          },
+          {
+            "DayOfWeek": 3,
+            "OpeningTime": "00:00:00",
+            "ClosingTime": "23:59:00"
+          },
+          {
+            "DayOfWeek": 4,
+            "OpeningTime": "00:00:00",
+            "ClosingTime": "23:59:00"
+          },
+          {
+            "DayOfWeek": 5,
+            "OpeningTime": "00:00:00",
+            "ClosingTime": "23:59:00"
+          },
+          {
+            "DayOfWeek": 6,
+            "OpeningTime": "00:00:00",
+            "ClosingTime": "23:59:00"
+          }
+        ]
+      }
+    ]
+  },
+  "clientPreferencesData": {
+    "locale": "ro-RO",
+    "optinNewsLetter": false
+  },
+  "commercialConditionData": null,
+  "marketingData": {
+    "utmSource": null,
+    "utmMedium": null,
+    "utmCampaign": null,
+    "utmipage": null,
+    "utmiPart": null,
+    "utmiCampaign": null,
+    "coupon": null,
+    "marketingTags": ["vtexSocialSelling"]
+  },
+  "storePreferencesData": {
+    "countryCode": "ROU",
+    "saveUserData": false,
+    "timeZone": "GTB Standard Time",
+    "currencyCode": "RON",
+    "currencyLocale": 1048,
+    "currencySymbol": "lei",
+    "currencyFormatInfo": {
+      "currencyDecimalDigits": 2,
+      "currencyDecimalSeparator": ",",
+      "currencyGroupSeparator": ".",
+      "currencyGroupSize": 3,
+      "startsWithCurrencySymbol": false
+    }
+  },
+  "openTextField": null,
+  "invoiceData": {
+    "address": {
+      "postalCode": null,
+      "city": "B********",
+      "state": "BUCUREȘTI",
+      "country": "ROU",
+      "street": "S***** V* V* S******",
+      "number": "5",
+      "neighborhood": "",
+      "complement": "2",
+      "reference": null,
+      "geoCoordinates": [-51.4779552, -0.0039779]
+    }
+  },
+  "itemMetadata": null,
+  "taxData": null,
+  "customData": null,
+  "hooksData": null,
+  "changeData": null,
+  "subscriptionData": null,
+  "salesChannel": "1",
+  "followUpEmail": "2**********************************.v***.c**.b*",
+  "creationDate": "2023-11-10T10:17:32.9155869Z",
+  "lastChange": "2023-11-10T10:17:41.4782398Z",
+  "timeZoneCreationDate": "2023-11-10T12:17:32.9155869",
+  "timeZoneLastChange": "2023-11-10T12:17:41.4782398",
+  "isCompleted": true,
+  "merchantName": null,
+  "userType": "",
+  "roundingError": 0,
+  "allowEdition": false,
+  "allowCancellation": false,
+  "isUserDataVisible": false,
+  "allowChangeSeller": false,
+  "_accountInfo": {
+    "MainAccountName": "k*********",
+    "AccountName": "k*********",
+    "Cnpj": null,
+    "Id": "f7ab254d-7021-4bb4-9e74-dcf376a73227",
+    "AppId": null,
+    "IsActive": true,
+    "IsOperating": false,
+    "CreationDate": "2022-06-22T15:18:43.7789785Z",
+    "OperationDate": null,
+    "CompanyName": "C************************************************",
+    "TradingName": "V***",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [7],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null
+  }
+}

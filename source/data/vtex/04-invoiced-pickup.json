@@ -1,0 +1,2886 @@
+{
+  "package": {
+    "items": [
+      {
+        "itemIndex": 0,
+        "quantity": 1,
+        "price": 6666,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 1,
+        "quantity": 1,
+        "price": 6666,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 2,
+        "quantity": 1,
+        "price": 0,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 3,
+        "quantity": 1,
+        "price": 6666,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 4,
+        "quantity": 1,
+        "price": 0,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 5,
+        "quantity": 1,
+        "price": 0,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 6,
+        "quantity": 1,
+        "price": 0,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 7,
+        "quantity": 1,
+        "price": 0,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 8,
+        "quantity": 1,
+        "price": 0,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 9,
+        "quantity": 1,
+        "price": 6666,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 10,
+        "quantity": 1,
+        "price": 0,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 11,
+        "quantity": 1,
+        "price": 0,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 12,
+        "quantity": 1,
+        "price": 0,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 13,
+        "quantity": 1,
+        "price": 6666,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 14,
+        "quantity": 1,
+        "price": 6666,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 15,
+        "quantity": 1,
+        "price": 6666,
+        "description": null,
+        "unitMultiplier": 0
+      }
+    ],
+    "courier": "",
+    "invoiceNumber": "1856",
+    "invoiceValue": 146662,
+    "invoiceUrl": "",
+    "issuanceDate": "2023-11-10T10:24:27.82Z",
+    "trackingNumber": "",
+    "invoiceKey": "",
+    "trackingUrl": "",
+    "embeddedInvoice": "",
+    "type": "Output",
+    "courierStatus": null,
+    "cfop": null,
+    "restitutions": null,
+    "volumes": 1,
+    "EnableInferItems": true
+  },
+  "subjectItemAttachment": {
+    "item": "LARGE POTATOES",
+    "totalItems": 16,
+    "extraItems": 15
+  },
+  "cancellationReason": null,
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "CF958BCE88B248DFAD65D8F73A5FEAAC",
+        "merchantName": "K*********",
+        "payments": [
+          {
+            "id": "8CE82499C4B54C41B97BFF7455EE007F",
+            "paymentSystem": "201",
+            "paymentSystemName": "C**************",
+            "value": 146662,
+            "installments": 1,
+            "referenceValue": 146662,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": null,
+            "lastDigits": null,
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "giftCardId": null,
+            "giftCardName": null,
+            "giftCardCaption": null,
+            "redemptionCode": null,
+            "group": "promissory",
+            "tid": null,
+            "dueDate": null,
+            "connectorResponses": {},
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "koinUrl": null,
+            "accountId": null,
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": {
+              "postalCode": null,
+              "city": "B********",
+              "state": "BUCUREȘTI",
+              "country": "ROU",
+              "street": "S***** V* V* S******",
+              "number": "5",
+              "neighborhood": "",
+              "complement": "2",
+              "reference": null,
+              "geoCoordinates": [-51.4779552, -0.0039779]
+            },
+            "paymentOrigin": null
+          }
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "additionalInfo": {
+        "categoriesIds": "/2/",
+        "productClusterId": "137",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "K**",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "6",
+      "priceTable": null,
+      "priceValidUntil": "2024-11-10T10:20:23Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/6",
+      "uniqueId": "C040DACE246A4E69972A99B7DD01065D",
+      "id": "6",
+      "productId": "5",
+      "productRefId": "largeportion120g",
+      "refId": "LARGEPOTATOES120g",
+      "ean": "LARGEPOTATOES120g",
+      "name": "L*************",
+      "skuName": "L*************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 6666,
+      "listPrice": 6666,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 6666,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/2/",
+      "productCategories": {
+        "2": "SIDES"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155409-55-55/Screenshot-2022-08-10-at-17.42.05.png?v=637957429691430000",
+      "detailUrl": "/large-potatoes/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 6666,
+        "total": 6666,
+        "sellingPrices": [
+          {
+            "value": 6666,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/2/",
+        "productClusterId": "137",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "K**",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "6",
+      "priceTable": null,
+      "priceValidUntil": "2024-11-10T10:20:23Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/6",
+      "uniqueId": "61A79F2F61E74151AF26AB562E8744CF",
+      "id": "6",
+      "productId": "5",
+      "productRefId": "largeportion120g",
+      "refId": "LARGEPOTATOES120g",
+      "ean": "LARGEPOTATOES120g",
+      "name": "L*************",
+      "skuName": "L*************",
+      "modalType": null,
+      "parentItemIndex": 3,
+      "parentAssemblyBinding": "vtex.assembly-option.TWISTER BOX CLASSIC_Side",
+      "assemblies": [],
+      "tax": 0,
+      "price": 6666,
+      "listPrice": 6666,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 6666,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/2/",
+      "productCategories": {
+        "2": "SIDES"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155409-55-55/Screenshot-2022-08-10-at-17.42.05.png?v=637957429691430000",
+      "detailUrl": "/large-potatoes/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 6666,
+        "total": 6666,
+        "sellingPrices": [
+          {
+            "value": 6666,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/2/",
+        "productClusterId": "137",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "K**",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "6",
+      "priceTable": null,
+      "priceValidUntil": "2024-11-10T10:18:36Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/6",
+      "uniqueId": "A14663B01DA048F995AFF95CF358DD1C",
+      "id": "6",
+      "productId": "5",
+      "productRefId": "largeportion120g",
+      "refId": "LARGEPOTATOES120g",
+      "ean": "LARGEPOTATOES120g",
+      "name": "L*************",
+      "skuName": "L*************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 0,
+      "listPrice": 0,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 0,
+      "rewardValue": 0,
+      "isGift": true,
+      "preSaleDate": null,
+      "productCategoryIds": "/2/",
+      "productCategories": {
+        "2": "SIDES"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155409-55-55/Screenshot-2022-08-10-at-17.42.05.png?v=637957429691430000",
+      "detailUrl": "/large-potatoes/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "D************",
+          "value": 100,
+          "rawValue": 1,
+          "isPercentual": true,
+          "identifier": "2f5becce-a137-4c48-a6a0-a19db26bbb2a"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 0,
+        "total": 0,
+        "sellingPrices": [
+          {
+            "value": 0,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/10/",
+        "productClusterId": "137",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "K**",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "72",
+      "priceTable": null,
+      "priceValidUntil": "2024-11-10T10:18:36Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/72",
+      "uniqueId": "FE97E82D65484AEDBB7547CBC31B1375",
+      "id": "72",
+      "productId": "71",
+      "productRefId": "TWISTER®BOXCLASSIC",
+      "refId": "TWISTER®BOXCLASSIC",
+      "ean": "TWISTER®BOXCLASSIC",
+      "name": "T*******************",
+      "skuName": "T*******************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 6666,
+      "listPrice": 6666,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 6666,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/10/",
+      "productCategories": {
+        "10": "BOXES"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155477-55-55/82cd2e08-456b-4c81-b6d5-c8fff73693a3.png?v=637967954006000000",
+      "detailUrl": "/twister%C2%AE-box-classic/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 6666,
+        "total": 6666,
+        "sellingPrices": [
+          {
+            "value": 6666,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/1/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "K**",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "53",
+      "priceTable": null,
+      "priceValidUntil": "2024-11-10T10:18:36Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/53",
+      "uniqueId": "7015A175C3E9492B8E3067ABA449AD6E",
+      "id": "53",
+      "productId": "52",
+      "productRefId": "TWISTER®CLASSIC",
+      "refId": "TWISTER®CLASSIC",
+      "ean": "TWISTER®CLASSIC",
+      "name": "T***************",
+      "skuName": "T***************",
+      "modalType": null,
+      "parentItemIndex": 3,
+      "parentAssemblyBinding": "vtex.assembly-option.TWISTER BOX CLASSIC_Main 1",
+      "assemblies": [],
+      "tax": 0,
+      "price": 0,
+      "listPrice": 0,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 0,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/1/",
+      "productCategories": {
+        "1": "BURGERS & WRAPS"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155458-55-55/Twister_Classic_v2.png?v=637965213664200000",
+      "detailUrl": "/twister%C2%AE-classic/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 0,
+        "total": 0,
+        "sellingPrices": [
+          {
+            "value": 0,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/3/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "K**",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "57",
+      "priceTable": null,
+      "priceValidUntil": "2024-11-10T10:18:36Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/57",
+      "uniqueId": "000A07A91C30407E8D5245ADBEED7DB1",
+      "id": "57",
+      "productId": "56",
+      "productRefId": "5HOTWINGS",
+      "refId": "5HOTWINGS",
+      "ean": "5HOTWINGS",
+      "name": "5***********",
+      "skuName": "5***********",
+      "modalType": null,
+      "parentItemIndex": 3,
+      "parentAssemblyBinding": "vtex.assembly-option.TWISTER BOX CLASSIC_Main 2",
+      "assemblies": [],
+      "tax": 0,
+      "price": 0,
+      "listPrice": 0,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 0,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/3/",
+      "productCategories": {
+        "3": "CHICKEN"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155462-55-55/5_Hot_Wings.png?v=637967747971530000",
+      "detailUrl": "/5-hot-wings%C2%AE/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 0,
+        "total": 0,
+        "sellingPrices": [
+          {
+            "value": 0,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/5/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "C********",
+        "brandId": "2000002",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "7",
+      "priceTable": null,
+      "priceValidUntil": "2024-11-10T10:16:53Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/7",
+      "uniqueId": "C192A2E78F8F4ED2B69BAAA4C87AC519",
+      "id": "7",
+      "productId": "6",
+      "productRefId": "COKE0.5L",
+      "refId": "COKE0.5L",
+      "ean": "COKE0.5L",
+      "name": "C********",
+      "skuName": "C********",
+      "modalType": null,
+      "parentItemIndex": 3,
+      "parentAssemblyBinding": "vtex.assembly-option.TWISTER BOX CLASSIC_Beverage",
+      "assemblies": [],
+      "tax": 0,
+      "price": 0,
+      "listPrice": 0,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 0,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/5/",
+      "productCategories": {
+        "5": "BEVERAGES"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155410-55-55/Screenshot-2022-08-10-at-17.47.36.png?v=637957432852970000",
+      "detailUrl": "/coke-0-5l/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 0,
+        "total": 0,
+        "sellingPrices": [
+          {
+            "value": 0,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/4/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "K**",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "5",
+      "priceTable": null,
+      "priceValidUntil": "2024-11-10T10:18:36Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/5",
+      "uniqueId": "52A59DC4D74F4A71A080E10489072544",
+      "id": "5",
+      "productId": "4",
+      "productRefId": "SOSGLENN58g",
+      "refId": "SOSGLENN58g",
+      "ean": "SOSGLENN58g",
+      "name": "S********",
+      "skuName": "S********",
+      "modalType": null,
+      "parentItemIndex": 6,
+      "parentAssemblyBinding": "vtex.assembly-option.MENU 8 NON SPICY STRIPS_Sauce",
+      "assemblies": [],
+      "tax": 0,
+      "price": 0,
+      "listPrice": 0,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 0,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/4/",
+      "productCategories": {
+        "4": "SAUCES"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155408-55-55/Screenshot-2022-08-10-at-17.35.17.png?v=637957425620400000",
+      "detailUrl": "/sos-glenn/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 0,
+        "total": 0,
+        "sellingPrices": [
+          {
+            "value": 0,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/3/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "K**",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "64",
+      "priceTable": null,
+      "priceValidUntil": "2024-11-10T10:18:36Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/64",
+      "uniqueId": "250F3BF0CA854793938B9BC5F64E5572",
+      "id": "64",
+      "productId": "63",
+      "productRefId": "8NONSPICYSTRIPS",
+      "refId": "8NONSPICYSTRIPS",
+      "ean": "8NONSPICYSTRIPS",
+      "name": "8*****************",
+      "skuName": "8*****************",
+      "modalType": null,
+      "parentItemIndex": 6,
+      "parentAssemblyBinding": "vtex.assembly-option.MENU 8 NON SPICY STRIPS_Main",
+      "assemblies": [],
+      "tax": 0,
+      "price": 0,
+      "listPrice": 0,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 0,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/3/",
+      "productCategories": {
+        "3": "CHICKEN"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155469-55-55/53d17905-04e8-457b-b047-6ba3e20cbda8.png?v=637967788845270000",
+      "detailUrl": "/8-non-spicy-strips/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 0,
+        "total": 0,
+        "sellingPrices": [
+          {
+            "value": 0,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/9/",
+        "productClusterId": "137",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "K**",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "70",
+      "priceTable": null,
+      "priceValidUntil": "2024-11-10T10:20:23Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/70",
+      "uniqueId": "BEB8EEB9F12947F48D90632556BAFD5A",
+      "id": "70",
+      "productId": "69",
+      "productRefId": "SOGOODBUCKET",
+      "refId": "SOGOODBUCKET",
+      "ean": "SOGOODBUCKET",
+      "name": "S*************",
+      "skuName": "S*************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 6666,
+      "listPrice": 6666,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 6666,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/9/",
+      "productCategories": {
+        "9": "BUCKETS"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155475-55-55/So_Good_Bucket.png?v=637967875961200000",
+      "detailUrl": "/so-good-bucket/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 6666,
+        "total": 6666,
+        "sellingPrices": [
+          {
+            "value": 6666,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/2/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "K**",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "71",
+      "priceTable": "1",
+      "priceValidUntil": "2024-11-10T10:20:23Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/71",
+      "uniqueId": "1EB542FDC6C54578A2ED7A9658AE4AF7",
+      "id": "71",
+      "productId": "70",
+      "productRefId": "twopotatomedium",
+      "refId": "2potatomedium",
+      "ean": "2potatomedium",
+      "name": "2*******************************",
+      "skuName": "2*******************************",
+      "modalType": null,
+      "parentItemIndex": 9,
+      "parentAssemblyBinding": "vtex.assembly-option.SO GOOD BUCKET_Main 1",
+      "assemblies": [],
+      "tax": 0,
+      "price": 0,
+      "listPrice": 0,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 0,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/2/",
+      "productCategories": {
+        "2": "SIDES"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155476-55-55/cartofi_medii.png?v=637967893446370000",
+      "detailUrl": "/2-medium-portions-of-fries-180-g/p",
+      "components": [
+        {
+          "uniqueId": "49B2FBBF57E14F42AD05F378D4778D4F",
+          "id": "35",
+          "productId": null,
+          "productRefId": null,
+          "refId": "MEDIUMPOTATOES",
+          "ean": "MEDIUMPOTATOES",
+          "name": "M**************",
+          "skuName": null,
+          "modalType": null,
+          "parentItemIndex": null,
+          "parentAssemblyBinding": null,
+          "assemblies": [],
+          "priceValidUntil": null,
+          "tax": 0,
+          "price": 0,
+          "listPrice": null,
+          "manualPrice": null,
+          "manualPriceAppliedBy": null,
+          "sellingPrice": 0,
+          "rewardValue": 0,
+          "isGift": false,
+          "additionalInfo": {
+            "dimension": {
+              "cubicweight": 1,
+              "height": 1,
+              "length": 1,
+              "weight": 1,
+              "width": 1
+            },
+            "brandName": null,
+            "brandId": null,
+            "offeringInfo": null,
+            "offeringType": null,
+            "offeringTypeId": null
+          },
+          "preSaleDate": null,
+          "productCategoryIds": null,
+          "productCategories": {},
+          "quantity": 2,
+          "seller": null,
+          "sellerChain": [null],
+          "imageUrl": null,
+          "detailUrl": null,
+          "components": [],
+          "bundleItems": [],
+          "attachments": [],
+          "attachmentOfferings": [],
+          "offerings": [],
+          "priceTags": [],
+          "availability": null,
+          "measurementUnit": "un",
+          "unitMultiplier": 1,
+          "manufacturerCode": null,
+          "priceDefinition": {
+            "calculatedSellingPrice": 0,
+            "total": 0,
+            "sellingPrices": [
+              {
+                "value": 0,
+                "quantity": 2
+              }
+            ]
+          }
+        }
+      ],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 0,
+        "total": 0,
+        "sellingPrices": [
+          {
+            "value": 0,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/3/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "K**",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "59",
+      "priceTable": null,
+      "priceValidUntil": "2024-11-10T10:20:23Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/59",
+      "uniqueId": "A29A01A1FA934B9F834C0924178BC066",
+      "id": "59",
+      "productId": "58",
+      "productRefId": "8HOTWINGS®",
+      "refId": "8HOTWINGS®",
+      "ean": "8HOTWINGS®",
+      "name": "8***********",
+      "skuName": "8***********",
+      "modalType": null,
+      "parentItemIndex": 9,
+      "parentAssemblyBinding": "vtex.assembly-option.SO GOOD BUCKET_Main 2",
+      "assemblies": [],
+      "tax": 0,
+      "price": 0,
+      "listPrice": 0,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 0,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/3/",
+      "productCategories": {
+        "3": "CHICKEN"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155464-55-55/8_hot_wings.png?v=637967780339600000",
+      "detailUrl": "/8-hot-wings%C2%AE/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 0,
+        "total": 0,
+        "sellingPrices": [
+          {
+            "value": 0,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/3/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "K**",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "60",
+      "priceTable": null,
+      "priceValidUntil": "2024-11-10T10:20:23Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/60",
+      "uniqueId": "B666FE36A20844799D6ABCC5564E9296",
+      "id": "60",
+      "productId": "59",
+      "productRefId": "9FILLETBITES®",
+      "refId": "9FILLETBITES®",
+      "ean": "9FILLETBITES®",
+      "name": "9**************",
+      "skuName": "9**************",
+      "modalType": null,
+      "parentItemIndex": 9,
+      "parentAssemblyBinding": "vtex.assembly-option.SO GOOD BUCKET_Main 3",
+      "assemblies": [],
+      "tax": 0,
+      "price": 0,
+      "listPrice": 0,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 0,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/3/",
+      "productCategories": {
+        "3": "CHICKEN"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155465-55-55/9_fillet_bites--1-.png?v=637967781569930000",
+      "detailUrl": "/9-fillet-bites%C2%AE/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 0,
+        "total": 0,
+        "sellingPrices": [
+          {
+            "value": 0,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/9/",
+        "productClusterId": "137",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "K**",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "69",
+      "priceTable": null,
+      "priceValidUntil": "2024-11-10T10:20:23Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/69",
+      "uniqueId": "ED3376995A884713BFEBDAC40A7AD286",
+      "id": "69",
+      "productId": "68",
+      "productRefId": "HOTBUCKET",
+      "refId": "HOTBUCKET",
+      "ean": "HOTBUCKET",
+      "name": "H*********",
+      "skuName": "H*********",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 6666,
+      "listPrice": 6666,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 6666,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/9/",
+      "productCategories": {
+        "9": "BUCKETS"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155474-55-55/hot_bucket.png?v=637967867698430000",
+      "detailUrl": "/hot-bucket/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 6666,
+        "total": 6666,
+        "sellingPrices": [
+          {
+            "value": 6666,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/7/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "K**",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "43",
+      "priceTable": null,
+      "priceValidUntil": "2024-11-10T10:20:50Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/43",
+      "uniqueId": "9409C43092394BF28D7ECF88659792BD",
+      "id": "43",
+      "productId": "42",
+      "productRefId": "APPLECAKE",
+      "refId": "APPLECAKE",
+      "ean": "APPLECAKE",
+      "name": "A*********",
+      "skuName": "A*********",
+      "modalType": null,
+      "parentItemIndex": 13,
+      "parentAssemblyBinding": "vtex.assembly-option.Desserts_Enjoy a dessert. As low as $10",
+      "assemblies": [],
+      "tax": 0,
+      "price": 6666,
+      "listPrice": 6666,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 6666,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/7/",
+      "productCategories": {
+        "7": "DESSERT"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155448-55-55/8627ffce-6270-4bc2-810a-e956ea9254c0.png?v=637965195539430000",
+      "detailUrl": "/apple-cake/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 6666,
+        "total": 6666,
+        "sellingPrices": [
+          {
+            "value": 6666,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/7/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "K**",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "44",
+      "priceTable": null,
+      "priceValidUntil": "2024-11-10T10:20:50Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/44",
+      "uniqueId": "DA82BFF8FCBA4CEEA22C0C9E43BFB7FC",
+      "id": "44",
+      "productId": "43",
+      "productRefId": "CARROTCAKE",
+      "refId": "CARROTCAKE",
+      "ean": "CARROTCAKE",
+      "name": "C**********",
+      "skuName": "C**********",
+      "modalType": null,
+      "parentItemIndex": 13,
+      "parentAssemblyBinding": "vtex.assembly-option.Desserts_Enjoy a dessert. As low as $10",
+      "assemblies": [],
+      "tax": 0,
+      "price": 6666,
+      "listPrice": 6666,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 6666,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/7/",
+      "productCategories": {
+        "7": "DESSERT"
+      },
+      "quantity": 1,
+      "seller": "kfcromaniabucharest1",
+      "sellerChain": ["kfcromaniabucharest1"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155449-55-55/37e8f7ba-106c-4466-83b0-f0e4b2086d18.png?v=637965196492900000",
+      "detailUrl": "/carrot-cake/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 6666,
+        "total": 6666,
+        "sellingPrices": [
+          {
+            "value": 6666,
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  ],
+  "sellers": [
+    {
+      "subSellerId": "1",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=kfcromaniabucharest1&affiliateId=SLR&sc=1",
+      "id": "kfcromaniabucharest1",
+      "name": "k*******************",
+      "logo": ""
+    }
+  ],
+  "giftRegistryData": null,
+  "receiptData": null,
+  "contextData": null,
+  "marketPlaceOrderId": "",
+  "marketPlaceOrderGroup": null,
+  "marketplaceServicesEndpoint": null,
+  "orderFormId": "cdeec6f05125441182947596a0592e7c",
+  "sequence": "500224",
+  "affiliateId": "",
+  "status": "",
+  "callCenterOperator": "",
+  "userProfileId": "bc6d0f6c-dbd8-4e86-b2eb-cfb23a907c71",
+  "hostName": "k*********",
+  "creationVersion": null,
+  "creationEnvironment": null,
+  "lastChangeVersion": null,
+  "workflowInstanceId": null,
+  "marketplacePaymentValue": null,
+  "orderId": "1375220500224-01",
+  "orderGroup": "1375220500224",
+  "state": "payment-approved",
+  "isCheckedIn": false,
+  "sellerOrderId": "SLR-1375220500224-01",
+  "storeId": null,
+  "checkedInPickupPointId": null,
+  "value": 146662,
+  "totals": [
+    {
+      "id": "Items",
+      "name": "T*************",
+      "value": 46662
+    },
+    {
+      "id": "Discounts",
+      "name": "T*************",
+      "value": 0
+    },
+    {
+      "id": "Shipping",
+      "name": "T**************",
+      "value": 100000
+    },
+    {
+      "id": "Tax",
+      "name": "T*********",
+      "value": 0
+    }
+  ],
+  "clientProfileData": {
+    "email": "7*******************************@c*.v***.c**.b*",
+    "firstName": "E****",
+    "lastName": "P",
+    "document": null,
+    "documentType": "document",
+    "phone": "+4**********",
+    "corporateName": null,
+    "tradeName": null,
+    "corporateDocument": null,
+    "stateInscription": null,
+    "corporatePhone": null,
+    "isCorporate": false,
+    "profileCompleteOnLoading": true,
+    "profileErrorOnLoading": false,
+    "customerClass": null
+  },
+  "ratesAndBenefitsData": {
+    "rateAndBenefitsIdentifiers": [
+      {
+        "id": "2f5becce-a137-4c48-a6a0-a19db26bbb2a",
+        "name": "1*********",
+        "featured": false,
+        "description": "1 + 1 Gift",
+        "matchedParameters": {
+          "buyAndWin@Marketing": "6,6"
+        },
+        "additionalInfo": null
+      }
+    ],
+    "teaser": []
+  },
+  "shippingData": {
+    "address": {
+      "addressType": "pickup",
+      "receiverName": "E**** P",
+      "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+      "isDisposable": true,
+      "postalCode": "1*****",
+      "city": "O*** B******",
+      "state": "Prahova",
+      "country": "ROU",
+      "street": "S***** Z******",
+      "number": "1",
+      "neighborhood": "",
+      "complement": "",
+      "reference": null,
+      "geoCoordinates": [-51.4779552, -0.0039779]
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "selectedSla": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+        "selectedDeliveryChannel": "pickup-in-point",
+        "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+        "slas": [
+          {
+            "id": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+            "deliveryChannel": "pickup-in-point",
+            "name": "K****************************************************************",
+            "deliveryIds": [
+              {
+                "courierId": "1630062",
+                "warehouseId": "collect",
+                "dockId": "collect",
+                "courierName": "K*************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:21:36.9131033Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 6250,
+            "listPrice": 6250,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": true,
+              "friendlyName": "K********************",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+                "isDisposable": true,
+                "postalCode": "1*****",
+                "city": "O*** B******",
+                "state": "Prahova",
+                "country": "ROU",
+                "street": "S***** Z******",
+                "number": "1",
+                "neighborhood": "",
+                "complement": "",
+                "reference": null,
+                "geoCoordinates": [-51.4779552, -0.0039779]
+              },
+              "additionalInfo": "-Bucharest restaurant 1-\n\nDeliveries from 7.30 am to 9.00 pm\n\nTimp estimat de livrare: 40-80 min\n\nComandă minimă 30.00 lei\n\nCostul de livrare pentru orice comandă peste 30 lei este de 8.9 lei.",
+              "dockId": null
+            },
+            "pickupPointId": "kfcromaniabucharest1_4ba30500-41e1-4918-a8ab-039042495431",
+            "pickupDistance": 0,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "6",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 1,
+        "selectedSla": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+        "selectedDeliveryChannel": "pickup-in-point",
+        "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+        "slas": [
+          {
+            "id": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+            "deliveryChannel": "pickup-in-point",
+            "name": "K****************************************************************",
+            "deliveryIds": [
+              {
+                "courierId": "1630062",
+                "warehouseId": "collect",
+                "dockId": "collect",
+                "courierName": "K*************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:21:36.9131033Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 6250,
+            "listPrice": 6250,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": true,
+              "friendlyName": "K********************",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+                "isDisposable": true,
+                "postalCode": "1*****",
+                "city": "O*** B******",
+                "state": "Prahova",
+                "country": "ROU",
+                "street": "S***** Z******",
+                "number": "1",
+                "neighborhood": "",
+                "complement": "",
+                "reference": null,
+                "geoCoordinates": [-51.4779552, -0.0039779]
+              },
+              "additionalInfo": "-Bucharest restaurant 1-\n\nDeliveries from 7.30 am to 9.00 pm\n\nTimp estimat de livrare: 40-80 min\n\nComandă minimă 30.00 lei\n\nCostul de livrare pentru orice comandă peste 30 lei este de 8.9 lei.",
+              "dockId": null
+            },
+            "pickupPointId": "kfcromaniabucharest1_4ba30500-41e1-4918-a8ab-039042495431",
+            "pickupDistance": 0,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "6",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 2,
+        "selectedSla": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+        "selectedDeliveryChannel": "pickup-in-point",
+        "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+        "slas": [
+          {
+            "id": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+            "deliveryChannel": "pickup-in-point",
+            "name": "K****************************************************************",
+            "deliveryIds": [
+              {
+                "courierId": "1630062",
+                "warehouseId": "collect",
+                "dockId": "collect",
+                "courierName": "K*************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:21:36.9131033Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 6250,
+            "listPrice": 6250,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": true,
+              "friendlyName": "K********************",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+                "isDisposable": true,
+                "postalCode": "1*****",
+                "city": "O*** B******",
+                "state": "Prahova",
+                "country": "ROU",
+                "street": "S***** Z******",
+                "number": "1",
+                "neighborhood": "",
+                "complement": "",
+                "reference": null,
+                "geoCoordinates": [-51.4779552, -0.0039779]
+              },
+              "additionalInfo": "-Bucharest restaurant 1-\n\nDeliveries from 7.30 am to 9.00 pm\n\nTimp estimat de livrare: 40-80 min\n\nComandă minimă 30.00 lei\n\nCostul de livrare pentru orice comandă peste 30 lei este de 8.9 lei.",
+              "dockId": null
+            },
+            "pickupPointId": "kfcromaniabucharest1_4ba30500-41e1-4918-a8ab-039042495431",
+            "pickupDistance": 0,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "6",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 3,
+        "selectedSla": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+        "selectedDeliveryChannel": "pickup-in-point",
+        "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+        "slas": [
+          {
+            "id": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+            "deliveryChannel": "pickup-in-point",
+            "name": "K****************************************************************",
+            "deliveryIds": [
+              {
+                "courierId": "1630062",
+                "warehouseId": "collect",
+                "dockId": "collect",
+                "courierName": "K*************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:21:36.9131033Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 6250,
+            "listPrice": 6250,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": true,
+              "friendlyName": "K********************",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+                "isDisposable": true,
+                "postalCode": "1*****",
+                "city": "O*** B******",
+                "state": "Prahova",
+                "country": "ROU",
+                "street": "S***** Z******",
+                "number": "1",
+                "neighborhood": "",
+                "complement": "",
+                "reference": null,
+                "geoCoordinates": [-51.4779552, -0.0039779]
+              },
+              "additionalInfo": "-Bucharest restaurant 1-\n\nDeliveries from 7.30 am to 9.00 pm\n\nTimp estimat de livrare: 40-80 min\n\nComandă minimă 30.00 lei\n\nCostul de livrare pentru orice comandă peste 30 lei este de 8.9 lei.",
+              "dockId": null
+            },
+            "pickupPointId": "kfcromaniabucharest1_4ba30500-41e1-4918-a8ab-039042495431",
+            "pickupDistance": 0,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "72",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 4,
+        "selectedSla": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+        "selectedDeliveryChannel": "pickup-in-point",
+        "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+        "slas": [
+          {
+            "id": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+            "deliveryChannel": "pickup-in-point",
+            "name": "K****************************************************************",
+            "deliveryIds": [
+              {
+                "courierId": "1630062",
+                "warehouseId": "collect",
+                "dockId": "collect",
+                "courierName": "K*************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:21:36.9131033Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 6250,
+            "listPrice": 6250,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": true,
+              "friendlyName": "K********************",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+                "isDisposable": true,
+                "postalCode": "1*****",
+                "city": "O*** B******",
+                "state": "Prahova",
+                "country": "ROU",
+                "street": "S***** Z******",
+                "number": "1",
+                "neighborhood": "",
+                "complement": "",
+                "reference": null,
+                "geoCoordinates": [-51.4779552, -0.0039779]
+              },
+              "additionalInfo": "-Bucharest restaurant 1-\n\nDeliveries from 7.30 am to 9.00 pm\n\nTimp estimat de livrare: 40-80 min\n\nComandă minimă 30.00 lei\n\nCostul de livrare pentru orice comandă peste 30 lei este de 8.9 lei.",
+              "dockId": null
+            },
+            "pickupPointId": "kfcromaniabucharest1_4ba30500-41e1-4918-a8ab-039042495431",
+            "pickupDistance": 0,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "53",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 5,
+        "selectedSla": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+        "selectedDeliveryChannel": "pickup-in-point",
+        "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+        "slas": [
+          {
+            "id": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+            "deliveryChannel": "pickup-in-point",
+            "name": "K****************************************************************",
+            "deliveryIds": [
+              {
+                "courierId": "1630062",
+                "warehouseId": "collect",
+                "dockId": "collect",
+                "courierName": "K*************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:21:36.9131033Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 6250,
+            "listPrice": 6250,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": true,
+              "friendlyName": "K********************",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+                "isDisposable": true,
+                "postalCode": "1*****",
+                "city": "O*** B******",
+                "state": "Prahova",
+                "country": "ROU",
+                "street": "S***** Z******",
+                "number": "1",
+                "neighborhood": "",
+                "complement": "",
+                "reference": null,
+                "geoCoordinates": [-51.4779552, -0.0039779]
+              },
+              "additionalInfo": "-Bucharest restaurant 1-\n\nDeliveries from 7.30 am to 9.00 pm\n\nTimp estimat de livrare: 40-80 min\n\nComandă minimă 30.00 lei\n\nCostul de livrare pentru orice comandă peste 30 lei este de 8.9 lei.",
+              "dockId": null
+            },
+            "pickupPointId": "kfcromaniabucharest1_4ba30500-41e1-4918-a8ab-039042495431",
+            "pickupDistance": 0,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "57",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 6,
+        "selectedSla": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+        "selectedDeliveryChannel": "pickup-in-point",
+        "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+        "slas": [
+          {
+            "id": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+            "deliveryChannel": "pickup-in-point",
+            "name": "K****************************************************************",
+            "deliveryIds": [
+              {
+                "courierId": "1630062",
+                "warehouseId": "collect",
+                "dockId": "collect",
+                "courierName": "K*************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:21:36.9131033Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 6250,
+            "listPrice": 6250,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": true,
+              "friendlyName": "K********************",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+                "isDisposable": true,
+                "postalCode": "1*****",
+                "city": "O*** B******",
+                "state": "Prahova",
+                "country": "ROU",
+                "street": "S***** Z******",
+                "number": "1",
+                "neighborhood": "",
+                "complement": "",
+                "reference": null,
+                "geoCoordinates": [-51.4779552, -0.0039779]
+              },
+              "additionalInfo": "-Bucharest restaurant 1-\n\nDeliveries from 7.30 am to 9.00 pm\n\nTimp estimat de livrare: 40-80 min\n\nComandă minimă 30.00 lei\n\nCostul de livrare pentru orice comandă peste 30 lei este de 8.9 lei.",
+              "dockId": null
+            },
+            "pickupPointId": "kfcromaniabucharest1_4ba30500-41e1-4918-a8ab-039042495431",
+            "pickupDistance": 0,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "7",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 7,
+        "selectedSla": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+        "selectedDeliveryChannel": "pickup-in-point",
+        "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+        "slas": [
+          {
+            "id": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+            "deliveryChannel": "pickup-in-point",
+            "name": "K****************************************************************",
+            "deliveryIds": [
+              {
+                "courierId": "1630062",
+                "warehouseId": "collect",
+                "dockId": "collect",
+                "courierName": "K*************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:21:36.9131033Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 6250,
+            "listPrice": 6250,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": true,
+              "friendlyName": "K********************",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+                "isDisposable": true,
+                "postalCode": "1*****",
+                "city": "O*** B******",
+                "state": "Prahova",
+                "country": "ROU",
+                "street": "S***** Z******",
+                "number": "1",
+                "neighborhood": "",
+                "complement": "",
+                "reference": null,
+                "geoCoordinates": [-51.4779552, -0.0039779]
+              },
+              "additionalInfo": "-Bucharest restaurant 1-\n\nDeliveries from 7.30 am to 9.00 pm\n\nTimp estimat de livrare: 40-80 min\n\nComandă minimă 30.00 lei\n\nCostul de livrare pentru orice comandă peste 30 lei este de 8.9 lei.",
+              "dockId": null
+            },
+            "pickupPointId": "kfcromaniabucharest1_4ba30500-41e1-4918-a8ab-039042495431",
+            "pickupDistance": 0,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "5",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 8,
+        "selectedSla": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+        "selectedDeliveryChannel": "pickup-in-point",
+        "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+        "slas": [
+          {
+            "id": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+            "deliveryChannel": "pickup-in-point",
+            "name": "K****************************************************************",
+            "deliveryIds": [
+              {
+                "courierId": "1630062",
+                "warehouseId": "collect",
+                "dockId": "collect",
+                "courierName": "K*************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:21:36.9131033Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 6250,
+            "listPrice": 6250,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": true,
+              "friendlyName": "K********************",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+                "isDisposable": true,
+                "postalCode": "1*****",
+                "city": "O*** B******",
+                "state": "Prahova",
+                "country": "ROU",
+                "street": "S***** Z******",
+                "number": "1",
+                "neighborhood": "",
+                "complement": "",
+                "reference": null,
+                "geoCoordinates": [-51.4779552, -0.0039779]
+              },
+              "additionalInfo": "-Bucharest restaurant 1-\n\nDeliveries from 7.30 am to 9.00 pm\n\nTimp estimat de livrare: 40-80 min\n\nComandă minimă 30.00 lei\n\nCostul de livrare pentru orice comandă peste 30 lei este de 8.9 lei.",
+              "dockId": null
+            },
+            "pickupPointId": "kfcromaniabucharest1_4ba30500-41e1-4918-a8ab-039042495431",
+            "pickupDistance": 0,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "64",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 9,
+        "selectedSla": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+        "selectedDeliveryChannel": "pickup-in-point",
+        "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+        "slas": [
+          {
+            "id": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+            "deliveryChannel": "pickup-in-point",
+            "name": "K****************************************************************",
+            "deliveryIds": [
+              {
+                "courierId": "1630062",
+                "warehouseId": "collect",
+                "dockId": "collect",
+                "courierName": "K*************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:21:36.9131033Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 6250,
+            "listPrice": 6250,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": true,
+              "friendlyName": "K********************",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+                "isDisposable": true,
+                "postalCode": "1*****",
+                "city": "O*** B******",
+                "state": "Prahova",
+                "country": "ROU",
+                "street": "S***** Z******",
+                "number": "1",
+                "neighborhood": "",
+                "complement": "",
+                "reference": null,
+                "geoCoordinates": [-51.4779552, -0.0039779]
+              },
+              "additionalInfo": "-Bucharest restaurant 1-\n\nDeliveries from 7.30 am to 9.00 pm\n\nTimp estimat de livrare: 40-80 min\n\nComandă minimă 30.00 lei\n\nCostul de livrare pentru orice comandă peste 30 lei este de 8.9 lei.",
+              "dockId": null
+            },
+            "pickupPointId": "kfcromaniabucharest1_4ba30500-41e1-4918-a8ab-039042495431",
+            "pickupDistance": 0,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "70",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 10,
+        "selectedSla": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+        "selectedDeliveryChannel": "pickup-in-point",
+        "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+        "slas": [
+          {
+            "id": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+            "deliveryChannel": "pickup-in-point",
+            "name": "K****************************************************************",
+            "deliveryIds": [
+              {
+                "courierId": "1630062",
+                "warehouseId": "collect",
+                "dockId": "collect",
+                "courierName": "K*************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:21:36.9131033Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 6250,
+            "listPrice": 6250,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": true,
+              "friendlyName": "K********************",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+                "isDisposable": true,
+                "postalCode": "1*****",
+                "city": "O*** B******",
+                "state": "Prahova",
+                "country": "ROU",
+                "street": "S***** Z******",
+                "number": "1",
+                "neighborhood": "",
+                "complement": "",
+                "reference": null,
+                "geoCoordinates": [-51.4779552, -0.0039779]
+              },
+              "additionalInfo": "-Bucharest restaurant 1-\n\nDeliveries from 7.30 am to 9.00 pm\n\nTimp estimat de livrare: 40-80 min\n\nComandă minimă 30.00 lei\n\nCostul de livrare pentru orice comandă peste 30 lei este de 8.9 lei.",
+              "dockId": null
+            },
+            "pickupPointId": "kfcromaniabucharest1_4ba30500-41e1-4918-a8ab-039042495431",
+            "pickupDistance": 0,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "71",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 11,
+        "selectedSla": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+        "selectedDeliveryChannel": "pickup-in-point",
+        "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+        "slas": [
+          {
+            "id": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+            "deliveryChannel": "pickup-in-point",
+            "name": "K****************************************************************",
+            "deliveryIds": [
+              {
+                "courierId": "1630062",
+                "warehouseId": "collect",
+                "dockId": "collect",
+                "courierName": "K*************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:21:36.9131033Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 6250,
+            "listPrice": 6250,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": true,
+              "friendlyName": "K********************",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+                "isDisposable": true,
+                "postalCode": "1*****",
+                "city": "O*** B******",
+                "state": "Prahova",
+                "country": "ROU",
+                "street": "S***** Z******",
+                "number": "1",
+                "neighborhood": "",
+                "complement": "",
+                "reference": null,
+                "geoCoordinates": [-51.4779552, -0.0039779]
+              },
+              "additionalInfo": "-Bucharest restaurant 1-\n\nDeliveries from 7.30 am to 9.00 pm\n\nTimp estimat de livrare: 40-80 min\n\nComandă minimă 30.00 lei\n\nCostul de livrare pentru orice comandă peste 30 lei este de 8.9 lei.",
+              "dockId": null
+            },
+            "pickupPointId": "kfcromaniabucharest1_4ba30500-41e1-4918-a8ab-039042495431",
+            "pickupDistance": 0,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "59",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 12,
+        "selectedSla": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+        "selectedDeliveryChannel": "pickup-in-point",
+        "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+        "slas": [
+          {
+            "id": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+            "deliveryChannel": "pickup-in-point",
+            "name": "K****************************************************************",
+            "deliveryIds": [
+              {
+                "courierId": "1630062",
+                "warehouseId": "collect",
+                "dockId": "collect",
+                "courierName": "K*************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:21:36.9131033Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 6250,
+            "listPrice": 6250,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": true,
+              "friendlyName": "K********************",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+                "isDisposable": true,
+                "postalCode": "1*****",
+                "city": "O*** B******",
+                "state": "Prahova",
+                "country": "ROU",
+                "street": "S***** Z******",
+                "number": "1",
+                "neighborhood": "",
+                "complement": "",
+                "reference": null,
+                "geoCoordinates": [-51.4779552, -0.0039779]
+              },
+              "additionalInfo": "-Bucharest restaurant 1-\n\nDeliveries from 7.30 am to 9.00 pm\n\nTimp estimat de livrare: 40-80 min\n\nComandă minimă 30.00 lei\n\nCostul de livrare pentru orice comandă peste 30 lei este de 8.9 lei.",
+              "dockId": null
+            },
+            "pickupPointId": "kfcromaniabucharest1_4ba30500-41e1-4918-a8ab-039042495431",
+            "pickupDistance": 0,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "60",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 13,
+        "selectedSla": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+        "selectedDeliveryChannel": "pickup-in-point",
+        "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+        "slas": [
+          {
+            "id": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+            "deliveryChannel": "pickup-in-point",
+            "name": "K****************************************************************",
+            "deliveryIds": [
+              {
+                "courierId": "1630062",
+                "warehouseId": "collect",
+                "dockId": "collect",
+                "courierName": "K*************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:21:36.9131033Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 6250,
+            "listPrice": 6250,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": true,
+              "friendlyName": "K********************",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+                "isDisposable": true,
+                "postalCode": "1*****",
+                "city": "O*** B******",
+                "state": "Prahova",
+                "country": "ROU",
+                "street": "S***** Z******",
+                "number": "1",
+                "neighborhood": "",
+                "complement": "",
+                "reference": null,
+                "geoCoordinates": [-51.4779552, -0.0039779]
+              },
+              "additionalInfo": "-Bucharest restaurant 1-\n\nDeliveries from 7.30 am to 9.00 pm\n\nTimp estimat de livrare: 40-80 min\n\nComandă minimă 30.00 lei\n\nCostul de livrare pentru orice comandă peste 30 lei este de 8.9 lei.",
+              "dockId": null
+            },
+            "pickupPointId": "kfcromaniabucharest1_4ba30500-41e1-4918-a8ab-039042495431",
+            "pickupDistance": 0,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "69",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 14,
+        "selectedSla": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+        "selectedDeliveryChannel": "pickup-in-point",
+        "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+        "slas": [
+          {
+            "id": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+            "deliveryChannel": "pickup-in-point",
+            "name": "K****************************************************************",
+            "deliveryIds": [
+              {
+                "courierId": "1630062",
+                "warehouseId": "collect",
+                "dockId": "collect",
+                "courierName": "K*************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:21:36.9131033Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 6250,
+            "listPrice": 6250,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": true,
+              "friendlyName": "K********************",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+                "isDisposable": true,
+                "postalCode": "1*****",
+                "city": "O*** B******",
+                "state": "Prahova",
+                "country": "ROU",
+                "street": "S***** Z******",
+                "number": "1",
+                "neighborhood": "",
+                "complement": "",
+                "reference": null,
+                "geoCoordinates": [-51.4779552, -0.0039779]
+              },
+              "additionalInfo": "-Bucharest restaurant 1-\n\nDeliveries from 7.30 am to 9.00 pm\n\nTimp estimat de livrare: 40-80 min\n\nComandă minimă 30.00 lei\n\nCostul de livrare pentru orice comandă peste 30 lei este de 8.9 lei.",
+              "dockId": null
+            },
+            "pickupPointId": "kfcromaniabucharest1_4ba30500-41e1-4918-a8ab-039042495431",
+            "pickupDistance": 0,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "43",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 15,
+        "selectedSla": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+        "selectedDeliveryChannel": "pickup-in-point",
+        "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+        "slas": [
+          {
+            "id": "KFC Menu Click and Collect (4ba30500-41e1-4918-a8ab-039042495431)",
+            "deliveryChannel": "pickup-in-point",
+            "name": "K****************************************************************",
+            "deliveryIds": [
+              {
+                "courierId": "1630062",
+                "warehouseId": "collect",
+                "dockId": "collect",
+                "courierName": "K*************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "102d",
+            "shippingEstimateDate": "2024-02-20T10:21:36.9131033Z",
+            "lockTTL": "95d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 6250,
+            "listPrice": 6250,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": true,
+              "friendlyName": "K********************",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+                "isDisposable": true,
+                "postalCode": "1*****",
+                "city": "O*** B******",
+                "state": "Prahova",
+                "country": "ROU",
+                "street": "S***** Z******",
+                "number": "1",
+                "neighborhood": "",
+                "complement": "",
+                "reference": null,
+                "geoCoordinates": [-51.4779552, -0.0039779]
+              },
+              "additionalInfo": "-Bucharest restaurant 1-\n\nDeliveries from 7.30 am to 9.00 pm\n\nTimp estimat de livrare: 40-80 min\n\nComandă minimă 30.00 lei\n\nCostul de livrare pentru orice comandă peste 30 lei este de 8.9 lei.",
+              "dockId": null
+            },
+            "pickupPointId": "kfcromaniabucharest1_4ba30500-41e1-4918-a8ab-039042495431",
+            "pickupDistance": 0,
+            "polygonName": "b*********",
+            "transitTime": "72d"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "44",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      }
+    ],
+    "selectedAddresses": [
+      {
+        "addressType": "pickup",
+        "receiverName": "E**** P",
+        "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+        "isDisposable": true,
+        "postalCode": "1*****",
+        "city": "O*** B******",
+        "state": "Prahova",
+        "country": "ROU",
+        "street": "S***** Z******",
+        "number": "1",
+        "neighborhood": "",
+        "complement": "",
+        "reference": null,
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressType": "pickup",
+        "receiverName": "E**** P",
+        "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+        "isDisposable": true,
+        "postalCode": "1*****",
+        "city": "O*** B******",
+        "state": "Prahova",
+        "country": "ROU",
+        "street": "S***** Z******",
+        "number": "1",
+        "neighborhood": "",
+        "complement": "",
+        "reference": null,
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "pickupPoints": [
+      {
+        "friendlyName": "K********************",
+        "address": {
+          "addressType": "pickup",
+          "receiverName": null,
+          "addressId": "4ba30500-41e1-4918-a8ab-039042495431",
+          "isDisposable": true,
+          "postalCode": "1*****",
+          "city": "O*** B******",
+          "state": "Prahova",
+          "country": "ROU",
+          "street": "S***** Z******",
+          "number": "1",
+          "neighborhood": "",
+          "complement": "",
+          "reference": null,
+          "geoCoordinates": [-51.4779552, -0.0039779]
+        },
+        "additionalInfo": "-Bucharest restaurant 1-\n\nDeliveries from 7.30 am to 9.00 pm\n\nTimp estimat de livrare: 40-80 min\n\nComandă minimă 30.00 lei\n\nCostul de livrare pentru orice comandă peste 30 lei este de 8.9 lei.",
+        "id": "kfcromaniabucharest1_4ba30500-41e1-4918-a8ab-039042495431",
+        "businessHours": [
+          {
+            "DayOfWeek": 0,
+            "OpeningTime": "00:00:00",
+            "ClosingTime": "23:59:00"
+          },
+          {
+            "DayOfWeek": 1,
+            "OpeningTime": "00:00:00",
+            "ClosingTime": "23:59:00"
+          },
+          {
+            "DayOfWeek": 2,
+            "OpeningTime": "00:00:00",
+            "ClosingTime": "23:59:00"
+          },
+          {
+            "DayOfWeek": 3,
+            "OpeningTime": "00:00:00",
+            "ClosingTime": "23:59:00"
+          },
+          {
+            "DayOfWeek": 4,
+            "OpeningTime": "00:00:00",
+            "ClosingTime": "23:59:00"
+          },
+          {
+            "DayOfWeek": 5,
+            "OpeningTime": "00:00:00",
+            "ClosingTime": "23:59:00"
+          },
+          {
+            "DayOfWeek": 6,
+            "OpeningTime": "00:00:00",
+            "ClosingTime": "23:59:00"
+          }
+        ]
+      }
+    ]
+  },
+  "clientPreferencesData": {
+    "locale": "ro-RO",
+    "optinNewsLetter": false
+  },
+  "commercialConditionData": null,
+  "marketingData": {
+    "utmSource": null,
+    "utmMedium": null,
+    "utmCampaign": null,
+    "utmipage": null,
+    "utmiPart": null,
+    "utmiCampaign": null,
+    "coupon": null,
+    "marketingTags": ["vtexSocialSelling"]
+  },
+  "storePreferencesData": {
+    "countryCode": "ROU",
+    "saveUserData": false,
+    "timeZone": "GTB Standard Time",
+    "currencyCode": "RON",
+    "currencyLocale": 1048,
+    "currencySymbol": "lei",
+    "currencyFormatInfo": {
+      "currencyDecimalDigits": 2,
+      "currencyDecimalSeparator": ",",
+      "currencyGroupSeparator": ".",
+      "currencyGroupSize": 3,
+      "startsWithCurrencySymbol": false
+    }
+  },
+  "openTextField": null,
+  "invoiceData": {
+    "address": {
+      "postalCode": null,
+      "city": "B********",
+      "state": "BUCUREȘTI",
+      "country": "ROU",
+      "street": "S***** V* V* S******",
+      "number": "5",
+      "neighborhood": "",
+      "complement": "2",
+      "reference": null,
+      "geoCoordinates": [-51.4779552, -0.0039779]
+    }
+  },
+  "itemMetadata": null,
+  "taxData": null,
+  "customData": {
+    "customApps": [
+      {
+        "fields": {
+          "type": "eat-in"
+        },
+        "id": "orderpickuptype",
+        "major": 1
+      }
+    ]
+  },
+  "hooksData": null,
+  "changeData": null,
+  "subscriptionData": null,
+  "salesChannel": "1",
+  "followUpEmail": "6**********************************.v***.c**.b*",
+  "creationDate": "2023-11-10T10:21:31.816266Z",
+  "lastChange": "2023-11-10T10:21:39.2969766Z",
+  "timeZoneCreationDate": "2023-11-10T12:21:31.816266",
+  "timeZoneLastChange": "2023-11-10T12:21:39.2969766",
+  "isCompleted": true,
+  "merchantName": null,
+  "userType": "",
+  "roundingError": 0,
+  "allowEdition": false,
+  "allowCancellation": false,
+  "isUserDataVisible": false,
+  "allowChangeSeller": false,
+  "_accountInfo": {
+    "MainAccountName": "k*********",
+    "AccountName": "k*********",
+    "Cnpj": null,
+    "Id": "f7ab254d-7021-4bb4-9e74-dcf376a73227",
+    "AppId": null,
+    "IsActive": true,
+    "IsOperating": false,
+    "CreationDate": "2022-06-22T15:18:43.7789785Z",
+    "OperationDate": null,
+    "CompanyName": "C************************************************",
+    "TradingName": "V***",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [7],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null
+  }
+}
