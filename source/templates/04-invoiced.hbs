@@ -1,55 +1,20 @@
 <!-- partial:partials/container/mail-start.hbs --><!-- partial -->
-<h1>((i18n.invoice.invoiced))</h1>
-<!-- partial:partials/messages/order-reference.hbs --><!-- partial -->
-<!-- partial:partials/container/mail-middle.hbs --><!-- partial -->
+<!-- partial:partials/titles/title-order-invoiced.hbs --><!-- partial -->
+<!-- partial:partials/container/mail-middle-confirmed.hbs --><!-- partial -->
 <!--  Main Content Starts Here -->
 <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" class="invoicedTable">
-  <tr>
-    <td>
-      <!-- Alert: mode than 1 invoice -->
-      {{#compare items.length '!=' shippingData.logisticsInfo.length}}
-        <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" class="bg-light-blue br-12">
-          <tr>
-            <td class="ph3 pv3 fw7">
-              <p class="ma0">((i18n.invoice.manyInvoices))</p>
-              <p class="ma0">((i18n.invoice.notifications))</p>
-            </td>
-          </tr>
-        </table>
-        <div class="spacer-32"></div>
-      {{/compare}}
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <!-- Intro message: if not inStore anonymous purchase -->
-      {{#if clientProfileData.firstName}}
-        {{#compare clientProfileData.firstName '!=' 'isAnonymous'}}
-          <p class="ma0">
-            <!-- partial:partials/messages/hi.hbs --><!-- partial -->
-          </p>
-          <!-- partial:partials/messages/handling.hbs --><!-- partial -->
-        {{/compare}}
-      {{/if}}
-    </td>
-  </tr>
+  <!-- partial:partials/order-header.hbs --><!-- partial -->
   <!-- Order info -->
-  <tr>
-    <td>
+  <tr class="orderContainer">
+    <td class="pb4 ph3">
       {{#richShippingData shippingData}}
         {{#group logisticsInfo by="addressId"}}
-          <h3 class="mv4">
-            {{#compare items.length '>' 1}}
-              ((i18n.invoice.products))
-              {{else}}
-                ((i18n.invoice.product))
-            {{/compare}}
-          </h3>
           {{#group items by="packageId"}}
             <!-- partial:partials/items.hbs --><!-- partial -->
           {{/group}}
         {{/group}}
       {{/richShippingData}}
+      <!-- partial:partials/totals.hbs --><!-- partial -->
     </td>
   </tr>
 </table>
