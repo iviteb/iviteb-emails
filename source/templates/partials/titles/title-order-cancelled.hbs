@@ -1,2 +1,22 @@
-<h1>((i18n.order.titleCancelled))</h1>
-<!-- partial:../messages/order-reference.hbs --><!-- partial -->
+{{#compare shippingData.logisticsInfo.0.selectedDeliveryChannel '==' 'pickup-in-point'}}
+  <a href="((i18n.common.siteAddress))" title="((i18n.common.siteName))" target="_blank" rel="noopener noreferrer"
+    class="dib">
+    <img alt="((i18n.common.siteName))" border="0" width="87" height="44"
+      src="https://((i18n.common.accountName)).vtexassets.com/arquivos/email-kfc-logo-pickup.png" class="db">
+  </a>
+  {{else}}
+    <a href="((i18n.common.siteAddress))" title="((i18n.common.siteName))" target="_blank" rel="noopener noreferrer"
+      class="dib">
+      <img alt="((i18n.common.siteName))" border="0" width="110" height="44"
+        src="https://((i18n.common.accountName)).vtexassets.com/arquivos/email-kfc-logo-delivery.png" class="db">
+    </a>
+{{/compare}}
+<p class="my-12 fw7 action-primary">#puipebune</p>
+<h1 class="ttu">((i18n.order.titleCancelled))</h1>
+<p class="b">
+  {{#eq paymentData.transactions.0.payments.0.paymentSystem "202"}}
+    ((i18n.order.subtitleCancelledCard))
+    {{else}}
+      ((i18n.order.subtitleCancelledCash))
+  {{/eq}}
+</p>

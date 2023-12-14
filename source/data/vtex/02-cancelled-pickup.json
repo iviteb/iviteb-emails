@@ -1,0 +1,771 @@
+{
+  "package": null,
+  "subjectItemAttachment": {
+    "item": "Non - Spicy Bucket",
+    "totalItems": 3,
+    "extraItems": 2
+  },
+  "cancellationReason": "[JOB][1382660500620-01] Error on INJECT_MICROS: RPC_EXCEPTION from MICROS_MAPPER: MICROS_CONVERT_ERROR: Error: Vtex conversion to Micros failed on finding main item, check menu with id 320542 and combo 1251",
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "71697A27B8D945ECB6025496391A794D",
+        "merchantName": "K*********",
+        "payments": [
+          {
+            "id": "1398BF135D5C460A91292D4F8B615588",
+            "paymentSystem": "203",
+            "paymentSystemName": "C****************************************",
+            "value": 7050,
+            "installments": 1,
+            "referenceValue": 7050,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": null,
+            "lastDigits": null,
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "giftCardId": null,
+            "giftCardName": null,
+            "giftCardCaption": null,
+            "redemptionCode": null,
+            "group": "promissory",
+            "tid": null,
+            "dueDate": null,
+            "connectorResponses": {},
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "koinUrl": null,
+            "accountId": null,
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": null,
+            "paymentOrigin": null
+          }
+        ]
+      }
+    ]
+  },
+  "items": [
+    {
+      "additionalInfo": {
+        "categoriesIds": "/777/",
+        "productClusterId": "573,582,586,596,600,601",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0.0002,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "C******",
+        "brandId": "2000009",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "306060",
+      "priceTable": null,
+      "priceValidUntil": "2024-12-11T10:18:27Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/306060",
+      "uniqueId": "D9A30B6D07CD44A098A7E079C3E52546",
+      "id": "306060",
+      "productId": "306060",
+      "productRefId": "P-306060",
+      "refId": "P-306060",
+      "ean": null,
+      "name": "C*********",
+      "skuName": "C*********",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 1300,
+      "listPrice": 1300,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 1300,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/777/",
+      "productCategories": {
+        "777": "Collect"
+      },
+      "quantity": 1,
+      "seller": "kfcbucdorobanti",
+      "sellerChain": ["kfcbucdorobanti"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155596-55-55/WEB-Cheesecake-1200x1200px.png?v=638375473544300000",
+      "detailUrl": "/cheesecake_cc/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 1300,
+        "total": 1300,
+        "sellingPrices": [
+          {
+            "value": 1300,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/777/",
+        "productClusterId": "587",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0.0002,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "C******",
+        "brandId": "2000009",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "320542",
+      "priceTable": null,
+      "priceValidUntil": "2024-12-11T10:18:27Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/320542",
+      "uniqueId": "39B9227D493042B6ABF53F6E28AB9A3B",
+      "id": "320542",
+      "productId": "320542",
+      "productRefId": "MENU-700104-320542-1251",
+      "refId": "MENU-700104-320542-1251",
+      "ean": null,
+      "name": "N*****************",
+      "skuName": "N*****************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 4350,
+      "listPrice": 4350,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 4350,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/777/",
+      "productCategories": {
+        "777": "Collect"
+      },
+      "quantity": 1,
+      "seller": "kfcbucdorobanti",
+      "sellerChain": ["kfcbucdorobanti"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155602-55-55/WEB-Non_Spicy_Bucket-1200x1200px.png?v=638376323340830000",
+      "detailUrl": "/non--spicy-bucket_cc/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 4350,
+        "total": 4350,
+        "sellingPrices": [
+          {
+            "value": 4350,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/777/",
+        "productClusterId": "592",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0.0002,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "C******",
+        "brandId": "2000009",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "304018",
+      "priceTable": null,
+      "priceValidUntil": "2024-12-11T10:18:27Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:kfcromania:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/304018",
+      "uniqueId": "3E7E73D11E0B4FE9B81D04E666C05CC2",
+      "id": "304018",
+      "productId": "304018",
+      "productRefId": "P-304018",
+      "refId": "P-304018",
+      "ean": null,
+      "name": "D************",
+      "skuName": "D************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 1400,
+      "listPrice": 1400,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 1400,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/777/",
+      "productCategories": {
+        "777": "Collect"
+      },
+      "quantity": 1,
+      "seller": "kfcbucdorobanti",
+      "sellerChain": ["kfcbucdorobanti"],
+      "imageUrl": "http://kfcromania.vteximg.com.br/arquivos/ids/155611-55-55/WEB-Dublu_Booster-1200x1200px.png?v=638376323401630000",
+      "detailUrl": "/dublu-booster_c/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 1400,
+        "total": 1400,
+        "sellingPrices": [
+          {
+            "value": 1400,
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  ],
+  "sellers": [
+    {
+      "subSellerId": "1",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=kfcbucdorobanti&affiliateId=SLR&sc=1",
+      "id": "kfcbucdorobanti",
+      "name": "k**************",
+      "logo": ""
+    }
+  ],
+  "giftRegistryData": null,
+  "receiptData": null,
+  "contextData": null,
+  "marketPlaceOrderId": "",
+  "marketPlaceOrderGroup": null,
+  "marketplaceServicesEndpoint": null,
+  "orderFormId": "65215ae7ee494f8c96b83a398f11218d",
+  "sequence": "500620",
+  "affiliateId": "",
+  "status": "",
+  "callCenterOperator": "",
+  "userProfileId": "84d1dc25-92ef-44d6-8743-7dba3772c990",
+  "hostName": "k*********",
+  "creationVersion": null,
+  "creationEnvironment": null,
+  "lastChangeVersion": null,
+  "workflowInstanceId": null,
+  "marketplacePaymentValue": null,
+  "orderId": "1382660500620-01",
+  "orderGroup": "1382660500620",
+  "state": "canceled",
+  "isCheckedIn": false,
+  "sellerOrderId": "SLR-1382660500620-01",
+  "storeId": null,
+  "checkedInPickupPointId": null,
+  "value": 7050,
+  "totals": [
+    {
+      "id": "Items",
+      "name": "T*************",
+      "value": 7050
+    },
+    {
+      "id": "Discounts",
+      "name": "T*************",
+      "value": 0
+    },
+    {
+      "id": "Shipping",
+      "name": "T**************",
+      "value": 0
+    },
+    {
+      "id": "Tax",
+      "name": "T*********",
+      "value": 0
+    }
+  ],
+  "clientProfileData": {
+    "email": "9*******************************@c*.v***.c**.b*",
+    "firstName": "E****",
+    "lastName": "P",
+    "document": null,
+    "documentType": "document",
+    "phone": "+4**********",
+    "corporateName": null,
+    "tradeName": null,
+    "corporateDocument": null,
+    "stateInscription": null,
+    "corporatePhone": null,
+    "isCorporate": false,
+    "profileCompleteOnLoading": false,
+    "profileErrorOnLoading": false,
+    "customerClass": null
+  },
+  "ratesAndBenefitsData": {
+    "rateAndBenefitsIdentifiers": [],
+    "teaser": []
+  },
+  "shippingData": {
+    "address": {
+      "addressType": "pickup",
+      "receiverName": "E**** P",
+      "addressId": "kfcbucdorobanti",
+      "isDisposable": true,
+      "postalCode": "1****",
+      "city": "B******** (******** 1*",
+      "state": "Bucureşti",
+      "country": "ROU",
+      "street": "C**** D***********",
+      "number": "2**",
+      "neighborhood": null,
+      "complement": "",
+      "reference": null,
+      "geoCoordinates": [-51.4779552, -0.0039779]
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "selectedSla": "KFC DOROBANȚI (kfcbucdorobanti)",
+        "selectedDeliveryChannel": "pickup-in-point",
+        "addressId": "kfcbucdorobanti",
+        "slas": [
+          {
+            "id": "KFC DOROBANȚI (kfcbucdorobanti)",
+            "deliveryChannel": "pickup-in-point",
+            "name": "K******************************",
+            "deliveryIds": [
+              {
+                "courierId": "kfcbucdorobanti-collect",
+                "warehouseId": "collect",
+                "dockId": "collect",
+                "courierName": "K********************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "60m",
+            "shippingEstimateDate": "2023-12-11T11:19:22.8425514Z",
+            "lockTTL": "93d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 0,
+            "listPrice": 0,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": true,
+              "friendlyName": "K************",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "kfcbucdorobanti",
+                "isDisposable": true,
+                "postalCode": "1****",
+                "city": "B******** (******** 1*",
+                "state": "Bucureşti",
+                "country": "ROU",
+                "street": "C**** D***********",
+                "number": "2**",
+                "neighborhood": null,
+                "complement": "",
+                "reference": null,
+                "geoCoordinates": [-51.4779552, -0.0039779]
+              },
+              "additionalInfo": "KFC DOROBANȚI\nCalea Dorobantilor, Nr. 239, Sector 1\nTimp estimat de preparare: 40-60 min",
+              "dockId": null
+            },
+            "pickupPointId": "kfcbucdorobanti_kfcbucdorobanti",
+            "pickupDistance": 0,
+            "polygonName": "k**************",
+            "transitTime": "60m"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "306060",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 1,
+        "selectedSla": "KFC DOROBANȚI (kfcbucdorobanti)",
+        "selectedDeliveryChannel": "pickup-in-point",
+        "addressId": "kfcbucdorobanti",
+        "slas": [
+          {
+            "id": "KFC DOROBANȚI (kfcbucdorobanti)",
+            "deliveryChannel": "pickup-in-point",
+            "name": "K******************************",
+            "deliveryIds": [
+              {
+                "courierId": "kfcbucdorobanti-collect",
+                "warehouseId": "collect",
+                "dockId": "collect",
+                "courierName": "K********************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "60m",
+            "shippingEstimateDate": "2023-12-11T11:19:22.844108Z",
+            "lockTTL": "93d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 0,
+            "listPrice": 0,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": true,
+              "friendlyName": "K************",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "kfcbucdorobanti",
+                "isDisposable": true,
+                "postalCode": "1****",
+                "city": "B******** (******** 1*",
+                "state": "Bucureşti",
+                "country": "ROU",
+                "street": "C**** D***********",
+                "number": "2**",
+                "neighborhood": null,
+                "complement": "",
+                "reference": null,
+                "geoCoordinates": [-51.4779552, -0.0039779]
+              },
+              "additionalInfo": "KFC DOROBANȚI\nCalea Dorobantilor, Nr. 239, Sector 1\nTimp estimat de preparare: 40-60 min",
+              "dockId": null
+            },
+            "pickupPointId": "kfcbucdorobanti_kfcbucdorobanti",
+            "pickupDistance": 0,
+            "polygonName": "k**************",
+            "transitTime": "60m"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "320542",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 2,
+        "selectedSla": "KFC DOROBANȚI (kfcbucdorobanti)",
+        "selectedDeliveryChannel": "pickup-in-point",
+        "addressId": "kfcbucdorobanti",
+        "slas": [
+          {
+            "id": "KFC DOROBANȚI (kfcbucdorobanti)",
+            "deliveryChannel": "pickup-in-point",
+            "name": "K******************************",
+            "deliveryIds": [
+              {
+                "courierId": "kfcbucdorobanti-collect",
+                "warehouseId": "collect",
+                "dockId": "collect",
+                "courierName": "K********************************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "60m",
+            "shippingEstimateDate": "2023-12-11T11:19:22.844108Z",
+            "lockTTL": "93d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 0,
+            "listPrice": 0,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": true,
+              "friendlyName": "K************",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "kfcbucdorobanti",
+                "isDisposable": true,
+                "postalCode": "1****",
+                "city": "B******** (******** 1*",
+                "state": "Bucureşti",
+                "country": "ROU",
+                "street": "C**** D***********",
+                "number": "2**",
+                "neighborhood": null,
+                "complement": "",
+                "reference": null,
+                "geoCoordinates": [-51.4779552, -0.0039779]
+              },
+              "additionalInfo": "KFC DOROBANȚI\nCalea Dorobantilor, Nr. 239, Sector 1\nTimp estimat de preparare: 40-60 min",
+              "dockId": null
+            },
+            "pickupPointId": "kfcbucdorobanti_kfcbucdorobanti",
+            "pickupDistance": 0,
+            "polygonName": "k**************",
+            "transitTime": "60m"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "304018",
+        "deliveryChannels": [
+          {
+            "id": "pickup-in-point"
+          },
+          {
+            "id": "delivery"
+          }
+        ]
+      }
+    ],
+    "selectedAddresses": [
+      {
+        "addressType": "pickup",
+        "receiverName": "E**** P",
+        "addressId": "kfcbucdorobanti",
+        "isDisposable": true,
+        "postalCode": "1****",
+        "city": "B******** (******** 1*",
+        "state": "Bucureşti",
+        "country": "ROU",
+        "street": "C**** D***********",
+        "number": "2**",
+        "neighborhood": null,
+        "complement": "",
+        "reference": null,
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressType": "pickup",
+        "receiverName": "E**** P",
+        "addressId": "kfcbucdorobanti",
+        "isDisposable": true,
+        "postalCode": "1****",
+        "city": "B******** (******** 1*",
+        "state": "Bucureşti",
+        "country": "ROU",
+        "street": "C**** D***********",
+        "number": "2**",
+        "neighborhood": null,
+        "complement": "",
+        "reference": null,
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "pickupPoints": [
+      {
+        "friendlyName": "K************",
+        "address": {
+          "addressType": "pickup",
+          "receiverName": null,
+          "addressId": "kfcbucdorobanti",
+          "isDisposable": true,
+          "postalCode": "1****",
+          "city": "B******** (******** 1*",
+          "state": "Bucureşti",
+          "country": "ROU",
+          "street": "C**** D***********",
+          "number": "2**",
+          "neighborhood": null,
+          "complement": "",
+          "reference": null,
+          "geoCoordinates": [-51.4779552, -0.0039779]
+        },
+        "additionalInfo": "KFC DOROBANȚI\nCalea Dorobantilor, Nr. 239, Sector 1\nTimp estimat de preparare: 40-60 min",
+        "id": "kfcbucdorobanti_kfcbucdorobanti",
+        "businessHours": [
+          {
+            "DayOfWeek": 0,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:45:00"
+          },
+          {
+            "DayOfWeek": 1,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:45:00"
+          },
+          {
+            "DayOfWeek": 2,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:45:00"
+          },
+          {
+            "DayOfWeek": 3,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:45:00"
+          },
+          {
+            "DayOfWeek": 4,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:45:00"
+          },
+          {
+            "DayOfWeek": 5,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:45:00"
+          },
+          {
+            "DayOfWeek": 6,
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:45:00"
+          }
+        ]
+      }
+    ]
+  },
+  "clientPreferencesData": {
+    "locale": "ro-RO",
+    "optinNewsLetter": false
+  },
+  "commercialConditionData": null,
+  "marketingData": null,
+  "storePreferencesData": {
+    "countryCode": "ROU",
+    "saveUserData": false,
+    "timeZone": "GTB Standard Time",
+    "currencyCode": "RON",
+    "currencyLocale": 1048,
+    "currencySymbol": "lei",
+    "currencyFormatInfo": {
+      "currencyDecimalDigits": 2,
+      "currencyDecimalSeparator": ",",
+      "currencyGroupSeparator": ".",
+      "currencyGroupSize": 3,
+      "startsWithCurrencySymbol": false
+    }
+  },
+  "openTextField": null,
+  "invoiceData": null,
+  "itemMetadata": null,
+  "taxData": null,
+  "customData": {
+    "customApps": [
+      {
+        "fields": {
+          "type": "eat-in"
+        },
+        "id": "orderpickuptype",
+        "major": 1
+      }
+    ]
+  },
+  "hooksData": null,
+  "changeData": null,
+  "subscriptionData": null,
+  "salesChannel": "1",
+  "followUpEmail": "a**********************************.v***.c**.b*",
+  "creationDate": "2023-12-11T10:19:21.7287856Z",
+  "lastChange": "2023-12-11T10:20:45.7236144Z",
+  "timeZoneCreationDate": "2023-12-11T12:19:21.7287856",
+  "timeZoneLastChange": "2023-12-11T12:20:45.7236144",
+  "isCompleted": true,
+  "merchantName": null,
+  "userType": "",
+  "roundingError": 0,
+  "allowEdition": false,
+  "allowCancellation": false,
+  "isUserDataVisible": false,
+  "allowChangeSeller": false,
+  "cancellationData": {
+    "requestedByUser": false,
+    "reason": "dwqwdqwdqwdqwd",
+    "cancellationDate": "2023-12-11T10:20:43.6058165Z"
+  },
+  "_accountInfo": {
+    "MainAccountName": "k*********",
+    "AccountName": "k*********",
+    "Cnpj": null,
+    "Id": "f7ab254d-7021-4bb4-9e74-dcf376a73227",
+    "AppId": null,
+    "IsActive": true,
+    "IsOperating": false,
+    "CreationDate": "2022-06-22T15:18:43.7789785Z",
+    "OperationDate": null,
+    "CompanyName": "C************************************************",
+    "TradingName": "K**********",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [7],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null
+  }
+}
