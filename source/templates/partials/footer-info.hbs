@@ -46,16 +46,16 @@
         <td class="pt-56 px-16">
           <table class="footerMenu" width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
             <tr>
-              <td><a href="((i18n.common.siteAddress))/restaurante" title="Restaurante" target="_blank"
+              <td><a href="https://www.kfc.ro/restaurante" title="Restaurante" target="_blank"
                   rel="noopener noreferrer">Restaurante</a></td>
-              <td><a href="((i18n.common.siteAddress))/noutati" title="Noutăți" target="_blank"
+              <td><a href="https://www.kfc.ro/meniu/noutati" title="Noutăți" target="_blank"
                   rel="noopener noreferrer">Noutăți</a>
               </td>
-              <td><a href="((i18n.common.siteAddress))/contact" title="Contact" target="_blank"
+              <td><a href="https://www.kfc.ro/contact" title="Contact" target="_blank"
                   rel="noopener noreferrer">Contact</a>
               </td>
-              <td><a href="((i18n.common.siteAddress))/delivery" title="Delivery" target="_blank"
-                  rel="noopener noreferrer">Delivery</a>
+              <td><a href="((i18n.common.siteAddress))" title="Comandă online" target="_blank"
+                  rel="noopener noreferrer">Comandă online</a>
               </td>
             </tr>
           </table>
@@ -68,9 +68,13 @@
           <table class="newsletterDisclaimer" width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
             <tr>
               <td class="white fs-10 lh-title tc">
-                Ai primit acest email pentru că ești abonat la newsletterul nostru. Dacă nu mai dorești să primești
-                informații și notăți despre produsele și ofertele noastre <a href="((i18n.common.siteAddress))"
-                  title="Dezabonare" target="_blank" rel="noopener noreferrer" class="white">dezabonează-te aici.</a>
+                {{#if aditionalData.accessKey}}
+                  Ai primit acest email deoarece ai solicitat crearea sau accesarea unui cont pe website-ul
+                {{else}}
+                  Ai primit acest email deoarece ai înregistrat o comandă pe website-ul
+                {{/if}}
+                <a href="((i18n.common.siteAddress))" title="Dezabonare" target="_blank" rel="noopener noreferrer"
+                  class="white">((i18n.common.siteAddressText))</a>
               </td>
             </tr>
           </table>
