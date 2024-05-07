@@ -36,7 +36,16 @@
   <tr class="orderHeader02">
     <td class="py-40 ph3 tc">
       <p class="ma0 f3 fw7">((i18n.order.estimatedTime))</p>
-      <p class="mt-0 mb-12 fs-40 fw7 action-primary">40-60 minute</p>
+      <p class="mt-0 mb-12 fs-40 fw7 action-primary">
+        {{#each customData.customApps}}
+          {{#eq id "shippingestimate"}}
+            {{fields.shippingEstimate}}
+          {{/eq}}
+        {{/each}}
+        {{#unless customData}} {{!-- Pentru situația când nu avem customData --}}
+          40-60 minute
+        {{/unless}}
+      </p>
       <img alt="Comandă cu livrare" border="0" width="216" height="39"
         src="https://((i18n.common.accountName)).vtexassets.com/arquivos/email-delivery-badge.png" class="orderType">
       <p class="mt-12 mb0 fs-18 lh-24">((i18n.order.address))
