@@ -1,0 +1,662 @@
+{
+  "orders": [
+    {
+      "package": null,
+      "subjectItemAttachment": {
+        "item": "JULIUS-K9 IDC Power,...",
+        "totalItems": 3,
+        "extraItems": 2
+      },
+      "cancellationReason": null,
+      "items": [
+        {
+          "additionalInfo": {
+            "categoriesIds": "/2/3/6/",
+            "productClusterId": "145",
+            "commercialConditionId": "1",
+            "dimension": {
+              "cubicweight": 0.0002,
+              "height": 1,
+              "length": 1,
+              "weight": 1,
+              "width": 1
+            },
+            "brandName": "Eukanuba",
+            "brandId": "1",
+            "offeringInfo": null,
+            "offeringType": null,
+            "offeringTypeId": null
+          },
+          "sellerSku": "2",
+          "priceTable": null,
+          "priceValidUntil": "2023-01-12T16:12:07Z",
+          "callCenterOperator": null,
+          "commission": 0,
+          "freightCommission": 0,
+          "taxCode": "",
+          "catalogProvider": "vrn:vtex.catalog-api-proxy:-:pentruanimale:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2",
+          "uniqueId": "34DC0ADAEB64416EA4F891E76E2D14C0",
+          "id": "2",
+          "productId": "1",
+          "productRefId": "FEKHR00001",
+          "refId": "Y1604582342",
+          "ean": "8710255119854",
+          "name": "EUKANUBA Basic Active Adult, Pui, hrana uscata câini EUKANUBA Basic Active Adult M, Pui, hrana uscata câini, 15kg+3kg GRATUIT",
+          "skuName": "EUKANUBA Basic Active Adult M, Pui, hrana uscata câini, 15kg+3kg GRATUIT",
+          "modalType": null,
+          "parentItemIndex": null,
+          "parentAssemblyBinding": null,
+          "assemblies": [],
+          "tax": 0,
+          "price": 6599,
+          "listPrice": 6599,
+          "manualPrice": null,
+          "manualPriceAppliedBy": null,
+          "sellingPrice": 6599,
+          "rewardValue": 0,
+          "isGift": false,
+          "preSaleDate": null,
+          "productCategoryIds": "/2/3/6/",
+          "productCategories": {
+            "2": "Caini",
+            "3": "Hrana Caini",
+            "6": "Hrana Uscata"
+          },
+          "quantity": 1,
+          "seller": "1",
+          "sellerChain": ["1"],
+          "imageUrl": "http://pentruanimale.vteximg.com.br/arquivos/ids/182886-55-55/EUKANUBA-Basic-Active-Adult-M-Pui-hrana-uscata-caini-18kg--1.jpg?v=637762966403000000",
+          "detailUrl": "/eukanuba-basic-active-adult-l-xl-pui-hrana-uscata-caini-15kg-3kg-gratuit/p",
+          "components": [],
+          "bundleItems": [],
+          "attachments": [],
+          "attachmentOfferings": [],
+          "offerings": [],
+          "priceTags": [],
+          "availability": "available",
+          "measurementUnit": "un",
+          "unitMultiplier": 1,
+          "manufacturerCode": "",
+          "priceDefinition": {
+            "calculatedSellingPrice": 6599,
+            "total": 6599,
+            "sellingPrices": [
+              {
+                "value": 6599,
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "additionalInfo": {
+            "categoriesIds": "/2/11/14/",
+            "productClusterId": "145",
+            "commercialConditionId": "1",
+            "dimension": {
+              "cubicweight": 0.0002,
+              "height": 1,
+              "length": 1,
+              "weight": 1,
+              "width": 1
+            },
+            "brandName": "Julius-K9",
+            "brandId": "2000000",
+            "offeringInfo": null,
+            "offeringType": null,
+            "offeringTypeId": null
+          },
+          "sellerSku": "64",
+          "priceTable": null,
+          "priceValidUntil": "2023-01-12T16:12:06Z",
+          "callCenterOperator": null,
+          "commission": 0,
+          "freightCommission": 0,
+          "taxCode": null,
+          "catalogProvider": "vrn:vtex.catalog-api-proxy:-:pentruanimale:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/64",
+          "uniqueId": "F5EE7F179C17457EA37163319E6FA146",
+          "id": "64",
+          "productId": "19",
+          "productRefId": "FJK9H00020",
+          "refId": "PN15064",
+          "ean": "5999053600280",
+          "name": "JULIUS-K9 IDC Power, ham câini, 2XL, 40-80kg, camuflaj",
+          "skuName": "JULIUS-K9 IDC Power, ham câini, 2XL, 40-80kg, camuflaj",
+          "modalType": null,
+          "parentItemIndex": null,
+          "parentAssemblyBinding": null,
+          "assemblies": [],
+          "tax": 0,
+          "price": 549,
+          "listPrice": 549,
+          "manualPrice": null,
+          "manualPriceAppliedBy": null,
+          "sellingPrice": 18117,
+          "rewardValue": 0,
+          "isGift": false,
+          "preSaleDate": null,
+          "productCategoryIds": "/2/11/14/",
+          "productCategories": {
+            "2": "Caini",
+            "11": "Lese, Zgarzi & Hamuri",
+            "14": "Hamuri"
+          },
+          "quantity": 1,
+          "seller": "1",
+          "sellerChain": ["1"],
+          "imageUrl": "http://pentruanimale.vteximg.com.br/arquivos/ids/182953-55-55/JULIUS-K9-IDC-Power-ham-caini-2XL-40-80kg-camuflaj-1.jpg?v=637775076490730000",
+          "detailUrl": "/julius-k9-idc-power-ham-caini-2xl-40-80kg-negru/p",
+          "components": [],
+          "bundleItems": [],
+          "attachments": [],
+          "attachmentOfferings": [],
+          "offerings": [],
+          "priceTags": [],
+          "availability": "available",
+          "measurementUnit": "un",
+          "unitMultiplier": 33,
+          "manufacturerCode": null,
+          "priceDefinition": {
+            "calculatedSellingPrice": 18117,
+            "total": 18117,
+            "sellingPrices": [
+              {
+                "value": 18117,
+                "quantity": 1
+              }
+            ]
+          }
+        },
+        {
+          "additionalInfo": {
+            "categoriesIds": "/2/11/14/",
+            "productClusterId": "",
+            "commercialConditionId": "1",
+            "dimension": {
+              "cubicweight": 0.0002,
+              "height": 1,
+              "length": 1,
+              "weight": 1,
+              "width": 1
+            },
+            "brandName": "Julius-K9",
+            "brandId": "2000000",
+            "offeringInfo": null,
+            "offeringType": null,
+            "offeringTypeId": null
+          },
+          "sellerSku": "57",
+          "priceTable": null,
+          "priceValidUntil": "2023-01-12T16:12:06Z",
+          "callCenterOperator": null,
+          "commission": 0,
+          "freightCommission": 0,
+          "taxCode": null,
+          "catalogProvider": "vrn:vtex.catalog-api-proxy:-:pentruanimale:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/57",
+          "uniqueId": "E85B011715424D23A09ED59B3D7693C9",
+          "id": "57",
+          "productId": "19",
+          "productRefId": "FJK9H00020",
+          "refId": "Y1615392489",
+          "ean": "5999053600211",
+          "name": "JULIUS-K9 IDC Power, ham câini, XL, 28-40kg, negru",
+          "skuName": "JULIUS-K9 IDC Power, ham câini, XL, 28-40kg, negru",
+          "modalType": null,
+          "parentItemIndex": null,
+          "parentAssemblyBinding": null,
+          "assemblies": [],
+          "tax": 0,
+          "price": 549,
+          "listPrice": 549,
+          "manualPrice": null,
+          "manualPriceAppliedBy": null,
+          "sellingPrice": 14274,
+          "rewardValue": 0,
+          "isGift": false,
+          "preSaleDate": null,
+          "productCategoryIds": "/2/11/14/",
+          "productCategories": {
+            "2": "Caini",
+            "11": "Lese, Zgarzi & Hamuri",
+            "14": "Hamuri"
+          },
+          "quantity": 1,
+          "seller": "1",
+          "sellerChain": ["1"],
+          "imageUrl": "http://pentruanimale.vteximg.com.br/arquivos/ids/182946-55-55/JULIUS-K9-IDC-Power-ham-caini-XL-28-40kg-negru-1.jpg?v=637775076411370000",
+          "detailUrl": "/julius-k9-idc-power-ham-caini-2xl-40-80kg-negru/p",
+          "components": [],
+          "bundleItems": [],
+          "attachments": [],
+          "attachmentOfferings": [],
+          "offerings": [],
+          "priceTags": [],
+          "availability": "available",
+          "measurementUnit": "un",
+          "unitMultiplier": 26,
+          "manufacturerCode": null,
+          "priceDefinition": {
+            "calculatedSellingPrice": 14274,
+            "total": 14274,
+            "sellingPrices": [
+              {
+                "value": 14274,
+                "quantity": 1
+              }
+            ]
+          }
+        }
+      ],
+      "sellers": [
+        {
+          "subSellerId": "1",
+          "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?sc=1&an=pentruanimale",
+          "id": "1",
+          "name": "Pentru Animale",
+          "logo": ""
+        }
+      ],
+      "giftRegistryData": null,
+      "receiptData": null,
+      "contextData": null,
+      "marketPlaceOrderId": "",
+      "marketPlaceOrderGroup": null,
+      "marketplaceServicesEndpoint": null,
+      "orderFormId": "6bca5508173d4cbd9e3318f31f0c9a4d",
+      "sequence": "505211",
+      "affiliateId": "",
+      "status": "",
+      "callCenterOperator": "",
+      "userProfileId": "79920b13-890f-4af6-b2d7-789a916b88fd",
+      "hostName": "pentruanimale",
+      "creationVersion": null,
+      "creationEnvironment": null,
+      "lastChangeVersion": null,
+      "workflowInstanceId": null,
+      "marketplacePaymentValue": null,
+      "orderId": "1202800765323-01",
+      "orderGroup": "1202800765323",
+      "state": "payment-approved",
+      "isCheckedIn": false,
+      "sellerOrderId": "00-1202800765323-01",
+      "storeId": null,
+      "checkedInPickupPointId": null,
+      "value": 42970,
+      "totals": [
+        {
+          "id": "Items",
+          "name": "Items Total",
+          "value": 38990
+        },
+        {
+          "id": "Discounts",
+          "name": "Discounts Total",
+          "value": 0
+        },
+        {
+          "id": "Shipping",
+          "name": "Shipping Total",
+          "value": 3980
+        },
+        {
+          "id": "Tax",
+          "name": "Tax Total",
+          "value": 0
+        }
+      ],
+      "clientProfileData": {
+        "email": "71769c39e5924976b79bfc5b89e17f34@ct.vtex.com.br",
+        "firstName": "danut",
+        "lastName": "cotet",
+        "document": null,
+        "documentType": "document",
+        "phone": "0728039846",
+        "corporateName": null,
+        "tradeName": null,
+        "corporateDocument": null,
+        "stateInscription": null,
+        "corporatePhone": null,
+        "isCorporate": false,
+        "profileCompleteOnLoading": true,
+        "profileErrorOnLoading": false,
+        "customerClass": null
+      },
+      "ratesAndBenefitsData": {
+        "rateAndBenefitsIdentifiers": [],
+        "teaser": []
+      },
+      "shippingData": {
+        "address": {
+          "addressType": "residential",
+          "receiverName": "danut cotet",
+          "addressId": "fc8ea0f0270248fb8b25a5cb1d5d3de2",
+          "isDisposable": false,
+          "postalCode": "030000",
+          "city": "Bucuresti (Sectorul 3)",
+          "state": "Bucureşti",
+          "country": "ROU",
+          "street": "camil ressu",
+          "number": "20",
+          "neighborhood": null,
+          "complement": null,
+          "reference": null,
+          "geoCoordinates": []
+        },
+        "logisticsInfo": [
+          {
+            "itemIndex": 0,
+            "selectedSla": "Delivery",
+            "selectedDeliveryChannel": "delivery",
+            "addressId": "fc8ea0f0270248fb8b25a5cb1d5d3de2",
+            "slas": [
+              {
+                "id": "Delivery",
+                "deliveryChannel": "delivery",
+                "name": "Delivery",
+                "deliveryIds": [
+                  {
+                    "courierId": "1ddc6ed",
+                    "warehouseId": "1_2",
+                    "dockId": "1acdf54",
+                    "courierName": "Bookurier",
+                    "quantity": 1,
+                    "kitItemDetails": []
+                  }
+                ],
+                "shippingEstimate": "7bd",
+                "shippingEstimateDate": "2022-01-21T16:12:53.6017942Z",
+                "lockTTL": "12d",
+                "availableDeliveryWindows": [],
+                "deliveryWindow": null,
+                "price": 1990,
+                "listPrice": 1990,
+                "tax": 0,
+                "pickupStoreInfo": {
+                  "isPickupStore": false,
+                  "friendlyName": null,
+                  "address": null,
+                  "additionalInfo": null,
+                  "dockId": null
+                },
+                "pickupPointId": null,
+                "pickupDistance": 0,
+                "polygonName": "",
+                "transitTime": "2bd"
+              }
+            ],
+            "shipsTo": ["ROU"],
+            "itemId": "2",
+            "deliveryChannels": [
+              {
+                "id": "delivery"
+              }
+            ]
+          },
+          {
+            "itemIndex": 1,
+            "selectedSla": "Delivery",
+            "selectedDeliveryChannel": "delivery",
+            "addressId": "fc8ea0f0270248fb8b25a5cb1d5d3de2",
+            "slas": [
+              {
+                "id": "Delivery",
+                "deliveryChannel": "delivery",
+                "name": "Delivery",
+                "deliveryIds": [
+                  {
+                    "courierId": "1ddc6ed",
+                    "warehouseId": "1_1",
+                    "dockId": "1",
+                    "courierName": "Bookurier",
+                    "quantity": 1,
+                    "kitItemDetails": []
+                  }
+                ],
+                "shippingEstimate": "7bd",
+                "shippingEstimateDate": "2022-01-19T16:12:53.6017942Z",
+                "lockTTL": "12d",
+                "availableDeliveryWindows": [],
+                "deliveryWindow": null,
+                "price": 995,
+                "listPrice": 995,
+                "tax": 0,
+                "pickupStoreInfo": {
+                  "isPickupStore": false,
+                  "friendlyName": null,
+                  "address": null,
+                  "additionalInfo": null,
+                  "dockId": null
+                },
+                "pickupPointId": null,
+                "pickupDistance": 0,
+                "polygonName": "",
+                "transitTime": "2bd"
+              }
+            ],
+            "shipsTo": ["ROU"],
+            "itemId": "64",
+            "deliveryChannels": [
+              {
+                "id": "delivery"
+              },
+              {
+                "id": "pickup-in-point"
+              }
+            ]
+          },
+          {
+            "itemIndex": 2,
+            "selectedSla": "Delivery",
+            "selectedDeliveryChannel": "delivery",
+            "addressId": "fc8ea0f0270248fb8b25a5cb1d5d3de2",
+            "slas": [
+              {
+                "id": "Delivery",
+                "deliveryChannel": "delivery",
+                "name": "Delivery",
+                "deliveryIds": [
+                  {
+                    "courierId": "1ddc6ed",
+                    "warehouseId": "1_1",
+                    "dockId": "1",
+                    "courierName": "Bookurier",
+                    "quantity": 1,
+                    "kitItemDetails": []
+                  }
+                ],
+                "shippingEstimate": "7bd",
+                "shippingEstimateDate": "2022-01-19T16:12:53.6017942Z",
+                "lockTTL": "12d",
+                "availableDeliveryWindows": [],
+                "deliveryWindow": null,
+                "price": 995,
+                "listPrice": 995,
+                "tax": 0,
+                "pickupStoreInfo": {
+                  "isPickupStore": false,
+                  "friendlyName": null,
+                  "address": null,
+                  "additionalInfo": null,
+                  "dockId": null
+                },
+                "pickupPointId": null,
+                "pickupDistance": 0,
+                "polygonName": "",
+                "transitTime": "2bd"
+              }
+            ],
+            "shipsTo": ["ROU"],
+            "itemId": "57",
+            "deliveryChannels": [
+              {
+                "id": "delivery"
+              },
+              {
+                "id": "pickup-in-point"
+              }
+            ]
+          }
+        ],
+        "selectedAddresses": [
+          {
+            "addressType": "residential",
+            "receiverName": "danut cotet",
+            "addressId": "fc8ea0f0270248fb8b25a5cb1d5d3de2",
+            "isDisposable": false,
+            "postalCode": "030000",
+            "city": "Bucuresti (Sectorul 3)",
+            "state": "Bucureşti",
+            "country": "ROU",
+            "street": "camil ressu",
+            "number": "20",
+            "neighborhood": null,
+            "complement": null,
+            "reference": null,
+            "geoCoordinates": []
+          }
+        ],
+        "availableAddresses": [
+          {
+            "addressType": "residential",
+            "receiverName": "danut cotet",
+            "addressId": "fc8ea0f0270248fb8b25a5cb1d5d3de2",
+            "isDisposable": false,
+            "postalCode": "030000",
+            "city": "Bucuresti (Sectorul 3)",
+            "state": "Bucureşti",
+            "country": "ROU",
+            "street": "camil ressu",
+            "number": "20",
+            "neighborhood": null,
+            "complement": null,
+            "reference": null,
+            "geoCoordinates": []
+          }
+        ],
+        "pickupPoints": []
+      },
+      "paymentData": {
+        "giftCards": [],
+        "transactions": [
+          {
+            "isActive": true,
+            "transactionId": "2635F7E6EC7C420E9D164DCC419410CC",
+            "merchantName": "PENTRUANIMALE",
+            "payments": [
+              {
+                "id": "F01BFB24BDFF43C2A104859DC5E41E2A",
+                "paymentSystem": "47",
+                "paymentSystemName": "Cash",
+                "value": 42970,
+                "installments": 1,
+                "connectorResponses": {},
+                "referenceValue": 42970,
+                "cardHolder": null,
+                "cardNumber": null,
+                "firstDigits": null,
+                "lastDigits": null,
+                "cvv2": null,
+                "expireMonth": null,
+                "expireYear": null,
+                "url": null,
+                "koinUrl": null,
+                "tid": null,
+                "redemptionCode": null,
+                "giftCardId": null,
+                "giftCardProvider": null,
+                "giftCardAsDiscount": null,
+                "group": "cash",
+                "dueDate": null,
+                "accountId": null,
+                "parentAccountId": null,
+                "bankIssuedInvoiceIdentificationNumber": null,
+                "bankIssuedInvoiceIdentificationNumberFormatted": null,
+                "bankIssuedInvoiceBarCodeNumber": null,
+                "bankIssuedInvoiceBarCodeType": null,
+                "billingAddress": null
+              }
+            ],
+            "sharedTransaction": false
+          }
+        ]
+      },
+      "clientPreferencesData": {
+        "locale": "ro-RO",
+        "optinNewsLetter": false
+      },
+      "commercialConditionData": null,
+      "marketingData": null,
+      "storePreferencesData": {
+        "countryCode": "ROU",
+        "saveUserData": false,
+        "timeZone": "GTB Standard Time",
+        "currencyCode": "RON",
+        "currencyLocale": 1048,
+        "currencySymbol": "lei",
+        "currencyFormatInfo": {
+          "currencyDecimalDigits": 2,
+          "currencyDecimalSeparator": ",",
+          "currencyGroupSeparator": ".",
+          "currencyGroupSize": 3,
+          "startsWithCurrencySymbol": false
+        }
+      },
+      "openTextField": null,
+      "invoiceData": null,
+      "itemMetadata": null,
+      "taxData": null,
+      "customData": null,
+      "hooksData": null,
+      "changeData": null,
+      "subscriptionData": null,
+      "salesChannel": "1",
+      "followUpEmail": "77658198a05f41ca9cc07228fbbbd33d@ct.vtex.com.br",
+      "creationDate": "2022-01-12T16:12:45.0506921Z",
+      "lastChange": "2022-01-12T16:12:53.3558372Z",
+      "timeZoneCreationDate": "2022-01-12T18:12:45.0506921",
+      "timeZoneLastChange": "2022-01-12T18:12:53.3558372",
+      "isCompleted": true,
+      "merchantName": null,
+      "userType": "",
+      "roundingError": 0,
+      "allowEdition": false,
+      "allowCancellation": false,
+      "isUserDataVisible": false,
+      "allowChangeSeller": false
+    }
+  ],
+  "ordersUrl": "http://pentruanimale.myvtex.com/account#/orders",
+  "orderGroup": "1202800765323",
+  "subjectItemAttachment": {
+    "item": "JULIUS-K9 IDC Power,...",
+    "totalItems": 3,
+    "extraItems": 2
+  },
+  "split": false,
+  "totalValue": 42970,
+  "callCenterOperatorData": null,
+  "_accountInfo": {
+    "MainAccountName": "pentruanimale",
+    "AccountName": "pentruanimale",
+    "Cnpj": "28141905",
+    "Id": "43d55720-b8df-4f5b-981b-2f9e1600d3c0",
+    "IsActive": true,
+    "IsOperating": false,
+    "CreationDate": "2019-02-26T15:15:02",
+    "OperationDate": null,
+    "CompanyName": "Your Stuff SRL",
+    "TradingName": "Pentru Animale",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licences": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex"
+  }
+}

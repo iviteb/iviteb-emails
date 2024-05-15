@@ -1,0 +1,186 @@
+{
+  "customData": {},
+  "orderGroup": "766BF0C01FB8EC9531D0A8EF875492C0",
+  "customerId": "aniela.opris@yahoo.com",
+  "title": null,
+  "status": "ACTIVE",
+  "isSkipped": false,
+  "items": [
+    {
+      "sku": {
+        "id": "645",
+        "name": "Foresto Zgarda Antiparazitara, 70 cm",
+        "productName": "Foresto Zgarda Antiparazitara, 70 cm",
+        "imageUrl": "http://pentruanimale.vteximg.com.br/arquivos/ids/176210-55-55/zgarda_antiparazitara_foresto_l70cm1034.jpg?v=637529969954330000",
+        "detailUrl": "/zgarda-antiparazitara-foresto-l/p",
+        "nameComplete": "Foresto Zgarda Antiparazitara, 70 cm",
+        "Attachments": [
+          {
+            "Id": "9",
+            "Name": "vtex.subscription.daily-subscription-plan"
+          }
+        ]
+      },
+      "quantity": 1,
+      "endpoint": null,
+      "priceAtSubscriptionDate": 14999,
+      "sellingPrice": null,
+      "SubscriptionId": "50FDB19C038442DDA61EA702661E5F64",
+      "cycleCount": 37,
+      "status": "ACTIVE",
+      "createdAt": "2021-10-15T21:37:27.6677788Z",
+      "lastUpdate": "2021-10-15T21:37:27.6677788Z",
+      "originalOrderId": "1169102180460-01",
+      "originalItemIndex": 0,
+      "metadata": [],
+      "isSkipped": false
+    },
+    {
+      "sku": {
+        "id": "1000",
+        "name": "Medalion Imarc Aluminiu Inima, Auriu, Masura L - Gravare Gratuita",
+        "productName": "Medalion Imarc Aluminiu Inima, Auriu, Masura L - Gravare Gratuita",
+        "imageUrl": "http://pentruanimale.vteximg.com.br/arquivos/ids/176639-55-55/medalion_inima_gold_L5400.jpg?v=637529993279670000",
+        "detailUrl": "/medalion-inima-gold-masura-l/p",
+        "nameComplete": "Medalion Imarc Aluminiu Inima, Auriu, Masura L - Gravare Gratuita",
+        "Attachments": [
+          {
+            "Id": "9",
+            "Name": "vtex.subscription.daily-subscription-plan"
+          }
+        ]
+      },
+      "quantity": 1,
+      "endpoint": null,
+      "priceAtSubscriptionDate": null,
+      "sellingPrice": null,
+      "SubscriptionId": "48EDE9CA78854C2FBF5FB14778B88CFC",
+      "cycleCount": 37,
+      "status": "ACTIVE",
+      "createdAt": "2021-11-24T17:02:16.2854786Z",
+      "lastUpdate": "2021-11-24T17:02:16.2854786Z",
+      "originalOrderId": null,
+      "originalItemIndex": null,
+      "metadata": [],
+      "isSkipped": false
+    }
+  ],
+  "plan": {
+    "frequency": {
+      "periodicity": "DAILY",
+      "interval": 3
+    },
+    "validity": {
+      "begin": "2021-10-15T00:00:00",
+      "end": null
+    },
+    "type": "RECURRING_PAYMENT"
+  },
+  "customerProfile": {
+    "userId": "6ea41340-4fc1-4f14-9449-e7205008a68c",
+    "profileId": null,
+    "name": "aniela opris",
+    "email": "aniela.opris@yahoo.com",
+    "phone": "0748130400"
+  },
+  "shippingAddress": {
+    "addressId": "4844375665056",
+    "street": "Bld. Mihail Kogalniceanu",
+    "number": "23",
+    "complement": null,
+    "neighborhood": null,
+    "city": "Bucureşti (Sectorul 5)",
+    "state": "Bucureşti",
+    "country": "ROU",
+    "postalCode": "010000",
+    "reference": null,
+    "formattedAddress": null,
+    "additionalComponents": null,
+    "geoCoordinate": [],
+    "receiverName": "aniela opris",
+    "addressType": "residential",
+    "addressName": null
+  },
+  "accountName": "pentruanimale",
+  "purchaseSettings": {
+    "purchaseDay": "Not_Applicable",
+    "paymentMethod": {
+      "paymentSystem": "47",
+      "paymentSystemName": "Cash",
+      "paymentSystemGroup": "cash",
+      "paymentAccount": null
+    },
+    "seller": "1",
+    "salesChannel": "1",
+    "selectedSla": "Regular Delivery",
+    "currencySymbol": "RON",
+    "currencyCode": "RON",
+    "cycleCount": 0,
+    "installments": 1
+  },
+  "schedule": null,
+  "nextPurchaseDate": "2021-12-18T09:07:00Z",
+  "totals": [
+    {
+      "id": "Items",
+      "value": 3999
+    },
+    {
+      "id": "Shipping",
+      "value": 1990
+    }
+  ],
+  "totalsBySimulationItems": [
+    {
+      "id": "1000",
+      "quantity": 1,
+      "unitPrice": 3999,
+      "status": "OK",
+      "sellingPrice": 3999
+    },
+    {
+      "id": "645",
+      "quantity": 0,
+      "unitPrice": null,
+      "status": "MISSING",
+      "sellingPrice": null
+    }
+  ],
+  "totalValue": 5989,
+  "instances": [],
+  "lastInstanceId": null,
+  "targetEmail": "83f3bdbd1ab44142adb6618c53ffa48a@ct.vtex.com.br",
+  "shippingEstimate": {
+    "name": "Delivery",
+    "estimate": "5bd",
+    "estimatedDeliveryDate": "2021-12-24T00:00:00Z",
+    "nextPurchaseDate": "2021-12-18T00:00:00Z",
+    "matched": true
+  },
+  "integrityInfo": 1,
+  "activeItemsCount": 2,
+  "_accountInfo": {
+    "MainAccountName": "pentruanimale",
+    "AccountName": "pentruanimale",
+    "Cnpj": "28141905",
+    "Id": "43d55720-b8df-4f5b-981b-2f9e1600d3c0",
+    "IsActive": true,
+    "IsOperating": false,
+    "CreationDate": "2019-02-26T15:15:02",
+    "OperationDate": null,
+    "CompanyName": "Your Stuff SRL",
+    "TradingName": "Pentru Animale",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licences": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex"
+  }
+}

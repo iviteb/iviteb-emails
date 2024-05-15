@@ -1,0 +1,1373 @@
+{
+  "package": {
+    "items": [
+      {
+        "itemIndex": 0,
+        "quantity": 26,
+        "price": 491,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 1,
+        "quantity": 20,
+        "price": 533,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 2,
+        "quantity": 1,
+        "price": 2960,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 3,
+        "quantity": 1,
+        "price": 490,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 4,
+        "quantity": 5,
+        "price": 198,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 5,
+        "quantity": 3,
+        "price": 157,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 6,
+        "quantity": 4,
+        "price": 8560,
+        "description": null,
+        "unitMultiplier": 0
+      }
+    ],
+    "courier": "CARGUS",
+    "invoiceNumber": "ONL0039744",
+    "invoiceValue": 74467,
+    "invoiceUrl": "https://orders.dacris.net/api/download/xmEsO1dAWB5Fn4seBwgg5lFITRFAgfmhC84QHu9NjbKzWaTo7bim3yWxsF8Hr2Te",
+    "issuanceDate": "2022-01-10T00:00:00",
+    "trackingNumber": "DACR10419664A",
+    "invoiceKey": null,
+    "trackingUrl": null,
+    "embeddedInvoice": "",
+    "type": "Output",
+    "courierStatus": null,
+    "cfop": null,
+    "restitutions": {},
+    "volumes": null,
+    "EnableInferItems": null
+  },
+  "subjectItemAttachment": {
+    "item": "Hartie copiator A4 D...",
+    "totalItems": 60,
+    "extraItems": 59
+  },
+  "cancellationReason": null,
+  "items": [
+    {
+      "additionalInfo": {
+        "categoriesIds": "/10/120/163/",
+        "productClusterId": "137,289,403",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0.4167,
+          "height": 10,
+          "length": 20,
+          "weight": 0.2,
+          "width": 10
+        },
+        "brandName": "Alte brand-uri",
+        "brandId": "2000014",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "200842",
+      "priceTable": null,
+      "priceValidUntil": "2023-01-07T07:22:03Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:dacris:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/200842",
+      "uniqueId": "FD1F40298C4A46A1AFAD7F767E9E35B4",
+      "id": "200842",
+      "productId": "31243",
+      "productRefId": "DMASCATIPIIBANDRALB",
+      "refId": "DMASCATIPIIBANDRALB",
+      "ean": "5944781000017",
+      "name": "Masca uz medical tip II banda 50buc/cut Dr Albert",
+      "skuName": "Masca uz medical tip II banda 50buc/cut Dr Albert",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 93,
+      "price": 491,
+      "listPrice": 893,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 491,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/10/120/163/",
+      "productCategories": {
+        "10": "Administrativ",
+        "120": "Echipamente protectia muncii",
+        "163": "Medical"
+      },
+      "quantity": 26,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "http://dacris.vteximg.com.br/arquivos/ids/211564-80-80/211455-1600-auto.jpg?v=637683208497600000",
+      "detailUrl": "/masca-uz-medical-tip-ii-banda-50buc-cut-dr-albert/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "tax@price-64809a24-afcb-45af-82da-632f721fb168#c997d98c-657f-4132-aac4-b4565390effa",
+          "value": 19,
+          "rawValue": 0.19,
+          "isPercentual": true,
+          "identifier": "64809a24-afcb-45af-82da-632f721fb168"
+        },
+        {
+          "name": "discount@shipping-16ac3cea-f402-4f7a-8715-5643a8b8484b#339d6d6a-073c-4612-aabd-b1721faf0754",
+          "value": -133,
+          "rawValue": -1.33,
+          "isPercentual": false,
+          "identifier": "16ac3cea-f402-4f7a-8715-5643a8b8484b"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "",
+      "priceDefinition": {
+        "calculatedSellingPrice": 491,
+        "total": 12766,
+        "sellingPrices": [
+          {
+            "value": 491,
+            "quantity": 26
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/250/1/13/",
+        "productClusterId": "137,143,164,176,191,200,202,203,218,220,280,373,379,403,443,445,450,453,456,459,461,463,494",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1.45,
+          "height": 32,
+          "length": 29,
+          "weight": 0.4,
+          "width": 7.5
+        },
+        "brandName": "Xprime",
+        "brandId": "2000265",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "2104",
+      "priceTable": null,
+      "priceValidUntil": "2023-01-07T07:22:03Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:dacris:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2104",
+      "uniqueId": "CE8F0E44352C4E1F82E9850A72C4B9AE",
+      "id": "2104",
+      "productId": "5698",
+      "productRefId": "",
+      "refId": "XP87612V",
+      "ean": "5948772228640",
+      "name": "Biblioraft Xprime, PP, A4, 7.5 cm, verde",
+      "skuName": "Biblioraft Xprime, PP, A4, 7.5 cm, verde",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 101,
+      "price": 533,
+      "listPrice": 667,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 533,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/250/1/13/",
+      "productCategories": {
+        "1": "Organizare si arhivare",
+        "13": "Bibliorafturi",
+        "250": "Articole de birou"
+      },
+      "quantity": 20,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "http://dacris.vteximg.com.br/arquivos/ids/209413-80-80/XP87622V.png?v=637569344417400000",
+      "detailUrl": "/biblioraft-xprime-pp-a4-7-5-cm/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "tax@price-64809a24-afcb-45af-82da-632f721fb168#c997d98c-657f-4132-aac4-b4565390effa",
+          "value": 19,
+          "rawValue": 0.19,
+          "isPercentual": true,
+          "identifier": "64809a24-afcb-45af-82da-632f721fb168"
+        },
+        {
+          "name": "discount@shipping-16ac3cea-f402-4f7a-8715-5643a8b8484b#339d6d6a-073c-4612-aabd-b1721faf0754",
+          "value": -205,
+          "rawValue": -2.05,
+          "isPercentual": false,
+          "identifier": "16ac3cea-f402-4f7a-8715-5643a8b8484b"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "",
+      "priceDefinition": {
+        "calculatedSellingPrice": 533,
+        "total": 10660,
+        "sellingPrices": [
+          {
+            "value": 533,
+            "quantity": 20
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/250/1/16/",
+        "productClusterId": "137,203,218,379,403,443,445,449,450,451,453,456,458,459,461,463,464,488,491,498",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0.7427,
+          "height": 5,
+          "length": 31,
+          "weight": 1,
+          "width": 23
+        },
+        "brandName": "Noki",
+        "brandId": "2000177",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "195556",
+      "priceTable": null,
+      "priceValidUntil": "2023-01-07T07:21:16Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "19",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:dacris:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/195556",
+      "uniqueId": "7076F33DB5444AC4B16ED5940D6953A7",
+      "id": "195556",
+      "productId": "25936",
+      "productRefId": "DNOK201250SET",
+      "refId": "DNOK20120250SET",
+      "ean": "8693245121573",
+      "name": "Dosar A4  cu sina si  perforatii 50/set Noki Dosar A4 cu sina si perforatii 50/set Noki, rosu",
+      "skuName": "Dosar A4 cu sina si perforatii 50/set Noki, rosu",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 562,
+      "price": 2960,
+      "listPrice": 3700,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 2960,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/250/1/16/",
+      "productCategories": {
+        "1": "Organizare si arhivare",
+        "16": "Dosare",
+        "250": "Articole de birou"
+      },
+      "quantity": 1,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "http://dacris.vteximg.com.br/arquivos/ids/204748-80-80/noki-rosu.jpg?v=637345433990600000",
+      "detailUrl": "/dosar-a-pl-sina-si-perforatii-50-set-noki/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "tax@price-64809a24-afcb-45af-82da-632f721fb168#c997d98c-657f-4132-aac4-b4565390effa",
+          "value": 19,
+          "rawValue": 0.19,
+          "isPercentual": true,
+          "identifier": "64809a24-afcb-45af-82da-632f721fb168"
+        },
+        {
+          "name": "discount@shipping-16ac3cea-f402-4f7a-8715-5643a8b8484b#339d6d6a-073c-4612-aabd-b1721faf0754",
+          "value": -26,
+          "rawValue": -0.26,
+          "isPercentual": false,
+          "identifier": "16ac3cea-f402-4f7a-8715-5643a8b8484b"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "",
+      "priceDefinition": {
+        "calculatedSellingPrice": 2960,
+        "total": 2960,
+        "sellingPrices": [
+          {
+            "value": 2960,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/250/3/54/",
+        "productClusterId": "137,203,207,215,227,272,273,280,294,302,308,360,370,372,379,380,381,401,403,429,440,442,443,456",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0.2083,
+          "height": 10,
+          "length": 10,
+          "weight": 0.1,
+          "width": 10
+        },
+        "brandName": "Pilot",
+        "brandId": "2000001",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "846",
+      "priceTable": null,
+      "priceValidUntil": "2023-01-07T07:18:43Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:dacris:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/846",
+      "uniqueId": "F2D4A349CA784515B9885AFAD4B2EC3C",
+      "id": "846",
+      "productId": "845",
+      "productRefId": "",
+      "refId": "PSW-SLVW-YP-BG",
+      "ean": "4902505324536",
+      "name": "Textmarker Pilot Spotliter VW Beegreen, 3.6 mm, galben si roz",
+      "skuName": "Textmarker Pilot Spotliter VW Beegreen, 3.6 mm, galben si roz",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 93,
+      "price": 490,
+      "listPrice": 790,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 490,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/250/3/54/",
+      "productCategories": {
+        "3": "Instrumente de scris si corectura",
+        "12": "Produse pentru scoala",
+        "54": "Textmarkere",
+        "136": "Instrumente de scris pentru scolari",
+        "250": "Articole de birou",
+        "273": "Textmarkere si finelinere"
+      },
+      "quantity": 1,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "http://dacris.vteximg.com.br/arquivos/ids/159291-80-80/PSW-SLVW-YP-BG.jpg?v=636558312059270000",
+      "detailUrl": "/textmarker-pilot-spotliter-vw-beegreen-3-6-mm-galben-si-roz/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "tax@price-64809a24-afcb-45af-82da-632f721fb168#c997d98c-657f-4132-aac4-b4565390effa",
+          "value": 19,
+          "rawValue": 0.19,
+          "isPercentual": true,
+          "identifier": "64809a24-afcb-45af-82da-632f721fb168"
+        },
+        {
+          "name": "discount@shipping-16ac3cea-f402-4f7a-8715-5643a8b8484b#339d6d6a-073c-4612-aabd-b1721faf0754",
+          "value": -3,
+          "rawValue": -0.03,
+          "isPercentual": false,
+          "identifier": "16ac3cea-f402-4f7a-8715-5643a8b8484b"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "",
+      "priceDefinition": {
+        "calculatedSellingPrice": 490,
+        "total": 490,
+        "sellingPrices": [
+          {
+            "value": 490,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/250/2/140/",
+        "productClusterId": "137,203,272,273,329,403,417,453,463,488,497",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0.0087,
+          "height": 3.8,
+          "length": 6.9,
+          "weight": 0.05,
+          "width": 1.6
+        },
+        "brandName": "Rapid",
+        "brandId": "2000206",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "1385",
+      "priceTable": null,
+      "priceValidUntil": "2023-01-07T07:22:03Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:dacris:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/1385",
+      "uniqueId": "EEC24790513E4F37B77DBFB617324B45",
+      "id": "1385",
+      "productId": "1384",
+      "productRefId": "",
+      "refId": "RA24855600",
+      "ean": "7313468556006",
+      "name": "Capse 24/6 Rapid Standard, 1000 bucati/cutie",
+      "skuName": "Capse 24/6 Rapid Standard, 1000 bucati/cutie",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 38,
+      "price": 248,
+      "listPrice": 248,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 198,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/250/2/140/",
+      "productCategories": {
+        "2": "Accesorii de birou",
+        "12": "Produse pentru scoala",
+        "140": "Capse",
+        "250": "Articole de birou",
+        "276": "Biroul de acasa",
+        "280": "Capse"
+      },
+      "quantity": 5,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "http://dacris.vteximg.com.br/arquivos/ids/157678-80-80/RA24855600.jpg?v=636547178562300000",
+      "detailUrl": "/capse-pentru-capsator-24-6-rapid-ra24855600-color-argintiu-manufacturer-rapid-msrp-display-act/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "tax@price-64809a24-afcb-45af-82da-632f721fb168#c997d98c-657f-4132-aac4-b4565390effa",
+          "value": 19,
+          "rawValue": 0.19,
+          "isPercentual": true,
+          "identifier": "64809a24-afcb-45af-82da-632f721fb168"
+        },
+        {
+          "name": "discount@price-c09dbb0d-39f7-4be5-a058-a76dbbc42f88#9869ecd6-2e2c-4899-b710-06a13442af23",
+          "value": -250,
+          "rawValue": -2.5,
+          "isPercentual": false,
+          "identifier": "c09dbb0d-39f7-4be5-a058-a76dbbc42f88"
+        },
+        {
+          "name": "discount@shipping-16ac3cea-f402-4f7a-8715-5643a8b8484b#339d6d6a-073c-4612-aabd-b1721faf0754",
+          "value": -6,
+          "rawValue": -0.06,
+          "isPercentual": false,
+          "identifier": "16ac3cea-f402-4f7a-8715-5643a8b8484b"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "",
+      "priceDefinition": {
+        "calculatedSellingPrice": 198,
+        "total": 990,
+        "sellingPrices": [
+          {
+            "value": 198,
+            "quantity": 5
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/250/2/140/",
+        "productClusterId": "137,203,379,403",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0.0063,
+          "height": 2,
+          "length": 5,
+          "weight": 0.1,
+          "width": 3
+        },
+        "brandName": "Staples",
+        "brandId": "2000232",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "192587",
+      "priceTable": null,
+      "priceValidUntil": "2023-01-07T07:22:03Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "19",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:dacris:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/192587",
+      "uniqueId": "C9E26BF8D0304255AA040348652AFF39",
+      "id": "192587",
+      "productId": "22976",
+      "productRefId": "STP7591842",
+      "refId": "STP7591842",
+      "ean": "718103164757",
+      "name": "Capse 6/4 Staples, 2000 bucati/cutie",
+      "skuName": "Capse 6/4 Staples, 2000 bucati/cutie",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 30,
+      "price": 157,
+      "listPrice": 196,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 157,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/250/2/140/",
+      "productCategories": {
+        "2": "Accesorii de birou",
+        "140": "Capse",
+        "250": "Articole de birou"
+      },
+      "quantity": 3,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "http://dacris.vteximg.com.br/arquivos/ids/201342-80-80/Capse-metalice-capsator.jpg?v=637147654500970000",
+      "detailUrl": "/capse-6-4-staples-2000-bucati-cutie/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "tax@price-64809a24-afcb-45af-82da-632f721fb168#c997d98c-657f-4132-aac4-b4565390effa",
+          "value": 19,
+          "rawValue": 0.19,
+          "isPercentual": true,
+          "identifier": "64809a24-afcb-45af-82da-632f721fb168"
+        },
+        {
+          "name": "discount@shipping-16ac3cea-f402-4f7a-8715-5643a8b8484b#339d6d6a-073c-4612-aabd-b1721faf0754",
+          "value": -8,
+          "rawValue": -0.08,
+          "isPercentual": false,
+          "identifier": "16ac3cea-f402-4f7a-8715-5643a8b8484b"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "",
+      "priceDefinition": {
+        "calculatedSellingPrice": 157,
+        "total": 471,
+        "sellingPrices": [
+          {
+            "value": 157,
+            "quantity": 3
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/250/4/55/",
+        "productClusterId": "137,153,174,203,214,280,286,302,379,384,402,403,412,456,458,461,491",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 4.9067,
+          "height": 32,
+          "length": 32,
+          "weight": 10.9,
+          "width": 23
+        },
+        "brandName": "Double A",
+        "brandId": "2000074",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "3823",
+      "priceTable": null,
+      "priceValidUntil": "2023-01-07T07:22:56Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "19",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:dacris:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/3823",
+      "uniqueId": "61F334B8DC4D426B907770E476EF4CCC",
+      "id": "3823",
+      "productId": "17410",
+      "productRefId": "DHA470500DBAC",
+      "refId": "DHA470500DBAC",
+      "ean": "3613630000301",
+      "name": "Hartie copiator A4 Double A Everyday, 70 g/mp, 500 coli/top, 5 topuri/cutie, pret per cutie",
+      "skuName": "Hartie copiator A4 Double A Everyday, 70 g/mp, 500 coli/top, 5 topuri/cutie, pret per cutie",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 1626,
+      "price": 8560,
+      "listPrice": 9511,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 8560,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/250/4/55/",
+      "productCategories": {
+        "4": "Hartie si articole din hartie",
+        "55": "Hartie alba copiator",
+        "250": "Articole de birou"
+      },
+      "quantity": 4,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "http://dacris.vteximg.com.br/arquivos/ids/194259-80-80/DHA470500DBAC.jpg?v=636862628635000000",
+      "detailUrl": "/hartie-copiator-a4-double-a-everyday-70-g-mp-500-coli-top-5-topuri-cutie/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "tax@price-64809a24-afcb-45af-82da-632f721fb168#c997d98c-657f-4132-aac4-b4565390effa",
+          "value": 19,
+          "rawValue": 0.19,
+          "isPercentual": true,
+          "identifier": "64809a24-afcb-45af-82da-632f721fb168"
+        },
+        {
+          "name": "discount@shipping-16ac3cea-f402-4f7a-8715-5643a8b8484b#339d6d6a-073c-4612-aabd-b1721faf0754",
+          "value": -1118,
+          "rawValue": -11.18,
+          "isPercentual": false,
+          "identifier": "16ac3cea-f402-4f7a-8715-5643a8b8484b"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "",
+      "priceDefinition": {
+        "calculatedSellingPrice": 8560,
+        "total": 34240,
+        "sellingPrices": [
+          {
+            "value": 8560,
+            "quantity": 4
+          }
+        ]
+      }
+    }
+  ],
+  "sellers": [
+    {
+      "subSellerId": "1",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?sc=1&an=dacris",
+      "id": "1",
+      "name": "S.C. DACRIS IMPEX S.R.L.",
+      "logo": ""
+    }
+  ],
+  "giftRegistryData": null,
+  "receiptData": null,
+  "contextData": null,
+  "marketPlaceOrderId": "",
+  "marketPlaceOrderGroup": null,
+  "marketplaceServicesEndpoint": null,
+  "orderFormId": "d7742ddb9276405c8e46d0391136ace8",
+  "sequence": "560585",
+  "affiliateId": "",
+  "status": "",
+  "callCenterOperator": "",
+  "userProfileId": "cee84faf-b2b5-43e8-9454-d61f5273b95b",
+  "hostName": "dacris",
+  "creationVersion": null,
+  "creationEnvironment": null,
+  "lastChangeVersion": null,
+  "workflowInstanceId": null,
+  "marketplacePaymentValue": null,
+  "orderId": "1201511415672-01",
+  "orderGroup": "1201511415672",
+  "state": "payment-approved",
+  "isCheckedIn": false,
+  "sellerOrderId": "00-1201511415672-01",
+  "storeId": null,
+  "checkedInPickupPointId": null,
+  "value": 74467,
+  "totals": [
+    {
+      "id": "Items",
+      "name": "Items Total",
+      "value": 62827
+    },
+    {
+      "id": "Discounts",
+      "name": "Discounts Total",
+      "value": -250
+    },
+    {
+      "id": "Shipping",
+      "name": "Shipping Total",
+      "value": 0,
+      "alternativeTotals": [
+        {
+          "id": "AlternativeShippingTotal",
+          "name": "Alternative Shipping Total",
+          "value": 1499
+        },
+        {
+          "id": "AlternativeShippingDiscount",
+          "name": "Alternative Shipping Discount",
+          "value": -1499
+        }
+      ]
+    },
+    {
+      "id": "Tax",
+      "name": "Tax Total",
+      "value": 11890
+    }
+  ],
+  "clientProfileData": {
+    "email": "gabriel.bot@soundcreation.ro-220500019182b.ct.vtex.com.br",
+    "firstName": "Gabriel",
+    "lastName": "Bot",
+    "document": "",
+    "documentType": "",
+    "phone": "0725210072",
+    "corporateName": "MEDIA CRUSHER SRL",
+    "tradeName": "MEDIA CRUSHER SRL",
+    "corporateDocument": "RO18640363",
+    "stateInscription": "J35/1450/2006",
+    "corporatePhone": null,
+    "isCorporate": true,
+    "profileCompleteOnLoading": true,
+    "profileErrorOnLoading": false,
+    "customerClass": null
+  },
+  "ratesAndBenefitsData": {
+    "rateAndBenefitsIdentifiers": [
+      {
+        "id": "16ac3cea-f402-4f7a-8715-5643a8b8484b",
+        "name": "Transport Gratuit!",
+        "featured": false,
+        "description": "Transport gratuit la toate comenzile mai mari de 300 lei",
+        "matchedParameters": {
+          "slaIds": "curier rapid",
+          "category@CatalogSystem": "386,387|exclusive"
+        },
+        "additionalInfo": null
+      },
+      {
+        "id": "c09dbb0d-39f7-4be5-a058-a76dbbc42f88",
+        "name": "-20% discount Rapid, Notte, Top Print, M&M",
+        "featured": false,
+        "description": null,
+        "matchedParameters": {
+          "brand@CatalogSystem": "2000152,2000206,2000179|inclusive"
+        },
+        "additionalInfo": null
+      }
+    ],
+    "teaser": []
+  },
+  "shippingData": {
+    "address": {
+      "addressType": "residential",
+      "receiverName": "Gabriel Bot",
+      "addressId": "4741148636139",
+      "isDisposable": false,
+      "postalCode": "300000",
+      "city": "Timisoara",
+      "state": "Timis",
+      "country": "ROU",
+      "street": "Calea Torontalului DN6 KM 560 plus 800m stanga",
+      "number": "DN6",
+      "neighborhood": null,
+      "complement": null,
+      "reference": null,
+      "geoCoordinates": []
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "selectedSla": "Curier rapid",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "4741148636139",
+        "slas": [
+          {
+            "id": "Curier rapid",
+            "deliveryChannel": "delivery",
+            "name": "Curier rapid",
+            "deliveryIds": [
+              {
+                "courierId": "1",
+                "warehouseId": "1_1",
+                "dockId": "1",
+                "courierName": "Fan Courier",
+                "quantity": 26,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "3bd",
+            "shippingEstimateDate": "2022-01-12T07:28:17.1340582Z",
+            "lockTTL": "26d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 0,
+            "listPrice": 133,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": 0,
+            "polygonName": "",
+            "transitTime": "3bd"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "200842",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 1,
+        "selectedSla": "Curier rapid",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "4741148636139",
+        "slas": [
+          {
+            "id": "Curier rapid",
+            "deliveryChannel": "delivery",
+            "name": "Curier rapid",
+            "deliveryIds": [
+              {
+                "courierId": "1",
+                "warehouseId": "1_1",
+                "dockId": "1",
+                "courierName": "Fan Courier",
+                "quantity": 20,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "3bd",
+            "shippingEstimateDate": "2022-01-12T07:28:17.1340582Z",
+            "lockTTL": "26d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 0,
+            "listPrice": 205,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": 0,
+            "polygonName": "",
+            "transitTime": "3bd"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "2104",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 2,
+        "selectedSla": "Curier rapid",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "4741148636139",
+        "slas": [
+          {
+            "id": "Curier rapid",
+            "deliveryChannel": "delivery",
+            "name": "Curier rapid",
+            "deliveryIds": [
+              {
+                "courierId": "1",
+                "warehouseId": "1_1",
+                "dockId": "1",
+                "courierName": "Fan Courier",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "3bd",
+            "shippingEstimateDate": "2022-01-12T07:28:17.1340582Z",
+            "lockTTL": "26d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 0,
+            "listPrice": 26,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": 0,
+            "polygonName": "",
+            "transitTime": "3bd"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "195556",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 3,
+        "selectedSla": "Curier rapid",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "4741148636139",
+        "slas": [
+          {
+            "id": "Curier rapid",
+            "deliveryChannel": "delivery",
+            "name": "Curier rapid",
+            "deliveryIds": [
+              {
+                "courierId": "1",
+                "warehouseId": "1_1",
+                "dockId": "1",
+                "courierName": "Fan Courier",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "3bd",
+            "shippingEstimateDate": "2022-01-12T07:28:17.1340582Z",
+            "lockTTL": "26d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 0,
+            "listPrice": 3,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": 0,
+            "polygonName": "",
+            "transitTime": "3bd"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "846",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 4,
+        "selectedSla": "Curier rapid",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "4741148636139",
+        "slas": [
+          {
+            "id": "Curier rapid",
+            "deliveryChannel": "delivery",
+            "name": "Curier rapid",
+            "deliveryIds": [
+              {
+                "courierId": "1",
+                "warehouseId": "1_1",
+                "dockId": "1",
+                "courierName": "Fan Courier",
+                "quantity": 5,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "3bd",
+            "shippingEstimateDate": "2022-01-12T07:28:17.1340582Z",
+            "lockTTL": "26d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 0,
+            "listPrice": 6,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": 0,
+            "polygonName": "",
+            "transitTime": "3bd"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "1385",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 5,
+        "selectedSla": "Curier rapid",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "4741148636139",
+        "slas": [
+          {
+            "id": "Curier rapid",
+            "deliveryChannel": "delivery",
+            "name": "Curier rapid",
+            "deliveryIds": [
+              {
+                "courierId": "1",
+                "warehouseId": "1_1",
+                "dockId": "1",
+                "courierName": "Fan Courier",
+                "quantity": 3,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "3bd",
+            "shippingEstimateDate": "2022-01-12T07:28:17.1340582Z",
+            "lockTTL": "26d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 0,
+            "listPrice": 8,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": 0,
+            "polygonName": "",
+            "transitTime": "3bd"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "192587",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          }
+        ]
+      },
+      {
+        "itemIndex": 6,
+        "selectedSla": "Curier rapid",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "4741148636139",
+        "slas": [
+          {
+            "id": "Curier rapid",
+            "deliveryChannel": "delivery",
+            "name": "Curier rapid",
+            "deliveryIds": [
+              {
+                "courierId": "1",
+                "warehouseId": "1_1",
+                "dockId": "1",
+                "courierName": "Fan Courier",
+                "quantity": 4,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "3bd",
+            "shippingEstimateDate": "2022-01-12T07:28:17.1340582Z",
+            "lockTTL": "26d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 0,
+            "listPrice": 1118,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": 0,
+            "polygonName": "",
+            "transitTime": "3bd"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "3823",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          }
+        ]
+      }
+    ],
+    "selectedAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "Gabriel Bot",
+        "addressId": "4741148636139",
+        "isDisposable": false,
+        "postalCode": "300000",
+        "city": "Timisoara",
+        "state": "Timis",
+        "country": "ROU",
+        "street": "Calea Torontalului DN6 KM 560 plus 800m stanga",
+        "number": "DN6",
+        "neighborhood": null,
+        "complement": null,
+        "reference": null,
+        "geoCoordinates": []
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "Gabriel Bot",
+        "addressId": "4741148636139",
+        "isDisposable": false,
+        "postalCode": "300000",
+        "city": "Timisoara",
+        "state": "Timis",
+        "country": "ROU",
+        "street": "Calea Torontalului DN6 KM 560 plus 800m stanga",
+        "number": "DN6",
+        "neighborhood": null,
+        "complement": null,
+        "reference": null,
+        "geoCoordinates": []
+      }
+    ],
+    "pickupPoints": []
+  },
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "353EED684FBE4F11A3DC032C70152DCA",
+        "merchantName": "DACRIS",
+        "payments": [
+          {
+            "id": "5FE54AC916E4444796F6A85EB773430E",
+            "paymentSystem": "201",
+            "paymentSystemName": "Ordin de Plata",
+            "value": 74467,
+            "installments": 1,
+            "connectorResponses": {},
+            "referenceValue": 74467,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": null,
+            "lastDigits": null,
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "koinUrl": null,
+            "tid": null,
+            "redemptionCode": null,
+            "giftCardId": null,
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "group": "promissory",
+            "dueDate": null,
+            "accountId": null,
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": null
+          }
+        ],
+        "sharedTransaction": false
+      }
+    ]
+  },
+  "clientPreferencesData": {
+    "locale": "ro-RO",
+    "optinNewsLetter": true
+  },
+  "commercialConditionData": null,
+  "marketingData": null,
+  "storePreferencesData": {
+    "countryCode": "ROU",
+    "saveUserData": false,
+    "timeZone": "GTB Standard Time",
+    "currencyCode": "RON",
+    "currencyLocale": 1048,
+    "currencySymbol": "lei",
+    "currencyFormatInfo": {
+      "currencyDecimalDigits": 2,
+      "currencyDecimalSeparator": ",",
+      "currencyGroupSeparator": ".",
+      "currencyGroupSize": 3,
+      "startsWithCurrencySymbol": false
+    }
+  },
+  "openTextField": null,
+  "invoiceData": null,
+  "itemMetadata": null,
+  "taxData": null,
+  "customData": null,
+  "hooksData": null,
+  "changeData": null,
+  "subscriptionData": null,
+  "salesChannel": "1",
+  "followUpEmail": "b123590cf4cc4274a49a6e0cf73b06be@ct.vtex.com.br",
+  "creationDate": "2022-01-07T07:23:36.2983158Z",
+  "lastChange": "2022-01-07T07:28:16.7790819Z",
+  "timeZoneCreationDate": "2022-01-07T09:23:36.2983158",
+  "timeZoneLastChange": "2022-01-07T09:28:16.7790819",
+  "isCompleted": true,
+  "merchantName": null,
+  "userType": "",
+  "roundingError": 0,
+  "allowEdition": false,
+  "allowCancellation": false,
+  "isUserDataVisible": false,
+  "allowChangeSeller": false,
+  "_accountInfo": {
+    "MainAccountName": "pentruanimale",
+    "AccountName": "pentruanimale",
+    "Cnpj": "28141905",
+    "Id": "43d55720-b8df-4f5b-981b-2f9e1600d3c0",
+    "IsActive": true,
+    "IsOperating": false,
+    "CreationDate": "2019-02-26T15:15:02",
+    "OperationDate": null,
+    "CompanyName": "Your Stuff SRL",
+    "TradingName": "Pentru Animale",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licences": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "customData": {},
+  "orderGroup": "78BF5DDF81D5EF81F1FB1D84A1F994AD",
+  "customerId": "aniela.opris@yahoo.com",
+  "title": null,
+  "status": "ACTIVE",
+  "isSkipped": false,
+  "items": [
+    {
+      "sku": {
+        "id": "100037862",
+        "name": "ROYAL CANIN Kitten Sterilised, hrana uscata pisici sterilizate junior, 3.5kg",
+        "productName": "ROYAL CANIN Kitten Sterilised, hrana uscata pisici sterilizate junior",
+        "imageUrl": "http://pentruanimale.vteximg.com.br/arquivos/ids/182852-55-55/RC-FHN-KittenSterilised-FHN-KITTEN_002_ROMANIA-ROMANIAN.jpg?v=637625864687700000",
+        "detailUrl": "/royal-canin-kitten-sterilised-hrana-uscata-pisici-sterilizate-junior/p",
+        "nameComplete": "ROYAL CANIN Kitten Sterilised, hrana uscata pisici sterilizate junior, 3.5kg",
+        "Attachments": [
+          {
+            "Id": "7",
+            "Name": "vtex.subscription.test"
+          }
+        ]
+      },
+      "quantity": 2,
+      "endpoint": null,
+      "priceAtSubscriptionDate": null,
+      "sellingPrice": null,
+      "SubscriptionId": "EC8052DD99FD44AA8F8534D6A3A32436",
+      "cycleCount": 0,
+      "status": "ACTIVE",
+      "createdAt": "2021-09-29T20:38:47.2041979Z",
+      "lastUpdate": "2021-09-29T20:38:47.2041979Z",
+      "originalOrderId": null,
+      "originalItemIndex": null,
+      "metadata": [],
+      "isSkipped": false
+    }
+  ],
+  "plan": {
+    "frequency": {
+      "periodicity": "WEEKLY",
+      "interval": 2
+    },
+    "validity": {
+      "begin": "2021-09-29T00:00:00",
+      "end": null
+    },
+    "type": "RECURRING_PAYMENT"
+  },
+  "customerProfile": {
+    "userId": "6ea41340-4fc1-4f14-9449-e7205008a68c",
+    "profileId": null,
+    "name": "aniela opris",
+    "email": "aniela.opris@yahoo.com",
+    "phone": "0748130400"
+  },
+  "shippingAddress": {
+    "addressId": "4844375665056",
+    "street": "Bld. Mihail Kogalniceanu",
+    "number": "23",
+    "complement": null,
+    "neighborhood": null,
+    "city": "Bucureşti (Sectorul 5)",
+    "state": "Bucureşti",
+    "country": "ROU",
+    "postalCode": "010000",
+    "reference": null,
+    "formattedAddress": null,
+    "additionalComponents": null,
+    "geoCoordinate": [],
+    "receiverName": "aniela opris",
+    "addressType": "residential",
+    "addressName": null
+  },
+  "accountName": "pentruanimale",
+  "purchaseSettings": {
+    "purchaseDay": "Thursday",
+    "paymentMethod": {
+      "paymentSystem": "47",
+      "paymentSystemName": "Cash",
+      "paymentSystemGroup": "cash",
+      "paymentAccount": null
+    },
+    "seller": "1",
+    "salesChannel": "1",
+    "selectedSla": null,
+    "currencySymbol": null,
+    "currencyCode": "RON",
+    "cycleCount": 0,
+    "installments": 1
+  },
+  "schedule": null,
+  "nextPurchaseDate": "2021-10-28T09:10:00Z",
+  "totals": [],
+  "totalsBySimulationItems": [
+    {
+      "id": "100037862",
+      "quantity": 0,
+      "unitPrice": null,
+      "status": "MISSING",
+      "sellingPrice": null
+    }
+  ],
+  "totalValue": 0,
+  "instances": [],
+  "lastInstanceId": null,
+  "targetEmail": "494147dd559d40c498d854da06c508b5@ct.vtex.com.br",
+  "shippingEstimate": null,
+  "integrityInfo": 1,
+  "activeItemsCount": 1,
+  "_accountInfo": {
+    "MainAccountName": "pentruanimale",
+    "AccountName": "pentruanimale",
+    "Cnpj": "28141905",
+    "Id": "43d55720-b8df-4f5b-981b-2f9e1600d3c0",
+    "IsActive": true,
+    "IsOperating": false,
+    "CreationDate": "2019-02-26T15:15:02",
+    "OperationDate": null,
+    "CompanyName": "Your Stuff SRL",
+    "TradingName": "Pentru Animale",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licences": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex"
+  }
+}

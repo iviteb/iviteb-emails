@@ -1,0 +1,393 @@
+{
+  "package": null,
+  "subjectItemAttachment": {
+    "item": "Calibra Dog Diabetes...",
+    "totalItems": 1
+  },
+  "cancellationReason": null,
+  "items": [
+    {
+      "additionalInfo": {
+        "categoriesIds": "/1/101/10103/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0.1,
+          "height": 0.1,
+          "length": 0.1,
+          "weight": 12,
+          "width": 0.1
+        },
+        "brandName": "Calibra",
+        "brandId": "509",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "1477",
+      "priceTable": null,
+      "priceValidUntil": "2022-12-16T10:46:28Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "9",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:pentruanimale:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/1477",
+      "uniqueId": "8E45F041C0024EBB8A0391A8345A7DD3",
+      "id": "1477",
+      "productId": "36842",
+      "productRefId": "Y1479126469x2",
+      "refId": "Y1479126469",
+      "ean": "8594062082262",
+      "name": "Calibra Dog Diabetes/Obesity 12 kg",
+      "skuName": "Calibra Dog Diabetes/Obesity 12 kg",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 24999,
+      "listPrice": 24999,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 24999,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/1/101/10103/",
+      "productCategories": {
+        "1": "Caini",
+        "101": "Hrana Caini",
+        "10103": "Diete Veterinare"
+      },
+      "quantity": 1,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "http://pentruanimale.vteximg.com.br/arquivos/ids/177408-55-55/calibra-dog-diabetes-obesity4200.jpg?v=637530031100900000",
+      "detailUrl": "/calibra-dog-diabetes-obesity-12-kg/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "",
+      "priceDefinition": {
+        "calculatedSellingPrice": 24999,
+        "total": 24999,
+        "sellingPrices": [
+          {
+            "value": 24999,
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  ],
+  "sellers": [
+    {
+      "subSellerId": "1",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?sc=1&an=pentruanimale",
+      "id": "1",
+      "name": "Pentru Animale",
+      "logo": ""
+    }
+  ],
+  "giftRegistryData": null,
+  "receiptData": null,
+  "contextData": null,
+  "marketPlaceOrderId": "",
+  "marketPlaceOrderGroup": null,
+  "marketplaceServicesEndpoint": null,
+  "orderFormId": "80c926091f2949a4814ab93bce7b0912",
+  "sequence": "505195",
+  "affiliateId": "",
+  "status": "",
+  "callCenterOperator": "",
+  "userProfileId": "66646431-fb0c-4acc-b322-c1babaa8cccb",
+  "hostName": "pentruanimale",
+  "creationVersion": null,
+  "creationEnvironment": null,
+  "lastChangeVersion": null,
+  "workflowInstanceId": null,
+  "marketplacePaymentValue": null,
+  "orderId": "1183872863563-01",
+  "orderGroup": "1183872863563",
+  "state": "canceled",
+  "isCheckedIn": false,
+  "sellerOrderId": "00-1183872863563-01",
+  "storeId": null,
+  "checkedInPickupPointId": null,
+  "value": 26989,
+  "totals": [
+    {
+      "id": "Items",
+      "name": "Items Total",
+      "value": 24999
+    },
+    {
+      "id": "Discounts",
+      "name": "Discounts Total",
+      "value": 0
+    },
+    {
+      "id": "Shipping",
+      "name": "Shipping Total",
+      "value": 1990
+    },
+    {
+      "id": "Tax",
+      "name": "Tax Total",
+      "value": 0
+    }
+  ],
+  "clientProfileData": {
+    "email": "a7137c060f7e4d8a8cc1c365aea39eee@ct.vtex.com.br",
+    "firstName": "Alexandru",
+    "lastName": "Stupar",
+    "document": null,
+    "documentType": "document",
+    "phone": "0723178275",
+    "corporateName": null,
+    "tradeName": null,
+    "corporateDocument": null,
+    "stateInscription": null,
+    "corporatePhone": null,
+    "isCorporate": false,
+    "profileCompleteOnLoading": false,
+    "profileErrorOnLoading": false,
+    "customerClass": null
+  },
+  "ratesAndBenefitsData": {
+    "rateAndBenefitsIdentifiers": [],
+    "teaser": []
+  },
+  "shippingData": {
+    "address": {
+      "addressType": "residential",
+      "receiverName": "Alexandru Stupar",
+      "addressId": "5762c9bb127a42a98a3153199967c5b3",
+      "isDisposable": true,
+      "postalCode": "430183",
+      "city": "Baia Mare",
+      "state": "Maramures",
+      "country": "ROU",
+      "street": "Alexandru Odobescu",
+      "number": "2",
+      "neighborhood": null,
+      "complement": "Comanda de test",
+      "reference": null,
+      "geoCoordinates": []
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "selectedSla": "Regular Delivery",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "5762c9bb127a42a98a3153199967c5b3",
+        "slas": [
+          {
+            "id": "Regular Delivery",
+            "deliveryChannel": "delivery",
+            "name": "Regular Delivery",
+            "deliveryIds": [
+              {
+                "courierId": "1f60428",
+                "warehouseId": "1_1",
+                "dockId": "1",
+                "courierName": "GLS",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "5bd",
+            "shippingEstimateDate": "2021-12-23T10:47:50.4147402Z",
+            "lockTTL": "12d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 1990,
+            "listPrice": 1990,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": 0,
+            "polygonName": "",
+            "transitTime": "2bd"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "1477",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          },
+          {
+            "id": "pickup-in-point"
+          }
+        ]
+      }
+    ],
+    "selectedAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "Alexandru Stupar",
+        "addressId": "5762c9bb127a42a98a3153199967c5b3",
+        "isDisposable": true,
+        "postalCode": "430183",
+        "city": "Baia Mare",
+        "state": "Maramures",
+        "country": "ROU",
+        "street": "Alexandru Odobescu",
+        "number": "2",
+        "neighborhood": null,
+        "complement": "Comanda de test",
+        "reference": null,
+        "geoCoordinates": []
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "Alexandru Stupar",
+        "addressId": "5762c9bb127a42a98a3153199967c5b3",
+        "isDisposable": true,
+        "postalCode": "430183",
+        "city": "Baia Mare",
+        "state": "Maramures",
+        "country": "ROU",
+        "street": "Alexandru Odobescu",
+        "number": "2",
+        "neighborhood": null,
+        "complement": "Comanda de test",
+        "reference": null,
+        "geoCoordinates": []
+      }
+    ],
+    "pickupPoints": []
+  },
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "E86797B7CB864C5DAD65607FB7A4CBE8",
+        "merchantName": "PENTRUANIMALE",
+        "payments": [
+          {
+            "id": "3CCB61377D294048B56443197EFA49BD",
+            "paymentSystem": "47",
+            "paymentSystemName": "Cash",
+            "value": 26989,
+            "installments": 1,
+            "connectorResponses": {},
+            "referenceValue": 26989,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": null,
+            "lastDigits": null,
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "koinUrl": null,
+            "tid": null,
+            "redemptionCode": null,
+            "giftCardId": null,
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "group": "cash",
+            "dueDate": null,
+            "accountId": null,
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": null
+          }
+        ],
+        "sharedTransaction": false
+      }
+    ]
+  },
+  "clientPreferencesData": {
+    "locale": "ro-RO",
+    "optinNewsLetter": true
+  },
+  "commercialConditionData": null,
+  "marketingData": null,
+  "storePreferencesData": {
+    "countryCode": "ROU",
+    "saveUserData": false,
+    "timeZone": "GTB Standard Time",
+    "currencyCode": "RON",
+    "currencyLocale": 1048,
+    "currencySymbol": "lei",
+    "currencyFormatInfo": {
+      "currencyDecimalDigits": 2,
+      "currencyDecimalSeparator": ",",
+      "currencyGroupSeparator": ".",
+      "currencyGroupSize": 3,
+      "startsWithCurrencySymbol": false
+    }
+  },
+  "openTextField": null,
+  "invoiceData": null,
+  "itemMetadata": null,
+  "taxData": null,
+  "customData": null,
+  "hooksData": null,
+  "changeData": null,
+  "subscriptionData": null,
+  "salesChannel": "1",
+  "followUpEmail": "abad6c116281474c93c09f193937199e@ct.vtex.com.br",
+  "creationDate": "2021-12-16T10:47:42.6970288Z",
+  "lastChange": "2021-12-16T10:52:19.6675905Z",
+  "timeZoneCreationDate": "2021-12-16T12:47:42.6970288",
+  "timeZoneLastChange": "2021-12-16T12:52:19.6675905",
+  "isCompleted": true,
+  "merchantName": null,
+  "userType": "",
+  "roundingError": 0,
+  "allowEdition": false,
+  "allowCancellation": false,
+  "isUserDataVisible": false,
+  "allowChangeSeller": false,
+  "cancellationData": {
+    "requestedByUser": false,
+    "reason": null,
+    "cancellationDate": "2021-12-16T10:52:18.1231637Z"
+  },
+  "_accountInfo": {
+    "MainAccountName": "pentruanimale",
+    "AccountName": "pentruanimale",
+    "Cnpj": "28141905",
+    "Id": "43d55720-b8df-4f5b-981b-2f9e1600d3c0",
+    "IsActive": true,
+    "IsOperating": false,
+    "CreationDate": "2019-02-26T15:15:02",
+    "OperationDate": null,
+    "CompanyName": "Your Stuff SRL",
+    "TradingName": "Pentru Animale",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licences": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex"
+  }
+}

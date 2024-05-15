@@ -1,0 +1,42 @@
+{
+  "to": [
+    {
+      "name": "claudiu",
+      "email": "claudiu@iviteb.com"
+    }
+  ],
+  "aditionalData": {
+    "accessKey": "318182",
+    "locale": "ro-RO",
+    "userAgent": "Chrome, Windows",
+    "geolocation": {
+      "country": "Romania",
+      "region": "B",
+      "city": "Bucharest"
+    }
+  },
+  "_accountInfo": {
+    "MainAccountName": "pentruanimale",
+    "AccountName": "pentruanimale",
+    "Cnpj": "28141905",
+    "Id": "43d55720-b8df-4f5b-981b-2f9e1600d3c0",
+    "IsActive": true,
+    "IsOperating": false,
+    "CreationDate": "2019-02-26T15:15:02",
+    "OperationDate": null,
+    "CompanyName": "Your Stuff SRL",
+    "TradingName": "Pentru Animale",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licences": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex"
+  }
+}

@@ -1,0 +1,548 @@
+{
+  "package": {
+    "items": [
+      {
+        "itemIndex": 0,
+        "quantity": 1,
+        "price": 209900,
+        "description": null,
+        "unitMultiplier": 0
+      }
+    ],
+    "courier": null,
+    "invoiceNumber": "2000629",
+    "invoiceValue": 209900,
+    "invoiceUrl": null,
+    "issuanceDate": "2018-12-24T00:00:00",
+    "trackingNumber": null,
+    "invoiceKey": null,
+    "trackingUrl": null,
+    "embeddedInvoice": "",
+    "type": "Output",
+    "courierStatus": {
+      "status": "unknown",
+      "finished": false,
+      "data": []
+    },
+    "cfop": null
+  },
+  "subjectItemAttachment": {
+    "item": "Bundle GoPro Hero 7 ...",
+    "totalItems": 1
+  },
+  "cancellationReason": null,
+  "items": [
+    {
+      "additionalInfo": {
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 2.5,
+          "width": 1
+        },
+        "categoriesIds": "/1000005/1000341/",
+        "productClusterId": "151,278,332,333,355,449",
+        "commercialConditionId": "1",
+        "brandName": "GoPRO",
+        "brandId": "2000168",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "301451",
+      "priceTable": null,
+      "priceValidUntil": "2023-12-31T22:30:00Z",
+      "callCenterOperator": "16f0a864-99fa-4417-8777-bc3fe9ce2b09",
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "uniqueId": "78F9BB81ED8941AE9C18A48FA5D52D0D",
+      "id": "301451",
+      "productId": "60199",
+      "refId": null,
+      "ean": "PV125043090-2",
+      "name": "Bundle GoPro Hero 7 Black + GoPro Hero5 Dual Battery Charger + Battery",
+      "skuName": "Bundle GoPro Hero 7 Black + GoPro Hero5 Dual Battery Charger + Battery",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "tax": 0,
+      "priceDefinitions": null,
+      "price": 209900,
+      "listPrice": 209900,
+      "manualPrice": null,
+      "sellingPrice": 209900,
+      "orderRewardStatus": null,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/1000005/1000341/",
+      "productCategories": {
+        "1000005": "Camere de actiune si drone",
+        "1000341": "Camere de actiune"
+      },
+      "quantity": 1,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "http://fstudio.vteximg.com.br/arquivos/ids/713655-80-80/Postare-2--Entuziast-.jpg?v=636795935801300000",
+      "detailUrl": "/gopro-hero-7-black-camera-actiune-copy-60199-/p",
+      "components": [
+        {
+          "uniqueId": "3CFB84A9FCB8486FAA7E514B407FC3E0",
+          "id": "169906",
+          "productId": null,
+          "refId": "125030367",
+          "ean": "818279018424",
+          "name": "GoPro - Incarcator Dual + Acumulator pentru Hero5 Black",
+          "skuName": null,
+          "modalType": null,
+          "parentItemIndex": null,
+          "parentAssemblyBinding": null,
+          "priceValidUntil": null,
+          "tax": 0,
+          "priceDefinitions": null,
+          "price": 25000,
+          "listPrice": null,
+          "manualPrice": null,
+          "sellingPrice": 25000,
+          "orderRewardStatus": null,
+          "rewardValue": 0,
+          "isGift": false,
+          "additionalInfo": {
+            "brandName": null,
+            "brandId": null,
+            "offeringInfo": null,
+            "offeringType": null,
+            "offeringTypeId": null
+          },
+          "preSaleDate": null,
+          "productCategoryIds": null,
+          "productCategories": {},
+          "quantity": 1,
+          "seller": null,
+          "sellerChain": [null],
+          "imageUrl": null,
+          "detailUrl": null,
+          "components": [],
+          "bundleItems": [],
+          "attachments": [],
+          "attachmentOfferings": [],
+          "offerings": [],
+          "priceTags": [],
+          "availability": null,
+          "measurementUnit": "un",
+          "unitMultiplier": 1
+        },
+        {
+          "uniqueId": "45B5ADFA00E94FD0B5DB9999CDC2F80C",
+          "id": "300218",
+          "productId": null,
+          "refId": "125043090",
+          "ean": "",
+          "name": "GoPro Hero 7 Black Camera de Actiune 4K",
+          "skuName": null,
+          "modalType": null,
+          "parentItemIndex": null,
+          "parentAssemblyBinding": null,
+          "priceValidUntil": null,
+          "tax": 0,
+          "priceDefinitions": null,
+          "price": 184900,
+          "listPrice": null,
+          "manualPrice": null,
+          "sellingPrice": 184900,
+          "orderRewardStatus": null,
+          "rewardValue": 0,
+          "isGift": false,
+          "additionalInfo": {
+            "brandName": null,
+            "brandId": null,
+            "offeringInfo": null,
+            "offeringType": null,
+            "offeringTypeId": null
+          },
+          "preSaleDate": null,
+          "productCategoryIds": null,
+          "productCategories": {},
+          "quantity": 1,
+          "seller": null,
+          "sellerChain": [null],
+          "imageUrl": null,
+          "detailUrl": null,
+          "components": [],
+          "bundleItems": [],
+          "attachments": [],
+          "attachmentOfferings": [],
+          "offerings": [],
+          "priceTags": [],
+          "availability": null,
+          "measurementUnit": "un",
+          "unitMultiplier": 1
+        }
+      ],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1
+    }
+  ],
+  "sellers": [
+    {
+      "subSellerId": "1",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?sc=1&an=fstudio",
+      "id": "1",
+      "name": "F64 Studio S.R.L.",
+      "logo": ""
+    }
+  ],
+  "giftRegistryData": null,
+  "receiptData": null,
+  "contextData": null,
+  "marketPlaceOrderId": "",
+  "marketPlaceOrderGroup": null,
+  "marketplaceServicesEndpoint": null,
+  "orderFormId": "d4d6570a9db94476aa26f3dcc7ffcdcf",
+  "sequence": "626079",
+  "affiliateId": "",
+  "status": "",
+  "callCenterOperator": "16f0a864-99fa-4417-8777-bc3fe9ce2b09",
+  "userProfileId": "b3290eba-1124-4b32-8cea-ac9461e39f8f",
+  "hostName": "fstudio",
+  "creationVersion": null,
+  "creationEnvironment": null,
+  "lastChangeVersion": null,
+  "workflowInstanceId": null,
+  "marketplacePaymentValue": null,
+  "orderId": "885821377979-01",
+  "orderGroup": "885821377979",
+  "state": "waiting-for-seller-decision",
+  "isCheckedIn": false,
+  "sellerOrderId": "00-885821377979-01",
+  "storeId": null,
+  "checkedInPickupPointId": null,
+  "value": 209900,
+  "totals": [
+    {
+      "id": "Items",
+      "name": "Items Total",
+      "value": 209900
+    },
+    {
+      "id": "Discounts",
+      "name": "Discounts Total",
+      "value": 0
+    },
+    {
+      "id": "Shipping",
+      "name": "Shipping Total",
+      "value": 0
+    },
+    {
+      "id": "Tax",
+      "name": "Tax Total",
+      "value": 0
+    }
+  ],
+  "clientProfileData": {
+    "email": "office.evocom@gmail.com-3b.ct.vtex.com.br",
+    "firstName": "Lucia",
+    "lastName": "Ganea",
+    "document": null,
+    "documentType": "document",
+    "phone": "0700000000",
+    "corporateName": "EVOCOM EXPERTS GROUP",
+    "tradeName": "j40/246/2014",
+    "corporateDocument": "RO32652398",
+    "stateInscription": null,
+    "corporatePhone": "0700000000",
+    "isCorporate": true,
+    "profileCompleteOnLoading": true,
+    "profileErrorOnLoading": false,
+    "customerClass": null
+  },
+  "ratesAndBenefitsData": {
+    "rateAndBenefitsIdentifiers": [],
+    "teaser": []
+  },
+  "shippingData": {
+    "address": {
+      "addressType": "residential",
+      "receiverName": "Lucia Ganea",
+      "addressId": "34dfa20d4f464e6f9ca18414a489cc65",
+      "postalCode": "010000",
+      "city": "Bucuresti",
+      "state": "BUCURESTI",
+      "country": "ROU",
+      "street": "Șoseaua Mihai Bravu 302",
+      "number": "302",
+      "neighborhood": "Sector 3",
+      "complement": "Bloc b13b  Ap.11",
+      "reference": null,
+      "geoCoordinates": [26.13664110000002, 44.424556]
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "selectedSla": "Ridicare din magazin",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "34dfa20d4f464e6f9ca18414a489cc65",
+        "slas": [
+          {
+            "id": "Ridicare din magazin",
+            "deliveryChannel": "delivery",
+            "name": "Ridicare din magazin",
+            "deliveryIds": [
+              {
+                "courierId": "2",
+                "warehouseId": "2",
+                "dockId": "1ec6e55",
+                "courierName": "Ridicare din magazin",
+                "quantity": 1
+              }
+            ],
+            "shippingEstimate": "0bd",
+            "shippingEstimateDate": "2018-12-24T14:23:07.7657691Z",
+            "lockTTL": "18d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 0,
+            "listPrice": 0,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": 0,
+            "polygonName": "Romania"
+          },
+          {
+            "id": "Curier rapid - Urgent Cargus",
+            "deliveryChannel": "delivery",
+            "name": "Curier rapid - Urgent Cargus",
+            "deliveryIds": [
+              {
+                "courierId": "1",
+                "warehouseId": "1_1",
+                "dockId": "1",
+                "courierName": "Curier",
+                "quantity": 1
+              }
+            ],
+            "shippingEstimate": "1bd",
+            "shippingEstimateDate": null,
+            "lockTTL": "18d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 0,
+            "listPrice": 1500,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": 0,
+            "polygonName": "Romania"
+          },
+          {
+            "id": "Curier rapid - FAN Courier",
+            "deliveryChannel": "delivery",
+            "name": "Curier rapid - FAN Courier",
+            "deliveryIds": [
+              {
+                "courierId": "1c55662",
+                "warehouseId": "1_1",
+                "dockId": "1",
+                "courierName": "Curier 2",
+                "quantity": 1
+              }
+            ],
+            "shippingEstimate": "1bd",
+            "shippingEstimateDate": null,
+            "lockTTL": "18d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 0,
+            "listPrice": 1500,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": 0,
+            "polygonName": "Romania"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "301451",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          }
+        ]
+      }
+    ],
+    "selectedAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "Lucia Ganea",
+        "addressId": "34dfa20d4f464e6f9ca18414a489cc65",
+        "postalCode": "010000",
+        "city": "Bucuresti",
+        "state": "BUCURESTI",
+        "country": "ROU",
+        "street": "Șoseaua Mihai Bravu 302",
+        "number": "302",
+        "neighborhood": "Sector 3",
+        "complement": "Bloc b13b  Ap.11",
+        "reference": null,
+        "geoCoordinates": [26.13664110000002, 44.424556]
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "Lucia Ganea",
+        "addressId": "34dfa20d4f464e6f9ca18414a489cc65",
+        "postalCode": "010000",
+        "city": "Bucuresti",
+        "state": "BUCURESTI",
+        "country": "ROU",
+        "street": "Șoseaua Mihai Bravu 302",
+        "number": "302",
+        "neighborhood": "Sector 3",
+        "complement": "Bloc b13b  Ap.11",
+        "reference": null,
+        "geoCoordinates": [26.13664110000002, 44.424556]
+      }
+    ],
+    "pickupPoints": []
+  },
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "B0EE86E44A804B66AB9A2952ADA768E3",
+        "merchantName": "FSTUDIO",
+        "payments": [
+          {
+            "id": "7F5775FF414A43BFAE3684CBFE0E8746",
+            "paymentSystem": "201",
+            "paymentSystemName": "Plata in magazin",
+            "value": 209900,
+            "installments": 1,
+            "connectorResponses": {},
+            "referenceValue": 209900,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": null,
+            "lastDigits": null,
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "koinUrl": null,
+            "tid": null,
+            "redemptionCode": null,
+            "giftCardId": null,
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "group": "promissory",
+            "dueDate": null,
+            "accountId": null,
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null
+          }
+        ],
+        "sharedTransaction": null
+      }
+    ]
+  },
+  "clientPreferencesData": {
+    "locale": "ro-RO",
+    "optinNewsLetter": true
+  },
+  "commercialConditionData": null,
+  "marketingData": null,
+  "storePreferencesData": {
+    "countryCode": "ROU",
+    "saveUserData": false,
+    "timeZone": "GTB Standard Time",
+    "currencyCode": "RON",
+    "currencyLocale": 1048,
+    "currencySymbol": "Lei",
+    "currencyFormatInfo": {
+      "currencyDecimalDigits": 2,
+      "currencyDecimalSeparator": ",",
+      "currencyGroupSeparator": ".",
+      "currencyGroupSize": 3,
+      "startsWithCurrencySymbol": false
+    }
+  },
+  "openTextField": null,
+  "invoiceData": null,
+  "itemMetadata": null,
+  "taxData": null,
+  "customData": null,
+  "hooksData": null,
+  "changeData": null,
+  "subscriptionData": null,
+  "salesChannel": "1",
+  "followUpEmail": "9777af12b7be49a383572f318bc8888c@ct.vtex.com.br",
+  "creationDate": "2018-12-24T14:22:59.7019097Z",
+  "lastChange": "2018-12-24T14:38:42.9440611Z",
+  "timeZoneCreationDate": "2018-12-24T16:22:59.7019097",
+  "timeZoneLastChange": "2018-12-24T16:38:42.9440611",
+  "isCompleted": true,
+  "merchantName": null,
+  "userType": "callCenterOperator",
+  "roundingError": 0,
+  "allowEdition": false,
+  "allowCancellation": false,
+  "isUserDataVisible": false,
+  "allowChangeSeller": false,
+  "_accountInfo": {
+    "MainAccountName": "pentruanimale",
+    "AccountName": "pentruanimale",
+    "Cnpj": "28141905",
+    "Id": "43d55720-b8df-4f5b-981b-2f9e1600d3c0",
+    "IsActive": true,
+    "IsOperating": false,
+    "CreationDate": "2019-02-26T15:15:02",
+    "OperationDate": null,
+    "CompanyName": "Your Stuff SRL",
+    "TradingName": "Pentru Animale",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licences": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex"
+  }
+}

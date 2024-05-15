@@ -1,0 +1,522 @@
+{
+  "package": null,
+  "subjectItemAttachment": {
+    "item": "GOURPET LINE, Miel, ...",
+    "totalItems": 1
+  },
+  "cancellationReason": null,
+  "items": [
+    {
+      "additionalInfo": {
+        "categoriesIds": "/1/101/10101/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "GourpetLine",
+        "brandId": "1000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "100001",
+      "priceTable": null,
+      "priceValidUntil": "2022-09-22T13:41:36Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:pentruanimale:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/100001",
+      "uniqueId": "161B0B3C41444E91B998D030A15CDAFB",
+      "id": "100001",
+      "productId": "100900",
+      "productRefId": "FGLHRN00001",
+      "refId": "Y1615392982",
+      "ean": "6427616115852",
+      "name": "GOURPET LINE, Miel, hrana uscata presata la rece fara cereale câini, sensibilitati digestive, piele si blana GOURPET LINE, Miel, hrana uscata presata la rece fara cereale câini, 5kg",
+      "skuName": "GOURPET LINE, Miel, hrana uscata presata la rece fara cereale câini, 5kg",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 17499,
+      "listPrice": 17499,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 17499,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/1/101/10101/",
+      "productCategories": {
+        "1": "Caini",
+        "101": "Hrana Caini",
+        "10101": "Hrana Uscata"
+      },
+      "quantity": 1,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "http://pentruanimale.vteximg.com.br/arquivos/ids/182861-55-55/GOURPET-LINE-Miel-hrană-uscată-presată-la-rece-fără-cereale-caini-5kg-1.jpg?v=637672339302500000",
+      "detailUrl": "/gourpet-line--miel--hrana-uscata-presata-la-rece-fara-cereale-caini--sensibilitati-digestive--piele-si-blana-fglhrn00001/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "",
+      "priceDefinition": {
+        "calculatedSellingPrice": 17499,
+        "total": 17499,
+        "sellingPrices": [
+          {
+            "value": 17499,
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  ],
+  "sellers": [
+    {
+      "subSellerId": "1",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?sc=1&an=pentruanimale",
+      "id": "1",
+      "name": "Pentru Animale",
+      "logo": ""
+    }
+  ],
+  "giftRegistryData": null,
+  "receiptData": null,
+  "contextData": null,
+  "marketPlaceOrderId": "",
+  "marketPlaceOrderGroup": null,
+  "marketplaceServicesEndpoint": null,
+  "orderFormId": "910a122bdd0246979be9aa267707861d",
+  "sequence": "500069",
+  "affiliateId": "",
+  "status": "",
+  "callCenterOperator": "",
+  "userProfileId": "ff5cb52b-ac40-4c81-a67a-be7a5ae33585",
+  "hostName": "pentruanimale",
+  "creationVersion": null,
+  "creationEnvironment": null,
+  "lastChangeVersion": null,
+  "workflowInstanceId": null,
+  "marketplacePaymentValue": null,
+  "orderId": "1163502706152-01",
+  "orderGroup": "1163502706152",
+  "state": "payment-approved",
+  "isCheckedIn": false,
+  "sellerOrderId": "00-1163502706152-01",
+  "storeId": null,
+  "checkedInPickupPointId": null,
+  "value": 1018744,
+  "totals": [
+    {
+      "id": "Items",
+      "name": "Items Total",
+      "value": 17499
+    },
+    {
+      "id": "Discounts",
+      "name": "Discounts Total",
+      "value": 0
+    },
+    {
+      "id": "Shipping",
+      "name": "Shipping Total",
+      "value": 1245
+    },
+    {
+      "id": "Tax",
+      "name": "Tax Total",
+      "value": 0
+    },
+    {
+      "id": "Change",
+      "name": "Changes Total",
+      "value": 1000000
+    }
+  ],
+  "clientProfileData": {
+    "email": "996801885ceb450c9e2592c24b7c9919@ct.vtex.com.br",
+    "firstName": "Dragos",
+    "lastName": "Costache",
+    "document": null,
+    "documentType": "document",
+    "phone": "07777777777",
+    "corporateName": null,
+    "tradeName": null,
+    "corporateDocument": null,
+    "stateInscription": null,
+    "corporatePhone": null,
+    "isCorporate": false,
+    "profileCompleteOnLoading": false,
+    "profileErrorOnLoading": false,
+    "customerClass": null
+  },
+  "ratesAndBenefitsData": {
+    "rateAndBenefitsIdentifiers": [],
+    "teaser": []
+  },
+  "shippingData": {
+    "address": {
+      "addressType": "pickup",
+      "receiverName": "Dragos Costache",
+      "addressId": "c55dc067-03be-464b-a42f-21ee683502ea",
+      "isDisposable": true,
+      "postalCode": "070000",
+      "city": "Comuna Corbeanca",
+      "state": "Județul Ilfov",
+      "country": "ROU",
+      "street": "Șos. Unirii",
+      "number": null,
+      "neighborhood": null,
+      "complement": "236",
+      "reference": null,
+      "geoCoordinates": [26.00378, 44.58292]
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "selectedSla": "Pick-up (c55dc067-03be-464b-a42f-21ee683502ea)",
+        "selectedDeliveryChannel": "pickup-in-point",
+        "addressId": "c55dc067-03be-464b-a42f-21ee683502ea",
+        "slas": [
+          {
+            "id": "Pick-up (c55dc067-03be-464b-a42f-21ee683502ea)",
+            "deliveryChannel": "pickup-in-point",
+            "name": "Pick-up (c55dc067-03be-464b-a42f-21ee683502ea)",
+            "deliveryIds": [
+              {
+                "courierId": "1b635be",
+                "warehouseId": "1_1",
+                "dockId": "1",
+                "courierName": "Livrare Pick-up Points",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "3bd",
+            "shippingEstimateDate": "2021-09-27T13:45:05.0252383Z",
+            "lockTTL": "12d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 1245,
+            "listPrice": 1245,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": true,
+              "friendlyName": "pentruanimale.ro Corbeanca",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "c55dc067-03be-464b-a42f-21ee683502ea",
+                "isDisposable": true,
+                "postalCode": "070000",
+                "city": "Comuna Corbeanca",
+                "state": "Județul Ilfov",
+                "country": "ROU",
+                "street": "Șos. Unirii",
+                "number": null,
+                "neighborhood": null,
+                "complement": "236",
+                "reference": null,
+                "geoCoordinates": [26.00378, 44.58292]
+              },
+              "additionalInfo": "",
+              "dockId": "1"
+            },
+            "pickupPointId": "1_c55dc067-03be-464b-a42f-21ee683502ea",
+            "pickupDistance": 18.768890380859375,
+            "polygonName": null,
+            "transitTime": "2bd"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "100001",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          },
+          {
+            "id": "pickup-in-point"
+          }
+        ]
+      }
+    ],
+    "selectedAddresses": [
+      {
+        "addressType": "pickup",
+        "receiverName": "Dragos Costache",
+        "addressId": "c55dc067-03be-464b-a42f-21ee683502ea",
+        "isDisposable": true,
+        "postalCode": "070000",
+        "city": "Comuna Corbeanca",
+        "state": "Județul Ilfov",
+        "country": "ROU",
+        "street": "Șos. Unirii",
+        "number": null,
+        "neighborhood": null,
+        "complement": "236",
+        "reference": null,
+        "geoCoordinates": [26.00378, 44.58292]
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressType": "pickup",
+        "receiverName": "Dragos Costache",
+        "addressId": "c55dc067-03be-464b-a42f-21ee683502ea",
+        "isDisposable": true,
+        "postalCode": "070000",
+        "city": "Comuna Corbeanca",
+        "state": "Județul Ilfov",
+        "country": "ROU",
+        "street": "Șos. Unirii",
+        "number": null,
+        "neighborhood": null,
+        "complement": "236",
+        "reference": null,
+        "geoCoordinates": [26.00378, 44.58292]
+      }
+    ],
+    "pickupPoints": [
+      {
+        "friendlyName": "pentruanimale.ro Corbeanca",
+        "address": {
+          "addressType": "pickup",
+          "receiverName": null,
+          "addressId": "c55dc067-03be-464b-a42f-21ee683502ea",
+          "isDisposable": true,
+          "postalCode": "070000",
+          "city": "Comuna Corbeanca",
+          "state": "Județul Ilfov",
+          "country": "ROU",
+          "street": "Șos. Unirii",
+          "number": null,
+          "neighborhood": null,
+          "complement": "236",
+          "reference": null,
+          "geoCoordinates": [26.00378, 44.58292]
+        },
+        "additionalInfo": "",
+        "id": "1_c55dc067-03be-464b-a42f-21ee683502ea",
+        "businessHours": [
+          {
+            "DayOfWeek": 0,
+            "OpeningTime": "00:00:00",
+            "ClosingTime": "23:59:00"
+          },
+          {
+            "DayOfWeek": 1,
+            "OpeningTime": "00:00:00",
+            "ClosingTime": "23:59:00"
+          },
+          {
+            "DayOfWeek": 2,
+            "OpeningTime": "00:00:00",
+            "ClosingTime": "23:59:00"
+          },
+          {
+            "DayOfWeek": 3,
+            "OpeningTime": "00:00:00",
+            "ClosingTime": "23:59:00"
+          },
+          {
+            "DayOfWeek": 4,
+            "OpeningTime": "00:00:00",
+            "ClosingTime": "23:59:00"
+          },
+          {
+            "DayOfWeek": 5,
+            "OpeningTime": "00:00:00",
+            "ClosingTime": "23:59:00"
+          },
+          {
+            "DayOfWeek": 6,
+            "OpeningTime": "00:00:00",
+            "ClosingTime": "23:59:00"
+          }
+        ]
+      }
+    ]
+  },
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "0AB6F7C4B0284FEEB58F771A80D133EE",
+        "merchantName": "PENTRUANIMALE",
+        "payments": [
+          {
+            "id": "8F7387377E6A41E2AC9D4B1C1EB7602F",
+            "paymentSystem": "47",
+            "paymentSystemName": "Cash",
+            "value": 18744,
+            "installments": 1,
+            "connectorResponses": {},
+            "referenceValue": 18744,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": null,
+            "lastDigits": null,
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "koinUrl": null,
+            "tid": null,
+            "redemptionCode": null,
+            "giftCardId": null,
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "group": "cash",
+            "dueDate": null,
+            "accountId": null,
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": null
+          }
+        ],
+        "sharedTransaction": false
+      },
+      {
+        "isActive": true,
+        "transactionId": "CD1ED440063346B193783E619E2CB02C",
+        "merchantName": "PENTRUANIMALE",
+        "payments": [
+          {
+            "id": "B3A908547846442FB1E839017F6B5AA5",
+            "paymentSystem": "47",
+            "paymentSystemName": "Cash",
+            "value": 1000000,
+            "installments": 1,
+            "connectorResponses": {},
+            "referenceValue": 1000000,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": null,
+            "lastDigits": null,
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "koinUrl": null,
+            "tid": null,
+            "redemptionCode": null,
+            "giftCardId": null,
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "group": "cash",
+            "dueDate": null,
+            "accountId": null,
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": null
+          }
+        ],
+        "sharedTransaction": false
+      }
+    ]
+  },
+  "clientPreferencesData": {
+    "locale": "ro-RO",
+    "optinNewsLetter": false
+  },
+  "commercialConditionData": null,
+  "marketingData": null,
+  "storePreferencesData": {
+    "countryCode": "ROU",
+    "saveUserData": false,
+    "timeZone": "GTB Standard Time",
+    "currencyCode": "RON",
+    "currencyLocale": 1048,
+    "currencySymbol": "lei",
+    "currencyFormatInfo": {
+      "currencyDecimalDigits": 2,
+      "currencyDecimalSeparator": ",",
+      "currencyGroupSeparator": ".",
+      "currencyGroupSize": 3,
+      "startsWithCurrencySymbol": false
+    }
+  },
+  "openTextField": null,
+  "invoiceData": null,
+  "itemMetadata": null,
+  "taxData": null,
+  "customData": null,
+  "hooksData": null,
+  "changeData": {
+    "changesData": [
+      {
+        "reason": "asa doresc eu",
+        "discountValue": 0,
+        "incrementValue": 1000000,
+        "itemsAdded": [],
+        "itemsRemoved": [],
+        "receipt": {
+          "orderId": "1163502706152-01",
+          "date": "2021-09-22T13:53:08.736367Z",
+          "receipt": "74ea27c5-7893-4ca5-83ab-1b214ce30458"
+        }
+      }
+    ]
+  },
+  "subscriptionData": null,
+  "salesChannel": "1",
+  "followUpEmail": "2cd59f03b97740e7b0bc008472ac6e13@ct.vtex.com.br",
+  "creationDate": "2021-09-22T13:45:05.7147779Z",
+  "lastChange": "2021-09-22T13:53:11.5443658Z",
+  "timeZoneCreationDate": "2021-09-22T16:45:05.7147779",
+  "timeZoneLastChange": "2021-09-22T16:53:11.5443658",
+  "isCompleted": true,
+  "merchantName": null,
+  "userType": "",
+  "roundingError": 0,
+  "allowEdition": false,
+  "allowCancellation": false,
+  "isUserDataVisible": false,
+  "allowChangeSeller": false,
+  "_accountInfo": {
+    "MainAccountName": "pentruanimale",
+    "AccountName": "pentruanimale",
+    "Cnpj": "28141905",
+    "Id": "43d55720-b8df-4f5b-981b-2f9e1600d3c0",
+    "IsActive": true,
+    "IsOperating": false,
+    "CreationDate": "2019-02-26T15:15:02",
+    "OperationDate": null,
+    "CompanyName": "Your Stuff SRL",
+    "TradingName": "Pentru Animale",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licences": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex"
+  }
+}

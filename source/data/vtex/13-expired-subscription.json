@@ -1,0 +1,127 @@
+{
+  "customData": {},
+  "orderGroup": "E6159809FC79BD06AAFACE591710E80D",
+  "customerId": "dragosg.costache@gmail.com",
+  "title": null,
+  "status": "CANCELED",
+  "isSkipped": false,
+  "items": [
+    {
+      "sku": {
+        "id": "100037862",
+        "name": "ROYAL CANIN Kitten Sterilised, hrana uscata pisici sterilizate junior, 3.5kg",
+        "productName": "ROYAL CANIN Kitten Sterilised, hrana uscata pisici sterilizate junior",
+        "imageUrl": "http://pentruanimale.vteximg.com.br/arquivos/ids/182852-55-55/RC-FHN-KittenSterilised-FHN-KITTEN_002_ROMANIA-ROMANIAN.jpg?v=637625864687700000",
+        "detailUrl": "/royal-canin-kitten-sterilised-hrana-uscata-pisici-sterilizate-junior/p",
+        "nameComplete": "ROYAL CANIN Kitten Sterilised, hrana uscata pisici sterilizate junior, 3.5kg",
+        "Attachments": [
+          {
+            "Id": "7",
+            "Name": "vtex.subscription.test"
+          }
+        ]
+      },
+      "quantity": 1,
+      "endpoint": null,
+      "priceAtSubscriptionDate": null,
+      "sellingPrice": null,
+      "SubscriptionId": "462F68F9E59B4512B7AC1963E7BBDD1A",
+      "cycleCount": 0,
+      "status": "ACTIVE",
+      "createdAt": "2021-09-22T12:48:16.0442735Z",
+      "lastUpdate": "2021-09-22T12:48:16.0442735Z",
+      "originalOrderId": null,
+      "originalItemIndex": null,
+      "metadata": [],
+      "isSkipped": false
+    }
+  ],
+  "plan": {
+    "frequency": {
+      "periodicity": "WEEKLY",
+      "interval": 4
+    },
+    "validity": {
+      "begin": "2021-09-22T12:48:14.877Z",
+      "end": null
+    },
+    "type": "RECURRING_PAYMENT"
+  },
+  "customerProfile": {
+    "userId": null,
+    "profileId": null,
+    "name": null,
+    "email": "dragosg.costache@gmail.com",
+    "phone": null
+  },
+  "shippingAddress": {
+    "addressId": "test",
+    "street": null,
+    "number": null,
+    "complement": null,
+    "neighborhood": null,
+    "city": null,
+    "state": null,
+    "country": null,
+    "postalCode": null,
+    "reference": null,
+    "formattedAddress": null,
+    "additionalComponents": null,
+    "geoCoordinate": null,
+    "receiverName": null,
+    "addressType": "residential",
+    "addressName": null
+  },
+  "accountName": "pentruanimale",
+  "purchaseSettings": {
+    "purchaseDay": "Thursday",
+    "paymentMethod": {
+      "paymentSystem": "47",
+      "paymentSystemName": "Cash",
+      "paymentSystemGroup": "cash",
+      "paymentAccount": null
+    },
+    "seller": "1",
+    "salesChannel": "1",
+    "selectedSla": null,
+    "currencySymbol": null,
+    "currencyCode": "RON",
+    "cycleCount": 0,
+    "installments": 1
+  },
+  "schedule": null,
+  "nextPurchaseDate": "2021-10-21T09:06:00Z",
+  "totals": [],
+  "totalsBySimulationItems": [],
+  "totalValue": 0,
+  "instances": [],
+  "lastInstanceId": null,
+  "targetEmail": "a0fb103785844e12a1e7ecec4d2fbcb7@ct.vtex.com.br",
+  "shippingEstimate": null,
+  "integrityInfo": 32,
+  "activeItemsCount": 1,
+  "_accountInfo": {
+    "MainAccountName": "pentruanimale",
+    "AccountName": "pentruanimale",
+    "Cnpj": "28141905",
+    "Id": "43d55720-b8df-4f5b-981b-2f9e1600d3c0",
+    "IsActive": true,
+    "IsOperating": false,
+    "CreationDate": "2019-02-26T15:15:02",
+    "OperationDate": null,
+    "CompanyName": "Your Stuff SRL",
+    "TradingName": "Pentru Animale",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licences": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex"
+  }
+}

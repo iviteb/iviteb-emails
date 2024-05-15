@@ -1,0 +1,428 @@
+{
+  "package": {
+    "items": [
+      {
+        "itemIndex": 0,
+        "quantity": 3,
+        "price": 2099,
+        "description": null,
+        "unitMultiplier": 0
+      }
+    ],
+    "courier": "GLS",
+    "invoiceNumber": "4",
+    "invoiceValue": 7297,
+    "invoiceUrl": "google.ro",
+    "issuanceDate": "2022-11-08T22:00:00Z",
+    "trackingNumber": "00105173045",
+    "invoiceKey": "56",
+    "trackingUrl": "https://gls-group.eu/RO/ro/urmarire-colet",
+    "embeddedInvoice": "",
+    "type": "Output",
+    "courierStatus": {
+      "status": "ok",
+      "finished": true,
+      "deliveredDate": "2021-09-23T15:53:16.1154603Z",
+      "data": [
+        {
+          "lastChange": "2021-09-23T00:00:00",
+          "city": "Bucharest",
+          "state": "ROU",
+          "description": "Coletado pela transportadora",
+          "createDate": "2021-09-23T15:53:16.1154598Z"
+        }
+      ]
+    },
+    "cfop": null,
+    "restitutions": {},
+    "volumes": null,
+    "EnableInferItems": null
+  },
+  "subjectItemAttachment": {
+    "item": "ROYAL CANIN Kitten S...",
+    "totalItems": 3,
+    "extraItems": 2
+  },
+  "cancellationReason": null,
+  "items": [
+    {
+      "additionalInfo": {
+        "categoriesIds": "/1/101/10101/21307/",
+        "productClusterId": "",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1,
+          "width": 1
+        },
+        "brandName": "Royal Canin",
+        "brandId": "3",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "100037864",
+      "priceTable": null,
+      "priceValidUntil": "2022-09-23T15:39:52Z",
+      "callCenterOperator": "4a271b02-c05c-4bea-a901-bc0ce4ad9e42",
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:pentruanimale:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/100037864",
+      "uniqueId": "9C21648FDF774EBF996DDDA275EC854E",
+      "id": "100037864",
+      "productId": "100037855",
+      "productRefId": "FRCHR00049",
+      "refId": "2147483671",
+      "ean": "3182550805155",
+      "name": "ROYAL CANIN Kitten Sterilised, hrana uscata pisici sterilizate junior, 400g",
+      "skuName": "ROYAL CANIN Kitten Sterilised, hrana uscata pisici sterilizate junior, 400g",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 2099,
+      "listPrice": 2500,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 2099,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/1/101/10101/21307/",
+      "productCategories": {
+        "1": "Caini",
+        "101": "Hrana Caini",
+        "10101": "Hrana Uscata",
+        "21307": "Hrana Uscata Caini - Greutate"
+      },
+      "quantity": 3,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "http://pentruanimale.vteximg.com.br/arquivos/ids/182852-55-55/RC-FHN-KittenSterilised-FHN-KITTEN_002_ROMANIA-ROMANIAN.jpg?v=637625864687700000",
+      "detailUrl": "/royal-canin-kitten-sterilised-hrana-uscata-pisici-sterilizate-junior/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": "249480",
+      "priceDefinition": {
+        "calculatedSellingPrice": 2099,
+        "total": 6297,
+        "sellingPrices": [
+          {
+            "value": 2099,
+            "quantity": 3
+          }
+        ]
+      }
+    }
+  ],
+  "sellers": [
+    {
+      "subSellerId": "1",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?sc=1&an=pentruanimale",
+      "id": "1",
+      "name": "Pentru Animale",
+      "logo": ""
+    }
+  ],
+  "giftRegistryData": null,
+  "receiptData": null,
+  "contextData": null,
+  "marketPlaceOrderId": "",
+  "marketPlaceOrderGroup": null,
+  "marketplaceServicesEndpoint": null,
+  "orderFormId": "97ed6274f5b24b44bc57333ddcdc0a4a",
+  "sequence": "500075",
+  "affiliateId": "",
+  "status": "",
+  "callCenterOperator": "4a271b02-c05c-4bea-a901-bc0ce4ad9e42",
+  "userProfileId": "6ea41340-4fc1-4f14-9449-e7205008a68c",
+  "hostName": "pentruanimale",
+  "creationVersion": null,
+  "creationEnvironment": null,
+  "lastChangeVersion": null,
+  "workflowInstanceId": null,
+  "marketplacePaymentValue": null,
+  "orderId": "1163762410835-01",
+  "orderGroup": "1163762410835",
+  "state": "invoiced",
+  "isCheckedIn": false,
+  "sellerOrderId": "00-1163762410835-01",
+  "storeId": null,
+  "checkedInPickupPointId": null,
+  "value": 7297,
+  "totals": [
+    {
+      "id": "Items",
+      "name": "Items Total",
+      "value": 6297
+    },
+    {
+      "id": "Discounts",
+      "name": "Discounts Total",
+      "value": 0
+    },
+    {
+      "id": "Shipping",
+      "name": "Shipping Total",
+      "value": 1000
+    },
+    {
+      "id": "Tax",
+      "name": "Tax Total",
+      "value": 0
+    }
+  ],
+  "clientProfileData": {
+    "email": "ff3ccb9023be4bbeb24ece42a0ce788c@ct.vtex.com.br",
+    "firstName": "aniela",
+    "lastName": "opris",
+    "document": null,
+    "documentType": "document",
+    "phone": "0748130400",
+    "corporateName": null,
+    "tradeName": null,
+    "corporateDocument": null,
+    "stateInscription": null,
+    "corporatePhone": null,
+    "isCorporate": false,
+    "profileCompleteOnLoading": true,
+    "profileErrorOnLoading": false,
+    "customerClass": null
+  },
+  "ratesAndBenefitsData": {
+    "rateAndBenefitsIdentifiers": [],
+    "teaser": []
+  },
+  "shippingData": {
+    "address": {
+      "addressType": "residential",
+      "receiverName": "aniela opris",
+      "addressId": "4844375665056",
+      "isDisposable": false,
+      "postalCode": "010000",
+      "city": "Bucureşti (Sectorul 5)",
+      "state": "Bucureşti",
+      "country": "ROU",
+      "street": "Bld. Mihail Kogalniceanu",
+      "number": "23",
+      "neighborhood": null,
+      "complement": null,
+      "reference": null,
+      "geoCoordinates": []
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "selectedSla": "Regular Delivery",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "4844375665056",
+        "slas": [
+          {
+            "id": "Regular Delivery",
+            "deliveryChannel": "delivery",
+            "name": "Regular Delivery",
+            "deliveryIds": [
+              {
+                "courierId": "1f60428",
+                "warehouseId": "1_1",
+                "dockId": "1",
+                "courierName": "GLS",
+                "quantity": 3,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "2bd",
+            "shippingEstimateDate": "2021-09-27T18:00:00Z",
+            "lockTTL": "12d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 1000,
+            "listPrice": 1000,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": 0,
+            "polygonName": null,
+            "transitTime": "2bd"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "100037864",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          },
+          {
+            "id": "pickup-in-point"
+          }
+        ]
+      }
+    ],
+    "selectedAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "aniela opris",
+        "addressId": "4844375665056",
+        "isDisposable": false,
+        "postalCode": "010000",
+        "city": "Bucureşti (Sectorul 5)",
+        "state": "Bucureşti",
+        "country": "ROU",
+        "street": "Bld. Mihail Kogalniceanu",
+        "number": "23",
+        "neighborhood": null,
+        "complement": null,
+        "reference": null,
+        "geoCoordinates": []
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressType": "residential",
+        "receiverName": "aniela opris",
+        "addressId": "4844375665056",
+        "isDisposable": false,
+        "postalCode": "010000",
+        "city": "Bucureşti (Sectorul 5)",
+        "state": "Bucureşti",
+        "country": "ROU",
+        "street": "Bld. Mihail Kogalniceanu",
+        "number": "23",
+        "neighborhood": null,
+        "complement": null,
+        "reference": null,
+        "geoCoordinates": []
+      }
+    ],
+    "pickupPoints": []
+  },
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "AF0F7F1B353E4F86AF49717688F3AD9B",
+        "merchantName": "PENTRUANIMALE",
+        "payments": [
+          {
+            "id": "FBD07EDB719645579D5E84D90DD1E2D3",
+            "paymentSystem": "47",
+            "paymentSystemName": "Cash",
+            "value": 7297,
+            "installments": 1,
+            "connectorResponses": {},
+            "referenceValue": 7297,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": null,
+            "lastDigits": null,
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "koinUrl": null,
+            "tid": null,
+            "redemptionCode": null,
+            "giftCardId": null,
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "group": "cash",
+            "dueDate": null,
+            "accountId": null,
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": null
+          }
+        ],
+        "sharedTransaction": false
+      }
+    ]
+  },
+  "clientPreferencesData": {
+    "locale": "ro-RO",
+    "optinNewsLetter": false
+  },
+  "commercialConditionData": null,
+  "marketingData": null,
+  "storePreferencesData": {
+    "countryCode": "ROU",
+    "saveUserData": false,
+    "timeZone": "GTB Standard Time",
+    "currencyCode": "RON",
+    "currencyLocale": 1048,
+    "currencySymbol": "lei",
+    "currencyFormatInfo": {
+      "currencyDecimalDigits": 2,
+      "currencyDecimalSeparator": ",",
+      "currencyGroupSeparator": ".",
+      "currencyGroupSize": 3,
+      "startsWithCurrencySymbol": false
+    }
+  },
+  "openTextField": null,
+  "invoiceData": null,
+  "itemMetadata": null,
+  "taxData": null,
+  "customData": null,
+  "hooksData": null,
+  "changeData": null,
+  "subscriptionData": null,
+  "salesChannel": "1",
+  "followUpEmail": "f73ab8dd28244e599ce56723108d458c@ct.vtex.com.br",
+  "creationDate": "2021-09-23T15:40:10.1413945Z",
+  "lastChange": "2021-09-23T15:43:37.4428174Z",
+  "timeZoneCreationDate": "2021-09-23T18:40:10.1413945",
+  "timeZoneLastChange": "2021-09-23T18:43:37.4428174",
+  "isCompleted": true,
+  "merchantName": null,
+  "userType": "callCenterOperator",
+  "roundingError": 0,
+  "allowEdition": false,
+  "allowCancellation": false,
+  "isUserDataVisible": false,
+  "allowChangeSeller": false,
+  "_accountInfo": {
+    "MainAccountName": "pentruanimale",
+    "AccountName": "pentruanimale",
+    "Cnpj": "28141905",
+    "Id": "43d55720-b8df-4f5b-981b-2f9e1600d3c0",
+    "IsActive": true,
+    "IsOperating": false,
+    "CreationDate": "2019-02-26T15:15:02",
+    "OperationDate": null,
+    "CompanyName": "Your Stuff SRL",
+    "TradingName": "Pentru Animale",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licences": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex"
+  }
+}
