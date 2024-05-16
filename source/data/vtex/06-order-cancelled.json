@@ -1,69 +1,118 @@
 {
   "package": null,
   "subjectItemAttachment": {
-    "item": "Calibra Dog Diabetes...",
-    "totalItems": 1
+    "item": "INABA Ciao Dashi, Pu...",
+    "totalItems": 10,
+    "extraItems": 9
   },
-  "cancellationReason": null,
+  "cancellationReason": "test",
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "77DE780A6E04489F97D0A3EF5190732E",
+        "merchantName": "P**************",
+        "payments": [
+          {
+            "id": "27143FC4A82240AB81EDD637265A68AD",
+            "paymentSystem": "47",
+            "paymentSystemName": "C***",
+            "value": 6793,
+            "installments": 1,
+            "referenceValue": 6793,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": null,
+            "lastDigits": null,
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "giftCardId": null,
+            "giftCardName": null,
+            "giftCardCaption": null,
+            "redemptionCode": null,
+            "group": "cash",
+            "tid": null,
+            "dueDate": null,
+            "connectorResponses": {},
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "koinUrl": null,
+            "accountId": null,
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": null,
+            "paymentOrigin": null
+          }
+        ]
+      }
+    ]
+  },
+  "cancellationRequests": null,
   "items": [
     {
       "additionalInfo": {
-        "categoriesIds": "/1/101/10103/",
-        "productClusterId": "",
+        "categoriesIds": "/200/201/20102/",
+        "productClusterId": "245",
         "commercialConditionId": "1",
         "dimension": {
-          "cubicweight": 0.1,
-          "height": 0.1,
-          "length": 0.1,
-          "weight": 12,
-          "width": 0.1
+          "cubicweight": 0.0002,
+          "height": 1,
+          "length": 1,
+          "weight": 70,
+          "width": 1
         },
-        "brandName": "Calibra",
-        "brandId": "509",
+        "brandName": "I****",
+        "brandId": "1455",
         "offeringInfo": null,
         "offeringType": null,
         "offeringTypeId": null
       },
-      "sellerSku": "1477",
+      "sellerSku": "8352",
       "priceTable": null,
-      "priceValidUntil": "2022-12-16T10:46:28Z",
+      "priceValidUntil": "2025-05-16T13:27:46Z",
       "callCenterOperator": null,
       "commission": 0,
       "freightCommission": 0,
-      "taxCode": "9",
-      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:pentruanimale:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/1477",
-      "uniqueId": "8E45F041C0024EBB8A0391A8345A7DD3",
-      "id": "1477",
-      "productId": "36842",
-      "productRefId": "Y1479126469x2",
-      "refId": "Y1479126469",
-      "ean": "8594062082262",
-      "name": "Calibra Dog Diabetes/Obesity 12 kg",
-      "skuName": "Calibra Dog Diabetes/Obesity 12 kg",
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:pentruanimalero:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/8352",
+      "uniqueId": "BDE16CA4CB424B7A825D49A4A898DA9F",
+      "id": "8352",
+      "productId": "5837",
+      "productRefId": "PMSEU868",
+      "refId": "PMSEU868",
+      "ean": "4262365730664",
+      "name": "I*********************************************************************************",
+      "skuName": "I*********************************************************************************",
       "modalType": null,
       "parentItemIndex": null,
       "parentAssemblyBinding": null,
       "assemblies": [],
       "tax": 0,
-      "price": 24999,
-      "listPrice": 24999,
+      "price": 799,
+      "listPrice": 799,
       "manualPrice": null,
       "manualPriceAppliedBy": null,
-      "sellingPrice": 24999,
+      "sellingPrice": 799,
       "rewardValue": 0,
       "isGift": false,
       "preSaleDate": null,
-      "productCategoryIds": "/1/101/10103/",
+      "productCategoryIds": "/200/201/20102/",
       "productCategories": {
-        "1": "Caini",
-        "101": "Hrana Caini",
-        "10103": "Diete Veterinare"
+        "200": "Pisici",
+        "201": "Hrana Pisici",
+        "20102": "Hrana Umeda"
       },
-      "quantity": 1,
+      "quantity": 6,
       "seller": "1",
       "sellerChain": ["1"],
-      "imageUrl": "http://pentruanimale.vteximg.com.br/arquivos/ids/177408-55-55/calibra-dog-diabetes-obesity4200.jpg?v=637530031100900000",
-      "detailUrl": "/calibra-dog-diabetes-obesity-12-kg/p",
+      "imageUrl": "https://pentruanimalero.vteximg.com.br/arquivos/ids/1057916-55-55/INABA-Ciao-Dashi-Pui-și-Somon-bol-hrană-umedă-fără-cereale-pisici--in-sos--70g-1.jpg?v=638346286385230000",
+      "detailUrl": "/inaba-ciao-dashi-pui-si-somon-bol-hrana-umeda-fara-cereale-pisici-in-sos/p",
       "components": [],
       "bundleItems": [],
       "attachments": [],
@@ -73,13 +122,270 @@
       "availability": "available",
       "measurementUnit": "un",
       "unitMultiplier": 1,
-      "manufacturerCode": "",
+      "manufacturerCode": null,
       "priceDefinition": {
-        "calculatedSellingPrice": 24999,
-        "total": 24999,
+        "calculatedSellingPrice": 799,
+        "total": 4794,
         "sellingPrices": [
           {
-            "value": 24999,
+            "value": 799,
+            "quantity": 6
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/200/201/20102/",
+        "productClusterId": "245",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0.0002,
+          "height": 1,
+          "length": 1,
+          "weight": 70,
+          "width": 1
+        },
+        "brandName": "I****",
+        "brandId": "1455",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "8352",
+      "priceTable": null,
+      "priceValidUntil": "2025-05-16T13:27:46Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:pentruanimalero:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/8352",
+      "uniqueId": "BDE16CA4CB424B7A825D49A4A898DA9F",
+      "id": "8352",
+      "productId": "5837",
+      "productRefId": "PMSEU868",
+      "refId": "PMSEU868",
+      "ean": "4262365730664",
+      "name": "I*********************************************************************************",
+      "skuName": "I*********************************************************************************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 799,
+      "listPrice": 799,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 0,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/200/201/20102/",
+      "productCategories": {
+        "200": "Pisici",
+        "201": "Hrana Pisici",
+        "20102": "Hrana Umeda"
+      },
+      "quantity": 2,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "https://pentruanimalero.vteximg.com.br/arquivos/ids/1057916-55-55/INABA-Ciao-Dashi-Pui-și-Somon-bol-hrană-umedă-fără-cereale-pisici--in-sos--70g-1.jpg?v=638346286385230000",
+      "detailUrl": "/inaba-ciao-dashi-pui-si-somon-bol-hrana-umeda-fara-cereale-pisici-in-sos/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "d***************************************************************************************",
+          "value": -1598,
+          "rawValue": -15.98,
+          "isPercentual": false,
+          "identifier": "90d4a60c-7e12-4bd2-9e84-492ee4a5d185"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 0,
+        "total": 0,
+        "sellingPrices": [
+          {
+            "value": 0,
+            "quantity": 2
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/60304/",
+        "productClusterId": "245,392",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1000,
+          "width": 1
+        },
+        "brandName": "P**********",
+        "brandId": "605",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "9259",
+      "priceTable": null,
+      "priceValidUntil": "2025-05-16T13:27:40Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:pentruanimalero:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/9259",
+      "uniqueId": "5178CC3FED4E44BA99A26F189CD30886",
+      "id": "9259",
+      "productId": "6490",
+      "productRefId": "AQMARTDG28W",
+      "refId": "AQMARTDG28W",
+      "ean": "48376",
+      "name": "P*********************************************************************",
+      "skuName": "P*********************************************************************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 559,
+      "listPrice": 559,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 0,
+      "rewardValue": 0,
+      "isGift": true,
+      "preSaleDate": null,
+      "productCategoryIds": "/60304/",
+      "productCategories": {
+        "60304": "Promotionale"
+      },
+      "quantity": 1,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "https://pentruanimalero.vteximg.com.br/arquivos/ids/1060091-55-55/promo_perfect_fit_sensitive_plic.jpg?v=638499745122900000",
+      "detailUrl": "/promo-perfect-fit-sensitive-plic-85g/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "D************",
+          "value": 100,
+          "rawValue": 1,
+          "isPercentual": true,
+          "identifier": "0af16346-e8c9-49ab-81b9-2774ed21990b"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 0,
+        "total": 0,
+        "sellingPrices": [
+          {
+            "value": 0,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/60304/",
+        "productClusterId": "245,392",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1,
+          "height": 1,
+          "length": 1,
+          "weight": 1000,
+          "width": 1
+        },
+        "brandName": "P**********",
+        "brandId": "605",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "9258",
+      "priceTable": null,
+      "priceValidUntil": "2025-05-16T13:27:40Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:pentruanimalero:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/9258",
+      "uniqueId": "F631A59F7AB94F68B061CBDD3ADAE32A",
+      "id": "9258",
+      "productId": "6489",
+      "productRefId": "AQMARTDG31R",
+      "refId": "AQMARTDG31R",
+      "ean": "48377",
+      "name": "P*********************************************************************",
+      "skuName": "P*********************************************************************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 0,
+      "price": 559,
+      "listPrice": 559,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 0,
+      "rewardValue": 0,
+      "isGift": true,
+      "preSaleDate": null,
+      "productCategoryIds": "/60304/",
+      "productCategories": {
+        "60304": "Promotionale"
+      },
+      "quantity": 1,
+      "seller": "1",
+      "sellerChain": ["1"],
+      "imageUrl": "https://pentruanimalero.vteximg.com.br/arquivos/ids/1060090-55-55/promo_perfect_fit_indoor_plic.jpg?v=638499730292130000",
+      "detailUrl": "/promo-perfect-fit-indoor-plic-85g/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "D************",
+          "value": 100,
+          "rawValue": 1,
+          "isPercentual": true,
+          "identifier": "cd743684-c2b7-4c37-b08b-c0e39e5fe8b2"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 0,
+        "total": 0,
+        "sellingPrices": [
+          {
+            "value": 0,
             "quantity": 1
           }
         ]
@@ -89,9 +395,9 @@
   "sellers": [
     {
       "subSellerId": "1",
-      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?sc=1&an=pentruanimale",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=pentruanimalero",
       "id": "1",
-      "name": "Pentru Animale",
+      "name": "p**************",
       "logo": ""
     }
   ],
@@ -101,114 +407,147 @@
   "marketPlaceOrderId": "",
   "marketPlaceOrderGroup": null,
   "marketplaceServicesEndpoint": null,
-  "orderFormId": "80c926091f2949a4814ab93bce7b0912",
-  "sequence": "505195",
+  "orderFormId": "9ba757a32a69456d8563d41b02eaf0c9",
+  "sequence": "673540",
   "affiliateId": "",
   "status": "",
   "callCenterOperator": "",
-  "userProfileId": "66646431-fb0c-4acc-b322-c1babaa8cccb",
-  "hostName": "pentruanimale",
+  "userProfileId": "08048733-dc97-4f82-b404-b40852e1e0b6",
+  "hostName": "p**************",
   "creationVersion": null,
   "creationEnvironment": null,
   "lastChangeVersion": null,
   "workflowInstanceId": null,
   "marketplacePaymentValue": null,
-  "orderId": "1183872863563-01",
-  "orderGroup": "1183872863563",
+  "orderId": "1432780673540-01",
+  "orderGroup": "1432780673540",
   "state": "canceled",
   "isCheckedIn": false,
-  "sellerOrderId": "00-1183872863563-01",
+  "sellerOrderId": "00-1432780673540-01",
   "storeId": null,
   "checkedInPickupPointId": null,
-  "value": 26989,
+  "value": 6793,
   "totals": [
     {
       "id": "Items",
-      "name": "Items Total",
-      "value": 24999
+      "name": "T*************",
+      "value": 6392
     },
     {
       "id": "Discounts",
-      "name": "Discounts Total",
-      "value": 0
+      "name": "T*************",
+      "value": -1598
     },
     {
       "id": "Shipping",
-      "name": "Shipping Total",
-      "value": 1990
+      "name": "T**************",
+      "value": 1999
     },
     {
       "id": "Tax",
-      "name": "Tax Total",
+      "name": "T*********",
       "value": 0
     }
   ],
   "clientProfileData": {
-    "email": "a7137c060f7e4d8a8cc1c365aea39eee@ct.vtex.com.br",
-    "firstName": "Alexandru",
-    "lastName": "Stupar",
+    "email": "a*****.o****@g****.c****************.c*.v***.c**.b*",
+    "firstName": "A*****",
+    "lastName": "O****",
     "document": null,
-    "documentType": "document",
-    "phone": "0723178275",
+    "documentType": "",
+    "phone": "0*********",
     "corporateName": null,
     "tradeName": null,
     "corporateDocument": null,
     "stateInscription": null,
     "corporatePhone": null,
     "isCorporate": false,
-    "profileCompleteOnLoading": false,
+    "profileCompleteOnLoading": true,
     "profileErrorOnLoading": false,
     "customerClass": null
   },
   "ratesAndBenefitsData": {
-    "rateAndBenefitsIdentifiers": [],
+    "rateAndBenefitsIdentifiers": [
+      {
+        "id": "90d4a60c-7e12-4bd2-9e84-492ee4a5d185",
+        "name": "4*************",
+        "featured": true,
+        "description": "INABA Ciao Dashi, Pui și Somon, bol hrană umedă fără cereale pisici, (în sos), 70g",
+        "matchedParameters": {
+          "forThePriceOf@Marketing": "8352",
+          "forThePriceOfMatchedItemsWithQuantity@Marketing": "8352-0-8",
+          "usedItemsInPromotion@Marketing": "8352"
+        },
+        "additionalInfo": null
+      },
+      {
+        "id": "0af16346-e8c9-49ab-81b9-2774ed21990b",
+        "name": "P**********************************************",
+        "featured": false,
+        "description": null,
+        "matchedParameters": {
+          "category@CatalogSystem": "200|inclusive"
+        },
+        "additionalInfo": null
+      },
+      {
+        "id": "cd743684-c2b7-4c37-b08b-c0e39e5fe8b2",
+        "name": "P**********************************************",
+        "featured": false,
+        "description": null,
+        "matchedParameters": {
+          "category@CatalogSystem": "200|inclusive"
+        },
+        "additionalInfo": null
+      }
+    ],
     "teaser": []
   },
   "shippingData": {
     "address": {
       "addressType": "residential",
-      "receiverName": "Alexandru Stupar",
-      "addressId": "5762c9bb127a42a98a3153199967c5b3",
-      "isDisposable": true,
-      "postalCode": "430183",
-      "city": "Baia Mare",
-      "state": "Maramures",
+      "receiverName": "A***** O****",
+      "addressId": "75703",
+      "isDisposable": false,
+      "postalCode": "0*****",
+      "city": "B******** (******** 5*",
+      "state": "Bucureşti",
       "country": "ROU",
-      "street": "Alexandru Odobescu",
-      "number": "2",
+      "street": "B*** M***** K***********",
+      "number": "2*",
       "neighborhood": null,
-      "complement": "Comanda de test",
+      "complement": "a** 3** s***** 5",
       "reference": null,
-      "geoCoordinates": []
+      "geoCoordinates": [-51.4779552, -0.0039779]
     },
     "logisticsInfo": [
       {
         "itemIndex": 0,
-        "selectedSla": "Regular Delivery",
+        "selectedSla": "Livrare standard",
         "selectedDeliveryChannel": "delivery",
-        "addressId": "5762c9bb127a42a98a3153199967c5b3",
+        "addressId": "75703",
         "slas": [
           {
-            "id": "Regular Delivery",
+            "id": "Livrare standard",
             "deliveryChannel": "delivery",
-            "name": "Regular Delivery",
+            "name": "L***************",
             "deliveryIds": [
               {
-                "courierId": "1f60428",
-                "warehouseId": "1_1",
+                "courierId": "standard",
+                "warehouseId": "YourStuff",
                 "dockId": "1",
-                "courierName": "GLS",
-                "quantity": 1,
+                "courierName": "L*******************",
+                "quantity": 6,
                 "kitItemDetails": []
               }
             ],
-            "shippingEstimate": "5bd",
-            "shippingEstimateDate": "2021-12-23T10:47:50.4147402Z",
+            "shippingEstimate": "3bd",
+            "shippingEstimateDate": "2024-05-21T12:00:00Z",
             "lockTTL": "12d",
             "availableDeliveryWindows": [],
             "deliveryWindow": null,
-            "price": 1990,
-            "listPrice": 1990,
+            "price": 330,
+            "listPrice": 330,
             "tax": 0,
             "pickupStoreInfo": {
               "isPickupStore": false,
@@ -220,11 +559,167 @@
             "pickupPointId": null,
             "pickupDistance": 0,
             "polygonName": "",
-            "transitTime": "2bd"
+            "transitTime": "1bd"
           }
         ],
         "shipsTo": ["ROU"],
-        "itemId": "1477",
+        "itemId": "8352",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          },
+          {
+            "id": "pickup-in-point"
+          }
+        ]
+      },
+      {
+        "itemIndex": 1,
+        "selectedSla": "Livrare standard",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "75703",
+        "slas": [
+          {
+            "id": "Livrare standard",
+            "deliveryChannel": "delivery",
+            "name": "L***************",
+            "deliveryIds": [
+              {
+                "courierId": "standard",
+                "warehouseId": "YourStuff",
+                "dockId": "1",
+                "courierName": "L*******************",
+                "quantity": 2,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "3bd",
+            "shippingEstimateDate": "2024-05-21T12:00:00Z",
+            "lockTTL": "12d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 107,
+            "listPrice": 107,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": 0,
+            "polygonName": "",
+            "transitTime": "1bd"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "8352",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          },
+          {
+            "id": "pickup-in-point"
+          }
+        ]
+      },
+      {
+        "itemIndex": 2,
+        "selectedSla": "Livrare standard",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "75703",
+        "slas": [
+          {
+            "id": "Livrare standard",
+            "deliveryChannel": "delivery",
+            "name": "L***************",
+            "deliveryIds": [
+              {
+                "courierId": "standard",
+                "warehouseId": "YourStuff",
+                "dockId": "1",
+                "courierName": "L*******************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "3bd",
+            "shippingEstimateDate": "2024-05-21T12:00:00Z",
+            "lockTTL": "12d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 781,
+            "listPrice": 781,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": 0,
+            "polygonName": "",
+            "transitTime": "1bd"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "9259",
+        "deliveryChannels": [
+          {
+            "id": "delivery"
+          },
+          {
+            "id": "pickup-in-point"
+          }
+        ]
+      },
+      {
+        "itemIndex": 3,
+        "selectedSla": "Livrare standard",
+        "selectedDeliveryChannel": "delivery",
+        "addressId": "75703",
+        "slas": [
+          {
+            "id": "Livrare standard",
+            "deliveryChannel": "delivery",
+            "name": "L***************",
+            "deliveryIds": [
+              {
+                "courierId": "standard",
+                "warehouseId": "YourStuff",
+                "dockId": "1",
+                "courierName": "L*******************",
+                "quantity": 1,
+                "kitItemDetails": []
+              }
+            ],
+            "shippingEstimate": "3bd",
+            "shippingEstimateDate": "2024-05-21T12:00:00Z",
+            "lockTTL": "12d",
+            "availableDeliveryWindows": [],
+            "deliveryWindow": null,
+            "price": 781,
+            "listPrice": 781,
+            "tax": 0,
+            "pickupStoreInfo": {
+              "isPickupStore": false,
+              "friendlyName": null,
+              "address": null,
+              "additionalInfo": null,
+              "dockId": null
+            },
+            "pickupPointId": null,
+            "pickupDistance": 0,
+            "polygonName": "",
+            "transitTime": "1bd"
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "itemId": "9258",
         "deliveryChannels": [
           {
             "id": "delivery"
@@ -238,99 +733,63 @@
     "selectedAddresses": [
       {
         "addressType": "residential",
-        "receiverName": "Alexandru Stupar",
-        "addressId": "5762c9bb127a42a98a3153199967c5b3",
-        "isDisposable": true,
-        "postalCode": "430183",
-        "city": "Baia Mare",
-        "state": "Maramures",
+        "receiverName": "A***** O****",
+        "addressId": "75703",
+        "isDisposable": false,
+        "postalCode": "0*****",
+        "city": "B******** (******** 5*",
+        "state": "Bucureşti",
         "country": "ROU",
-        "street": "Alexandru Odobescu",
-        "number": "2",
+        "street": "B*** M***** K***********",
+        "number": "2*",
         "neighborhood": null,
-        "complement": "Comanda de test",
+        "complement": "a** 3** s***** 5",
         "reference": null,
-        "geoCoordinates": []
+        "geoCoordinates": [-51.4779552, -0.0039779]
       }
     ],
     "availableAddresses": [
       {
         "addressType": "residential",
-        "receiverName": "Alexandru Stupar",
-        "addressId": "5762c9bb127a42a98a3153199967c5b3",
-        "isDisposable": true,
-        "postalCode": "430183",
-        "city": "Baia Mare",
-        "state": "Maramures",
+        "receiverName": "A***** O****",
+        "addressId": "75703",
+        "isDisposable": false,
+        "postalCode": "0*****",
+        "city": "B******** (******** 5*",
+        "state": "Bucureşti",
         "country": "ROU",
-        "street": "Alexandru Odobescu",
-        "number": "2",
+        "street": "B*** M***** K***********",
+        "number": "2*",
         "neighborhood": null,
-        "complement": "Comanda de test",
+        "complement": "a** 3** s***** 5",
         "reference": null,
-        "geoCoordinates": []
+        "geoCoordinates": [-51.4779552, -0.0039779]
       }
     ],
     "pickupPoints": []
   },
-  "paymentData": {
-    "giftCards": [],
-    "transactions": [
-      {
-        "isActive": true,
-        "transactionId": "E86797B7CB864C5DAD65607FB7A4CBE8",
-        "merchantName": "PENTRUANIMALE",
-        "payments": [
-          {
-            "id": "3CCB61377D294048B56443197EFA49BD",
-            "paymentSystem": "47",
-            "paymentSystemName": "Cash",
-            "value": 26989,
-            "installments": 1,
-            "connectorResponses": {},
-            "referenceValue": 26989,
-            "cardHolder": null,
-            "cardNumber": null,
-            "firstDigits": null,
-            "lastDigits": null,
-            "cvv2": null,
-            "expireMonth": null,
-            "expireYear": null,
-            "url": null,
-            "koinUrl": null,
-            "tid": null,
-            "redemptionCode": null,
-            "giftCardId": null,
-            "giftCardProvider": null,
-            "giftCardAsDiscount": null,
-            "group": "cash",
-            "dueDate": null,
-            "accountId": null,
-            "parentAccountId": null,
-            "bankIssuedInvoiceIdentificationNumber": null,
-            "bankIssuedInvoiceIdentificationNumberFormatted": null,
-            "bankIssuedInvoiceBarCodeNumber": null,
-            "bankIssuedInvoiceBarCodeType": null,
-            "billingAddress": null
-          }
-        ],
-        "sharedTransaction": false
-      }
-    ]
-  },
   "clientPreferencesData": {
     "locale": "ro-RO",
-    "optinNewsLetter": true
+    "optinNewsLetter": false
   },
   "commercialConditionData": null,
-  "marketingData": null,
+  "marketingData": {
+    "utmSource": "test2",
+    "utmMedium": "",
+    "utmCampaign": "",
+    "utmipage": "",
+    "utmiPart": "",
+    "utmiCampaign": "",
+    "coupon": null,
+    "marketingTags": []
+  },
   "storePreferencesData": {
     "countryCode": "ROU",
     "saveUserData": false,
     "timeZone": "GTB Standard Time",
     "currencyCode": "RON",
     "currencyLocale": 1048,
-    "currencySymbol": "lei",
+    "currencySymbol": "RON",
     "currencyFormatInfo": {
       "currencyDecimalDigits": 2,
       "currencyDecimalSeparator": ",",
@@ -339,20 +798,42 @@
       "startsWithCurrencySymbol": false
     }
   },
-  "openTextField": null,
+  "openTextField": {
+    "value": "t*** o**** c*********** t******* m*** f** l***"
+  },
   "invoiceData": null,
   "itemMetadata": null,
   "taxData": null,
-  "customData": null,
+  "customData": {
+    "customApps": [
+      {
+        "fields": {
+          "companyIban": "null",
+          "companyBankName": "n***"
+        },
+        "id": "companyprofile",
+        "major": 1
+      },
+      {
+        "fields": {
+          "judet": "null",
+          "oras": "null",
+          "strada": "null"
+        },
+        "id": "companyinfo",
+        "major": 1
+      }
+    ]
+  },
   "hooksData": null,
   "changeData": null,
   "subscriptionData": null,
   "salesChannel": "1",
-  "followUpEmail": "abad6c116281474c93c09f193937199e@ct.vtex.com.br",
-  "creationDate": "2021-12-16T10:47:42.6970288Z",
-  "lastChange": "2021-12-16T10:52:19.6675905Z",
-  "timeZoneCreationDate": "2021-12-16T12:47:42.6970288",
-  "timeZoneLastChange": "2021-12-16T12:52:19.6675905",
+  "followUpEmail": "1**********************************.v***.c**.b*",
+  "creationDate": "2024-05-16T13:30:06.605616Z",
+  "lastChange": "2024-05-16T13:32:46.9758956Z",
+  "timeZoneCreationDate": "2024-05-16T16:30:06.605616",
+  "timeZoneLastChange": "2024-05-16T16:32:46.9758956",
   "isCompleted": true,
   "merchantName": null,
   "userType": "",
@@ -362,21 +843,22 @@
   "isUserDataVisible": false,
   "allowChangeSeller": false,
   "cancellationData": {
-    "requestedByUser": false,
-    "reason": null,
-    "cancellationDate": "2021-12-16T10:52:18.1231637Z"
+    "requestedByUser": true,
+    "reason": "test",
+    "cancellationDate": "2024-05-16T13:32:44.4844186Z"
   },
   "_accountInfo": {
-    "MainAccountName": "pentruanimale",
-    "AccountName": "pentruanimale",
-    "Cnpj": "28141905",
-    "Id": "43d55720-b8df-4f5b-981b-2f9e1600d3c0",
+    "MainAccountName": "p**************",
+    "AccountName": "p**************",
+    "Cnpj": null,
+    "Id": "8186a1a5-c259-4034-b8ea-c74eedb7793b",
+    "AppId": null,
     "IsActive": true,
-    "IsOperating": false,
-    "CreationDate": "2019-02-26T15:15:02",
-    "OperationDate": null,
-    "CompanyName": "Your Stuff SRL",
-    "TradingName": "Pentru Animale",
+    "IsOperating": true,
+    "CreationDate": "2023-01-27T21:40:27.6119863Z",
+    "OperationDate": "2023-09-27T11:00:14.4990031Z",
+    "CompanyName": "Y*************",
+    "TradingName": "p************",
     "City": null,
     "Complement": null,
     "Country": null,
@@ -385,9 +867,14 @@
     "District": null,
     "Number": null,
     "PostalCode": null,
-    "Licences": null,
+    "Licenses": [7],
+    "ParentAccountId": null,
     "ParentAccountName": null,
     "InactivationDate": null,
-    "Platform": "vtex"
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null,
+    "Sponsor": "5a7e42ee-d263-4c3f-b1f3-6312f06cb03e"
   }
 }
