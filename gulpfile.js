@@ -218,6 +218,15 @@ gulp.task('clean', function (done) {
   })
 })
 
+// Clean project folder
+gulp.task('clean:dist', function (done) {
+  'use strict'
+
+  return del(['dist/*']).then(function () {
+    done()
+  })
+})
+
 // Default
 gulp.task(
   'default',
@@ -230,6 +239,7 @@ gulp.task(
     'clean:css',
     'add-css-important',
     // 'remove-css',
+    'clean',
     'copy-public',
     'clean:temp',
   ])
@@ -247,6 +257,7 @@ gulp.task(
     'clean:css',
     'add-css-important',
     'remove-css',
+    'clean',
     'copy-public',
     'clean:temp',
   ])
@@ -264,6 +275,7 @@ gulp.task(
     'clean:html',
     'add-css-important',
     'remove-css',
+    'clean-dist',
     'copy-dist',
     'clean:temp',
   ])
