@@ -70,6 +70,19 @@
       color: #666
     }
 
+    table,
+    td,
+    p,
+    span,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    }
+
     .cell_1_1,
     .cell_1_2,
     .cell_1 {
@@ -422,12 +435,28 @@
                               <tr>
                                 <td class="cell_3_1" width="38%" valign="top"><b>Adresa facturare</b></td>
                                 <td class="cell_4_1" valign="top" style="text-transform: uppercase;">
-                                  str. {{orders.0.shippingData.address.street}},
-                                  {{#if orders.0.shippingData.address.number}}nr.
-                                    {{orders.0.shippingData.address.number}},
-                                  {{/if}}
-                                  <br> {{orders.0.shippingData.address.city}},
-                                  {{orders.0.shippingData.address.postalCode}}
+                                  {{#each orders.0.customData.customApps}}
+                                    {{#eq id "invoice-user"}}
+                                      {{#if}}{{fields.adresa}}{{/if}}
+                                  {{else}}
+                                    str. {{orders.0.shippingData.address.street}},
+                                    {{#if orders.0.shippingData.address.number}}nr.
+                                      {{orders.0.shippingData.address.number}},
+                                    {{/if}}
+                                    <br> {{orders.0.shippingData.address.city}},
+                                    {{orders.0.shippingData.address.postalCode}}
+                                    {{/eq}}
+                                  {{/each}}
+
+                                  {{#unless orders.0.customData}} {{!-- Pentru situația când nu avem customData --}}
+                                    str. {{orders.0.shippingData.address.street}},
+                                    {{#if orders.0.shippingData.address.number}}nr.
+                                      {{orders.0.shippingData.address.number}},
+                                    {{/if}}
+                                    <br> {{orders.0.shippingData.address.city}},
+                                    {{orders.0.shippingData.address.postalCode}}
+                                  {{/unless}}
+
                                 </td>
                               </tr>
                               <tr>
@@ -564,20 +593,50 @@
                                   </p>
                                   <p>{{orders.0.clientProfileData.firstName}} {{orders.0.clientProfileData.lastName}}
                                   </p>
-
-                                  {{#if orders}}
-                                    <div>{{orders.0.clientProfileData.corporateName}}</div>
-
-                                    <div>{{#hasSubStr orders.0.clientProfileData.tradeName 'Nu am'}}
+                                  {{#each orders.0.customData.customApps}}
+                                    {{#eq id "invoice-user"}}
+                                      {{#with fields}}
+                                        <div>
+                                          {{#if firma}}{{firma}}<br>{{/if}}
+                                          {{#if regcom}}{{regcom}}<br>{{/if}}
+                                          {{#if TVA}}{{TVA}}{{/if}}
+                                        </div>
+                                      {{/with}}
                                   {{else}}
-                                    {{orders.0.clientProfileData.tradeName}} {{/hasSubStr}}</div>
+                                    {{#if orders}}
+                                      <div>{{orders.0.clientProfileData.corporateName}}</div>
 
-                                    <div>{{orders.0.clientProfileData.corporateDocument}}
-                                      {{orders.0.clientProfileData.stateInscription}}
-                                    </div>
+                                      <div>{{#hasSubStr orders.0.clientProfileData.tradeName 'Nu am'}}
+                                    {{else}}
+                                      {{orders.0.clientProfileData.tradeName}} {{/hasSubStr}}</div>
 
-                                    <div>{{orders.0.clientProfileData.corporatePhone}}</div>
-                                  {{/if}}
+                                      <div>{{orders.0.clientProfileData.corporateDocument}}
+                                        {{orders.0.clientProfileData.stateInscription}}
+                                      </div>
+
+                                      <div>{{orders.0.clientProfileData.corporatePhone}}</div>
+                                    {{/if}}
+                                    {{/eq}}
+                                  {{/each}}
+
+                                  {{#unless orders.0.customData}} {{!-- Pentru situația când nu avem customData --}}
+                                    {{#if orders}}
+                                      <div>{{orders.0.clientProfileData.corporateName}}</div>
+
+                                      <div>{{#hasSubStr orders.0.clientProfileData.tradeName 'Nu am'}}
+                                    {{else}}
+                                      {{orders.0.clientProfileData.tradeName}} {{/hasSubStr}}</div>
+
+                                      <div>{{orders.0.clientProfileData.corporateDocument}}
+                                        {{orders.0.clientProfileData.stateInscription}}
+                                      </div>
+
+                                      <div>{{orders.0.clientProfileData.corporatePhone}}</div>
+                                    {{/if}}
+                                  {{/unless}}
+
+
+
                                 </td>
                                 <td
                                   style="font-family:Arial,'Helvetica Neue',Helvetica,sans-serif;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;width:50%">
@@ -842,7 +901,7 @@
                                         <img src="{{imageUrl}}" width="35" style="border:1px solid #d2d2d2">
                                       </td>
                                       <td valign="top" align="left"
-                                        style="border-bottom:1px solid #d2d2d2;font-family:Arial,'Helvetica Neue',Helvetica,sans-serif;text-align:left;line-height:150%;font-size:12px;max-width:130px;padding-top:10px;padding-right:5px;padding-bottom:10px;padding-left:5px">
+                                        style="border-bottom:1px solid #d2d2d2;font-family:Arial,'Helvetica Neue',Helvetica,sans-serif;text-align:left;line-height:150%;font-size:12px;max-width:130px;padding-top:10px;padding-right:5px;padding-bottom:10px;padding-left:5px; word-break: break-word;">
                                         <span>{{name}}</span>
                                         <br>
                                         <strong>Cod produs: {{refId}}</strong>

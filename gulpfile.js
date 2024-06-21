@@ -172,7 +172,7 @@ gulp.task('add-css-important', function (done) {
     .src(['temp/*/*.hbs'])
     .pipe(
       replace(
-        /(?!(.+)body.+)(.+\:)(\s+)?(\S+)(?!\!)(\s+)?(;)/g,
+        /(?!(.+)body.+)(.+\:)(\s+)?((?!&nbsp;)\S+)(?!\!)(\s+)?(;)/g,
         '$2 $4 !important$6'
       )
     )
@@ -236,8 +236,8 @@ gulp.task(
     'hbs',
     'build:sass',
     'inline:css',
-    'clean:css',
-    'add-css-important',
+    // 'clean:css',
+    // 'add-css-important',
     // 'remove-css',
     'clean',
     'copy-public',
