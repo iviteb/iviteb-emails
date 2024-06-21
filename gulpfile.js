@@ -275,7 +275,7 @@ gulp.task(
     'clean:html',
     'add-css-important',
     'remove-css',
-    'clean-dist',
+    'clean:dist',
     'copy-dist',
     'clean:temp',
   ])
