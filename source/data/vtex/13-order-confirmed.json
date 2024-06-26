@@ -1,0 +1,673 @@
+{
+  "orders": [
+    {
+      "package": null,
+      "subjectItemAttachment": {
+        "item": "Kit DJI Mini 4 Pro D...",
+        "totalItems": 1
+      },
+      "cancellationReason": null,
+      "paymentData": {
+        "giftCards": [],
+        "transactions": [
+          {
+            "isActive": true,
+            "transactionId": "BD8668EACD2944FD9DCD3B7854F77EC8",
+            "merchantName": "F******",
+            "payments": [
+              {
+                "id": "71FD38A0BA384490BEE607FC715E4E19",
+                "paymentSystem": "201",
+                "paymentSystemName": "P****************",
+                "value": 569905,
+                "installments": 1,
+                "referenceValue": 569905,
+                "cardHolder": null,
+                "cardNumber": null,
+                "firstDigits": null,
+                "lastDigits": null,
+                "cvv2": null,
+                "expireMonth": null,
+                "expireYear": null,
+                "url": null,
+                "giftCardId": null,
+                "giftCardName": null,
+                "giftCardCaption": null,
+                "redemptionCode": null,
+                "group": "promissory",
+                "tid": null,
+                "dueDate": null,
+                "connectorResponses": {},
+                "giftCardProvider": null,
+                "giftCardAsDiscount": null,
+                "koinUrl": null,
+                "accountId": null,
+                "parentAccountId": null,
+                "bankIssuedInvoiceIdentificationNumber": null,
+                "bankIssuedInvoiceIdentificationNumberFormatted": null,
+                "bankIssuedInvoiceBarCodeNumber": null,
+                "bankIssuedInvoiceBarCodeType": null,
+                "billingAddress": null,
+                "paymentOrigin": null
+              }
+            ]
+          }
+        ]
+      },
+      "cancellationRequests": null,
+      "invoiceData": {
+        "address": {
+          "postalCode": null,
+          "city": "S******* 1",
+          "state": "Bucuresti",
+          "country": null,
+          "street": "S*** F******",
+          "number": "1*",
+          "neighborhood": null,
+          "complement": "M********* B********* S***** 1* S*** F******* N***** C***** N** 3* E**** A****",
+          "reference": null,
+          "geoCoordinates": [-51.4779552, -0.0039779]
+        },
+        "userPaymentInfo": null,
+        "invoiceSubject": null
+      },
+      "clientProfileData": {
+        "id": "clientProfileData",
+        "email": "c*****.g.p******@g****.c****************.c*.v***.c**.b*",
+        "firstName": "C*****",
+        "lastName": "P******",
+        "documentType": "document",
+        "document": null,
+        "phone": "+4**********",
+        "corporateName": "P********** S******** A****** S*****",
+        "tradeName": "J************",
+        "corporateDocument": "R*********",
+        "stateInscription": null,
+        "corporatePhone": "+40 722 363 911",
+        "isCorporate": true,
+        "userProfileId": "009e6e58-d1dc-453c-8864-ad182cc9f6b5",
+        "userProfileVersion": null,
+        "customerClass": null,
+        "customerCode": null
+      },
+      "shippingData": {
+        "id": "shippingData",
+        "address": {
+          "addressType": "pickup",
+          "receiverName": "C***** P******",
+          "addressId": "10d59c3",
+          "versionId": null,
+          "entityId": null,
+          "postalCode": "0*****",
+          "city": "B********",
+          "state": "Bucuresti",
+          "country": "ROU",
+          "street": "B********* U*****",
+          "number": "6*",
+          "neighborhood": "S***** 3",
+          "complement": "",
+          "reference": null,
+          "geoCoordinates": [-51.4779552, -0.0039779]
+        },
+        "logisticsInfo": [
+          {
+            "itemIndex": 0,
+            "itemId": "358774",
+            "selectedDeliveryChannel": "pickup-in-point",
+            "selectedSla": "Ridicare din magazin (10d59c3)",
+            "lockTTL": "19d",
+            "price": 0,
+            "listPrice": 0,
+            "sellingPrice": 0,
+            "deliveryWindow": null,
+            "deliveryCompany": null,
+            "shippingEstimate": "0bd",
+            "shippingEstimateDate": null,
+            "slas": [
+              {
+                "id": "Ridicare din magazin (10d59c3)",
+                "name": "R*****************************",
+                "shippingEstimate": "0bd",
+                "shippingEstimateDate": null,
+                "deliveryWindow": null,
+                "availableDeliveryWindows": [],
+                "deliveryIds": [
+                  {
+                    "courierId": "2",
+                    "courierName": "R*******************",
+                    "dockId": "1ec6e55",
+                    "quantity": 1,
+                    "warehouseId": "u64",
+                    "accountCarrierName": "f******",
+                    "kitItemDetails": [
+                      {
+                        "ItemId": "342898",
+                        "WarehouseId": "u64"
+                      },
+                      {
+                        "ItemId": "354274",
+                        "WarehouseId": "u64"
+                      }
+                    ]
+                  }
+                ],
+                "listPrice": 0,
+                "price": 0,
+                "deliveryChannel": "pickup-in-point",
+                "pickupStoreInfo": {
+                  "additionalInfo": "Te asteptam sa ridici comanda in intervalul mentionat in SMS-ul de confirmare.",
+                  "address": {
+                    "addressType": "pickup",
+                    "receiverName": null,
+                    "addressId": "10d59c3",
+                    "versionId": null,
+                    "entityId": null,
+                    "postalCode": "0*****",
+                    "city": "B********",
+                    "state": "Bucuresti",
+                    "country": "ROU",
+                    "street": "B********* U*****",
+                    "number": "6*",
+                    "neighborhood": "S***** 3",
+                    "complement": "",
+                    "reference": null,
+                    "geoCoordinates": [-51.4779552, -0.0039779]
+                  },
+                  "dockId": "1ec6e55",
+                  "friendlyName": "M**********",
+                  "isPickupStore": true
+                },
+                "polygonName": "R******",
+                "lockTTL": "19d",
+                "pickupPointId": "1_10d59c3",
+                "transitTime": "0bd",
+                "pickupDistance": 0.08271011710166931
+              }
+            ],
+            "shipsTo": ["ROU"],
+            "deliveryIds": [
+              {
+                "courierId": "2",
+                "courierName": "R*******************",
+                "dockId": "1ec6e55",
+                "quantity": 1,
+                "warehouseId": "u64",
+                "accountCarrierName": "f******",
+                "kitItemDetails": [
+                  {
+                    "ItemId": "342898",
+                    "WarehouseId": "u64"
+                  },
+                  {
+                    "ItemId": "354274",
+                    "WarehouseId": "u64"
+                  }
+                ]
+              }
+            ],
+            "deliveryChannels": [
+              {
+                "id": "delivery",
+                "stockBalance": 0
+              },
+              {
+                "id": "pickup-in-point",
+                "stockBalance": 0
+              }
+            ],
+            "deliveryChannel": null,
+            "pickupStoreInfo": {
+              "additionalInfo": "Te asteptam sa ridici comanda in intervalul mentionat in SMS-ul de confirmare.",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "10d59c3",
+                "versionId": null,
+                "entityId": null,
+                "postalCode": "0*****",
+                "city": "B********",
+                "state": "Bucuresti",
+                "country": "ROU",
+                "street": "B********* U*****",
+                "number": "6*",
+                "neighborhood": "S***** 3",
+                "complement": "",
+                "reference": null,
+                "geoCoordinates": [-51.4779552, -0.0039779]
+              },
+              "dockId": "1ec6e55",
+              "friendlyName": "M**********",
+              "isPickupStore": true
+            },
+            "addressId": "10d59c3",
+            "versionId": null,
+            "entityId": null,
+            "polygonName": "R******",
+            "pickupPointId": "1_10d59c3",
+            "transitTime": "0bd"
+          }
+        ],
+        "trackingHints": [],
+        "selectedAddresses": [
+          {
+            "addressId": "10d59c3",
+            "versionId": null,
+            "entityId": null,
+            "addressType": "pickup",
+            "receiverName": "C***** P******",
+            "street": "B********* U*****",
+            "number": "6*",
+            "complement": "",
+            "neighborhood": "S***** 3",
+            "postalCode": "0*****",
+            "city": "B********",
+            "state": "Bucuresti",
+            "country": "ROU",
+            "reference": null,
+            "geoCoordinates": [-51.4779552, -0.0039779]
+          }
+        ],
+        "contactInformation": []
+      },
+      "items": [
+        {
+          "additionalInfo": {
+            "categoriesIds": "/1000005/1000071/",
+            "productClusterId": "3188,4956,5696,6055,6688,6873,6903",
+            "commercialConditionId": "1",
+            "dimension": {
+              "cubicweight": 1,
+              "height": 9,
+              "length": 1,
+              "weight": 1600,
+              "width": 1
+            },
+            "brandName": "D**",
+            "brandId": "2000107",
+            "offeringInfo": null,
+            "offeringType": null,
+            "offeringTypeId": null
+          },
+          "sellerSku": "358774",
+          "priceTable": "1",
+          "priceValidUntil": "4000-01-01T03:00:00Z",
+          "callCenterOperator": null,
+          "commission": 0,
+          "freightCommission": 0,
+          "taxCode": "",
+          "catalogProvider": "vrn:vtex.catalog-api-proxy:-:fstudio:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/358774",
+          "uniqueId": "6079B58B20654084A853F08C861F2BB8",
+          "id": "358774",
+          "productId": "115507",
+          "productRefId": "125072971Bundle",
+          "refId": "125072971Bundle",
+          "ean": "1",
+          "name": "K***************************************************************************************",
+          "skuName": "K***************************************************************************************",
+          "modalType": null,
+          "parentItemIndex": null,
+          "parentAssemblyBinding": null,
+          "assemblies": [],
+          "tax": 0,
+          "price": 599900,
+          "listPrice": 617890,
+          "manualPrice": 569905,
+          "manualPriceAppliedBy": "23ac4b6e-8372-4e29-847c-d0d07f2e971b",
+          "sellingPrice": 569905,
+          "rewardValue": 0,
+          "isGift": false,
+          "preSaleDate": null,
+          "productCategoryIds": "/1000005/1000071/",
+          "productCategories": {
+            "1000005": "Camere de actiune si drone",
+            "1000071": "Drone"
+          },
+          "quantity": 1,
+          "seller": "1",
+          "sellerChain": ["1"],
+          "imageUrl": "https://fstudio.vteximg.com.br/arquivos/ids/944190-80-80/kit2.jpg?v=638410959422100000",
+          "detailUrl": "/dji-mini-4-pro-fly-more-combo---dji-rc-2-bundle/p",
+          "components": [
+            {
+              "uniqueId": "E3FB0BA94DFA42E1A19B165F69030802",
+              "id": "342898",
+              "productId": null,
+              "productRefId": null,
+              "refId": "125066144",
+              "ean": "619659188504",
+              "name": "S*******************************************************************************************************",
+              "skuName": null,
+              "modalType": null,
+              "parentItemIndex": null,
+              "parentAssemblyBinding": null,
+              "assemblies": [],
+              "priceValidUntil": null,
+              "tax": 0,
+              "price": 14000,
+              "listPrice": null,
+              "manualPrice": null,
+              "manualPriceAppliedBy": null,
+              "sellingPrice": 13300,
+              "rewardValue": 0,
+              "isGift": false,
+              "additionalInfo": {
+                "dimension": {
+                  "cubicweight": 0.025,
+                  "height": 1,
+                  "length": 10,
+                  "weight": 65,
+                  "width": 15
+                },
+                "brandName": null,
+                "brandId": null,
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+              },
+              "preSaleDate": null,
+              "productCategoryIds": null,
+              "productCategories": {},
+              "quantity": 1,
+              "seller": null,
+              "sellerChain": [null],
+              "imageUrl": null,
+              "detailUrl": null,
+              "components": [],
+              "bundleItems": [],
+              "attachments": [],
+              "attachmentOfferings": [],
+              "offerings": [],
+              "priceTags": [
+                {
+                  "name": "D*******************",
+                  "value": -700,
+                  "rawValue": -7,
+                  "isPercentual": false,
+                  "identifier": null
+                }
+              ],
+              "availability": null,
+              "measurementUnit": "un",
+              "unitMultiplier": 1,
+              "manufacturerCode": null,
+              "priceDefinition": {
+                "calculatedSellingPrice": 13300,
+                "total": 13300,
+                "sellingPrices": [
+                  {
+                    "value": 13300,
+                    "quantity": 1
+                  }
+                ]
+              }
+            },
+            {
+              "uniqueId": "E4F0E94062D94A97B6A673E2432E13FC",
+              "id": "354274",
+              "productId": null,
+              "productRefId": null,
+              "refId": "125072971",
+              "ean": "6941565969101",
+              "name": "D*************************************************",
+              "skuName": null,
+              "modalType": null,
+              "parentItemIndex": null,
+              "parentAssemblyBinding": null,
+              "assemblies": [],
+              "priceValidUntil": null,
+              "tax": 0,
+              "price": 585900,
+              "listPrice": null,
+              "manualPrice": null,
+              "manualPriceAppliedBy": null,
+              "sellingPrice": 556605,
+              "rewardValue": 0,
+              "isGift": false,
+              "additionalInfo": {
+                "dimension": {
+                  "cubicweight": 0.9057,
+                  "height": 13,
+                  "length": 22,
+                  "weight": 1535,
+                  "width": 19
+                },
+                "brandName": null,
+                "brandId": null,
+                "offeringInfo": null,
+                "offeringType": null,
+                "offeringTypeId": null
+              },
+              "preSaleDate": null,
+              "productCategoryIds": null,
+              "productCategories": {},
+              "quantity": 1,
+              "seller": null,
+              "sellerChain": [null],
+              "imageUrl": null,
+              "detailUrl": null,
+              "components": [],
+              "bundleItems": [],
+              "attachments": [],
+              "attachmentOfferings": [],
+              "offerings": [],
+              "priceTags": [
+                {
+                  "name": "D*******************",
+                  "value": -29295,
+                  "rawValue": -292.95,
+                  "isPercentual": false,
+                  "identifier": null
+                }
+              ],
+              "availability": null,
+              "measurementUnit": "un",
+              "unitMultiplier": 1,
+              "manufacturerCode": null,
+              "priceDefinition": {
+                "calculatedSellingPrice": 556605,
+                "total": 556605,
+                "sellingPrices": [
+                  {
+                    "value": 556605,
+                    "quantity": 1
+                  }
+                ]
+              }
+            }
+          ],
+          "bundleItems": [],
+          "attachments": [],
+          "attachmentOfferings": [],
+          "offerings": [],
+          "priceTags": [
+            {
+              "name": "D*******************",
+              "value": -29995,
+              "rawValue": -299.95,
+              "isPercentual": false,
+              "identifier": null
+            }
+          ],
+          "availability": "available",
+          "measurementUnit": "un",
+          "unitMultiplier": 1,
+          "manufacturerCode": null,
+          "priceDefinition": {
+            "calculatedSellingPrice": 569905,
+            "total": 569905,
+            "sellingPrices": [
+              {
+                "value": 569905,
+                "quantity": 1
+              }
+            ]
+          }
+        }
+      ],
+      "sellers": [
+        {
+          "subSellerId": "1",
+          "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=fstudio",
+          "id": "1",
+          "name": "F****************",
+          "logo": "http://api.vtexinternal.com/arquivos/ids/865064/floricica_craciun-01.png"
+        }
+      ],
+      "giftRegistryData": null,
+      "receiptData": null,
+      "contextData": null,
+      "marketPlaceOrderId": "",
+      "marketPlaceOrderGroup": null,
+      "marketplaceServicesEndpoint": null,
+      "orderFormId": "785d2d147bbf447290be9b80288e3443",
+      "sequence": "2159927",
+      "affiliateId": "",
+      "status": "",
+      "callCenterOperator": "23ac4b6e-8372-4e29-847c-d0d07f2e971b",
+      "userProfileId": "009e6e58-d1dc-453c-8864-ad182cc9f6b5",
+      "hostName": "f******",
+      "creationVersion": null,
+      "creationEnvironment": null,
+      "lastChangeVersion": null,
+      "workflowInstanceId": null,
+      "marketplacePaymentValue": null,
+      "orderId": "1441402159927-01",
+      "orderGroup": "1441402159927",
+      "state": "waiting-for-authorization",
+      "isCheckedIn": false,
+      "sellerOrderId": "00-1441402159927-01",
+      "storeId": null,
+      "checkedInPickupPointId": null,
+      "value": 569905,
+      "totals": [
+        {
+          "id": "Items",
+          "name": "T*************",
+          "value": 599900
+        },
+        {
+          "id": "Discounts",
+          "name": "T*************",
+          "value": -29995
+        },
+        {
+          "id": "Shipping",
+          "name": "T**************",
+          "value": 0
+        },
+        {
+          "id": "Tax",
+          "name": "T*********",
+          "value": 0
+        }
+      ],
+      "ratesAndBenefitsData": {
+        "rateAndBenefitsIdentifiers": [],
+        "teaser": []
+      },
+      "clientPreferencesData": {
+        "locale": "ro-RO",
+        "optinNewsLetter": false
+      },
+      "commercialConditionData": null,
+      "marketingData": {
+        "utmSource": null,
+        "utmMedium": null,
+        "utmCampaign": null,
+        "utmipage": null,
+        "utmiPart": null,
+        "utmiCampaign": null,
+        "coupon": null,
+        "marketingTags": ["Bundle Standard"]
+      },
+      "storePreferencesData": {
+        "countryCode": "ROU",
+        "saveUserData": false,
+        "timeZone": "GTB Standard Time",
+        "currencyCode": "RON",
+        "currencyLocale": 1048,
+        "currencySymbol": "Lei",
+        "currencyFormatInfo": {
+          "currencyDecimalDigits": 2,
+          "currencyDecimalSeparator": ",",
+          "currencyGroupSeparator": ".",
+          "currencyGroupSize": 3,
+          "startsWithCurrencySymbol": false
+        }
+      },
+      "openTextField": null,
+      "itemMetadata": null,
+      "taxData": null,
+      "customData": {
+        "customApps": [
+          {
+            "fields": {
+              "residentialAddress": "{\"addressId\":\"123\",\"addressType\":\"residential\",\"receiverName\":\"Cosmin Predoiu\",\"isDisposable\":false,\"street\":\"Bulevardul Unirii\",\"number\":\"64\",\"complement\":null,\"neighborhood\":null,\"postalCode\":\"030834\",\"city\":\"Bucuresti\",\"state\":\"Bucuresti\",\"country\":\"ROU\",\"reference\":null,\"geoCoordinates\":[]}"
+            },
+            "id": "residential",
+            "major": 1
+          }
+        ]
+      },
+      "hooksData": null,
+      "changeData": null,
+      "subscriptionData": null,
+      "salesChannel": "1",
+      "followUpEmail": "f**********************************.v***.c**.b*",
+      "creationDate": "2024-06-21T11:57:55.5379669Z",
+      "lastChange": "2024-06-21T11:58:00.4926285Z",
+      "timeZoneCreationDate": "2024-06-21T14:57:55.5379669",
+      "timeZoneLastChange": "2024-06-21T14:58:00.4926285",
+      "isCompleted": true,
+      "merchantName": null,
+      "userType": "callCenterOperator",
+      "roundingError": 0,
+      "allowEdition": false,
+      "allowCancellation": false,
+      "isUserDataVisible": false,
+      "allowChangeSeller": false
+    }
+  ],
+  "ordersUrl": "http://fstudio.myvtex.com/account#/orders",
+  "orderGroup": "1441402159927",
+  "subjectItemAttachment": {
+    "item": "Kit DJI Mini 4 Pro D...",
+    "totalItems": 1
+  },
+  "split": false,
+  "totalValue": 569905,
+  "callCenterOperatorData": {
+    "email": "t******.p*****@f********.r*",
+    "userName": "t**************************"
+  },
+  "_accountInfo": {
+    "MainAccountName": "f******",
+    "AccountName": "f******",
+    "Cnpj": "14080808",
+    "Id": "0b8b859d-bc57-4bd8-97dc-2d42337fe911",
+    "AppId": null,
+    "IsActive": true,
+    "IsOperating": true,
+    "CreationDate": "2018-05-03T17:28:05",
+    "OperationDate": "2018-09-20T07:09:47",
+    "CompanyName": "F****************",
+    "TradingName": "F****************",
+    "City": null,
+    "Complement": null,
+    "Country": "ROU",
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [7],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null,
+    "Sponsor": "30ce26a9-552c-443f-8702-ae91a22e8866"
+  }
+}
