@@ -1,0 +1,19 @@
+<tr>
+  <td width="56" class="v-mid pa3">
+    <img alt="{{name}}" src="{{replace imageUrl '-55-55' '-80-80' }}" width="40" height="40"
+      style="min-width: 40px; object-fit: contain;">
+  </td>
+  <td class="v-mid pv3 pr3">
+    <p class="ma0 fs-15 word-wrap">
+      {{#compare quantity ">" 1}}{{quantity}}x {{/compare}}
+      <strong>{{name}}</strong>
+    </p>
+    <p class="mt-4 mb0">
+      {{formatCurrency sellingPrice}} ((i18n.common.currency))
+      {{#compare sellingPrice "==" 0}}<span class="f6 green-text nowrap">((i18n.order.fromHouse))</span>{{/compare}}
+    </p>
+  </td>
+  <td width="96" class="pv3 pr3 fw7 tr">
+    {{formatCurrency priceDefinition.total}} ((i18n.common.currency))
+  </td>
+</tr>
