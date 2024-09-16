@@ -3,7 +3,7 @@
     {{#hasSubStr ../items.0.selectedSla address.addressId}}
       {{#compare businessHours.length '>' 0}}
         <h3 class="mt3 mb2">((i18n.pickupPoint.businessHours))</h3>
-        <table class="w-100 mw5-5">
+        <table class="w-100">
           {{#each businessHours}}
             {{#compare DayOfWeek '!=' 0}}
               <tr>

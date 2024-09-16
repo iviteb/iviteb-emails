@@ -1,1040 +1,1319 @@
 {
-	"orders": [
-		{
-			"package": null,
-			"subjectItemAttachment": {
-				"item": "Cadru de pat 140 x 1...",
-				"totalItems": 12,
-				"extraItems": 11
-			},
-			"cancellationReason": null,
-			"items": [
-				{
-					"additionalInfo": {
-						"categoriesIds": "/1111213/",
-						"productClusterId": "",
-						"commercialConditionId": "1",
-						"dimension": {
-							"cubicweight": 1,
-							"height": 1,
-							"length": 1,
-							"weight": 1,
-							"width": 1
-						},
-						"brandName": "VidaXL",
-						"brandId": "1",
-						"offeringInfo": null,
-						"offeringType": null,
-						"offeringTypeId": null
-					},
-					"sellerSku": "101702",
-					"priceTable": null,
-					"priceValidUntil": "2024-07-25T13:11:27Z",
-					"callCenterOperator": null,
-					"commission": 0,
-					"freightCommission": 0,
-					"taxCode": "",
-					"catalogProvider": "vrn:vtex.catalog-api-proxy:-:iviteb:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/101702",
-					"uniqueId": "94E330A457D647D1B5A9825074BC6302",
-					"id": "101702",
-					"productId": "14446",
-					"productRefId": "",
-					"refId": "1231234",
-					"ean": "1231234",
-					"name": "Card cadou 50 lei",
-					"skuName": "Card cadou 50 lei",
-					"modalType": null,
-					"parentItemIndex": null,
-					"parentAssemblyBinding": null,
-					"assemblies": [],
-					"tax": 0,
-					"price": 5000,
-					"listPrice": 5000,
-					"manualPrice": null,
-					"manualPriceAppliedBy": null,
-					"sellingPrice": 5000,
-					"rewardValue": 0,
-					"isGift": false,
-					"preSaleDate": null,
-					"productCategoryIds": "/1111213/",
-					"productCategories": {
-						"1111213": "Card cadou"
-					},
-					"quantity": 3,
-					"seller": "1",
-					"sellerChain": [
-						"1"
-					],
-					"imageUrl": "http://iviteb.vteximg.com.br/arquivos/ids/8347375-55-55/Untitled.png?v=638255327198800000",
-					"detailUrl": "/card-cadou/p",
-					"components": [],
-					"bundleItems": [],
-					"attachments": [
-						{
-							"name": "Gift card",
-							"content": {
-								"Email destinatar": "test@test.com",
-								"Mesaj": "asdasdasdas",
-								"Nume cumparator": "test",
-								"Nume destinatar": "test"
-							}
-						}
-					],
-					"attachmentOfferings": [
-						{
-							"name": "Gift card",
-							"required": false,
-							"schema": {
-								"Nume destinatar": {
-									"maximumNumberOfCharacters": 50,
-									"domain": []
-								},
-								"Email destinatar": {
-									"maximumNumberOfCharacters": 50,
-									"domain": []
-								},
-								"Nume cumparator": {
-									"maximumNumberOfCharacters": 50,
-									"domain": []
-								},
-								"Mesaj": {
-									"maximumNumberOfCharacters": 999,
-									"domain": []
-								}
-							}
-						}
-					],
-					"offerings": [],
-					"priceTags": [
-						{
-							"name": "TAXHUB@Taxa test",
-							"value": 1200,
-							"rawValue": 12,
-							"isPercentual": false,
-							"identifier": null
-						}
-					],
-					"availability": "available",
-					"measurementUnit": "un",
-					"unitMultiplier": 1,
-					"manufacturerCode": null,
-					"priceDefinition": {
-						"calculatedSellingPrice": 5000,
-						"total": 15000,
-						"sellingPrices": [
-							{
-								"value": 5000,
-								"quantity": 3
-							}
-						]
-					}
-				},
-				{
-					"additionalInfo": {
-						"categoriesIds": "/1000000/1030000/1030700/",
-						"productClusterId": "",
-						"commercialConditionId": "1",
-						"dimension": {
-							"cubicweight": 1,
-							"height": 17,
-							"length": 98,
-							"weight": 19.25,
-							"width": 37
-						},
-						"brandName": "VidaXL",
-						"brandId": "1",
-						"offeringInfo": null,
-						"offeringType": null,
-						"offeringTypeId": null
-					},
-					"sellerSku": "101364",
-					"priceTable": null,
-					"priceValidUntil": "2024-07-25T13:12:46Z",
-					"callCenterOperator": null,
-					"commission": 0,
-					"freightCommission": 0,
-					"taxCode": null,
-					"catalogProvider": "vrn:vtex.catalog-api-proxy:-:iviteb:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/101364",
-					"uniqueId": "CE3449A427F043BF87B0587C64B002A5",
-					"id": "101364",
-					"productId": "14430",
-					"productRefId": "3013616_4",
-					"refId": "8720286962510_3101264",
-					"ean": null,
-					"name": "Cadru de pat 140 x 190 cm Cadru de pat, alb, 140x190 cm, lemn masiv de pin",
-					"skuName": "Cadru de pat, alb, 140x190 cm, lemn masiv de pin",
-					"modalType": null,
-					"parentItemIndex": null,
-					"parentAssemblyBinding": null,
-					"assemblies": [],
-					"tax": 0,
-					"price": 56000,
-					"listPrice": 80199,
-					"manualPrice": null,
-					"manualPriceAppliedBy": null,
-					"sellingPrice": 56000,
-					"rewardValue": 0,
-					"isGift": false,
-					"preSaleDate": null,
-					"productCategoryIds": "/1000000/1030000/1030700/",
-					"productCategories": {
-						"1000000": "Casa si gradina - NEW",
-						"1030000": "Termice",
-						"1030700": "Climatizare si ventilatie"
-					},
-					"quantity": 4,
-					"seller": "1",
-					"sellerChain": [
-						"1"
-					],
-					"imageUrl": "http://iviteb.vteximg.com.br/arquivos/ids/8133475-55-55/8720286962510_m_en_hd_1.jpg?v=638253663965170000",
-					"detailUrl": "/vidaxl-cadru-de-pat-alb-140x190-cm-lemn-masiv-de-pin---8720286962510--4/p",
-					"components": [],
-					"bundleItems": [],
-					"attachments": [
-						{
-							"name": "Gift card",
-							"content": {
-								"Email destinatar": "testim@test.com",
-								"Mesaj": "asdasdasdas",
-								"Nume cumparator": "testache2",
-								"Nume destinatar": "testache"
-							}
-						}
-					],
-					"attachmentOfferings": [
-						{
-							"name": "Gift card",
-							"required": false,
-							"schema": {
-								"Nume destinatar": {
-									"maximumNumberOfCharacters": 50,
-									"domain": []
-								},
-								"Email destinatar": {
-									"maximumNumberOfCharacters": 50,
-									"domain": []
-								},
-								"Nume cumparator": {
-									"maximumNumberOfCharacters": 50,
-									"domain": []
-								},
-								"Mesaj": {
-									"maximumNumberOfCharacters": 999,
-									"domain": []
-								}
-							}
-						}
-					],
-					"offerings": [],
-					"priceTags": [],
-					"availability": "available",
-					"measurementUnit": "un",
-					"unitMultiplier": 1,
-					"manufacturerCode": null,
-					"priceDefinition": {
-						"calculatedSellingPrice": 56000,
-						"total": 224000,
-						"sellingPrices": [
-							{
-								"value": 56000,
-								"quantity": 4
-							}
-						]
-					}
-				},
-				{
-					"additionalInfo": {
-						"categoriesIds": "/1000000/1030000/1030700/",
-						"productClusterId": "",
-						"commercialConditionId": "1",
-						"dimension": {
-							"cubicweight": 1,
-							"height": 17,
-							"length": 98,
-							"weight": 19.15,
-							"width": 37
-						},
-						"brandName": "VidaXL",
-						"brandId": "1",
-						"offeringInfo": null,
-						"offeringType": null,
-						"offeringTypeId": null
-					},
-					"sellerSku": "101367",
-					"priceTable": null,
-					"priceValidUntil": "2024-07-25T13:12:42Z",
-					"callCenterOperator": null,
-					"commission": 0,
-					"freightCommission": 0,
-					"taxCode": null,
-					"catalogProvider": "vrn:vtex.catalog-api-proxy:-:iviteb:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/101367",
-					"uniqueId": "72E7952708E34FE9B0E63D5ACC007833",
-					"id": "101367",
-					"productId": "14430",
-					"productRefId": "3013616_4",
-					"refId": "8720286962527_3101265",
-					"ean": null,
-					"name": "Cadru de pat 140 x 190 cm Cadru de pat, gri, 140x190 cm, lemn masiv de pin",
-					"skuName": "Cadru de pat, gri, 140x190 cm, lemn masiv de pin",
-					"modalType": null,
-					"parentItemIndex": null,
-					"parentAssemblyBinding": null,
-					"assemblies": [],
-					"tax": 0,
-					"price": 55100,
-					"listPrice": 78999,
-					"manualPrice": null,
-					"manualPriceAppliedBy": null,
-					"sellingPrice": 55100,
-					"rewardValue": 0,
-					"isGift": false,
-					"preSaleDate": null,
-					"productCategoryIds": "/1000000/1030000/1030700/",
-					"productCategories": {
-						"1000000": "Casa si gradina - NEW",
-						"1030000": "Termice",
-						"1030700": "Climatizare si ventilatie"
-					},
-					"quantity": 2,
-					"seller": "1",
-					"sellerChain": [
-						"1"
-					],
-					"imageUrl": "http://iviteb.vteximg.com.br/arquivos/ids/8133836-55-55/8720286962527_m_en_hd_1.jpg?v=638253663993330000",
-					"detailUrl": "/vidaxl-cadru-de-pat-alb-140x190-cm-lemn-masiv-de-pin---8720286962510--4/p",
-					"components": [],
-					"bundleItems": [],
-					"attachments": [
-						{
-							"name": "Gift card",
-							"content": {
-								"Email destinatar": "sadas@asdasda.ciom",
-								"Mesaj": "asdasdsada",
-								"Nume cumparator": "asdasdas",
-								"Nume destinatar": "asdasdas"
-							}
-						}
-					],
-					"attachmentOfferings": [
-						{
-							"name": "Gift card",
-							"required": false,
-							"schema": {
-								"Nume destinatar": {
-									"maximumNumberOfCharacters": 50,
-									"domain": []
-								},
-								"Email destinatar": {
-									"maximumNumberOfCharacters": 50,
-									"domain": []
-								},
-								"Nume cumparator": {
-									"maximumNumberOfCharacters": 50,
-									"domain": []
-								},
-								"Mesaj": {
-									"maximumNumberOfCharacters": 999,
-									"domain": []
-								}
-							}
-						}
-					],
-					"offerings": [],
-					"priceTags": [],
-					"availability": "available",
-					"measurementUnit": "un",
-					"unitMultiplier": 1,
-					"manufacturerCode": null,
-					"priceDefinition": {
-						"calculatedSellingPrice": 55100,
-						"total": 110200,
-						"sellingPrices": [
-							{
-								"value": 55100,
-								"quantity": 2
-							}
-						]
-					}
-				},
-				{
-					"additionalInfo": {
-						"categoriesIds": "/1000000/1030000/1030700/",
-						"productClusterId": "",
-						"commercialConditionId": "1",
-						"dimension": {
-							"cubicweight": 1,
-							"height": 9,
-							"length": 101,
-							"weight": 5.35,
-							"width": 18
-						},
-						"brandName": "VidaXL",
-						"brandId": "1",
-						"offeringInfo": null,
-						"offeringType": null,
-						"offeringTypeId": null
-					},
-					"sellerSku": "101373",
-					"priceTable": null,
-					"priceValidUntil": "2024-07-25T13:11:35Z",
-					"callCenterOperator": null,
-					"commission": 0,
-					"freightCommission": 0,
-					"taxCode": null,
-					"catalogProvider": "vrn:vtex.catalog-api-proxy:-:iviteb:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/101373",
-					"uniqueId": "83B5FA114DCA45D29FE2B992A431C6E0",
-					"id": "101373",
-					"productId": "14430",
-					"productRefId": "3013616_4",
-					"refId": "8720286962541_3101267",
-					"ean": null,
-					"name": "Cadru de pat 140 x 190 cm Cadru de pat,negru, 140x190 cm,lemn masiv de pin",
-					"skuName": "Cadru de pat,negru, 140x190 cm,lemn masiv de pin",
-					"modalType": null,
-					"parentItemIndex": null,
-					"parentAssemblyBinding": null,
-					"assemblies": [],
-					"tax": 0,
-					"price": 54400,
-					"listPrice": 77999,
-					"manualPrice": null,
-					"manualPriceAppliedBy": null,
-					"sellingPrice": 54400,
-					"rewardValue": 0,
-					"isGift": false,
-					"preSaleDate": null,
-					"productCategoryIds": "/1000000/1030000/1030700/",
-					"productCategories": {
-						"1000000": "Casa si gradina - NEW",
-						"1030000": "Termice",
-						"1030700": "Climatizare si ventilatie"
-					},
-					"quantity": 3,
-					"seller": "1",
-					"sellerChain": [
-						"1"
-					],
-					"imageUrl": "http://iviteb.vteximg.com.br/arquivos/ids/8134903-55-55/8720286962541_m_en_hd_1.jpg?v=638253664053930000",
-					"detailUrl": "/vidaxl-cadru-de-pat-alb-140x190-cm-lemn-masiv-de-pin---8720286962510--4/p",
-					"components": [],
-					"bundleItems": [],
-					"attachments": [
-						{
-							"name": "Gift card",
-							"content": {
-								"Email destinatar": "asdasda@asdasdasdas.com",
-								"Mesaj": "asdasdadasdas",
-								"Nume cumparator": "asdasdasd",
-								"Nume destinatar": "asdasdasd"
-							}
-						}
-					],
-					"attachmentOfferings": [
-						{
-							"name": "Gift card",
-							"required": false,
-							"schema": {
-								"Nume destinatar": {
-									"maximumNumberOfCharacters": 50,
-									"domain": []
-								},
-								"Email destinatar": {
-									"maximumNumberOfCharacters": 50,
-									"domain": []
-								},
-								"Nume cumparator": {
-									"maximumNumberOfCharacters": 50,
-									"domain": []
-								},
-								"Mesaj": {
-									"maximumNumberOfCharacters": 999,
-									"domain": []
-								}
-							}
-						}
-					],
-					"offerings": [],
-					"priceTags": [],
-					"availability": "available",
-					"measurementUnit": "un",
-					"unitMultiplier": 1,
-					"manufacturerCode": null,
-					"priceDefinition": {
-						"calculatedSellingPrice": 54400,
-						"total": 163200,
-						"sellingPrices": [
-							{
-								"value": 54400,
-								"quantity": 3
-							}
-						]
-					}
-				}
-			],
-			"sellers": [
-				{
-					"subSellerId": "1",
-					"fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=iviteb",
-					"id": "1",
-					"name": "IVITEB",
-					"logo": ""
-				}
-			],
-			"giftRegistryData": null,
-			"receiptData": null,
-			"contextData": null,
-			"marketPlaceOrderId": "",
-			"marketPlaceOrderGroup": null,
-			"marketplaceServicesEndpoint": null,
-			"orderFormId": "69a4bccf63134ec091bc3bee9e44c16e",
-			"sequence": "507047",
-			"affiliateId": "",
-			"status": "",
-			"callCenterOperator": "",
-			"userProfileId": "fb3856f2-19a0-492e-beaf-8b7b470d19b7",
-			"hostName": "iviteb",
-			"creationVersion": null,
-			"creationEnvironment": null,
-			"lastChangeVersion": null,
-			"workflowInstanceId": null,
-			"marketplacePaymentValue": null,
-			"orderId": "1349330507047-01",
-			"orderGroup": "1349330507047",
-			"state": "payment-approved",
-			"isCheckedIn": false,
-			"sellerOrderId": "00-1349330507047-01",
-			"storeId": null,
-			"checkedInPickupPointId": null,
-			"value": 515600,
-			"totals": [
-				{
-					"id": "Items",
-					"name": "Total articole",
-					"value": 512400
-				},
-				{
-					"id": "Discounts",
-					"name": "Total reduceri",
-					"value": 0
-				},
-				{
-					"id": "Shipping",
-					"name": "Total transport",
-					"value": 2000
-				},
-				{
-					"id": "Tax",
-					"name": "Total taxe",
-					"value": 0
-				},
-				{
-					"id": "CustomTax",
-					"name": "TAXA TEST",
-					"value": 1200
-				}
-			],
-			"clientProfileData": {
-				"email": "2*******************************@c*.v***.c**.b*",
-				"firstName": "a***",
-				"lastName": "a******",
-				"document": null,
-				"documentType": "document",
-				"phone": "+4**********",
-				"corporateName": null,
-				"tradeName": null,
-				"corporateDocument": null,
-				"stateInscription": null,
-				"corporatePhone": null,
-				"isCorporate": false,
-				"profileCompleteOnLoading": true,
-				"profileErrorOnLoading": false,
-				"customerClass": null
-			},
-			"ratesAndBenefitsData": {
-				"rateAndBenefitsIdentifiers": [],
-				"teaser": []
-			},
-			"shippingData": {
-				"address": {
-					"addressType": "residential",
-					"receiverName": "C****** I*****",
-					"addressId": "3359825421696",
-					"isDisposable": false,
-					"postalCode": "0*****",
-					"city": "B******** (******** 3*",
-					"state": "BUCUREŞTI",
-					"country": "ROU",
-					"street": "a***",
-					"number": "1",
-					"neighborhood": null,
-					"complement": null,
-					"reference": null,
-					"geoCoordinates": [
-						-51.4779552,
-						-0.0039779
-					]
-				},
-				"logisticsInfo": [
-					{
-						"itemIndex": 0,
-						"selectedSla": "Curier Standard",
-						"selectedDeliveryChannel": "delivery",
-						"addressId": "3359825421696",
-						"slas": [
-							{
-								"id": "Curier Standard",
-								"deliveryChannel": "delivery",
-								"name": "Curier Standard",
-								"deliveryIds": [
-									{
-										"courierId": "normalcarrier",
-										"warehouseId": "1_3",
-										"dockId": "1",
-										"courierName": "Curier lent",
-										"quantity": 3,
-										"kitItemDetails": []
-									}
-								],
-								"shippingEstimate": "2bd",
-								"shippingEstimateDate": "2023-07-27T13:12:57.3965986Z",
-								"lockTTL": "10d",
-								"availableDeliveryWindows": [],
-								"deliveryWindow": null,
-								"price": 45,
-								"listPrice": 45,
-								"tax": 0,
-								"pickupStoreInfo": {
-									"isPickupStore": false,
-									"friendlyName": null,
-									"address": null,
-									"additionalInfo": null,
-									"dockId": null
-								},
-								"pickupPointId": null,
-								"pickupDistance": 0,
-								"polygonName": "",
-								"transitTime": "2bd"
-							}
-						],
-						"shipsTo": [
-							"ROU",
-							"USA",
-							"BRA",
-							"HUN",
-							"BGR",
-							"DEU",
-							"ITA",
-							"NLD",
-							"FRA",
-							"GBR",
-							"ESP",
-							"GRC",
-							"TUR",
-							"AUS",
-							"CHN",
-							"IND",
-							"ISR",
-							"MDV"
-						],
-						"itemId": "101702",
-						"deliveryChannels": [
-							{
-								"id": "delivery"
-							}
-						]
-					},
-					{
-						"itemIndex": 1,
-						"selectedSla": "Curier Standard",
-						"selectedDeliveryChannel": "delivery",
-						"addressId": "3359825421696",
-						"slas": [
-							{
-								"id": "Curier Standard",
-								"deliveryChannel": "delivery",
-								"name": "Curier Standard",
-								"deliveryIds": [
-									{
-										"courierId": "normalcarrier",
-										"warehouseId": "1_3",
-										"dockId": "1",
-										"courierName": "Curier lent",
-										"quantity": 4,
-										"kitItemDetails": []
-									}
-								],
-								"shippingEstimate": "2bd",
-								"shippingEstimateDate": "2023-07-27T13:12:57.4122246Z",
-								"lockTTL": "10d",
-								"availableDeliveryWindows": [],
-								"deliveryWindow": null,
-								"price": 1146,
-								"listPrice": 1146,
-								"tax": 0,
-								"pickupStoreInfo": {
-									"isPickupStore": false,
-									"friendlyName": null,
-									"address": null,
-									"additionalInfo": null,
-									"dockId": null
-								},
-								"pickupPointId": null,
-								"pickupDistance": 0,
-								"polygonName": "",
-								"transitTime": "2bd"
-							}
-						],
-						"shipsTo": [
-							"ROU",
-							"USA",
-							"BRA",
-							"HUN",
-							"BGR",
-							"DEU",
-							"ITA",
-							"NLD",
-							"FRA",
-							"GBR",
-							"ESP",
-							"GRC",
-							"TUR",
-							"AUS",
-							"CHN",
-							"IND",
-							"ISR",
-							"MDV"
-						],
-						"itemId": "101364",
-						"deliveryChannels": [
-							{
-								"id": "delivery"
-							}
-						]
-					},
-					{
-						"itemIndex": 2,
-						"selectedSla": "Curier Standard",
-						"selectedDeliveryChannel": "delivery",
-						"addressId": "3359825421696",
-						"slas": [
-							{
-								"id": "Curier Standard",
-								"deliveryChannel": "delivery",
-								"name": "Curier Standard",
-								"deliveryIds": [
-									{
-										"courierId": "normalcarrier",
-										"warehouseId": "1_3",
-										"dockId": "1",
-										"courierName": "Curier lent",
-										"quantity": 2,
-										"kitItemDetails": []
-									}
-								],
-								"shippingEstimate": "2bd",
-								"shippingEstimateDate": "2023-07-27T13:12:57.4122246Z",
-								"lockTTL": "10d",
-								"availableDeliveryWindows": [],
-								"deliveryWindow": null,
-								"price": 570,
-								"listPrice": 570,
-								"tax": 0,
-								"pickupStoreInfo": {
-									"isPickupStore": false,
-									"friendlyName": null,
-									"address": null,
-									"additionalInfo": null,
-									"dockId": null
-								},
-								"pickupPointId": null,
-								"pickupDistance": 0,
-								"polygonName": "",
-								"transitTime": "2bd"
-							}
-						],
-						"shipsTo": [
-							"ROU",
-							"USA",
-							"BRA",
-							"HUN",
-							"BGR",
-							"DEU",
-							"ITA",
-							"NLD",
-							"FRA",
-							"GBR",
-							"ESP",
-							"GRC",
-							"TUR",
-							"AUS",
-							"CHN",
-							"IND",
-							"ISR",
-							"MDV"
-						],
-						"itemId": "101367",
-						"deliveryChannels": [
-							{
-								"id": "delivery"
-							}
-						]
-					},
-					{
-						"itemIndex": 3,
-						"selectedSla": "Curier Standard",
-						"selectedDeliveryChannel": "delivery",
-						"addressId": "3359825421696",
-						"slas": [
-							{
-								"id": "Curier Standard",
-								"deliveryChannel": "delivery",
-								"name": "Curier Standard",
-								"deliveryIds": [
-									{
-										"courierId": "normalcarrier",
-										"warehouseId": "1_3",
-										"dockId": "1",
-										"courierName": "Curier lent",
-										"quantity": 3,
-										"kitItemDetails": []
-									}
-								],
-								"shippingEstimate": "2bd",
-								"shippingEstimateDate": "2023-07-27T13:12:57.4122246Z",
-								"lockTTL": "10d",
-								"availableDeliveryWindows": [],
-								"deliveryWindow": null,
-								"price": 239,
-								"listPrice": 239,
-								"tax": 0,
-								"pickupStoreInfo": {
-									"isPickupStore": false,
-									"friendlyName": null,
-									"address": null,
-									"additionalInfo": null,
-									"dockId": null
-								},
-								"pickupPointId": null,
-								"pickupDistance": 0,
-								"polygonName": "",
-								"transitTime": "2bd"
-							}
-						],
-						"shipsTo": [
-							"ROU",
-							"USA",
-							"BRA",
-							"HUN",
-							"BGR",
-							"DEU",
-							"ITA",
-							"NLD",
-							"FRA",
-							"GBR",
-							"ESP",
-							"GRC",
-							"TUR",
-							"AUS",
-							"CHN",
-							"IND",
-							"ISR",
-							"MDV"
-						],
-						"itemId": "101373",
-						"deliveryChannels": [
-							{
-								"id": "delivery"
-							}
-						]
-					}
-				],
-				"selectedAddresses": [
-					{
-						"addressType": "residential",
-						"receiverName": "C****** I*****",
-						"addressId": "3359825421696",
-						"isDisposable": false,
-						"postalCode": "0*****",
-						"city": "B******** (******** 3*",
-						"state": "BUCUREŞTI",
-						"country": "ROU",
-						"street": "a***",
-						"number": "1",
-						"neighborhood": null,
-						"complement": null,
-						"reference": null,
-						"geoCoordinates": [
-							-51.4779552,
-							-0.0039779
-						]
-					}
-				],
-				"availableAddresses": [
-					{
-						"addressType": "residential",
-						"receiverName": "C****** I*****",
-						"addressId": "3359825421696",
-						"isDisposable": false,
-						"postalCode": "0*****",
-						"city": "B******** (******** 3*",
-						"state": "BUCUREŞTI",
-						"country": "ROU",
-						"street": "a***",
-						"number": "1",
-						"neighborhood": null,
-						"complement": null,
-						"reference": null,
-						"geoCoordinates": [
-							-51.4779552,
-							-0.0039779
-						]
-					}
-				],
-				"pickupPoints": []
-			},
-			"paymentData": {
-				"giftCards": [
-					{
-						"redemptionCode": null,
-						"provider": "VtexGiftCard",
-						"value": 0,
-						"balance": 0,
-						"name": "loyalty-program",
-						"caption": null,
-						"id": "fb3856f2-19a0-492e-beaf-8b7b470d19b7_9",
-						"inUse": false,
-						"isSpecialCard": true,
-						"groupName": null
-					}
-				],
-				"transactions": [
-					{
-						"isActive": true,
-						"transactionId": "B6774DB2BD724E9288903B1F7B410027",
-						"merchantName": "IVITEB",
-						"payments": [
-							{
-								"id": "6D1185E4EBE84227845854D0B4FD08F6",
-								"paymentSystem": "47",
-								"paymentSystemName": "Cash",
-								"value": 515600,
-								"installments": 1,
-								"connectorResponses": {},
-								"referenceValue": 515600,
-								"cardHolder": null,
-								"cardNumber": null,
-								"firstDigits": null,
-								"lastDigits": null,
-								"cvv2": null,
-								"expireMonth": null,
-								"expireYear": null,
-								"url": null,
-								"koinUrl": null,
-								"tid": null,
-								"redemptionCode": null,
-								"giftCardId": null,
-								"giftCardProvider": null,
-								"giftCardAsDiscount": null,
-								"group": "cash",
-								"dueDate": null,
-								"accountId": null,
-								"parentAccountId": null,
-								"bankIssuedInvoiceIdentificationNumber": null,
-								"bankIssuedInvoiceIdentificationNumberFormatted": null,
-								"bankIssuedInvoiceBarCodeNumber": null,
-								"bankIssuedInvoiceBarCodeType": null,
-								"billingAddress": null
-							}
-						],
-						"sharedTransaction": false
-					}
-				]
-			},
-			"clientPreferencesData": {
-				"locale": "ro-RO",
-				"optinNewsLetter": false
-			},
-			"commercialConditionData": null,
-			"marketingData": null,
-			"storePreferencesData": {
-				"countryCode": "ROU",
-				"saveUserData": false,
-				"timeZone": "GTB Standard Time",
-				"currencyCode": "RON",
-				"currencyLocale": 1048,
-				"currencySymbol": "lei",
-				"currencyFormatInfo": {
-					"currencyDecimalDigits": 2,
-					"currencyDecimalSeparator": ",",
-					"currencyGroupSeparator": ".",
-					"currencyGroupSize": 3,
-					"startsWithCurrencySymbol": false
-				}
-			},
-			"openTextField": null,
-			"invoiceData": null,
-			"itemMetadata": null,
-			"taxData": null,
-			"customData": null,
-			"hooksData": null,
-			"changeData": null,
-			"subscriptionData": null,
-			"salesChannel": "1",
-			"followUpEmail": "11c559f387854443bfb7171ced1a48c6@ct.vtex.com.br",
-			"creationDate": "2023-07-25T13:12:52.3368026Z",
-			"lastChange": "2023-07-25T13:13:00.0171083Z",
-			"timeZoneCreationDate": "2023-07-25T16:12:52.3368026",
-			"timeZoneLastChange": "2023-07-25T16:13:00.0171083",
-			"isCompleted": true,
-			"merchantName": null,
-			"userType": "",
-			"roundingError": 0,
-			"allowEdition": false,
-			"allowCancellation": false,
-			"isUserDataVisible": false,
-			"allowChangeSeller": false
-		}
-	],
-	"ordersUrl": "http://cgiftcard--iviteb.myvtex.com/account#/orders",
-	"orderGroup": "1349330507047",
-	"subjectItemAttachment": {
-		"item": "Cadru de pat 140 x 1...",
-		"totalItems": 12,
-		"extraItems": 11
-	},
-	"split": false,
-	"totalValue": 515600,
-	"callCenterOperatorData": null,
-	"_accountInfo": {
-		"MainAccountName": "iviteb",
-		"AccountName": "iviteb",
-		"Cnpj": "1",
-		"Id": "938dfd28-b682-4d6a-b188-a8b8045d640e",
-		"AppId": null,
-		"IsActive": true,
-		"IsOperating": false,
-		"CreationDate": "2020-03-20T01:39:08",
-		"OperationDate": null,
-		"CompanyName": "IVITEB",
-		"TradingName": "IVITEB",
-		"City": null,
-		"Complement": null,
-		"Country": null,
-		"State": null,
-		"Address": null,
-		"District": null,
-		"Number": null,
-		"PostalCode": null,
-		"Licenses": [
-			7
-		],
-		"ParentAccountId": null,
-		"ParentAccountName": null,
-		"InactivationDate": null,
-		"Platform": "vtex",
-		"Privacy": null,
-		"HasPiiRestriction": false,
-		"Infra": null
-	}
+  "orders": [
+    {
+      "package": null,
+      "subjectItemAttachment": {
+        "item": "test 848",
+        "totalItems": 17,
+        "extraItems": 16
+      },
+      "cancellationReason": null,
+      "paymentData": {
+        "giftCards": [],
+        "transactions": [
+          {
+            "isActive": true,
+            "transactionId": "B4596BA4138446CD927190176A39DB24",
+            "merchantName": "M********",
+            "payments": [
+              {
+                "id": "1B504F7F8FEB4352B1DFF926E29CEE74",
+                "paymentSystem": "202",
+                "paymentSystemName": "P*********************",
+                "value": 4125,
+                "installments": 1,
+                "referenceValue": 4125,
+                "cardHolder": null,
+                "cardNumber": null,
+                "firstDigits": null,
+                "lastDigits": null,
+                "cvv2": null,
+                "expireMonth": null,
+                "expireYear": null,
+                "url": null,
+                "giftCardId": null,
+                "giftCardName": null,
+                "giftCardCaption": null,
+                "redemptionCode": null,
+                "group": "promissory",
+                "tid": null,
+                "dueDate": null,
+                "connectorResponses": {},
+                "giftCardProvider": null,
+                "giftCardAsDiscount": null,
+                "koinUrl": null,
+                "accountId": null,
+                "parentAccountId": null,
+                "bankIssuedInvoiceIdentificationNumber": null,
+                "bankIssuedInvoiceIdentificationNumberFormatted": null,
+                "bankIssuedInvoiceBarCodeNumber": null,
+                "bankIssuedInvoiceBarCodeType": null,
+                "billingAddress": null,
+                "paymentOrigin": null
+              }
+            ]
+          }
+        ]
+      },
+      "cancellationRequests": null,
+      "invoiceData": null,
+      "clientProfileData": {
+        "id": "clientProfileData",
+        "email": "d***************@g****.c****************.c*.v***.c**.b*",
+        "firstName": "D*****",
+        "lastName": "C******",
+        "documentType": "",
+        "document": null,
+        "phone": "0*********",
+        "corporateName": "V**** I* C******* I*",
+        "tradeName": "M*******",
+        "corporateDocument": "3*******",
+        "stateInscription": null,
+        "corporatePhone": null,
+        "isCorporate": true,
+        "userProfileId": "9eebca20-b35a-48ed-83c4-c39b97d6344a",
+        "userProfileVersion": null,
+        "customerClass": null,
+        "customerCode": null
+      },
+      "shippingData": {
+        "id": "shippingData",
+        "address": {
+          "addressType": "residential",
+          "receiverName": "V**** I* C******* I* B********",
+          "addressId": "MD090220-01",
+          "versionId": null,
+          "entityId": null,
+          "postalCode": "0*****",
+          "city": "B******** (******** 1*",
+          "state": "BUCUREŞTI",
+          "country": "ROU",
+          "street": "C**** F********",
+          "number": "-",
+          "neighborhood": null,
+          "complement": "N* 2******* P******** M***",
+          "reference": "M**********",
+          "geoCoordinates": [-51.4779552, -0.0039779]
+        },
+        "logisticsInfo": [
+          {
+            "itemIndex": 0,
+            "itemId": "1524",
+            "selectedDeliveryChannel": "delivery",
+            "selectedSla": "Livrat de Daas",
+            "lockTTL": "15d",
+            "price": 600,
+            "listPrice": 600,
+            "sellingPrice": 600,
+            "deliveryWindow": {
+              "startDateUtc": "2024-09-18T00:00:00+00:00",
+              "endDateUtc": "2024-09-18T12:00:59+00:00",
+              "price": 0
+            },
+            "deliveryCompany": null,
+            "shippingEstimate": "1bd",
+            "shippingEstimateDate": "2024-09-18T00:00:00",
+            "slas": [
+              {
+                "id": "Livrat de Daas",
+                "name": "L*************",
+                "shippingEstimate": "1bd",
+                "shippingEstimateDate": "2024-09-18T00:00:00",
+                "deliveryWindow": {
+                  "startDateUtc": "2024-09-18T00:00:00+00:00",
+                  "endDateUtc": "2024-09-18T12:00:59+00:00",
+                  "price": 0
+                },
+                "availableDeliveryWindows": [],
+                "deliveryIds": [
+                  {
+                    "courierId": "189e66a",
+                    "courierName": "P*************",
+                    "dockId": "1",
+                    "quantity": 17,
+                    "warehouseId": "1_1",
+                    "accountCarrierName": "h********",
+                    "kitItemDetails": []
+                  }
+                ],
+                "listPrice": 600,
+                "price": 600,
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                  "additionalInfo": null,
+                  "address": null,
+                  "dockId": null,
+                  "friendlyName": null,
+                  "isPickupStore": false
+                },
+                "polygonName": "",
+                "lockTTL": "15d",
+                "pickupPointId": null,
+                "transitTime": "0bd",
+                "pickupDistance": null
+              }
+            ],
+            "shipsTo": ["ROU"],
+            "deliveryIds": [
+              {
+                "courierId": "189e66a",
+                "courierName": "P*************",
+                "dockId": "1",
+                "quantity": 17,
+                "warehouseId": "1_1",
+                "accountCarrierName": "h********",
+                "kitItemDetails": []
+              }
+            ],
+            "deliveryChannels": [
+              {
+                "id": "delivery",
+                "stockBalance": 0
+              }
+            ],
+            "deliveryChannel": null,
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "addressId": "MD090220-01",
+            "versionId": null,
+            "entityId": null,
+            "polygonName": "",
+            "pickupPointId": null,
+            "transitTime": "0bd"
+          }
+        ],
+        "trackingHints": [],
+        "selectedAddresses": [
+          {
+            "addressId": "MD090220-01",
+            "versionId": null,
+            "entityId": null,
+            "addressType": "residential",
+            "receiverName": "V**** I* C******* I* B********",
+            "street": "C**** F********",
+            "number": "-",
+            "complement": "N* 2******* P******** M***",
+            "neighborhood": null,
+            "postalCode": "0*****",
+            "city": "B******** (******** 1*",
+            "state": "BUCUREŞTI",
+            "country": "ROU",
+            "reference": "M**********",
+            "geoCoordinates": [-51.4779552, -0.0039779]
+          }
+        ],
+        "availableAddresses": [
+          {
+            "addressId": "MD090220-01",
+            "versionId": null,
+            "entityId": null,
+            "addressType": "residential",
+            "receiverName": "V**** I* C******* I* B********",
+            "street": "C**** F********",
+            "number": "-",
+            "complement": "N* 2******* P******** M***",
+            "neighborhood": null,
+            "postalCode": "0*****",
+            "city": "B******** (******** 1*",
+            "state": "BUCUREŞTI",
+            "country": "ROU",
+            "reference": "M**********",
+            "geoCoordinates": [-51.4779552, -0.0039779]
+          }
+        ],
+        "contactInformation": []
+      },
+      "items": [
+        {
+          "additionalInfo": {
+            "categoriesIds": "/45/47/",
+            "productClusterId": "",
+            "commercialConditionId": "1",
+            "dimension": {
+              "cubicweight": 1,
+              "height": 11,
+              "length": 50,
+              "weight": 35,
+              "width": 11
+            },
+            "brandName": "T*********",
+            "brandId": "2000010",
+            "offeringInfo": null,
+            "offeringType": null,
+            "offeringTypeId": null
+          },
+          "sellerSku": "2",
+          "priceTable": "1",
+          "priceValidUntil": "2025-09-16T03:36:15Z",
+          "callCenterOperator": null,
+          "commission": 0,
+          "freightCommission": 0,
+          "taxCode": "",
+          "catalogProvider": "vrn:vtex.catalog-api-proxy:-:mcxhoreca:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/1524",
+          "uniqueId": "C1F2DE28C0FA4A0C882CAD9D0FA99008",
+          "id": "1524",
+          "productId": "1515",
+          "productRefId": "ZZ98765P",
+          "refId": "ZZ12345",
+          "ean": "4556792315",
+          "name": "t*******",
+          "skuName": "t*******",
+          "modalType": null,
+          "parentItemIndex": null,
+          "parentAssemblyBinding": null,
+          "assemblies": [],
+          "tax": 8,
+          "price": 90,
+          "listPrice": 100,
+          "manualPrice": null,
+          "manualPriceAppliedBy": null,
+          "sellingPrice": 90,
+          "rewardValue": 0,
+          "isGift": false,
+          "preSaleDate": null,
+          "productCategoryIds": "/45/47/",
+          "productCategories": {
+            "45": "Test Departament",
+            "47": "Test Cat 2"
+          },
+          "quantity": 17,
+          "seller": "horeca848",
+          "sellerChain": ["horeca848"],
+          "imageUrl": "https://mcxhoreca.vteximg.com.br/arquivos/ids/167919-55-55/image-a4e475e67a844f6fa065c531b6c8ad1c.jpg?v=638483602655330000",
+          "detailUrl": "/test-848-1515/p",
+          "components": [],
+          "bundleItems": [],
+          "attachments": [],
+          "attachmentOfferings": [],
+          "offerings": [],
+          "priceTags": [
+            {
+              "name": "t**********************************************************************************",
+              "value": 9,
+              "rawValue": 0.09,
+              "isPercentual": true,
+              "identifier": null
+            }
+          ],
+          "availability": "available",
+          "measurementUnit": "un",
+          "unitMultiplier": 1,
+          "manufacturerCode": null,
+          "priceDefinition": {
+            "calculatedSellingPrice": 90,
+            "total": 1530,
+            "sellingPrices": [
+              {
+                "value": 90,
+                "quantity": 17
+              }
+            ]
+          }
+        }
+      ],
+      "sellers": [
+        {
+          "subSellerId": "1",
+          "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=horeca848&affiliateId=MCX&sc=1",
+          "id": "horeca848",
+          "name": "H*****",
+          "logo": ""
+        }
+      ],
+      "giftRegistryData": null,
+      "receiptData": null,
+      "contextData": null,
+      "marketPlaceOrderId": "",
+      "marketPlaceOrderGroup": null,
+      "marketplaceServicesEndpoint": null,
+      "orderFormId": "5ceb8506edf84f33b14d69aa1af56298",
+      "sequence": "752885",
+      "affiliateId": "",
+      "status": "",
+      "callCenterOperator": "",
+      "userProfileId": "9eebca20-b35a-48ed-83c4-c39b97d6344a",
+      "hostName": "m********",
+      "creationVersion": null,
+      "creationEnvironment": null,
+      "lastChangeVersion": null,
+      "workflowInstanceId": null,
+      "marketplacePaymentValue": null,
+      "orderId": "1462200752883-03",
+      "orderGroup": "1462200752883",
+      "state": "approve-payment",
+      "isCheckedIn": false,
+      "sellerOrderId": "MCX-1462200752883-03",
+      "storeId": null,
+      "checkedInPickupPointId": null,
+      "value": 2268,
+      "totals": [
+        {
+          "id": "Items",
+          "name": "T*************",
+          "value": 1530
+        },
+        {
+          "id": "Discounts",
+          "name": "T*************",
+          "value": 0
+        },
+        {
+          "id": "Shipping",
+          "name": "T**************",
+          "value": 600
+        },
+        {
+          "id": "Tax",
+          "name": "T*********",
+          "value": 138
+        }
+      ],
+      "ratesAndBenefitsData": {
+        "rateAndBenefitsIdentifiers": [],
+        "teaser": []
+      },
+      "clientPreferencesData": {
+        "locale": "ro-RO",
+        "optinNewsLetter": false
+      },
+      "commercialConditionData": null,
+      "marketingData": null,
+      "storePreferencesData": {
+        "countryCode": "ROU",
+        "saveUserData": false,
+        "timeZone": "GTB Standard Time",
+        "currencyCode": "RON",
+        "currencyLocale": 1048,
+        "currencySymbol": "lei",
+        "currencyFormatInfo": {
+          "currencyDecimalDigits": 2,
+          "currencyDecimalSeparator": ",",
+          "currencyGroupSeparator": ".",
+          "currencyGroupSize": 3,
+          "startsWithCurrencySymbol": false
+        }
+      },
+      "openTextField": null,
+      "itemMetadata": null,
+      "taxData": null,
+      "customData": {
+        "customApps": [
+          {
+            "fields": {
+              "salesman_email": "a****.a********************.c**"
+            },
+            "id": "macromexclient",
+            "major": 1
+          }
+        ]
+      },
+      "hooksData": null,
+      "changeData": null,
+      "subscriptionData": null,
+      "salesChannel": "1",
+      "followUpEmail": "7**********************************.v***.c**.b*",
+      "creationDate": "2024-09-16T03:37:48.9203112Z",
+      "lastChange": "2024-09-16T03:37:55.3700899Z",
+      "timeZoneCreationDate": "2024-09-16T06:37:48.9203112",
+      "timeZoneLastChange": "2024-09-16T06:37:55.3700899",
+      "isCompleted": true,
+      "merchantName": null,
+      "userType": "",
+      "roundingError": 0,
+      "allowEdition": false,
+      "allowCancellation": false,
+      "isUserDataVisible": false,
+      "allowChangeSeller": false
+    },
+    {
+      "package": null,
+      "subjectItemAttachment": {
+        "item": "Dinozaur dinozaur di...",
+        "totalItems": 18,
+        "extraItems": 17
+      },
+      "cancellationReason": null,
+      "paymentData": {
+        "giftCards": [],
+        "transactions": [
+          {
+            "isActive": true,
+            "transactionId": "B4596BA4138446CD927190176A39DB24",
+            "merchantName": "M********",
+            "payments": [
+              {
+                "id": "1B504F7F8FEB4352B1DFF926E29CEE74",
+                "paymentSystem": "202",
+                "paymentSystemName": "P*********************",
+                "value": 4125,
+                "installments": 1,
+                "referenceValue": 4125,
+                "cardHolder": null,
+                "cardNumber": null,
+                "firstDigits": null,
+                "lastDigits": null,
+                "cvv2": null,
+                "expireMonth": null,
+                "expireYear": null,
+                "url": null,
+                "giftCardId": null,
+                "giftCardName": null,
+                "giftCardCaption": null,
+                "redemptionCode": null,
+                "group": "promissory",
+                "tid": null,
+                "dueDate": null,
+                "connectorResponses": {},
+                "giftCardProvider": null,
+                "giftCardAsDiscount": null,
+                "koinUrl": null,
+                "accountId": null,
+                "parentAccountId": null,
+                "bankIssuedInvoiceIdentificationNumber": null,
+                "bankIssuedInvoiceIdentificationNumberFormatted": null,
+                "bankIssuedInvoiceBarCodeNumber": null,
+                "bankIssuedInvoiceBarCodeType": null,
+                "billingAddress": null,
+                "paymentOrigin": null
+              }
+            ]
+          }
+        ]
+      },
+      "cancellationRequests": null,
+      "invoiceData": null,
+      "clientProfileData": {
+        "id": "clientProfileData",
+        "email": "d***************@g****.c****************.c*.v***.c**.b*",
+        "firstName": "D*****",
+        "lastName": "C******",
+        "documentType": "",
+        "document": null,
+        "phone": "0*********",
+        "corporateName": "V**** I* C******* I*",
+        "tradeName": "M*******",
+        "corporateDocument": "3*******",
+        "stateInscription": null,
+        "corporatePhone": null,
+        "isCorporate": true,
+        "userProfileId": "9eebca20-b35a-48ed-83c4-c39b97d6344a",
+        "userProfileVersion": null,
+        "customerClass": null,
+        "customerCode": null
+      },
+      "shippingData": {
+        "id": "shippingData",
+        "address": {
+          "addressType": "residential",
+          "receiverName": "V**** I* C******* I* B********",
+          "addressId": "MD090220-01",
+          "versionId": null,
+          "entityId": null,
+          "postalCode": "0*****",
+          "city": "B******** (******** 1*",
+          "state": "BUCUREŞTI",
+          "country": "ROU",
+          "street": "C**** F********",
+          "number": "-",
+          "neighborhood": null,
+          "complement": "N* 2******* P******** M***",
+          "reference": "M**********",
+          "geoCoordinates": [-51.4779552, -0.0039779]
+        },
+        "logisticsInfo": [
+          {
+            "itemIndex": 0,
+            "itemId": "2272",
+            "selectedDeliveryChannel": "delivery",
+            "selectedSla": "Curier seller test",
+            "lockTTL": "15d",
+            "price": 0,
+            "listPrice": 0,
+            "sellingPrice": 0,
+            "deliveryWindow": {
+              "startDateUtc": "2024-09-17T00:00:00+00:00",
+              "endDateUtc": "2024-09-17T13:00:59+00:00",
+              "price": 0
+            },
+            "deliveryCompany": null,
+            "shippingEstimate": "0bd",
+            "shippingEstimateDate": "2024-09-17T00:00:00",
+            "slas": [
+              {
+                "id": "Curier seller test",
+                "name": "C*****************",
+                "shippingEstimate": "0bd",
+                "shippingEstimateDate": "2024-09-17T00:00:00",
+                "deliveryWindow": {
+                  "startDateUtc": "2024-09-17T00:00:00+00:00",
+                  "endDateUtc": "2024-09-17T13:00:59+00:00",
+                  "price": 0
+                },
+                "availableDeliveryWindows": [],
+                "deliveryIds": [
+                  {
+                    "courierId": "1",
+                    "courierName": "T*********************",
+                    "dockId": "1",
+                    "quantity": 18,
+                    "warehouseId": "1_1",
+                    "accountCarrierName": "s************",
+                    "kitItemDetails": []
+                  }
+                ],
+                "listPrice": 0,
+                "price": 0,
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                  "additionalInfo": null,
+                  "address": null,
+                  "dockId": null,
+                  "friendlyName": null,
+                  "isPickupStore": false
+                },
+                "polygonName": null,
+                "lockTTL": "15d",
+                "pickupPointId": null,
+                "transitTime": "0bd",
+                "pickupDistance": null
+              }
+            ],
+            "shipsTo": ["ROU"],
+            "deliveryIds": [
+              {
+                "courierId": "1",
+                "courierName": "T*********************",
+                "dockId": "1",
+                "quantity": 18,
+                "warehouseId": "1_1",
+                "accountCarrierName": "s************",
+                "kitItemDetails": []
+              }
+            ],
+            "deliveryChannels": [
+              {
+                "id": "delivery",
+                "stockBalance": 0
+              }
+            ],
+            "deliveryChannel": null,
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "addressId": "MD090220-01",
+            "versionId": null,
+            "entityId": null,
+            "polygonName": null,
+            "pickupPointId": null,
+            "transitTime": "0bd"
+          }
+        ],
+        "trackingHints": [],
+        "selectedAddresses": [
+          {
+            "addressId": "MD090220-01",
+            "versionId": null,
+            "entityId": null,
+            "addressType": "residential",
+            "receiverName": "V**** I* C******* I* B********",
+            "street": "C**** F********",
+            "number": "-",
+            "complement": "N* 2******* P******** M***",
+            "neighborhood": null,
+            "postalCode": "0*****",
+            "city": "B******** (******** 1*",
+            "state": "BUCUREŞTI",
+            "country": "ROU",
+            "reference": "M**********",
+            "geoCoordinates": [-51.4779552, -0.0039779]
+          }
+        ],
+        "availableAddresses": [
+          {
+            "addressId": "MD090220-01",
+            "versionId": null,
+            "entityId": null,
+            "addressType": "residential",
+            "receiverName": "V**** I* C******* I* B********",
+            "street": "C**** F********",
+            "number": "-",
+            "complement": "N* 2******* P******** M***",
+            "neighborhood": null,
+            "postalCode": "0*****",
+            "city": "B******** (******** 1*",
+            "state": "BUCUREŞTI",
+            "country": "ROU",
+            "reference": "M**********",
+            "geoCoordinates": [-51.4779552, -0.0039779]
+          }
+        ],
+        "contactInformation": []
+      },
+      "items": [
+        {
+          "additionalInfo": {
+            "categoriesIds": "/45/46/48/",
+            "productClusterId": "",
+            "commercialConditionId": "1",
+            "dimension": {
+              "cubicweight": 1,
+              "height": 1,
+              "length": 1,
+              "weight": 0.2,
+              "width": 1
+            },
+            "brandName": "T*********",
+            "brandId": "2000010",
+            "offeringInfo": null,
+            "offeringType": null,
+            "offeringTypeId": null
+          },
+          "sellerSku": "14",
+          "priceTable": null,
+          "priceValidUntil": "2025-09-16T03:36:28Z",
+          "callCenterOperator": null,
+          "commission": 0,
+          "freightCommission": 0,
+          "taxCode": "",
+          "catalogProvider": "vrn:vtex.catalog-api-proxy:-:mcxhoreca:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2272",
+          "uniqueId": "D7AFA8FBF4F641B3B19B331466D5EFD6",
+          "id": "2272",
+          "productId": "2255",
+          "productRefId": "",
+          "refId": "123E1",
+          "ean": null,
+          "name": "D****************************************************",
+          "skuName": "D****************************************************",
+          "modalType": null,
+          "parentItemIndex": null,
+          "parentAssemblyBinding": null,
+          "assemblies": [],
+          "tax": 6,
+          "price": 33,
+          "listPrice": 33,
+          "manualPrice": null,
+          "manualPriceAppliedBy": null,
+          "sellingPrice": 33,
+          "rewardValue": 0,
+          "isGift": false,
+          "preSaleDate": null,
+          "productCategoryIds": "/45/46/48/",
+          "productCategories": {
+            "45": "Test Departament",
+            "46": "Test Categorie 1",
+            "48": "Test subCat 1.1"
+          },
+          "quantity": 18,
+          "seller": "sellertest967",
+          "sellerChain": ["sellertest967"],
+          "imageUrl": "https://mcxhoreca.vteximg.com.br/arquivos/ids/169253-55-55/image-d54e63d1050e4f0fbeec86f5092764af.jpg?v=638588046908730000",
+          "detailUrl": "/dinozaur-dinozaur-dinozaur-dinozaur-dinozaur-e-2255/p",
+          "components": [],
+          "bundleItems": [],
+          "attachments": [],
+          "attachmentOfferings": [],
+          "offerings": [],
+          "priceTags": [
+            {
+              "name": "t**********************************************************************************",
+              "value": 19,
+              "rawValue": 0.19,
+              "isPercentual": true,
+              "identifier": null
+            }
+          ],
+          "availability": "available",
+          "measurementUnit": "un",
+          "unitMultiplier": 1,
+          "manufacturerCode": null,
+          "priceDefinition": {
+            "calculatedSellingPrice": 33,
+            "total": 594,
+            "sellingPrices": [
+              {
+                "value": 33,
+                "quantity": 18
+              }
+            ]
+          }
+        }
+      ],
+      "sellers": [
+        {
+          "subSellerId": "1",
+          "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=sellertest967&affiliateId=MCX&sc=1",
+          "id": "sellertest967",
+          "name": "S**********",
+          "logo": ""
+        }
+      ],
+      "giftRegistryData": null,
+      "receiptData": null,
+      "contextData": null,
+      "marketPlaceOrderId": "",
+      "marketPlaceOrderGroup": null,
+      "marketplaceServicesEndpoint": null,
+      "orderFormId": "5ceb8506edf84f33b14d69aa1af56298",
+      "sequence": "752884",
+      "affiliateId": "",
+      "status": "",
+      "callCenterOperator": "",
+      "userProfileId": "9eebca20-b35a-48ed-83c4-c39b97d6344a",
+      "hostName": "m********",
+      "creationVersion": null,
+      "creationEnvironment": null,
+      "lastChangeVersion": null,
+      "workflowInstanceId": null,
+      "marketplacePaymentValue": null,
+      "orderId": "1462200752883-02",
+      "orderGroup": "1462200752883",
+      "state": "payment-pending",
+      "isCheckedIn": false,
+      "sellerOrderId": "MCX-1462200752883-02",
+      "storeId": null,
+      "checkedInPickupPointId": null,
+      "value": 707,
+      "totals": [
+        {
+          "id": "Items",
+          "name": "T*************",
+          "value": 594
+        },
+        {
+          "id": "Discounts",
+          "name": "T*************",
+          "value": 0
+        },
+        {
+          "id": "Shipping",
+          "name": "T**************",
+          "value": 0
+        },
+        {
+          "id": "Tax",
+          "name": "T*********",
+          "value": 113
+        }
+      ],
+      "ratesAndBenefitsData": {
+        "rateAndBenefitsIdentifiers": [],
+        "teaser": []
+      },
+      "clientPreferencesData": {
+        "locale": "ro-RO",
+        "optinNewsLetter": false
+      },
+      "commercialConditionData": null,
+      "marketingData": null,
+      "storePreferencesData": {
+        "countryCode": "ROU",
+        "saveUserData": false,
+        "timeZone": "GTB Standard Time",
+        "currencyCode": "RON",
+        "currencyLocale": 1048,
+        "currencySymbol": "lei",
+        "currencyFormatInfo": {
+          "currencyDecimalDigits": 2,
+          "currencyDecimalSeparator": ",",
+          "currencyGroupSeparator": ".",
+          "currencyGroupSize": 3,
+          "startsWithCurrencySymbol": false
+        }
+      },
+      "openTextField": null,
+      "itemMetadata": null,
+      "taxData": null,
+      "customData": {
+        "customApps": [
+          {
+            "fields": {
+              "salesman_email": "a****.a********************.c**"
+            },
+            "id": "macromexclient",
+            "major": 1
+          }
+        ]
+      },
+      "hooksData": null,
+      "changeData": null,
+      "subscriptionData": null,
+      "salesChannel": "1",
+      "followUpEmail": "0**********************************.v***.c**.b*",
+      "creationDate": "2024-09-16T03:37:48.9202096Z",
+      "lastChange": "2024-09-16T03:37:55.8168496Z",
+      "timeZoneCreationDate": "2024-09-16T06:37:48.9202096",
+      "timeZoneLastChange": "2024-09-16T06:37:55.8168496",
+      "isCompleted": true,
+      "merchantName": null,
+      "userType": "",
+      "roundingError": 0,
+      "allowEdition": false,
+      "allowCancellation": false,
+      "isUserDataVisible": false,
+      "allowChangeSeller": false
+    },
+    {
+      "package": null,
+      "subjectItemAttachment": {
+        "item": "Test Produs 2 sku 1",
+        "totalItems": 50,
+        "extraItems": 49
+      },
+      "cancellationReason": null,
+      "paymentData": {
+        "giftCards": [],
+        "transactions": [
+          {
+            "isActive": true,
+            "transactionId": "B4596BA4138446CD927190176A39DB24",
+            "merchantName": "M********",
+            "payments": [
+              {
+                "id": "1B504F7F8FEB4352B1DFF926E29CEE74",
+                "paymentSystem": "202",
+                "paymentSystemName": "P*********************",
+                "value": 4125,
+                "installments": 1,
+                "referenceValue": 4125,
+                "cardHolder": null,
+                "cardNumber": null,
+                "firstDigits": null,
+                "lastDigits": null,
+                "cvv2": null,
+                "expireMonth": null,
+                "expireYear": null,
+                "url": null,
+                "giftCardId": null,
+                "giftCardName": null,
+                "giftCardCaption": null,
+                "redemptionCode": null,
+                "group": "promissory",
+                "tid": null,
+                "dueDate": null,
+                "connectorResponses": {},
+                "giftCardProvider": null,
+                "giftCardAsDiscount": null,
+                "koinUrl": null,
+                "accountId": null,
+                "parentAccountId": null,
+                "bankIssuedInvoiceIdentificationNumber": null,
+                "bankIssuedInvoiceIdentificationNumberFormatted": null,
+                "bankIssuedInvoiceBarCodeNumber": null,
+                "bankIssuedInvoiceBarCodeType": null,
+                "billingAddress": null,
+                "paymentOrigin": null
+              }
+            ]
+          }
+        ]
+      },
+      "cancellationRequests": null,
+      "invoiceData": null,
+      "clientProfileData": {
+        "id": "clientProfileData",
+        "email": "d***************@g****.c****************.c*.v***.c**.b*",
+        "firstName": "D*****",
+        "lastName": "C******",
+        "documentType": "",
+        "document": null,
+        "phone": "0*********",
+        "corporateName": "V**** I* C******* I*",
+        "tradeName": "M*******",
+        "corporateDocument": "3*******",
+        "stateInscription": null,
+        "corporatePhone": null,
+        "isCorporate": true,
+        "userProfileId": "9eebca20-b35a-48ed-83c4-c39b97d6344a",
+        "userProfileVersion": null,
+        "customerClass": null,
+        "customerCode": null
+      },
+      "shippingData": {
+        "id": "shippingData",
+        "address": {
+          "addressType": "residential",
+          "receiverName": "V**** I* C******* I* B********",
+          "addressId": "MD090220-01",
+          "versionId": null,
+          "entityId": null,
+          "postalCode": "0*****",
+          "city": "B******** (******** 1*",
+          "state": "BUCUREŞTI",
+          "country": "ROU",
+          "street": "C**** F********",
+          "number": "-",
+          "neighborhood": null,
+          "complement": "N* 2******* P******** M***",
+          "reference": "M**********",
+          "geoCoordinates": [-51.4779552, -0.0039779]
+        },
+        "logisticsInfo": [
+          {
+            "itemIndex": 0,
+            "itemId": "1088",
+            "selectedDeliveryChannel": "delivery",
+            "selectedSla": "Livrare la comanda",
+            "lockTTL": "15d",
+            "price": 0,
+            "listPrice": 0,
+            "sellingPrice": 0,
+            "deliveryWindow": null,
+            "deliveryCompany": null,
+            "shippingEstimate": "20bd",
+            "shippingEstimateDate": null,
+            "slas": [
+              {
+                "id": "Livrare la comanda",
+                "name": "L*****************",
+                "shippingEstimate": "20bd",
+                "shippingEstimateDate": null,
+                "deliveryWindow": null,
+                "availableDeliveryWindows": [],
+                "deliveryIds": [
+                  {
+                    "courierId": "1_2",
+                    "courierName": "T***********************************",
+                    "dockId": "1_2",
+                    "quantity": 50,
+                    "warehouseId": "1_2",
+                    "accountCarrierName": "m************************",
+                    "kitItemDetails": []
+                  }
+                ],
+                "listPrice": 0,
+                "price": 0,
+                "deliveryChannel": "delivery",
+                "pickupStoreInfo": {
+                  "additionalInfo": null,
+                  "address": null,
+                  "dockId": null,
+                  "friendlyName": null,
+                  "isPickupStore": false
+                },
+                "polygonName": "",
+                "lockTTL": "15d",
+                "pickupPointId": null,
+                "transitTime": "0bd",
+                "pickupDistance": null
+              }
+            ],
+            "shipsTo": ["ROU"],
+            "deliveryIds": [
+              {
+                "courierId": "1_2",
+                "courierName": "T***********************************",
+                "dockId": "1_2",
+                "quantity": 50,
+                "warehouseId": "1_2",
+                "accountCarrierName": "m************************",
+                "kitItemDetails": []
+              }
+            ],
+            "deliveryChannels": [
+              {
+                "id": "delivery",
+                "stockBalance": 0
+              }
+            ],
+            "deliveryChannel": null,
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "addressId": "MD090220-01",
+            "versionId": null,
+            "entityId": null,
+            "polygonName": "",
+            "pickupPointId": null,
+            "transitTime": "0bd"
+          }
+        ],
+        "trackingHints": [],
+        "selectedAddresses": [
+          {
+            "addressId": "MD090220-01",
+            "versionId": null,
+            "entityId": null,
+            "addressType": "residential",
+            "receiverName": "V**** I* C******* I* B********",
+            "street": "C**** F********",
+            "number": "-",
+            "complement": "N* 2******* P******** M***",
+            "neighborhood": null,
+            "postalCode": "0*****",
+            "city": "B******** (******** 1*",
+            "state": "BUCUREŞTI",
+            "country": "ROU",
+            "reference": "M**********",
+            "geoCoordinates": [-51.4779552, -0.0039779]
+          }
+        ],
+        "availableAddresses": [
+          {
+            "addressId": "MD090220-01",
+            "versionId": null,
+            "entityId": null,
+            "addressType": "residential",
+            "receiverName": "V**** I* C******* I* B********",
+            "street": "C**** F********",
+            "number": "-",
+            "complement": "N* 2******* P******** M***",
+            "neighborhood": null,
+            "postalCode": "0*****",
+            "city": "B******** (******** 1*",
+            "state": "BUCUREŞTI",
+            "country": "ROU",
+            "reference": "M**********",
+            "geoCoordinates": [-51.4779552, -0.0039779]
+          }
+        ],
+        "contactInformation": []
+      },
+      "items": [
+        {
+          "additionalInfo": {
+            "categoriesIds": "/45/47/",
+            "productClusterId": "",
+            "commercialConditionId": "1",
+            "dimension": {
+              "cubicweight": 1,
+              "height": 0.02,
+              "length": 0.02,
+              "weight": 0.02,
+              "width": 0.02
+            },
+            "brandName": "T*********",
+            "brandId": "2000010",
+            "offeringInfo": null,
+            "offeringType": null,
+            "offeringTypeId": null
+          },
+          "sellerSku": "11",
+          "priceTable": null,
+          "priceValidUntil": "2025-09-16T03:35:59Z",
+          "callCenterOperator": null,
+          "commission": 100,
+          "freightCommission": 0,
+          "taxCode": "",
+          "catalogProvider": "vrn:vtex.catalog-api-proxy:-:mcxhoreca:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/1088",
+          "uniqueId": "99A3F652CC51487C83BC9ED9089342E5",
+          "id": "1088",
+          "productId": "1080",
+          "productRefId": "",
+          "refId": "TEST0123",
+          "ean": null,
+          "name": "T******************",
+          "skuName": "T******************",
+          "modalType": null,
+          "parentItemIndex": null,
+          "parentAssemblyBinding": null,
+          "assemblies": [],
+          "tax": 0,
+          "price": 23,
+          "listPrice": 23,
+          "manualPrice": null,
+          "manualPriceAppliedBy": null,
+          "sellingPrice": 23,
+          "rewardValue": 0,
+          "isGift": false,
+          "preSaleDate": null,
+          "productCategoryIds": "/45/47/",
+          "productCategories": {
+            "45": "Test Departament",
+            "47": "Test Cat 2"
+          },
+          "quantity": 50,
+          "seller": "macromexglobaltradesrl683",
+          "sellerChain": ["macromexglobaltradesrl683"],
+          "imageUrl": "https://mcxhoreca.vteximg.com.br/arquivos/ids/167189-55-55/No-picture.png?v=638018844814130000",
+          "detailUrl": "/test-produs-2/p",
+          "components": [],
+          "bundleItems": [],
+          "attachments": [],
+          "attachmentOfferings": [],
+          "offerings": [],
+          "priceTags": [],
+          "availability": "available",
+          "measurementUnit": "un",
+          "unitMultiplier": 1,
+          "manufacturerCode": null,
+          "priceDefinition": {
+            "calculatedSellingPrice": 23,
+            "total": 1150,
+            "sellingPrices": [
+              {
+                "value": 23,
+                "quantity": 50
+              }
+            ]
+          }
+        }
+      ],
+      "sellers": [
+        {
+          "subSellerId": "1",
+          "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=macromexglobaltradesrl683&affiliateId=MCX&sc=1",
+          "id": "macromexglobaltradesrl683",
+          "name": "M************************",
+          "logo": ""
+        }
+      ],
+      "giftRegistryData": null,
+      "receiptData": null,
+      "contextData": null,
+      "marketPlaceOrderId": "",
+      "marketPlaceOrderGroup": null,
+      "marketplaceServicesEndpoint": null,
+      "orderFormId": "5ceb8506edf84f33b14d69aa1af56298",
+      "sequence": "752883",
+      "affiliateId": "",
+      "status": "",
+      "callCenterOperator": "",
+      "userProfileId": "9eebca20-b35a-48ed-83c4-c39b97d6344a",
+      "hostName": "m********",
+      "creationVersion": null,
+      "creationEnvironment": null,
+      "lastChangeVersion": null,
+      "workflowInstanceId": null,
+      "marketplacePaymentValue": null,
+      "orderId": "1462200752883-01",
+      "orderGroup": "1462200752883",
+      "state": "payment-pending",
+      "isCheckedIn": false,
+      "sellerOrderId": "MCX-1462200752883-01",
+      "storeId": null,
+      "checkedInPickupPointId": null,
+      "value": 1150,
+      "totals": [
+        {
+          "id": "Items",
+          "name": "T*************",
+          "value": 1150
+        },
+        {
+          "id": "Discounts",
+          "name": "T*************",
+          "value": 0
+        },
+        {
+          "id": "Shipping",
+          "name": "T**************",
+          "value": 0
+        },
+        {
+          "id": "Tax",
+          "name": "T*********",
+          "value": 0
+        }
+      ],
+      "ratesAndBenefitsData": {
+        "rateAndBenefitsIdentifiers": [],
+        "teaser": []
+      },
+      "clientPreferencesData": {
+        "locale": "ro-RO",
+        "optinNewsLetter": false
+      },
+      "commercialConditionData": null,
+      "marketingData": null,
+      "storePreferencesData": {
+        "countryCode": "ROU",
+        "saveUserData": false,
+        "timeZone": "GTB Standard Time",
+        "currencyCode": "RON",
+        "currencyLocale": 1048,
+        "currencySymbol": "lei",
+        "currencyFormatInfo": {
+          "currencyDecimalDigits": 2,
+          "currencyDecimalSeparator": ",",
+          "currencyGroupSeparator": ".",
+          "currencyGroupSize": 3,
+          "startsWithCurrencySymbol": false
+        }
+      },
+      "openTextField": null,
+      "itemMetadata": null,
+      "taxData": null,
+      "customData": {
+        "customApps": [
+          {
+            "fields": {
+              "salesman_email": "a****.a********************.c**"
+            },
+            "id": "macromexclient",
+            "major": 1
+          }
+        ]
+      },
+      "hooksData": null,
+      "changeData": null,
+      "subscriptionData": null,
+      "salesChannel": "1",
+      "followUpEmail": "e**********************************.v***.c**.b*",
+      "creationDate": "2024-09-16T03:37:48.9200513Z",
+      "lastChange": "2024-09-16T03:37:56.2441522Z",
+      "timeZoneCreationDate": "2024-09-16T06:37:48.9200513",
+      "timeZoneLastChange": "2024-09-16T06:37:56.2441522",
+      "isCompleted": true,
+      "merchantName": null,
+      "userType": "",
+      "roundingError": 0,
+      "allowEdition": false,
+      "allowCancellation": false,
+      "isUserDataVisible": false,
+      "allowChangeSeller": false
+    }
+  ],
+  "ordersUrl": "http://www.bocado.ro/account#/orders",
+  "orderGroup": "1462200752883",
+  "subjectItemAttachment": {
+    "item": "test 848",
+    "totalItems": 85,
+    "extraItems": 84
+  },
+  "split": false,
+  "totalValue": 4125,
+  "callCenterOperatorData": null,
+  "_accountInfo": {
+    "MainAccountName": "m********",
+    "AccountName": "m********",
+    "Cnpj": "5052558",
+    "Id": "6ca56cf1-cdff-47f6-9365-64f86ad3614f",
+    "AppId": null,
+    "IsActive": true,
+    "IsOperating": true,
+    "CreationDate": "2021-02-04T18:59:56",
+    "OperationDate": "2021-08-17T13:52:16.2914662+00:00",
+    "CompanyName": "M***********",
+    "TradingName": "B*****",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [7],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null,
+    "Sponsor": "f8a246b4-71f7-424e-b8f5-63164555b86e"
+  }
 }

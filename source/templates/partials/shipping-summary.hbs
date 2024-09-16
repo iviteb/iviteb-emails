@@ -1,17 +1,17 @@
 {{#richShippingData shippingData}}
   {{#group logisticsInfo by="packageId"}}
-      <div class="spacer-16"></div>
+    <div class="spacer-16"></div>
     {{#each items}}
       {{#compare @index '==' 0}}
-      <table width="100%" border="0" cellpadding="0" cellspacing="0" class="mw5-5 ba br-12 b--light-gray border-separate">
-        <!-- Change border color for each delivery channel -->
-        <tr>
-          <td class="pa3 fs-15">
-            <!-- Title: delivery or pickup -->
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="ba br-12 b--light-gray border-separate">
+          <!-- Change border color for each delivery channel -->
+          <tr>
+            <td class="p-24 fs-15">
+              <!-- Title: delivery or pickup -->
               <h3 class="mb2 ttu fw4 h-letter-spacing">
                 {{#eq selectedDeliveryChannel "pickup-in-point"}} ((i18n.shipping.pickup))
-                {{else}} ((i18n.shipping.delivery))
-                 {{/eq}}
+    {{else}} ((i18n.shipping.delivery))
+                {{/eq}}
               </h3>
               <!-- Quantity of items -->
               {{#eq ../items.length 1}}
@@ -20,15 +20,15 @@
                     <p class="mv0 fw7 fs-15 word-wrap">{{name}}</p>
                   {{/compare}}
                 {{/each}}
-              {{else}}
-                {{../items.length}}
-                ((i18n.common.lowercase.items))
+    {{else}}
+      {{../items.length}}
+      ((i18n.common.lowercase.items))
               {{/eq}}
 
               <!-- Scheduled shipping -->
               {{#if deliveryWindow}}
                 <!-- partial:shipping-summary-estimate-scheduled.hbs --><!-- partial -->
-              <!-- Shipping estimate -->
+                <!-- Shipping estimate -->
               {{else}}
                 {{#if shippingEstimateDate}}
                   <!-- partial:shipping-summary-estimate-date.hbs --><!-- partial -->
@@ -36,34 +36,34 @@
                   <!-- partial:shipping-summary-estimate-range.hbs --><!-- partial -->
                 {{/if}}
               {{/if}}
-          </td>
-        </tr>
-        <tr>
-          <td class="ph3 pv2 bt b--light-gray fs-15">
-             <!-- Show Pickup Store name -->
+            </td>
+          </tr>
+          <tr>
+            <td class="ph3 pv2 bt b--light-gray fs-15">
+              <!-- Show Pickup Store name -->
               {{#eq selectedDeliveryChannel "pickup-in-point"}}
                 {{#each slas}}
                   {{#compare ../selectedSla '==' id}}
                     {{pickupStoreInfo.friendlyName}}
                   {{/compare}}
                 {{/each}}
-              {{else}}
-                <!-- Show gift owner's address info -->
-                {{#if ../../../giftRegistryData}}
-                  {{../../../giftRegistryData.description}}
-                <!-- Show consumer's address summary -->
-                {{else}}
-                  {{#each ../../availableAddresses}}
-                    {{#eq ../addressId addressId}}
-                      {{street}}, {{number}}
-                    {{/eq}}
-                  {{/each}}
-                {{/if}}
+    {{else}}
+      <!-- Show gift owner's address info -->
+      {{#if ../../../giftRegistryData}}
+        {{../../../giftRegistryData.description}}
+        <!-- Show consumer's address summary -->
+      {{else}}
+        {{#each ../../availableAddresses}}
+          {{#eq ../addressId addressId}}
+            {{street}}, {{number}}
+          {{/eq}}
+        {{/each}}
+      {{/if}}
               {{/eq}}
-          </td>
-        </tr>
-      </table>      
+            </td>
+          </tr>
+        </table>
       {{/compare}}
-    {{/each}}    
+    {{/each}}
   {{/group}}
 {{/richShippingData}}

@@ -5,39 +5,44 @@
     <!-- compare order's items to package items -->
     {{#each ../../../../items}}
       {{#eq id ../itemId}}
-        <table class="mw5-5 bg-light-blue br-12" width="100%" border="0" cellpadding="0" cellspacing="0">
+        <table class="bg-base-50 br-12" width="100%" border="0" cellpadding="0" cellspacing="0">
           <tr>
-            <td class="pa3 fs-15">
-              <p class="ma0 fs-15 word-wrap">
-                {{#compare ../selectedDeliveryChannel "!=" "pickup-in-point"}}
-                  {{#if ../deliveryWindow}}
-                    ((i18n.shipping.scheduled))
-                  {{else}}
-                    {{../selectedSla}}
-                  {{/if}}
-                {{/compare}}
-              </p>
-              {{#each ../paymentData.transactions}}
-                {{#each payments}}
-                  {{#compare paymentSystem "!=" 202}}
+            <td class="p-24 fs-15">
+              <table border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td class="pr3"><img alt="Calendar Clock Icon" border="0" width="36" height="32"
+                      src="https://((i18n.common.accountName)).vteximg.com.br/arquivos/mail-calendar-clock-icon.png">
+                    </a></td>
+                  <td>
+                    <p class="ma0 fs-15 fw7 word-wrap">
+                      {{#compare ../selectedDeliveryChannel "!=" "pickup-in-point"}}
+                        {{#if ../deliveryWindow}}
+                          ((i18n.shipping.scheduled))
+                        {{else}}
+                          {{../selectedSla}}
+                        {{/if}}
+                      {{/compare}}
+                    </p>
+
                     <!-- Scheduled shipping -->
                     {{#if ../deliveryWindow}}
                       <!-- partial:shipping-estimate-scheduled.hbs --><!-- partial -->
                     {{else}}
                       <!-- show info for estimate range or date -->
                       {{#unless ../shippingEstimateDate}}
+                        <h1></h1>
                         <!-- partial:shipping-estimate-range.hbs --><!-- partial -->
                       {{else}}
                         <!-- partial:shipping-estimate-date.hbs --><!-- partial -->
                       {{/unless}}
                     {{/if}}
-                  {{/compare}}
-                {{/each}}
-              {{/each}}
+                  </td>
+                </tr>
+              </table>
             </td>
           </tr>
         </table>
-        <div class="spacer-24"></div>
+        <div class="spacer-32"></div>
       {{/eq}}
     {{/each}}
   {{/compare}}

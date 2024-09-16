@@ -9,29 +9,9 @@
   {{#compare split "!=" true}}
     <tr>
       <td class="pv4 bt b--light-gray">
-        <h3 class="mt0 mb1">((i18n.payment.title))</h3>
+        <h3 class="mt0 mb-10 fs-18 lh-130 ttu">((i18n.payment.title))</h3>
         {{#each orders.0.paymentData.transactions}}
           <!-- partial:partials/payment.hbs --><!-- partial -->
-          {{#each payments}}
-            {{#compare paymentSystem "==" 202}}
-              <p>((i18n.payment.op.text01))
-              </p>
-              <table class="mw5-5 bg-light-blue br-12" width="100%" border="0" cellpadding="0" cellspacing="0">
-                <tr>
-                  <td class="pa3 fs-15">
-                    ((i18n.payment.op.iban)) <br>
-                    ((i18n.payment.op.companyName)) <br>
-                    ((i18n.payment.op.cui)) <br>
-                    ((i18n.payment.op.nrReg))
-                  </td>
-                </tr>
-              </table>
-              <p class="mb0">
-                <i> ((i18n.payment.op.text02)) <span class="b action-primary">{{../../orderGroup}}</span>
-                  ((i18n.payment.op.text03)) </i>
-              </p>
-            {{/compare}}
-          {{/each}}
         {{/each}}
       </td>
     </tr>
@@ -40,23 +20,25 @@
   {{#each orders}}
     <tr class="orderContainer">
       <td class="pv4 bt b--light-gray">
-        <h2>((i18n.common.order)) <span class="action-primary">#{{orderId}}</span></h2>
-        <p class="mt1 mb3 f6">((i18n.package.seller)) {{sellers.0.name}}</p>
+        <h2 class="fs-20 lh-copy">((i18n.common.order)) #7000{{sequence}}</h2>
+        <p class="mt1 mb0 f6">((i18n.package.seller)) {{sellers.0.name}}</p>
         <!-- Payment - splitted -->
         {{#compare split "==" true}}
-          <h3>((i18n.payment.title))</h3>
+          <h3 class="fs-18 ttu lh-130">((i18n.payment.title))</h3>
           {{#each paymentData.transactions}}
             <!-- partial:partials/payment.hbs --><!-- partial -->
             <p class="dib mt2 mb0 pv1 ph2 bg-light-gray f6">((i18n.payment.pending))</p>
             <div class="spacer-16"></div>
           {{/each}}
         {{/compare}}
+        <!-- partial:partials/totals.hbs --><!-- partial -->
+        <div class="spacer-32"></div>
         {{#richShippingData shippingData}}
           {{#group logisticsInfo by="addressId"}}
             <!-- Address info -->
-            <table class="mw5-5 bg-light-blue br-12" width="100%" border="0" cellpadding="0" cellspacing="0">
+            <table class="bg-base-50 br-12" width="100%" border="0" cellpadding="0" cellspacing="0">
               <tr>
-                <td class="pa3 fs-15">
+                <td class="p-24 fs-15">
                   <!-- partial:partials/address-delivery-title.hbs --><!-- partial -->
                   <!-- partial:partials/address-pickup-title.hbs --><!-- partial -->
                 </td>
@@ -70,11 +52,9 @@
                 </h3>
               {{/compare}}
               <!-- partial:partials/package.hbs --><!-- partial -->
-              <div class="spacer-32"></div>
             {{/group}}
           {{/group}}
         {{/richShippingData}}
-        <!-- partial:partials/totals.hbs --><!-- partial -->
       </td>
     </tr>
   {{/each}}
