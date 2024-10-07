@@ -1,7 +1,7 @@
 <!-- 1 payment -->
 {{#compare payments.length "==" 1}}
   {{#each payments}}
-    <p class="ma0 lh-copy">
+    <p class="ma0 lh-130">
       {{paymentSystemName}}
       {{#if lastDigits}} ((i18n.payment.lastDigits)) {{lastDigits}} {{/if}}
       <br />{{formatCurrency value}} ((i18n.common.currency))

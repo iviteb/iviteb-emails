@@ -1,6 +1,6 @@
 /****** Custom Margin, Padding & Spacer Classes Start ******/
 
-$spaceAmounts: (0, 2, 4, 6, 8, 10, 12, 16, 20, 24, 32, 36, 40, 48, auto);
+$spaceAmounts: (0, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 32, 36, 40, 48, auto);
 
 @each $space in $spaceAmounts {
   @if $space==auto {
@@ -103,32 +103,36 @@ $spaceAmounts: (0, 2, 4, 6, 8, 10, 12, 16, 20, 24, 32, 36, 40, 48, auto);
 
 /****** Custom Margin, Padding & Spacer Classes End ******/
 
-.mw5-5 {
-  max-width: 390px;
-}
-
 .mw6-5 {
   max-width: 640px;
-}
-
-.w-95 {
-  width: 95%;
 }
 
 .action-primary {
   color: $action-primary;
 }
 
+.action-tertiary {
+  color: $action-tertiary;
+}
+
+.base-500 {
+  color: $base-500;
+}
+
 .bg-action-primary {
   background-color: $action-primary;
 }
 
-.base {
-  color: $base;
+.bg-action-tertiary {
+  background-color: $action-tertiary;
 }
 
-.dark-bg {
-  background-color: $base;
+.bg-base-50 {
+  background-color: $base-50;
+}
+
+.base {
+  color: $base;
 }
 
 .br-8 {
@@ -148,34 +152,27 @@ $spaceAmounts: (0, 2, 4, 6, 8, 10, 12, 16, 20, 24, 32, 36, 40, 48, auto);
 }
 
 .containerTable {
-  width: 95%;
+  width: 90%;
   max-width: 640px;
 }
 
 .mainContainer {
-  border-style: solid;
-  border-width: 1px;
-  border-color: $light-gray;
   border-radius: 12px;
   border-collapse: separate !important;
   overflow: hidden;
 }
 
-.footerInfo {
-  font-size: 13px;
-  line-height: 18px;
+.mainContent {
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: $base-100;
+  border-collapse: separate !important;
 }
 
 .footerSpacer > td {
   padding-top: 48px;
-}
-
-.mailHeader {
-  border-bottom-right-radius: 12px;
-  border-bottom-left-radius: 12px;
-  background-image: url('https://hipestore.vtexassets.com/arquivos/hipe-header-bakground-image.png');
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .mailHeader td {
@@ -183,6 +180,10 @@ $spaceAmounts: (0, 2, 4, 6, 8, 10, 12, 16, 20, 24, 32, 36, 40, 48, auto);
   padding-bottom: 48px;
   padding-left: 32px;
   padding-right: 32px;
+}
+
+.mailHeader h1 {
+  white-space: pre;
 }
 
 td,
@@ -211,11 +212,31 @@ h6 {
   font-size: 18px;
 }
 
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-32 {
+  font-size: 32px;
+}
+
 .totalsTable td {
-  line-height: 24px;
+  line-height: 26px;
 }
 
 .productsTable p,
 .refundedProducts p {
-  line-height: 20px;
+  line-height: 18px;
+}
+
+.lh-130 {
+  line-height: 130%;
+}
+
+.mailFooter {
+  background-image: url('https://mcxhoreca.vtexassets.com/arquivos/mail-footer-background.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: auto 75%;
+  background-position: left bottom;
 }

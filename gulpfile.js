@@ -25,6 +25,7 @@ const gulp = require('gulp'),
 j.codeBlocks.HBS = {}
 
 const whitelist = [
+  '.bodyTable',
   '#outlook',
   '.yshortcuts',
   '.ExternalClass',
@@ -37,6 +38,9 @@ const whitelist = [
   '.footerSpacer',
   '.mt-40',
   '.word-wrap',
+  '.px-30',
+  '.mailTitle',
+  '.mainContent',
 ]
 
 // Partials
@@ -218,6 +222,15 @@ gulp.task('clean', function (done) {
   })
 })
 
+// Clean project folder
+gulp.task('clean:dist', function (done) {
+  'use strict'
+
+  return del(['dist/*']).then(function () {
+    done()
+  })
+})
+
 // Default
 gulp.task(
   'default',
@@ -230,6 +243,7 @@ gulp.task(
     'clean:css',
     'add-css-important',
     // 'remove-css',
+    'clean',
     'copy-public',
     'clean:temp',
   ])
@@ -247,6 +261,7 @@ gulp.task(
     'clean:css',
     'add-css-important',
     'remove-css',
+    'clean',
     'copy-public',
     'clean:temp',
   ])
@@ -264,6 +279,7 @@ gulp.task(
     'clean:html',
     'add-css-important',
     'remove-css',
+    'clean:dist',
     'copy-dist',
     'clean:temp',
   ])

@@ -61,14 +61,12 @@ a[x-apple-data-detectors] {
 .paymentTable tr:last-child td {
   padding-bottom: 0;
 }
-
 .totalsTable tr:first-child td {
-  padding-top: 8px;
+  padding-top: 0;
 }
 
-.totalsTable tr:first-child td:last-child {
-  font-weight: bold;
-  color: $black;
+.totalsTable tr:last-child td {
+  padding-bottom: 0;
 }
 
 .orderContainer:last-child > td {
@@ -89,7 +87,22 @@ a[x-apple-data-detectors] {
 
 /****** Media Query ******/
 
+@media screen and (max-width: 640px), screen and (max-device-width: 640px) {
+  .mailTitle {
+    font-size: 1.5rem !important;
+    line-height: 1.5 !important;
+  }
+
+  .bodyTable > tbody > tr > td {
+    padding-bottom: 1.5rem !important;
+  }
+}
+
 @media screen and (max-width: 480px), screen and (max-device-width: 480px) {
+  .bodyTable > tbody > tr > td {
+    padding-bottom: 1rem !important;
+  }
+
   .mailHeader td {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -108,5 +121,10 @@ a[x-apple-data-detectors] {
 
   .mt-40 {
     margin-top: 32px;
+  }
+
+  .px-30 {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }

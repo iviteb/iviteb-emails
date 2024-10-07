@@ -1,8 +1,8 @@
 {{#compare items.0.selectedDeliveryChannel '==' null}}
-  <h4 class="mb2 ttu">((i18n.shipping.delivery))</h4>
+  <!-- partial:delivery-title.hbs --><!-- partial -->
   <!-- partial:address-delivery-info.hbs --><!-- partial -->
 {{/compare}}
 {{#eq items.0.selectedDeliveryChannel "delivery"}}
-  <h4 class="mb2 ttu">((i18n.shipping.delivery))</h4>
+  <!-- partial:delivery-title.hbs --><!-- partial -->
   <!-- partial:address-delivery-info.hbs --><!-- partial -->
 {{/eq}}

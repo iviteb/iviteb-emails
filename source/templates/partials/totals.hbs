@@ -1,10 +1,9 @@
-{{!-- <h3 class="mt4 mb2">((i18n.common.summary))</h3> --}}
-<table width="100%" border="0" cellpadding="0" cellspacing="0"
-  class="totalsTable mw5-5 pa2 br-12 ba b--light-gray border-separate ">
+<h3 class="mt3 mb-10 ttu f5 lh-copy">((i18n.common.summary))</h3>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="totalsTable">
   {{#each totals}}
     {{#if value}}
       <tr>
-        <td class="pb2 pl3 pr1 f6">
+        <td class="pt-6 pb-6 pr1 fs-15 base-500 bb b--light-gray">
           {{#eq id "Items"}}
             ((i18n.common.items))
           {{/eq}}
@@ -21,7 +20,7 @@
             ((i18n.common.customTaxes))
           {{/eq}}
         </td>
-        <td class="pb2 pl1 pr3 fs-15 tr">{{formatCurrency value}}
+        <td class="pt-6 pb-6 pl1 fs-15 tr bb b--light-gray">{{formatCurrency value}}
           ((i18n.common.currency))
         </td>
       </tr>
@@ -29,13 +28,8 @@
   {{/each}}
   {{#if value}}
     <tr>
-      <td class="pv2 pl3 pr1 fs-15 fw7 black bg-light-blue"
-        style="border-top-left-radius: 8px; border-bottom-left-radius: 8px">
-        ((i18n.common.total))</td>
-      <td class="pv2 pl1 pr3 fs-18 fw7 black bg-light-blue tr"
-        style="border-top-right-radius: 8px; border-bottom-right-radius: 8px"> {{formatCurrency value}}
-        ((i18n.common.currency))
-      </td>
+      <td class="pt-6 pb-6 pr1 fs-15">((i18n.common.total))</td>
+      <td class="pt-6 pb-6 pl1 fs-15 tr">{{formatCurrency value}} ((i18n.common.currency)) </td>
     </tr>
   {{/if}}
 </table>
