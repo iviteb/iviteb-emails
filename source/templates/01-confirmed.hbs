@@ -20,8 +20,8 @@
   {{#each orders}}
     <tr class="orderContainer">
       <td class="pv4 bt b--light-gray">
+        <p class="mt0 mb1 f6">((i18n.package.seller)) <span class="b action-tertiary">{{sellers.0.name}}</span></p>
         <h2 class="fs-20 lh-copy">((i18n.common.order)) #7000{{sequence}}</h2>
-        <p class="mt1 mb0 f6">((i18n.package.seller)) {{sellers.0.name}}</p>
         <!-- Payment - splitted -->
         {{#compare split "==" true}}
           <h3 class="fs-18 ttu lh-130">((i18n.payment.title))</h3>

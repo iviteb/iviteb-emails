@@ -1,7 +1,7 @@
 {
   "common": {
     "currency": "lei",
-    "order": "Detalii comanda",
+    "order": "Comanda",
     "hi": "Buna",
     "summary": "Sumar",
     "items": "Cost produse",
@@ -33,10 +33,9 @@
     "phoneNumberText": "0372467070",
     "emailAddress": "contactbocado@macromex.com",
     "outro": {
-      "text01": "Daca ai intrebari, neclaritati sau vrei sa ne oferi un feedback, iti stam cu drag la dispozitie!",
-      "text02": "Contacteaza-ne la",
-      "text03": "sau la",
-      "text04": "Acesta este un mesaj generat automat, de aceea te rugam sa nu raspunzi la el.",
+      "text01": "Daca ai intrebari sau vrei sa ne transmiti un feedback, ne poti contacta prin intermediul chatului de pe site, prin e-mail la",
+      "text02": "sau la telefon",
+      "text03": "Acesta este un mesaj generat automat, de aceea te rugam sa nu dai reply la acest e-mail, deoarece adresa nu este monitorizata si mesajul tau nu va ajunge la noi.",
       "thankYou": "Iti multumim!"
     }
   },
@@ -161,7 +160,7 @@
   },
   "package": {
     "title": "Colet",
-    "seller": "Comercializat si livrat de"
+    "seller": "Vandut si livrat de"
   },
   "refund": {
     "refundedItems": "Produse rambursate",
