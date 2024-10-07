@@ -127,4 +127,12 @@ a[x-apple-data-detectors] {
     padding-left: 15px;
     padding-right: 15px;
   }
+
+  .dbOnMobile > tbody > tr > td {
+    display: block !important;
+  }
+
+  .dbOnMobile > tbody > tr:last-child > td:first-child {
+    padding-bottom: 0 !important;
+  }
 }

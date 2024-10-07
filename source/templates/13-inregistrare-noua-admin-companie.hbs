@@ -1,0 +1,141 @@
+<!-- partial:partials/container/mail-start.hbs --><!-- partial -->
+<h1 class="fs-32 white mailTitle">Inregistrare noua admin companie</h1>
+<!-- partial:partials/container/mail-middle.hbs --><!-- partial -->
+<!--  Main Content Starts Here -->
+<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <p class="mv0 tc b f3 lh-title">Salut,</p>
+      <p class="mt3 tc lh-copy">Te informam ca s-a creat un cont nou pe Bocado pe firma {{data.companyName}}</p>
+      <table class="dbOnMobile bg-base-50 br-12 fixed-layout" width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="px-16 pt-16 tc">
+            Nume
+          </td>
+          <td class="px-16 pt-16 tc">
+            {{data.name}}
+          </td>
+        </tr>
+        <tr>
+          <td class="px-16 pt-16 tc">
+            Telefon
+          </td>
+          <td class="px-16 pt-16 tc">
+            {{data.phone}}
+          </td>
+        </tr>
+        <tr>
+          <td class="px-16 pt-16 tc">
+            Adresa de e-mail
+          </td>
+          <td class="px-16 pt-16 tc">
+            {{data.email}}
+          </td>
+        </tr>
+        <tr>
+          <td class="px-16 pt-16 tc">
+            Nume companie
+          </td>
+          <td class="px-16 pt-16 tc">
+            {{data.companyName}}
+          </td>
+        </tr>
+        <tr>
+          <td class="px-16 pt-16 tc">
+            CUI
+          </td>
+          <td class="px-16 pt-16 tc">
+            {{data.companyCui}}
+          </td>
+        </tr>
+        <tr>
+          <td class="px-16 py-16 tc">
+            Adresa sediu social
+          </td>
+          <td class="px-16 py-16 tc">
+            {{data.companyAddress}}
+          </td>
+        </tr>
+      </table>
+      <p class="lh-copy mt-32">Este necesar sa intri in Organizatia mea si sa gestionezi noul cont. Acesta va putea
+        plasa comenzi doar dupa ce este aprobat, ai setat pentru el un Rol si ai alocat cel putin o adresa.
+      </p>
+      <p class="lh-copy mb-32">
+        In calitate de administrator al firmei pe Bocado, ai acces la toate aceste operatiuni:
+        poti adauga/aproba conturi, poti seta roluri si poti sterge sau aloca adrese. Mai jos regasesti instructiuni
+        despre cum sa aprobi rapid noul cont.
+      </p>
+      <table class="bg-base-50 br-12 border-separate" width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="p-32 f3 tc white bg-action-primary"
+            style="border-top-left-radius: 12px; border-top-right-radius: 12px;">
+            Aproba rapid contul
+          </td>
+        </tr>
+        <tr>
+          <td class="p-16">
+            <p class="mt-8 mb-16 fs-18 lh-title tc b action-tertiary">1. Autentifica-te si intra in Organizatia mea</p>
+            <p class="mb-32 f6 i">
+              O data ce te-ai autentificat, in sectiunea Organizatia mea vei gasi lista cu utilizatori.
+              Utilizatorii noi vor avea Rol si Status &quot;In asteptare&quot;. Este necesar sa le modifici pe amandoua
+              apasand butonul &quot;Editare&quot;</p>
+            <table border="0" cellpadding="0" cellspacing="0" align="center" class="bg-action-tertiary br-12">
+              <tr>
+                <td>
+                  <a class="bg-action-tertiary py-16 px-24 dib b white no-underline lh-title br-12"
+                    href="https://www.bocado.ro/account#/macromex-organization" target="_blank">
+                    Intra in cont
+                  </a>
+                </td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td class="py-32">
+                  <img src="https://s-img.s3-eu-west-1.amazonaws.com/r56cbhsv46coa4p2.png" border="0" width="546"
+                    alt="">
+                </td>
+              </tr>
+            </table>
+            <p class="mt0 mb-16 fs-18 lh-title tc b action-tertiary">2. Seteaza rolul</p>
+            <p class="mb-16 f6 i">
+              Se va deschide un popup in care vei putea selecta statusul (&quot;Aprobat&quot;) si vei putea alege un rol
+              (&quot;Achizitii&quot;). Apasa pe butonul &quot;Modifica&quot; pentru a seta noile modificari.
+            </p>
+            <p class="mb-32 f7 i">
+              Nota: Rolul &quot;Contabilitate&quot; nu are drepturi pentru a efectua comenzi pe site.
+            </p>
+            <img src="https://s-img.s3-eu-west-1.amazonaws.com/a23m51t8tvzbxgzd.png" border="0" width="546" alt="">
+            <p class="mt-32 mb-16 fs-18 lh-title tc b action-tertiary">3. Aloca adresa</p>
+            <p class="mb-16 f6 i">
+              Un cont nou poate plasa comenzi doar daca are cel putin o adresa setata pe cont. Ca sa adaugi o adresa
+              pentru contul nou aprobat, trebuie sa apesi pe butonul &quot;Aloca adrese&quot;.
+            </p>
+            <img src="https://s-img.s3-eu-west-1.amazonaws.com/ixuzq3cfg1wyc0pj.png" border="0" width="546" alt="">
+            <p class="mt-32 mb-16 fs-18 lh-title tc b action-tertiary">4. Atribuie adresa</p>
+            <p class="mb-16 f6 i">
+              Selecteaza adresa din lista si apoi apasa butonul &quot;Atribuie adresa&quot;.
+            </p>
+            <img src="https://s-img.s3-eu-west-1.amazonaws.com/tajjtas5vzmkh9qz.png" border="0" width="546" alt="">
+          </td>
+        </tr>
+      </table>
+      <p class="my-20">
+        Daca nu doresti sa accepti acest utilizator in compania ta si sa acceseze datele companiei tale, ai optiunea
+        Stergere cont.
+      </p>
+      <table border="0" cellpadding="0" cellspacing="0" align="center" class="bg-action-tertiary br-12">
+        <tr>
+          <td>
+            <a class="bg-action-tertiary py-16 px-24 dib b white no-underline lh-title br-12"
+              href="https://www.bocado.ro/account#/macromex-organization" target="_blank">
+              Gestioneaza contul
+            </a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!--  Main Content Ends Here -->
+<!-- partial:partials/container/mail-end.hbs --><!-- partial -->
