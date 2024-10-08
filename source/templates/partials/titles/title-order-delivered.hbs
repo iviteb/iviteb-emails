@@ -1,16 +1,16 @@
-{{#compare items.length '==' shippingData.logisticsInfo.length}}
-  {{#compare shippingData.logisticsInfo.0.selectedDeliveryChannel '==' 'pickup-in-point'}}
-    <h1>((i18n.shipping.onePackagePickedUp))</h1>
-    {{else}}
-      <h1>((i18n.shipping.onePackageDelivered))</h1>
-  {{/compare}}
-  <!-- partial:../messages/order-reference.hbs --><!-- partial -->
-  <!-- More than 1 package -->
-  {{else}}
+<h1 class="fs-32 white mailTitle">{{#compare items.length '==' shippingData.logisticsInfo.length}}
     {{#compare shippingData.logisticsInfo.0.selectedDeliveryChannel '==' 'pickup-in-point'}}
-      <h1>((i18n.shipping.manyPackagesPickedUp))</h1>
+      ((i18n.shipping.onePackagePickedUp))
       {{else}}
-        <h1>((i18n.shipping.manyPackagesDelivered))</h1>
+        ((i18n.shipping.onePackageDelivered))
     {{/compare}}
-    <!-- partial:../messages/order-reference.hbs --><!-- partial -->
-{{/compare}}
+    <!-- More than 1 package -->
+    {{else}}
+      {{#compare shippingData.logisticsInfo.0.selectedDeliveryChannel '==' 'pickup-in-point'}}
+        ((i18n.shipping.manyPackagesPickedUp))
+        {{else}}
+          ((i18n.shipping.manyPackagesDelivered))
+      {{/compare}}
+  {{/compare}}
+</h1>
+<!-- partial:../messages/order-reference.hbs --><!-- partial -->
