@@ -4,6 +4,14 @@
 <!--  Main Content Starts Here -->
 <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" class="cancelledTable">
   <tr>
+    <td class="pb4 tc">Am anulat comanda <span class="b">#7000{{sequence}}</span>. Speram sa te revedem curand.</td>
+  </tr>
+  <tr>
+    <td class="pb4">
+      <!-- partial:partials/totals.hbs --><!-- partial -->
+    </td>
+  </tr>
+  <tr>
     <td>
       {{#richShippingData shippingData}}
         {{#group logisticsInfo by="addressId"}}
@@ -17,11 +25,6 @@
           {{/group}}
         {{/group}}
       {{/richShippingData}}
-    </td>
-  </tr>
-  <tr>
-    <td class="pt4">
-      <!-- partial:partials/totals.hbs --><!-- partial -->
     </td>
   </tr>
 </table>

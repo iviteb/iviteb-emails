@@ -1,1193 +1,314 @@
 {
   "package": null,
   "subjectItemAttachment": {
-    "item": "Apa plata Dorna Izvo...",
-    "totalItems": 29,
-    "extraItems": 28
+    "item": "test 848",
+    "totalItems": 3,
+    "extraItems": 2
   },
-  "cancellationReason": "Customer has cancelled the order",
+  "cancellationReason": "anulat - test",
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "F84402EF9BE54CD88F5B84FCC7CA27F6",
+        "merchantName": "M********",
+        "payments": [
+          {
+            "id": "1D748A6837DA439993C832ABDEDE22A8",
+            "paymentSystem": "202",
+            "paymentSystemName": "P*********************",
+            "value": 911,
+            "installments": 1,
+            "referenceValue": 911,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": null,
+            "lastDigits": null,
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "giftCardId": null,
+            "giftCardName": null,
+            "giftCardCaption": null,
+            "redemptionCode": null,
+            "group": "promissory",
+            "tid": null,
+            "dueDate": null,
+            "connectorResponses": {},
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "koinUrl": null,
+            "accountId": null,
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": null,
+            "paymentOrigin": null
+          }
+        ]
+      }
+    ]
+  },
+  "cancellationRequests": null,
+  "invoiceData": null,
+  "clientProfileData": {
+    "id": "clientProfileData",
+    "email": "m*******.b**********@m*******.c****************.c*.v***.c**.b*",
+    "firstName": "M*******",
+    "lastName": "B**********",
+    "documentType": "",
+    "document": null,
+    "phone": "0*********",
+    "corporateName": "V**** I* C******* I*",
+    "tradeName": "M*******",
+    "corporateDocument": "3*******",
+    "stateInscription": null,
+    "corporatePhone": null,
+    "isCorporate": true,
+    "userProfileId": "8054e9a8-57cb-4dfd-99e8-3c1a686e67ad",
+    "userProfileVersion": null,
+    "customerClass": null,
+    "customerCode": null
+  },
+  "shippingData": {
+    "id": "shippingData",
+    "address": {
+      "addressType": "residential",
+      "receiverName": "V**** I* C******* I* B********",
+      "addressId": "MD090220-01",
+      "versionId": null,
+      "entityId": null,
+      "postalCode": "0*****",
+      "city": "B******** (******** 1*",
+      "state": "BUCUREŞTI",
+      "country": "ROU",
+      "street": "C**** F********",
+      "number": "-",
+      "neighborhood": null,
+      "complement": "N* 2******* P******** M***",
+      "reference": "M**********",
+      "geoCoordinates": [-51.4779552, -0.0039779]
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "itemId": "1524",
+        "selectedDeliveryChannel": "delivery",
+        "selectedSla": "Livrat de Daas",
+        "lockTTL": "15d",
+        "price": 600,
+        "listPrice": 600,
+        "sellingPrice": 600,
+        "deliveryWindow": {
+          "startDateUtc": "2024-10-10T00:00:00+00:00",
+          "endDateUtc": "2024-10-10T12:00:59+00:00",
+          "price": 0
+        },
+        "deliveryCompany": null,
+        "shippingEstimate": "1bd",
+        "shippingEstimateDate": "2024-10-10T00:00:00",
+        "slas": [
+          {
+            "id": "Livrat de Daas",
+            "name": "L*************",
+            "shippingEstimate": "1bd",
+            "shippingEstimateDate": "2024-10-10T00:00:00",
+            "deliveryWindow": {
+              "startDateUtc": "2024-10-10T00:00:00+00:00",
+              "endDateUtc": "2024-10-10T12:00:59+00:00",
+              "price": 0
+            },
+            "availableDeliveryWindows": [],
+            "deliveryIds": [
+              {
+                "courierId": "189e66a",
+                "courierName": "P*************",
+                "dockId": "1",
+                "quantity": 3,
+                "warehouseId": "1_1",
+                "accountCarrierName": "h********",
+                "kitItemDetails": []
+              }
+            ],
+            "listPrice": 600,
+            "price": 600,
+            "deliveryChannel": "delivery",
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "polygonName": "",
+            "lockTTL": "15d",
+            "pickupPointId": null,
+            "transitTime": "0bd",
+            "pickupDistance": null
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "deliveryIds": [
+          {
+            "courierId": "189e66a",
+            "courierName": "P*************",
+            "dockId": "1",
+            "quantity": 3,
+            "warehouseId": "1_1",
+            "accountCarrierName": "h********",
+            "kitItemDetails": []
+          }
+        ],
+        "deliveryChannels": [
+          {
+            "id": "delivery",
+            "stockBalance": 0
+          }
+        ],
+        "deliveryChannel": null,
+        "pickupStoreInfo": {
+          "additionalInfo": null,
+          "address": null,
+          "dockId": null,
+          "friendlyName": null,
+          "isPickupStore": false
+        },
+        "addressId": "MD090220-01",
+        "versionId": null,
+        "entityId": null,
+        "polygonName": "",
+        "pickupPointId": null,
+        "transitTime": "0bd"
+      }
+    ],
+    "trackingHints": [],
+    "selectedAddresses": [
+      {
+        "addressId": "MD090220-01",
+        "versionId": null,
+        "entityId": null,
+        "addressType": "residential",
+        "receiverName": "V**** I* C******* I* B********",
+        "street": "C**** F********",
+        "number": "-",
+        "complement": "N* 2******* P******** M***",
+        "neighborhood": null,
+        "postalCode": "0*****",
+        "city": "B******** (******** 1*",
+        "state": "BUCUREŞTI",
+        "country": "ROU",
+        "reference": "M**********",
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressId": "MD090220-01",
+        "versionId": null,
+        "entityId": null,
+        "addressType": "residential",
+        "receiverName": "V**** I* C******* I* B********",
+        "street": "C**** F********",
+        "number": "-",
+        "complement": "N* 2******* P******** M***",
+        "neighborhood": null,
+        "postalCode": "0*****",
+        "city": "B******** (******** 1*",
+        "state": "BUCUREŞTI",
+        "country": "ROU",
+        "reference": "M**********",
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "contactInformation": []
+  },
   "items": [
     {
       "additionalInfo": {
-        "categoriesIds": "/3000000/3070000/3070700/",
-        "productClusterId": "141,142,866,867,868,869,957,2053,4677,4724",
-        "commercialConditionId": "1",
-        "dimension": {
-          "cubicweight": 0.0002,
-          "height": 1,
-          "length": 1,
-          "weight": 0.25,
-          "width": 1
-        },
-        "brandName": "Kalas",
-        "brandId": "1964",
-        "offeringInfo": null,
-        "offeringType": null,
-        "offeringTypeId": null
-      },
-      "sellerSku": "309062",
-      "priceTable": null,
-      "priceValidUntil": "2024-09-05T11:11:37Z",
-      "callCenterOperator": null,
-      "commission": 0,
-      "freightCommission": 0,
-      "taxCode": "9",
-      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:auchan:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/309062",
-      "uniqueId": "02A3A8E1E8744D098AAA3D3EA7D33CFF",
-      "id": "309062",
-      "productId": "309062",
-      "productRefId": "",
-      "refId": null,
-      "ean": "5201050919013",
-      "name": "Inlocuitor de sare Kalas 250 g",
-      "skuName": "Inlocuitor de sare Kalas 250 g",
-      "modalType": "",
-      "parentItemIndex": null,
-      "parentAssemblyBinding": null,
-      "assemblies": [],
-      "tax": 0,
-      "price": 1190,
-      "listPrice": 1190,
-      "manualPrice": 1190,
-      "manualPriceAppliedBy": "cfdbef30-3797-46ec-95ba-1a6156920649",
-      "sellingPrice": 1190,
-      "rewardValue": 0,
-      "isGift": false,
-      "preSaleDate": null,
-      "productCategoryIds": "/3000000/3070000/3070700/",
-      "productCategories": {
-        "3000000": "Bacanie",
-        "3070000": "Condimente si Sosuri",
-        "3070700": "Sare"
-      },
-      "quantity": 1,
-      "seller": "rouauchantimisoaraiuliusmall07",
-      "sellerChain": ["rouauchantimisoaraiuliusmall07"],
-      "imageUrl": "http://auchan.vteximg.com.br/arquivos/ids/184600-155-155/inlocuitor-de-sare-kalas-250-g-8866198618142.jpg?v=637998084698170000",
-      "detailUrl": "/inlocuitor-de-sare-kalas-250-g/p",
-      "components": [],
-      "bundleItems": [],
-      "attachments": [],
-      "attachmentOfferings": [],
-      "offerings": [],
-      "priceTags": [],
-      "availability": "available",
-      "measurementUnit": "un",
-      "unitMultiplier": 1,
-      "manufacturerCode": null,
-      "priceDefinition": {
-        "calculatedSellingPrice": 1190,
-        "total": 1190,
-        "sellingPrices": [
-          {
-            "value": 1190,
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    {
-      "additionalInfo": {
-        "categoriesIds": "/5000000/5060000/5060800/",
-        "productClusterId": "141,142,866,867,868,869,957,2052,2053,2090,2248,2282,2576,2997,3092,4475,4641,4677,4724",
-        "commercialConditionId": "1",
-        "dimension": {
-          "cubicweight": 0.0002,
-          "height": 1,
-          "length": 1,
-          "weight": 3,
-          "width": 1
-        },
-        "brandName": "Auchan",
-        "brandId": "1",
-        "offeringInfo": null,
-        "offeringType": null,
-        "offeringTypeId": null
-      },
-      "sellerSku": "471765",
-      "priceTable": null,
-      "priceValidUntil": "2024-09-05T11:11:37Z",
-      "callCenterOperator": null,
-      "commission": 0,
-      "freightCommission": 0,
-      "taxCode": "9",
-      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:auchan:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/471765",
-      "uniqueId": "1E21C5870E964BBF9E11DC716B4F4682",
-      "id": "471765",
-      "productId": "471765",
-      "productRefId": "",
-      "refId": null,
-      "ean": "2000004717650",
-      "name": "Suc natural de mere Auchan, 3 l",
-      "skuName": "Suc natural de mere Auchan, 3 l",
-      "modalType": "LIQUID",
-      "parentItemIndex": null,
-      "parentAssemblyBinding": null,
-      "assemblies": [],
-      "tax": 0,
-      "price": 1800,
-      "listPrice": 1800,
-      "manualPrice": 1800,
-      "manualPriceAppliedBy": "cfdbef30-3797-46ec-95ba-1a6156920649",
-      "sellingPrice": 1800,
-      "rewardValue": 0,
-      "isGift": false,
-      "preSaleDate": null,
-      "productCategoryIds": "/5000000/5060000/5060800/",
-      "productCategories": {
-        "5000000": "Bauturi si Tutun",
-        "5060000": "Bauturi racoritoare",
-        "5060800": "Sucuri naturale si Nectar"
-      },
-      "quantity": 1,
-      "seller": "rouauchantimisoaraiuliusmall07",
-      "sellerChain": ["rouauchantimisoaraiuliusmall07"],
-      "imageUrl": "http://auchan.vteximg.com.br/arquivos/ids/218615-155-155/suc-natural-de-mere-auchan-3l-5949084004991_1_1000x1000img.jpg?v=638072302792270000",
-      "detailUrl": "/suc-natural-de-mere-auchan-3-l/p",
-      "components": [],
-      "bundleItems": [],
-      "attachments": [],
-      "attachmentOfferings": [],
-      "offerings": [],
-      "priceTags": [],
-      "availability": "available",
-      "measurementUnit": "un",
-      "unitMultiplier": 1,
-      "manufacturerCode": null,
-      "priceDefinition": {
-        "calculatedSellingPrice": 1800,
-        "total": 1800,
-        "sellingPrices": [
-          {
-            "value": 1800,
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    {
-      "additionalInfo": {
-        "categoriesIds": "/3000000/3070000/3070100/",
-        "productClusterId": "141,142,866,867,957,2053,2380,4677,4724",
-        "commercialConditionId": "1",
-        "dimension": {
-          "cubicweight": 0.0002,
-          "height": 1,
-          "length": 1,
-          "weight": 0.19,
-          "width": 1
-        },
-        "brandName": "House of Asia",
-        "brandId": "3637",
-        "offeringInfo": null,
-        "offeringType": null,
-        "offeringTypeId": null
-      },
-      "sellerSku": "342175",
-      "priceTable": null,
-      "priceValidUntil": "2024-09-05T11:11:37Z",
-      "callCenterOperator": null,
-      "commission": 0,
-      "freightCommission": 0,
-      "taxCode": "9",
-      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:auchan:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/342175",
-      "uniqueId": "0A81EDC177E14664B93DF80BA08C4517",
-      "id": "342175",
-      "productId": "342175",
-      "productRefId": "",
-      "refId": null,
-      "ean": "5902898828788",
-      "name": "Pink Ginger Haj, 190 g",
-      "skuName": "Pink Ginger Haj, 190 g",
-      "modalType": "",
-      "parentItemIndex": null,
-      "parentAssemblyBinding": null,
-      "assemblies": [],
-      "tax": 0,
-      "price": 1800,
-      "listPrice": 1800,
-      "manualPrice": 1800,
-      "manualPriceAppliedBy": "cfdbef30-3797-46ec-95ba-1a6156920649",
-      "sellingPrice": 1800,
-      "rewardValue": 0,
-      "isGift": false,
-      "preSaleDate": null,
-      "productCategoryIds": "/3000000/3070000/3070100/",
-      "productCategories": {
-        "3000000": "Bacanie",
-        "3070000": "Condimente si Sosuri",
-        "3070100": "Alte sosuri"
-      },
-      "quantity": 1,
-      "seller": "rouauchantimisoaraiuliusmall07",
-      "sellerChain": ["rouauchantimisoaraiuliusmall07"],
-      "imageUrl": "http://auchan.vteximg.com.br/arquivos/ids/220101-155-155/pink-ginger-haj--g.jpg?v=638096332730830000",
-      "detailUrl": "/pink-ginger-haj-g/p",
-      "components": [],
-      "bundleItems": [],
-      "attachments": [],
-      "attachmentOfferings": [],
-      "offerings": [],
-      "priceTags": [],
-      "availability": "available",
-      "measurementUnit": "un",
-      "unitMultiplier": 1,
-      "manufacturerCode": null,
-      "priceDefinition": {
-        "calculatedSellingPrice": 1800,
-        "total": 1800,
-        "sellingPrices": [
-          {
-            "value": 1800,
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    {
-      "additionalInfo": {
-        "categoriesIds": "/3000000/3030000/3031000/",
-        "productClusterId": "141,142,866,867,868,869,957,2053,4005,4677,4724",
-        "commercialConditionId": "1",
-        "dimension": {
-          "cubicweight": 0.0002,
-          "height": 1,
-          "length": 1,
-          "weight": 0.3,
-          "width": 1
-        },
-        "brandName": "Inedit",
-        "brandId": "311",
-        "offeringInfo": null,
-        "offeringType": null,
-        "offeringTypeId": null
-      },
-      "sellerSku": "121378",
-      "priceTable": null,
-      "priceValidUntil": "2024-09-05T11:11:37Z",
-      "callCenterOperator": null,
-      "commission": 0,
-      "freightCommission": 0,
-      "taxCode": "9",
-      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:auchan:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/121378",
-      "uniqueId": "A8BCEB66974041A0B899176258A5E2C9",
-      "id": "121378",
-      "productId": "121378",
-      "productRefId": "",
-      "refId": null,
-      "ean": "5941132009644",
-      "name": "Tofu in saramura Inedit 300 g",
-      "skuName": "Tofu in saramura Inedit 300 g",
-      "modalType": "REFRIGERATED",
-      "parentItemIndex": null,
-      "parentAssemblyBinding": null,
-      "assemblies": [],
-      "tax": 0,
-      "price": 954,
-      "listPrice": 954,
-      "manualPrice": 954,
-      "manualPriceAppliedBy": "cfdbef30-3797-46ec-95ba-1a6156920649",
-      "sellingPrice": 954,
-      "rewardValue": 0,
-      "isGift": false,
-      "preSaleDate": null,
-      "productCategoryIds": "/3000000/3030000/3031000/",
-      "productCategories": {
-        "3000000": "Bacanie",
-        "3030000": "Produse Vegane, Dietetice si Suplimente",
-        "3031000": "Soia si Tofu"
-      },
-      "quantity": 1,
-      "seller": "rouauchantimisoaraiuliusmall07",
-      "sellerChain": ["rouauchantimisoaraiuliusmall07"],
-      "imageUrl": "http://auchan.vteximg.com.br/arquivos/ids/210798-155-155/tofu-in-saramura-inedit-300-g-8864078463006.jpg?v=638012437722800000",
-      "detailUrl": "/tofu-in-saramura-inedit-300-g/p",
-      "components": [],
-      "bundleItems": [],
-      "attachments": [],
-      "attachmentOfferings": [],
-      "offerings": [],
-      "priceTags": [],
-      "availability": "available",
-      "measurementUnit": "un",
-      "unitMultiplier": 1,
-      "manufacturerCode": null,
-      "priceDefinition": {
-        "calculatedSellingPrice": 954,
-        "total": 954,
-        "sellingPrices": [
-          {
-            "value": 954,
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    {
-      "additionalInfo": {
-        "categoriesIds": "/3000000/3030000/3031000/",
-        "productClusterId": "141,142,866,867,868,869,957,2053,2884,4677,4724",
+        "categoriesIds": "/45/47/",
+        "productClusterId": "",
         "commercialConditionId": "1",
         "dimension": {
           "cubicweight": 1,
-          "height": 1,
-          "length": 1,
-          "weight": 0.31,
-          "width": 1
+          "height": 11,
+          "length": 50,
+          "weight": 35,
+          "width": 11
         },
-        "brandName": "Inedit",
-        "brandId": "311",
+        "brandName": "T*********",
+        "brandId": "2000010",
         "offeringInfo": null,
         "offeringType": null,
         "offeringTypeId": null
       },
-      "sellerSku": "272599",
+      "sellerSku": "2",
       "priceTable": null,
-      "priceValidUntil": "2024-09-05T11:11:37Z",
+      "priceValidUntil": "2025-10-07T11:32:08Z",
       "callCenterOperator": null,
       "commission": 0,
       "freightCommission": 0,
-      "taxCode": "9",
-      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:auchan:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/272599",
-      "uniqueId": "03011478503942088F5CFAA6655B3C5A",
-      "id": "272599",
-      "productId": "272599",
-      "productRefId": "",
-      "refId": null,
-      "ean": "6420217001036",
-      "name": "Tofu in saramura Inedit cu marar 300 g",
-      "skuName": "Tofu in saramura Inedit cu marar 300 g",
-      "modalType": "REFRIGERATED",
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:mcxhoreca:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/1524",
+      "uniqueId": "10B315D237ED45968E53EFED39C9D48B",
+      "id": "1524",
+      "productId": "1515",
+      "productRefId": "ZZ98765P",
+      "refId": "ZZ12345",
+      "ean": "4556792315",
+      "name": "t*******",
+      "skuName": "t*******",
+      "modalType": null,
       "parentItemIndex": null,
       "parentAssemblyBinding": null,
       "assemblies": [],
-      "tax": 0,
-      "price": 954,
-      "listPrice": 954,
-      "manualPrice": 954,
-      "manualPriceAppliedBy": "cfdbef30-3797-46ec-95ba-1a6156920649",
-      "sellingPrice": 954,
+      "tax": 9,
+      "price": 95,
+      "listPrice": 95,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 95,
       "rewardValue": 0,
       "isGift": false,
       "preSaleDate": null,
-      "productCategoryIds": "/3000000/3030000/3031000/",
+      "productCategoryIds": "/45/47/",
       "productCategories": {
-        "3000000": "Bacanie",
-        "3030000": "Produse Vegane, Dietetice si Suplimente",
-        "3031000": "Soia si Tofu"
+        "45": "Test Departament",
+        "47": "Test Cat 2"
       },
-      "quantity": 1,
-      "seller": "rouauchantimisoaraiuliusmall07",
-      "sellerChain": ["rouauchantimisoaraiuliusmall07"],
-      "imageUrl": "http://auchan.vteximg.com.br/arquivos/ids/210800-155-155/tofu-in-saramura-inedit-cu-marar-300-g-8864075579422.jpg?v=638012437753470000",
-      "detailUrl": "/tofu-in-saramura-inedit-cu-marar-300-g/p",
+      "quantity": 3,
+      "seller": "horeca848",
+      "sellerChain": ["horeca848"],
+      "imageUrl": "https://mcxhoreca.vteximg.com.br/arquivos/ids/167919-55-55/image-a4e475e67a844f6fa065c531b6c8ad1c.jpg?v=638483602655330000",
+      "detailUrl": "/test-848-1515/p",
       "components": [],
       "bundleItems": [],
       "attachments": [],
       "attachmentOfferings": [],
       "offerings": [],
-      "priceTags": [],
+      "priceTags": [
+        {
+          "name": "t**********************************************************************************",
+          "value": 9,
+          "rawValue": 0.09,
+          "isPercentual": true,
+          "identifier": null
+        }
+      ],
       "availability": "available",
       "measurementUnit": "un",
       "unitMultiplier": 1,
       "manufacturerCode": null,
       "priceDefinition": {
-        "calculatedSellingPrice": 954,
-        "total": 954,
+        "calculatedSellingPrice": 95,
+        "total": 285,
         "sellingPrices": [
           {
-            "value": 954,
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    {
-      "additionalInfo": {
-        "categoriesIds": "/2000000/2030000/2030400/",
-        "productClusterId": "141,142,866,867,868,869,957,2053,2090,2248,2282,2346,2576,2739,2884,3092,3777,4005,4475,4677,4724",
-        "commercialConditionId": "1",
-        "dimension": {
-          "cubicweight": 1,
-          "height": 1,
-          "length": 1,
-          "weight": 1,
-          "width": 1
-        },
-        "brandName": "Auchan",
-        "brandId": "1",
-        "offeringInfo": null,
-        "offeringType": null,
-        "offeringTypeId": null
-      },
-      "sellerSku": "831585",
-      "priceTable": null,
-      "priceValidUntil": "2024-09-05T11:11:37Z",
-      "callCenterOperator": null,
-      "commission": 0,
-      "freightCommission": 0,
-      "taxCode": "9",
-      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:auchan:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/831585",
-      "uniqueId": "EF39C181323A42BEAABAE3BCF8F9C082",
-      "id": "831585",
-      "productId": "831585",
-      "productRefId": "",
-      "refId": null,
-      "ean": "5949084014884",
-      "name": "Lapte de consum Auchan, 3.5% grasime, 1 l",
-      "skuName": "Lapte de consum Auchan, 3.5% grasime, 1 l",
-      "modalType": "REFRIGERATED",
-      "parentItemIndex": null,
-      "parentAssemblyBinding": null,
-      "assemblies": [],
-      "tax": 0,
-      "price": 540,
-      "listPrice": 540,
-      "manualPrice": 540,
-      "manualPriceAppliedBy": "cfdbef30-3797-46ec-95ba-1a6156920649",
-      "sellingPrice": 540,
-      "rewardValue": 0,
-      "isGift": false,
-      "preSaleDate": null,
-      "productCategoryIds": "/2000000/2030000/2030400/",
-      "productCategories": {
-        "2000000": "Lactate, Carne, Mezeluri & Peste",
-        "2030000": "Lactate",
-        "2030400": "Lapte"
-      },
-      "quantity": 1,
-      "seller": "rouauchantimisoaraiuliusmall07",
-      "sellerChain": ["rouauchantimisoaraiuliusmall07"],
-      "imageUrl": "http://auchan.vteximg.com.br/arquivos/ids/219011-155-155/lapte-de-consum-auchan-35-grasime-1l-5949084014884_5_1000x1000img.jpg?v=638072308533230000",
-      "detailUrl": "/lapte-de-consum-auchan-3-5-grasime-1-l/p",
-      "components": [],
-      "bundleItems": [],
-      "attachments": [],
-      "attachmentOfferings": [],
-      "offerings": [],
-      "priceTags": [],
-      "availability": "available",
-      "measurementUnit": "un",
-      "unitMultiplier": 1,
-      "manufacturerCode": null,
-      "priceDefinition": {
-        "calculatedSellingPrice": 540,
-        "total": 540,
-        "sellingPrices": [
-          {
-            "value": 540,
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    {
-      "additionalInfo": {
-        "categoriesIds": "/2000000/2030000/2030100/",
-        "productClusterId": "141,142,866,867,868,869,957,2053,4677,4724",
-        "commercialConditionId": "1",
-        "dimension": {
-          "cubicweight": 0.0002,
-          "height": 1,
-          "length": 1,
-          "weight": 0.1,
-          "width": 1
-        },
-        "brandName": "Deliziosa",
-        "brandId": "42",
-        "offeringInfo": null,
-        "offeringType": null,
-        "offeringTypeId": null
-      },
-      "sellerSku": "713286",
-      "priceTable": null,
-      "priceValidUntil": "2024-09-05T11:11:37Z",
-      "callCenterOperator": null,
-      "commission": 0,
-      "freightCommission": 0,
-      "taxCode": "9",
-      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:auchan:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/713286",
-      "uniqueId": "E38B128AE9AE40EC86C22A7E2DC24C2E",
-      "id": "713286",
-      "productId": "713286",
-      "productRefId": "",
-      "refId": null,
-      "ean": "8018731001274",
-      "name": "Branza de vaca burrata Deliziosa, 100 g",
-      "skuName": "Branza de vaca burrata Deliziosa, 100 g",
-      "modalType": "REFRIGERATED",
-      "parentItemIndex": null,
-      "parentAssemblyBinding": null,
-      "assemblies": [],
-      "tax": 0,
-      "price": 1450,
-      "listPrice": 1450,
-      "manualPrice": 1450,
-      "manualPriceAppliedBy": "cfdbef30-3797-46ec-95ba-1a6156920649",
-      "sellingPrice": 1450,
-      "rewardValue": 0,
-      "isGift": false,
-      "preSaleDate": null,
-      "productCategoryIds": "/2000000/2030000/2030100/",
-      "productCategories": {
-        "2000000": "Lactate, Carne, Mezeluri & Peste",
-        "2030000": "Lactate",
-        "2030100": "Branza si Telemea"
-      },
-      "quantity": 1,
-      "seller": "rouauchantimisoaraiuliusmall07",
-      "sellerChain": ["rouauchantimisoaraiuliusmall07"],
-      "imageUrl": "http://auchan.vteximg.com.br/arquivos/ids/158474-155-155/branza-burrata-deliziosa-100-g-8880225222686.jpg?v=637977274940730000",
-      "detailUrl": "/branza-de-vaca-burrata-deliziosa-100-g/p",
-      "components": [],
-      "bundleItems": [],
-      "attachments": [],
-      "attachmentOfferings": [],
-      "offerings": [],
-      "priceTags": [],
-      "availability": "available",
-      "measurementUnit": "un",
-      "unitMultiplier": 1,
-      "manufacturerCode": null,
-      "priceDefinition": {
-        "calculatedSellingPrice": 1450,
-        "total": 1450,
-        "sellingPrices": [
-          {
-            "value": 1450,
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    {
-      "additionalInfo": {
-        "categoriesIds": "/4000000/4030000/4030200/",
-        "productClusterId": "141,142,147,864,865,866,867,868,869,957,2052,2053,2884,4677,4724",
-        "commercialConditionId": "1",
-        "dimension": {
-          "cubicweight": 0.0002,
-          "height": 1,
-          "length": 1,
-          "weight": 0.5,
-          "width": 1
-        },
-        "brandName": "Vel Pitar",
-        "brandId": "1078",
-        "offeringInfo": null,
-        "offeringType": null,
-        "offeringTypeId": null
-      },
-      "sellerSku": "218971",
-      "priceTable": null,
-      "priceValidUntil": "2024-09-05T11:11:37Z",
-      "callCenterOperator": null,
-      "commission": 0,
-      "freightCommission": 0,
-      "taxCode": "9",
-      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:auchan:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/218971",
-      "uniqueId": "32723092A0A7464EBBC9B15463D4B3FE",
-      "id": "218971",
-      "productId": "218971",
-      "productRefId": "",
-      "refId": null,
-      "ean": "5941143015740",
-      "name": "Paine din faina dietetica-integrala de grau Vel Pitar, feliata, 500 g",
-      "skuName": "Paine din faina dietetica-integrala de grau Vel Pitar, feliata, 500 g",
-      "modalType": "REFRIGERATED",
-      "parentItemIndex": null,
-      "parentAssemblyBinding": null,
-      "assemblies": [],
-      "tax": 0,
-      "price": 550,
-      "listPrice": 550,
-      "manualPrice": 550,
-      "manualPriceAppliedBy": "cfdbef30-3797-46ec-95ba-1a6156920649",
-      "sellingPrice": 550,
-      "rewardValue": 0,
-      "isGift": false,
-      "preSaleDate": null,
-      "productCategoryIds": "/4000000/4030000/4030200/",
-      "productCategories": {
-        "4000000": "Brutarie, Cofetarie, Gastro",
-        "4030000": "Paine",
-        "4030200": "Paine ambalata"
-      },
-      "quantity": 1,
-      "seller": "rouauchantimisoaraiuliusmall07",
-      "sellerChain": ["rouauchantimisoaraiuliusmall07"],
-      "imageUrl": "http://auchan.vteximg.com.br/arquivos/ids/220724-155-155/218971.jpg?v=638108427062600000",
-      "detailUrl": "/paine-din-faina-dietetica-integrala-de-grau-vel-pitar-feliata-500-g/p",
-      "components": [],
-      "bundleItems": [],
-      "attachments": [],
-      "attachmentOfferings": [],
-      "offerings": [],
-      "priceTags": [],
-      "availability": "available",
-      "measurementUnit": "un",
-      "unitMultiplier": 1,
-      "manufacturerCode": null,
-      "priceDefinition": {
-        "calculatedSellingPrice": 550,
-        "total": 550,
-        "sellingPrices": [
-          {
-            "value": 550,
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    {
-      "additionalInfo": {
-        "categoriesIds": "/1000000/1040000/1040300/",
-        "productClusterId": "141,142,866,867,868,869,957,2053,2884,4677",
-        "commercialConditionId": "1",
-        "dimension": {
-          "cubicweight": 0.0002,
-          "height": 1,
-          "length": 1,
-          "weight": 0.3,
-          "width": 1
-        },
-        "brandName": "Non-brand",
-        "brandId": "80",
-        "offeringInfo": null,
-        "offeringType": null,
-        "offeringTypeId": null
-      },
-      "sellerSku": "36084",
-      "priceTable": null,
-      "priceValidUntil": "2024-09-05T11:11:37Z",
-      "callCenterOperator": null,
-      "commission": 0,
-      "freightCommission": 0,
-      "taxCode": "9",
-      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:auchan:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/36084",
-      "uniqueId": "3450E52021CE41999E3D4EFF0CBF2EF3",
-      "id": "36084",
-      "productId": "36084",
-      "productRefId": "",
-      "refId": null,
-      "ean": "2000000360843",
-      "name": "Gulii la bucata",
-      "skuName": "Gulii la bucata",
-      "modalType": "REFRIGERATED",
-      "parentItemIndex": null,
-      "parentAssemblyBinding": null,
-      "assemblies": [],
-      "tax": 0,
-      "price": 249,
-      "listPrice": 249,
-      "manualPrice": 249,
-      "manualPriceAppliedBy": "cfdbef30-3797-46ec-95ba-1a6156920649",
-      "sellingPrice": 249,
-      "rewardValue": 0,
-      "isGift": false,
-      "preSaleDate": null,
-      "productCategoryIds": "/1000000/1040000/1040300/",
-      "productCategories": {
-        "1000000": "Fructe si Legume",
-        "1040000": "Legume",
-        "1040300": "Legume proaspete"
-      },
-      "quantity": 1,
-      "seller": "rouauchantimisoaraiuliusmall07",
-      "sellerChain": ["rouauchantimisoaraiuliusmall07"],
-      "imageUrl": "http://auchan.vteximg.com.br/arquivos/ids/163275-155-155/gulii-la-bucata-8926744838174.jpg?v=637981795036170000",
-      "detailUrl": "/gulii-la-bucata/p",
-      "components": [],
-      "bundleItems": [],
-      "attachments": [],
-      "attachmentOfferings": [],
-      "offerings": [],
-      "priceTags": [],
-      "availability": "available",
-      "measurementUnit": "un",
-      "unitMultiplier": 1,
-      "manufacturerCode": null,
-      "priceDefinition": {
-        "calculatedSellingPrice": 249,
-        "total": 249,
-        "sellingPrices": [
-          {
-            "value": 249,
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    {
-      "additionalInfo": {
-        "categoriesIds": "/3000000/3020000/3020300/",
-        "productClusterId": "141,142,147,864,865,866,867,868,869,957,2052,2053,2858,2862,2878,3251,4677,4724",
-        "commercialConditionId": "1",
-        "dimension": {
-          "cubicweight": 0.0002,
-          "height": 1,
-          "length": 1,
-          "weight": 0.08,
-          "width": 1
-        },
-        "brandName": "7Days",
-        "brandId": "254",
-        "offeringInfo": null,
-        "offeringType": null,
-        "offeringTypeId": null
-      },
-      "sellerSku": "144962",
-      "priceTable": null,
-      "priceValidUntil": "2024-09-05T11:11:37Z",
-      "callCenterOperator": null,
-      "commission": 0,
-      "freightCommission": 0,
-      "taxCode": "9",
-      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:auchan:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/144962",
-      "uniqueId": "DA84A22295A3432086D598BB2070D3CC",
-      "id": "144962",
-      "productId": "144962",
-      "productRefId": "",
-      "refId": null,
-      "ean": "5201360639205",
-      "name": "Rondele cu usturoi Bake Rolls 7 Days, 80 g",
-      "skuName": "Rondele cu usturoi Bake Rolls 7 Days, 80 g",
-      "modalType": "",
-      "parentItemIndex": null,
-      "parentAssemblyBinding": null,
-      "assemblies": [],
-      "tax": 0,
-      "price": 395,
-      "listPrice": 395,
-      "manualPrice": 395,
-      "manualPriceAppliedBy": "cfdbef30-3797-46ec-95ba-1a6156920649",
-      "sellingPrice": 395,
-      "rewardValue": 0,
-      "isGift": false,
-      "preSaleDate": null,
-      "productCategoryIds": "/3000000/3020000/3020300/",
-      "productCategories": {
-        "3000000": "Bacanie",
-        "3020000": "Alimente sarate",
-        "3020300": "Saratele si Crackers"
-      },
-      "quantity": 2,
-      "seller": "rouauchantimisoaraiuliusmall07",
-      "sellerChain": ["rouauchantimisoaraiuliusmall07"],
-      "imageUrl": "http://auchan.vteximg.com.br/arquivos/ids/164150-155-155/bake-rolls-cu-usturoi-7-days-80-g-8839791214622.png?v=637981870433100000",
-      "detailUrl": "/rondele-cu-usturoi-bake-rolls-7-days-80-g/p",
-      "components": [],
-      "bundleItems": [],
-      "attachments": [],
-      "attachmentOfferings": [],
-      "offerings": [],
-      "priceTags": [],
-      "availability": "available",
-      "measurementUnit": "un",
-      "unitMultiplier": 1,
-      "manufacturerCode": null,
-      "priceDefinition": {
-        "calculatedSellingPrice": 395,
-        "total": 790,
-        "sellingPrices": [
-          {
-            "value": 395,
-            "quantity": 2
-          }
-        ]
-      }
-    },
-    {
-      "additionalInfo": {
-        "categoriesIds": "/3000000/3030000/3030500/",
-        "productClusterId": "141,142,866,867,868,869,957,2052,2053,2090,2248,2282,2576,2997,3092,4005,4475,4641,4677,4724",
-        "commercialConditionId": "1",
-        "dimension": {
-          "cubicweight": 0.0002,
-          "height": 1,
-          "length": 1,
-          "weight": 0.2,
-          "width": 1
-        },
-        "brandName": "Auchan",
-        "brandId": "1",
-        "offeringInfo": null,
-        "offeringType": null,
-        "offeringTypeId": null
-      },
-      "sellerSku": "867293",
-      "priceTable": null,
-      "priceValidUntil": "2024-09-05T11:11:37Z",
-      "callCenterOperator": null,
-      "commission": 0,
-      "freightCommission": 0,
-      "taxCode": "9",
-      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:auchan:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/867293",
-      "uniqueId": "969D693474D44867AAF8D578DD8D6487",
-      "id": "867293",
-      "productId": "867293",
-      "productRefId": "",
-      "refId": null,
-      "ean": "5949084015447",
-      "name": "Pasta vegetala Auchan 200 g",
-      "skuName": "Pasta vegetala Auchan 200 g",
-      "modalType": "",
-      "parentItemIndex": null,
-      "parentAssemblyBinding": null,
-      "assemblies": [],
-      "tax": 0,
-      "price": 350,
-      "listPrice": 350,
-      "manualPrice": 350,
-      "manualPriceAppliedBy": "cfdbef30-3797-46ec-95ba-1a6156920649",
-      "sellingPrice": 350,
-      "rewardValue": 0,
-      "isGift": false,
-      "preSaleDate": null,
-      "productCategoryIds": "/3000000/3030000/3030500/",
-      "productCategories": {
-        "3000000": "Bacanie",
-        "3030000": "Produse Vegane, Dietetice si Suplimente",
-        "3030500": "Pasta vegetala tartinabila"
-      },
-      "quantity": 2,
-      "seller": "rouauchantimisoaraiuliusmall07",
-      "sellerChain": ["rouauchantimisoaraiuliusmall07"],
-      "imageUrl": "http://auchan.vteximg.com.br/arquivos/ids/210640-155-155/pasta-vegetala-auchan-200-g-8937586196510.jpg?v=638012435864300000",
-      "detailUrl": "/pasta-vegetala-auchan-200-g/p",
-      "components": [],
-      "bundleItems": [],
-      "attachments": [],
-      "attachmentOfferings": [],
-      "offerings": [],
-      "priceTags": [],
-      "availability": "available",
-      "measurementUnit": "un",
-      "unitMultiplier": 1,
-      "manufacturerCode": null,
-      "priceDefinition": {
-        "calculatedSellingPrice": 350,
-        "total": 700,
-        "sellingPrices": [
-          {
-            "value": 350,
-            "quantity": 2
-          }
-        ]
-      }
-    },
-    {
-      "additionalInfo": {
-        "categoriesIds": "/5000000/5010000/5010200/",
-        "productClusterId": "141,142,147,864,865,866,867,868,869,957,2052,2053,2429,2546,2884,3433,4005,4677,4724",
-        "commercialConditionId": "1",
-        "dimension": {
-          "cubicweight": 0.0002,
-          "height": 1,
-          "length": 1,
-          "weight": 2,
-          "width": 1
-        },
-        "brandName": "Dorna",
-        "brandId": "794",
-        "offeringInfo": null,
-        "offeringType": null,
-        "offeringTypeId": null
-      },
-      "sellerSku": "206815",
-      "priceTable": null,
-      "priceValidUntil": "2024-09-05T11:11:37Z",
-      "callCenterOperator": null,
-      "commission": 0,
-      "freightCommission": 0,
-      "taxCode": "9",
-      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:auchan:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/206815",
-      "uniqueId": "EF636A4092BF45E0A8BD9E7A3F75D81D",
-      "id": "206815",
-      "productId": "206815",
-      "productRefId": "",
-      "refId": null,
-      "ean": "5449000183316",
-      "name": "Apa carbogazoasa minerala naturala Dorna, 2 l",
-      "skuName": "Apa carbogazoasa minerala naturala Dorna, 2 l",
-      "modalType": "FIREARMS",
-      "parentItemIndex": null,
-      "parentAssemblyBinding": null,
-      "assemblies": [],
-      "tax": 0,
-      "price": 388,
-      "listPrice": 388,
-      "manualPrice": 388,
-      "manualPriceAppliedBy": "cfdbef30-3797-46ec-95ba-1a6156920649",
-      "sellingPrice": 388,
-      "rewardValue": 0,
-      "isGift": false,
-      "preSaleDate": null,
-      "productCategoryIds": "/5000000/5010000/5010200/",
-      "productCategories": {
-        "5000000": "Bauturi si Tutun",
-        "5010000": "Apa",
-        "5010200": "Apa carbogazoasa"
-      },
-      "quantity": 2,
-      "seller": "rouauchantimisoaraiuliusmall07",
-      "sellerChain": ["rouauchantimisoaraiuliusmall07"],
-      "imageUrl": "http://auchan.vteximg.com.br/arquivos/ids/164786-155-155/apa-minerala-dorna-2-l-9309751771166.jpg?v=637985891882100000",
-      "detailUrl": "/apa-carbogazoasa-minerala-naturala-dorna-2-l/p",
-      "components": [],
-      "bundleItems": [],
-      "attachments": [],
-      "attachmentOfferings": [],
-      "offerings": [],
-      "priceTags": [],
-      "availability": "available",
-      "measurementUnit": "un",
-      "unitMultiplier": 1,
-      "manufacturerCode": null,
-      "priceDefinition": {
-        "calculatedSellingPrice": 388,
-        "total": 776,
-        "sellingPrices": [
-          {
-            "value": 388,
-            "quantity": 2
-          }
-        ]
-      }
-    },
-    {
-      "additionalInfo": {
-        "categoriesIds": "/3000000/3080000/3080100/",
-        "productClusterId": "141,142,147,864,865,866,867,868,869,957,2052,2053,2351,2884,4005,4677,4724",
-        "commercialConditionId": "1",
-        "dimension": {
-          "cubicweight": 1,
-          "height": 1,
-          "length": 1,
-          "weight": 0.12,
-          "width": 1
-        },
-        "brandName": "Bucegi",
-        "brandId": "310",
-        "offeringInfo": null,
-        "offeringType": null,
-        "offeringTypeId": null
-      },
-      "sellerSku": "492254",
-      "priceTable": null,
-      "priceValidUntil": "2024-09-05T11:11:37Z",
-      "callCenterOperator": null,
-      "commission": 0,
-      "freightCommission": 0,
-      "taxCode": "9",
-      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:auchan:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/492254",
-      "uniqueId": "B5332E3618F8425896E369D3979AF40B",
-      "id": "492254",
-      "productId": "492254",
-      "productRefId": "",
-      "refId": null,
-      "ean": "5941341022526",
-      "name": "Pate cu ficat de porc Bucegi, 120g",
-      "skuName": "Pate cu ficat de porc Bucegi, 120g",
-      "modalType": "",
-      "parentItemIndex": null,
-      "parentAssemblyBinding": null,
-      "assemblies": [],
-      "tax": 0,
-      "price": 359,
-      "listPrice": 405,
-      "manualPrice": 359,
-      "manualPriceAppliedBy": "cfdbef30-3797-46ec-95ba-1a6156920649",
-      "sellingPrice": 359,
-      "rewardValue": 0,
-      "isGift": false,
-      "preSaleDate": null,
-      "productCategoryIds": "/3000000/3080000/3080100/",
-      "productCategories": {
-        "3000000": "Bacanie",
-        "3080000": "Conserve",
-        "3080100": "Conserve carne si Pate"
-      },
-      "quantity": 2,
-      "seller": "rouauchantimisoaraiuliusmall07",
-      "sellerChain": ["rouauchantimisoaraiuliusmall07"],
-      "imageUrl": "http://auchan.vteximg.com.br/arquivos/ids/172534-155-155/pate-cu-ficat-de-porc-bucegi-120g-8858404323358.jpg?v=637988388385600000",
-      "detailUrl": "/pate-cu-ficat-de-porc-bucegi-120g/p",
-      "components": [],
-      "bundleItems": [],
-      "attachments": [],
-      "attachmentOfferings": [],
-      "offerings": [],
-      "priceTags": [],
-      "availability": "available",
-      "measurementUnit": "un",
-      "unitMultiplier": 1,
-      "manufacturerCode": null,
-      "priceDefinition": {
-        "calculatedSellingPrice": 359,
-        "total": 718,
-        "sellingPrices": [
-          {
-            "value": 359,
-            "quantity": 2
-          }
-        ]
-      }
-    },
-    {
-      "additionalInfo": {
-        "categoriesIds": "/5000000/5030000/5030400/",
-        "productClusterId": "141,142,147,864,865,866,867,957,2052,2053,2055,2600,2761,3903,3931,4677,4724",
-        "commercialConditionId": "1",
-        "dimension": {
-          "cubicweight": 0.0002,
-          "height": 1,
-          "length": 1,
-          "weight": 0.5,
-          "width": 1
-        },
-        "brandName": "Bergenbier",
-        "brandId": "858",
-        "offeringInfo": null,
-        "offeringType": null,
-        "offeringTypeId": null
-      },
-      "sellerSku": "457",
-      "priceTable": null,
-      "priceValidUntil": "2024-09-05T11:11:37Z",
-      "callCenterOperator": null,
-      "commission": 0,
-      "freightCommission": 0,
-      "taxCode": "9",
-      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:auchan:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/457",
-      "uniqueId": "0C85D51F6AD44DD0813941EFBAF03B46",
-      "id": "457",
-      "productId": "457",
-      "productRefId": "",
-      "refId": null,
-      "ean": "5942070001639",
-      "name": "Bere blonda fara alcool Bergenbier, 0.5 l",
-      "skuName": "Bere blonda fara alcool Bergenbier, 0.5 l",
-      "modalType": "",
-      "parentItemIndex": null,
-      "parentAssemblyBinding": null,
-      "assemblies": [],
-      "tax": 0,
-      "price": 365,
-      "listPrice": 365,
-      "manualPrice": 365,
-      "manualPriceAppliedBy": "cfdbef30-3797-46ec-95ba-1a6156920649",
-      "sellingPrice": 365,
-      "rewardValue": 0,
-      "isGift": false,
-      "preSaleDate": null,
-      "productCategoryIds": "/5000000/5030000/5030400/",
-      "productCategories": {
-        "5000000": "Bauturi si Tutun",
-        "5030000": "Bere si cidru",
-        "5030400": "Bere fara alcool"
-      },
-      "quantity": 4,
-      "seller": "rouauchantimisoaraiuliusmall07",
-      "sellerChain": ["rouauchantimisoaraiuliusmall07"],
-      "imageUrl": "http://auchan.vteximg.com.br/arquivos/ids/165036-155-155/bere-bergenbier-blonda-fara-alcool-doza-05l-5942044000170_2_1000x1000.jpg?v=637985894678500000",
-      "detailUrl": "/bere-blonda-fara-alcool-bergenbier-0-5-l/p",
-      "components": [],
-      "bundleItems": [],
-      "attachments": [],
-      "attachmentOfferings": [],
-      "offerings": [],
-      "priceTags": [],
-      "availability": "available",
-      "measurementUnit": "un",
-      "unitMultiplier": 1,
-      "manufacturerCode": null,
-      "priceDefinition": {
-        "calculatedSellingPrice": 365,
-        "total": 1460,
-        "sellingPrices": [
-          {
-            "value": 365,
-            "quantity": 4
-          }
-        ]
-      }
-    },
-    {
-      "additionalInfo": {
-        "categoriesIds": "/5000000/5010000/5010300/",
-        "productClusterId": "141,142,147,864,865,866,867,868,869,957,2052,2053,2429,2546,4005,4677,4724",
-        "commercialConditionId": "1",
-        "dimension": {
-          "cubicweight": 0.0002,
-          "height": 1,
-          "length": 1,
-          "weight": 2,
-          "width": 1
-        },
-        "brandName": "Dorna",
-        "brandId": "794",
-        "offeringInfo": null,
-        "offeringType": null,
-        "offeringTypeId": null
-      },
-      "sellerSku": "15023",
-      "priceTable": null,
-      "priceValidUntil": "2024-09-05T11:11:37Z",
-      "callCenterOperator": null,
-      "commission": 0,
-      "freightCommission": 0,
-      "taxCode": "9",
-      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:auchan:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/15023",
-      "uniqueId": "EA5B4A0DBB8F432BB576A1B54872A61A",
-      "id": "15023",
-      "productId": "15023",
-      "productRefId": "",
-      "refId": null,
-      "ean": "5942200126836",
-      "name": "Apa plata Dorna Izvorul Alb, 2 l",
-      "skuName": "Apa plata Dorna Izvorul Alb, 2 l",
-      "modalType": "LIQUID",
-      "parentItemIndex": null,
-      "parentAssemblyBinding": null,
-      "assemblies": [],
-      "tax": 0,
-      "price": 365,
-      "listPrice": 385,
-      "manualPrice": 365,
-      "manualPriceAppliedBy": "cfdbef30-3797-46ec-95ba-1a6156920649",
-      "sellingPrice": 365,
-      "rewardValue": 0,
-      "isGift": false,
-      "preSaleDate": null,
-      "productCategoryIds": "/5000000/5010000/5010300/",
-      "productCategories": {
-        "5000000": "Bauturi si Tutun",
-        "5010000": "Apa",
-        "5010300": "Apa plata"
-      },
-      "quantity": 8,
-      "seller": "rouauchantimisoaraiuliusmall07",
-      "sellerChain": ["rouauchantimisoaraiuliusmall07"],
-      "imageUrl": "http://auchan.vteximg.com.br/arquivos/ids/164841-155-155/apa-plata-dorna-2-l-9309752426526.jpg?v=637985892556000000",
-      "detailUrl": "/apa-plata-dorna-izvorul-alb-2-l/p",
-      "components": [],
-      "bundleItems": [],
-      "attachments": [],
-      "attachmentOfferings": [],
-      "offerings": [],
-      "priceTags": [],
-      "availability": "available",
-      "measurementUnit": "un",
-      "unitMultiplier": 1,
-      "manufacturerCode": null,
-      "priceDefinition": {
-        "calculatedSellingPrice": 365,
-        "total": 2920,
-        "sellingPrices": [
-          {
-            "value": 365,
-            "quantity": 8
+            "value": 95,
+            "quantity": 3
           }
         ]
       }
@@ -1196,9 +317,9 @@
   "sellers": [
     {
       "subSellerId": "1",
-      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=rouauchantimisoaraiuliusmall07&affiliateId=SLS&sc=2",
-      "id": "rouauchantimisoaraiuliusmall07",
-      "name": "rouauchantimisoaraiuliusmall07",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=horeca848&affiliateId=MCX&sc=1",
+      "id": "horeca848",
+      "name": "H*****",
       "logo": ""
     }
   ],
@@ -1208,1294 +329,61 @@
   "marketPlaceOrderId": "",
   "marketPlaceOrderGroup": null,
   "marketplaceServicesEndpoint": null,
-  "orderFormId": "11025fab790e4fd6a97d17a989a58e54",
-  "sequence": "1211320",
+  "orderFormId": "b716b9e666f2446088a85ca0e4e96c51",
+  "sequence": "759703",
   "affiliateId": "",
   "status": "",
   "callCenterOperator": "",
-  "userProfileId": "0594f091-5864-4353-ab5a-e05b656f6b1f",
-  "hostName": "auchan",
+  "userProfileId": "8054e9a8-57cb-4dfd-99e8-3c1a686e67ad",
+  "hostName": "m********",
   "creationVersion": null,
   "creationEnvironment": null,
   "lastChangeVersion": null,
   "workflowInstanceId": null,
   "marketplacePaymentValue": null,
-  "orderId": "1359391211320-01",
-  "orderGroup": "1359391211320",
+  "orderId": "1467320759703-01",
+  "orderGroup": "1467320759703",
   "state": "canceled",
   "isCheckedIn": false,
-  "sellerOrderId": "SLS-1359391211320-01",
+  "sellerOrderId": "MCX-1467320759703-01",
   "storeId": null,
   "checkedInPickupPointId": null,
-  "value": 16851,
+  "value": 626,
   "totals": [
     {
       "id": "Items",
-      "name": "Total articole",
-      "value": 16851
+      "name": "T*************",
+      "value": 285
     },
     {
       "id": "Discounts",
-      "name": "Total reduceri",
+      "name": "T*************",
       "value": 0
     },
     {
       "id": "Shipping",
-      "name": "Total transport",
-      "value": 0
+      "name": "T**************",
+      "value": 600
     },
     {
       "id": "Tax",
-      "name": "Total taxe",
-      "value": 0
+      "name": "T*********",
+      "value": 26
+    },
+    {
+      "id": "Change",
+      "name": "C************",
+      "value": -285
     }
   ],
-  "clientProfileData": {
-    "email": "a******@a*****.r***************.c*.v***.c**.b*",
-    "firstName": "S***",
-    "lastName": "S*** | ",
-    "document": null,
-    "documentType": null,
-    "phone": "+4**********",
-    "corporateName": null,
-    "tradeName": null,
-    "corporateDocument": null,
-    "stateInscription": null,
-    "corporatePhone": null,
-    "isCorporate": false,
-    "profileCompleteOnLoading": false,
-    "profileErrorOnLoading": null,
-    "customerClass": null
-  },
   "ratesAndBenefitsData": {
     "rateAndBenefitsIdentifiers": [],
     "teaser": []
   },
-  "shippingData": {
-    "address": {
-      "addressType": "pickup",
-      "receiverName": "S*** S*** | ",
-      "addressId": "cc-rouauchantimisoaraiuliusmall07",
-      "isDisposable": true,
-      "postalCode": "3*****",
-      "city": "T********",
-      "state": "Timis",
-      "country": "ROU",
-      "street": "D*********",
-      "number": "1",
-      "neighborhood": "",
-      "complement": "A***** - T******** I*****",
-      "reference": null,
-      "geoCoordinates": [-51.4779552, -0.0039779]
-    },
-    "logisticsInfo": [
-      {
-        "itemIndex": 0,
-        "selectedSla": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-        "selectedDeliveryChannel": "pickup-in-point",
-        "addressId": "cc-rouauchantimisoaraiuliusmall07",
-        "slas": [
-          {
-            "id": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryChannel": "pickup-in-point",
-            "name": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryIds": [
-              {
-                "courierId": "partenerirouauchantimisoaraiuliusmall07",
-                "warehouseId": "partenerirouauchantimisoaraiuliusmall07",
-                "dockId": "partenerirouauchantimisoaraiuliusmall07",
-                "courierName": "Livrare parteneri Auchan - Timisoara Iulius",
-                "quantity": 1,
-                "kitItemDetails": []
-              }
-            ],
-            "shippingEstimate": "2h",
-            "shippingEstimateDate": "2023-09-05T17:00:00",
-            "lockTTL": "10d",
-            "availableDeliveryWindows": [],
-            "deliveryWindow": {
-              "startDateUtc": "2023-09-05T17:00:00+00:00",
-              "endDateUtc": "2023-09-05T21:00:59+00:00",
-              "price": 0,
-              "lisPrice": 0,
-              "tax": 0
-            },
-            "price": 0,
-            "listPrice": 0,
-            "tax": 0,
-            "pickupStoreInfo": {
-              "isPickupStore": true,
-              "friendlyName": "Click & Collect Auchan - Timisoara Iulius",
-              "address": {
-                "addressType": "pickup",
-                "receiverName": null,
-                "addressId": "cc-rouauchantimisoaraiuliusmall07",
-                "isDisposable": true,
-                "postalCode": "3*****",
-                "city": "T********",
-                "state": "Timis",
-                "country": "ROU",
-                "street": "D*********",
-                "number": "1",
-                "neighborhood": "",
-                "complement": "A***** - T******** I*****",
-                "reference": null,
-                "geoCoordinates": [-51.4779552, -0.0039779]
-              },
-              "additionalInfo": "",
-              "dockId": null
-            },
-            "pickupPointId": "rouauchantimisoaraiuliusmall07_cc-rouauchantimisoaraiuliusmall07",
-            "pickupDistance": 0,
-            "polygonName": "Parteneri",
-            "transitTime": "2h"
-          }
-        ],
-        "shipsTo": ["ROU"],
-        "itemId": "309062",
-        "deliveryChannels": [
-          {
-            "id": "pickup-in-point"
-          }
-        ]
-      },
-      {
-        "itemIndex": 1,
-        "selectedSla": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-        "selectedDeliveryChannel": "pickup-in-point",
-        "addressId": "cc-rouauchantimisoaraiuliusmall07",
-        "slas": [
-          {
-            "id": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryChannel": "pickup-in-point",
-            "name": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryIds": [
-              {
-                "courierId": "partenerirouauchantimisoaraiuliusmall07",
-                "warehouseId": "partenerirouauchantimisoaraiuliusmall07",
-                "dockId": "partenerirouauchantimisoaraiuliusmall07",
-                "courierName": "Livrare parteneri Auchan - Timisoara Iulius",
-                "quantity": 1,
-                "kitItemDetails": []
-              }
-            ],
-            "shippingEstimate": "2h",
-            "shippingEstimateDate": "2023-09-05T17:00:00",
-            "lockTTL": "10d",
-            "availableDeliveryWindows": [],
-            "deliveryWindow": {
-              "startDateUtc": "2023-09-05T17:00:00+00:00",
-              "endDateUtc": "2023-09-05T21:00:59+00:00",
-              "price": 0,
-              "lisPrice": 0,
-              "tax": 0
-            },
-            "price": 0,
-            "listPrice": 0,
-            "tax": 0,
-            "pickupStoreInfo": {
-              "isPickupStore": true,
-              "friendlyName": "Click & Collect Auchan - Timisoara Iulius",
-              "address": {
-                "addressType": "pickup",
-                "receiverName": null,
-                "addressId": "cc-rouauchantimisoaraiuliusmall07",
-                "isDisposable": true,
-                "postalCode": "3*****",
-                "city": "T********",
-                "state": "Timis",
-                "country": "ROU",
-                "street": "D*********",
-                "number": "1",
-                "neighborhood": "",
-                "complement": "A***** - T******** I*****",
-                "reference": null,
-                "geoCoordinates": [-51.4779552, -0.0039779]
-              },
-              "additionalInfo": "",
-              "dockId": null
-            },
-            "pickupPointId": "rouauchantimisoaraiuliusmall07_cc-rouauchantimisoaraiuliusmall07",
-            "pickupDistance": 0,
-            "polygonName": "Parteneri",
-            "transitTime": "2h"
-          }
-        ],
-        "shipsTo": ["ROU"],
-        "itemId": "471765",
-        "deliveryChannels": [
-          {
-            "id": "pickup-in-point"
-          }
-        ]
-      },
-      {
-        "itemIndex": 2,
-        "selectedSla": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-        "selectedDeliveryChannel": "pickup-in-point",
-        "addressId": "cc-rouauchantimisoaraiuliusmall07",
-        "slas": [
-          {
-            "id": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryChannel": "pickup-in-point",
-            "name": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryIds": [
-              {
-                "courierId": "partenerirouauchantimisoaraiuliusmall07",
-                "warehouseId": "partenerirouauchantimisoaraiuliusmall07",
-                "dockId": "partenerirouauchantimisoaraiuliusmall07",
-                "courierName": "Livrare parteneri Auchan - Timisoara Iulius",
-                "quantity": 1,
-                "kitItemDetails": []
-              }
-            ],
-            "shippingEstimate": "2h",
-            "shippingEstimateDate": "2023-09-05T17:00:00",
-            "lockTTL": "10d",
-            "availableDeliveryWindows": [],
-            "deliveryWindow": {
-              "startDateUtc": "2023-09-05T17:00:00+00:00",
-              "endDateUtc": "2023-09-05T21:00:59+00:00",
-              "price": 0,
-              "lisPrice": 0,
-              "tax": 0
-            },
-            "price": 0,
-            "listPrice": 0,
-            "tax": 0,
-            "pickupStoreInfo": {
-              "isPickupStore": true,
-              "friendlyName": "Click & Collect Auchan - Timisoara Iulius",
-              "address": {
-                "addressType": "pickup",
-                "receiverName": null,
-                "addressId": "cc-rouauchantimisoaraiuliusmall07",
-                "isDisposable": true,
-                "postalCode": "3*****",
-                "city": "T********",
-                "state": "Timis",
-                "country": "ROU",
-                "street": "D*********",
-                "number": "1",
-                "neighborhood": "",
-                "complement": "A***** - T******** I*****",
-                "reference": null,
-                "geoCoordinates": [-51.4779552, -0.0039779]
-              },
-              "additionalInfo": "",
-              "dockId": null
-            },
-            "pickupPointId": "rouauchantimisoaraiuliusmall07_cc-rouauchantimisoaraiuliusmall07",
-            "pickupDistance": 0,
-            "polygonName": "Parteneri",
-            "transitTime": "2h"
-          }
-        ],
-        "shipsTo": ["ROU"],
-        "itemId": "342175",
-        "deliveryChannels": [
-          {
-            "id": "pickup-in-point"
-          }
-        ]
-      },
-      {
-        "itemIndex": 3,
-        "selectedSla": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-        "selectedDeliveryChannel": "pickup-in-point",
-        "addressId": "cc-rouauchantimisoaraiuliusmall07",
-        "slas": [
-          {
-            "id": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryChannel": "pickup-in-point",
-            "name": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryIds": [
-              {
-                "courierId": "partenerirouauchantimisoaraiuliusmall07",
-                "warehouseId": "partenerirouauchantimisoaraiuliusmall07",
-                "dockId": "partenerirouauchantimisoaraiuliusmall07",
-                "courierName": "Livrare parteneri Auchan - Timisoara Iulius",
-                "quantity": 1,
-                "kitItemDetails": []
-              }
-            ],
-            "shippingEstimate": "2h",
-            "shippingEstimateDate": "2023-09-05T17:00:00",
-            "lockTTL": "10d",
-            "availableDeliveryWindows": [],
-            "deliveryWindow": {
-              "startDateUtc": "2023-09-05T17:00:00+00:00",
-              "endDateUtc": "2023-09-05T21:00:59+00:00",
-              "price": 0,
-              "lisPrice": 0,
-              "tax": 0
-            },
-            "price": 0,
-            "listPrice": 0,
-            "tax": 0,
-            "pickupStoreInfo": {
-              "isPickupStore": true,
-              "friendlyName": "Click & Collect Auchan - Timisoara Iulius",
-              "address": {
-                "addressType": "pickup",
-                "receiverName": null,
-                "addressId": "cc-rouauchantimisoaraiuliusmall07",
-                "isDisposable": true,
-                "postalCode": "3*****",
-                "city": "T********",
-                "state": "Timis",
-                "country": "ROU",
-                "street": "D*********",
-                "number": "1",
-                "neighborhood": "",
-                "complement": "A***** - T******** I*****",
-                "reference": null,
-                "geoCoordinates": [-51.4779552, -0.0039779]
-              },
-              "additionalInfo": "",
-              "dockId": null
-            },
-            "pickupPointId": "rouauchantimisoaraiuliusmall07_cc-rouauchantimisoaraiuliusmall07",
-            "pickupDistance": 0,
-            "polygonName": "Parteneri",
-            "transitTime": "2h"
-          }
-        ],
-        "shipsTo": ["ROU"],
-        "itemId": "121378",
-        "deliveryChannels": [
-          {
-            "id": "pickup-in-point"
-          }
-        ]
-      },
-      {
-        "itemIndex": 4,
-        "selectedSla": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-        "selectedDeliveryChannel": "pickup-in-point",
-        "addressId": "cc-rouauchantimisoaraiuliusmall07",
-        "slas": [
-          {
-            "id": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryChannel": "pickup-in-point",
-            "name": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryIds": [
-              {
-                "courierId": "partenerirouauchantimisoaraiuliusmall07",
-                "warehouseId": "partenerirouauchantimisoaraiuliusmall07",
-                "dockId": "partenerirouauchantimisoaraiuliusmall07",
-                "courierName": "Livrare parteneri Auchan - Timisoara Iulius",
-                "quantity": 1,
-                "kitItemDetails": []
-              }
-            ],
-            "shippingEstimate": "2h",
-            "shippingEstimateDate": "2023-09-05T17:00:00",
-            "lockTTL": "10d",
-            "availableDeliveryWindows": [],
-            "deliveryWindow": {
-              "startDateUtc": "2023-09-05T17:00:00+00:00",
-              "endDateUtc": "2023-09-05T21:00:59+00:00",
-              "price": 0,
-              "lisPrice": 0,
-              "tax": 0
-            },
-            "price": 0,
-            "listPrice": 0,
-            "tax": 0,
-            "pickupStoreInfo": {
-              "isPickupStore": true,
-              "friendlyName": "Click & Collect Auchan - Timisoara Iulius",
-              "address": {
-                "addressType": "pickup",
-                "receiverName": null,
-                "addressId": "cc-rouauchantimisoaraiuliusmall07",
-                "isDisposable": true,
-                "postalCode": "3*****",
-                "city": "T********",
-                "state": "Timis",
-                "country": "ROU",
-                "street": "D*********",
-                "number": "1",
-                "neighborhood": "",
-                "complement": "A***** - T******** I*****",
-                "reference": null,
-                "geoCoordinates": [-51.4779552, -0.0039779]
-              },
-              "additionalInfo": "",
-              "dockId": null
-            },
-            "pickupPointId": "rouauchantimisoaraiuliusmall07_cc-rouauchantimisoaraiuliusmall07",
-            "pickupDistance": 0,
-            "polygonName": "Parteneri",
-            "transitTime": "2h"
-          }
-        ],
-        "shipsTo": ["ROU"],
-        "itemId": "272599",
-        "deliveryChannels": [
-          {
-            "id": "pickup-in-point"
-          }
-        ]
-      },
-      {
-        "itemIndex": 5,
-        "selectedSla": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-        "selectedDeliveryChannel": "pickup-in-point",
-        "addressId": "cc-rouauchantimisoaraiuliusmall07",
-        "slas": [
-          {
-            "id": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryChannel": "pickup-in-point",
-            "name": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryIds": [
-              {
-                "courierId": "partenerirouauchantimisoaraiuliusmall07",
-                "warehouseId": "partenerirouauchantimisoaraiuliusmall07",
-                "dockId": "partenerirouauchantimisoaraiuliusmall07",
-                "courierName": "Livrare parteneri Auchan - Timisoara Iulius",
-                "quantity": 1,
-                "kitItemDetails": []
-              }
-            ],
-            "shippingEstimate": "2h",
-            "shippingEstimateDate": "2023-09-05T17:00:00",
-            "lockTTL": "10d",
-            "availableDeliveryWindows": [],
-            "deliveryWindow": {
-              "startDateUtc": "2023-09-05T17:00:00+00:00",
-              "endDateUtc": "2023-09-05T21:00:59+00:00",
-              "price": 0,
-              "lisPrice": 0,
-              "tax": 0
-            },
-            "price": 0,
-            "listPrice": 0,
-            "tax": 0,
-            "pickupStoreInfo": {
-              "isPickupStore": true,
-              "friendlyName": "Click & Collect Auchan - Timisoara Iulius",
-              "address": {
-                "addressType": "pickup",
-                "receiverName": null,
-                "addressId": "cc-rouauchantimisoaraiuliusmall07",
-                "isDisposable": true,
-                "postalCode": "3*****",
-                "city": "T********",
-                "state": "Timis",
-                "country": "ROU",
-                "street": "D*********",
-                "number": "1",
-                "neighborhood": "",
-                "complement": "A***** - T******** I*****",
-                "reference": null,
-                "geoCoordinates": [-51.4779552, -0.0039779]
-              },
-              "additionalInfo": "",
-              "dockId": null
-            },
-            "pickupPointId": "rouauchantimisoaraiuliusmall07_cc-rouauchantimisoaraiuliusmall07",
-            "pickupDistance": 0,
-            "polygonName": "Parteneri",
-            "transitTime": "2h"
-          }
-        ],
-        "shipsTo": ["ROU"],
-        "itemId": "831585",
-        "deliveryChannels": [
-          {
-            "id": "pickup-in-point"
-          }
-        ]
-      },
-      {
-        "itemIndex": 6,
-        "selectedSla": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-        "selectedDeliveryChannel": "pickup-in-point",
-        "addressId": "cc-rouauchantimisoaraiuliusmall07",
-        "slas": [
-          {
-            "id": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryChannel": "pickup-in-point",
-            "name": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryIds": [
-              {
-                "courierId": "partenerirouauchantimisoaraiuliusmall07",
-                "warehouseId": "partenerirouauchantimisoaraiuliusmall07",
-                "dockId": "partenerirouauchantimisoaraiuliusmall07",
-                "courierName": "Livrare parteneri Auchan - Timisoara Iulius",
-                "quantity": 1,
-                "kitItemDetails": []
-              }
-            ],
-            "shippingEstimate": "2h",
-            "shippingEstimateDate": "2023-09-05T17:00:00",
-            "lockTTL": "10d",
-            "availableDeliveryWindows": [],
-            "deliveryWindow": {
-              "startDateUtc": "2023-09-05T17:00:00+00:00",
-              "endDateUtc": "2023-09-05T21:00:59+00:00",
-              "price": 0,
-              "lisPrice": 0,
-              "tax": 0
-            },
-            "price": 0,
-            "listPrice": 0,
-            "tax": 0,
-            "pickupStoreInfo": {
-              "isPickupStore": true,
-              "friendlyName": "Click & Collect Auchan - Timisoara Iulius",
-              "address": {
-                "addressType": "pickup",
-                "receiverName": null,
-                "addressId": "cc-rouauchantimisoaraiuliusmall07",
-                "isDisposable": true,
-                "postalCode": "3*****",
-                "city": "T********",
-                "state": "Timis",
-                "country": "ROU",
-                "street": "D*********",
-                "number": "1",
-                "neighborhood": "",
-                "complement": "A***** - T******** I*****",
-                "reference": null,
-                "geoCoordinates": [-51.4779552, -0.0039779]
-              },
-              "additionalInfo": "",
-              "dockId": null
-            },
-            "pickupPointId": "rouauchantimisoaraiuliusmall07_cc-rouauchantimisoaraiuliusmall07",
-            "pickupDistance": 0,
-            "polygonName": "Parteneri",
-            "transitTime": "2h"
-          }
-        ],
-        "shipsTo": ["ROU"],
-        "itemId": "713286",
-        "deliveryChannels": [
-          {
-            "id": "pickup-in-point"
-          }
-        ]
-      },
-      {
-        "itemIndex": 7,
-        "selectedSla": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-        "selectedDeliveryChannel": "pickup-in-point",
-        "addressId": "cc-rouauchantimisoaraiuliusmall07",
-        "slas": [
-          {
-            "id": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryChannel": "pickup-in-point",
-            "name": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryIds": [
-              {
-                "courierId": "partenerirouauchantimisoaraiuliusmall07",
-                "warehouseId": "partenerirouauchantimisoaraiuliusmall07",
-                "dockId": "partenerirouauchantimisoaraiuliusmall07",
-                "courierName": "Livrare parteneri Auchan - Timisoara Iulius",
-                "quantity": 1,
-                "kitItemDetails": []
-              }
-            ],
-            "shippingEstimate": "2h",
-            "shippingEstimateDate": "2023-09-05T17:00:00",
-            "lockTTL": "10d",
-            "availableDeliveryWindows": [],
-            "deliveryWindow": {
-              "startDateUtc": "2023-09-05T17:00:00+00:00",
-              "endDateUtc": "2023-09-05T21:00:59+00:00",
-              "price": 0,
-              "lisPrice": 0,
-              "tax": 0
-            },
-            "price": 0,
-            "listPrice": 0,
-            "tax": 0,
-            "pickupStoreInfo": {
-              "isPickupStore": true,
-              "friendlyName": "Click & Collect Auchan - Timisoara Iulius",
-              "address": {
-                "addressType": "pickup",
-                "receiverName": null,
-                "addressId": "cc-rouauchantimisoaraiuliusmall07",
-                "isDisposable": true,
-                "postalCode": "3*****",
-                "city": "T********",
-                "state": "Timis",
-                "country": "ROU",
-                "street": "D*********",
-                "number": "1",
-                "neighborhood": "",
-                "complement": "A***** - T******** I*****",
-                "reference": null,
-                "geoCoordinates": [-51.4779552, -0.0039779]
-              },
-              "additionalInfo": "",
-              "dockId": null
-            },
-            "pickupPointId": "rouauchantimisoaraiuliusmall07_cc-rouauchantimisoaraiuliusmall07",
-            "pickupDistance": 0,
-            "polygonName": "Parteneri",
-            "transitTime": "2h"
-          }
-        ],
-        "shipsTo": ["ROU"],
-        "itemId": "218971",
-        "deliveryChannels": [
-          {
-            "id": "pickup-in-point"
-          }
-        ]
-      },
-      {
-        "itemIndex": 8,
-        "selectedSla": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-        "selectedDeliveryChannel": "pickup-in-point",
-        "addressId": "cc-rouauchantimisoaraiuliusmall07",
-        "slas": [
-          {
-            "id": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryChannel": "pickup-in-point",
-            "name": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryIds": [
-              {
-                "courierId": "partenerirouauchantimisoaraiuliusmall07",
-                "warehouseId": "partenerirouauchantimisoaraiuliusmall07",
-                "dockId": "partenerirouauchantimisoaraiuliusmall07",
-                "courierName": "Livrare parteneri Auchan - Timisoara Iulius",
-                "quantity": 1,
-                "kitItemDetails": []
-              }
-            ],
-            "shippingEstimate": "2h",
-            "shippingEstimateDate": "2023-09-05T17:00:00",
-            "lockTTL": "10d",
-            "availableDeliveryWindows": [],
-            "deliveryWindow": {
-              "startDateUtc": "2023-09-05T17:00:00+00:00",
-              "endDateUtc": "2023-09-05T21:00:59+00:00",
-              "price": 0,
-              "lisPrice": 0,
-              "tax": 0
-            },
-            "price": 0,
-            "listPrice": 0,
-            "tax": 0,
-            "pickupStoreInfo": {
-              "isPickupStore": true,
-              "friendlyName": "Click & Collect Auchan - Timisoara Iulius",
-              "address": {
-                "addressType": "pickup",
-                "receiverName": null,
-                "addressId": "cc-rouauchantimisoaraiuliusmall07",
-                "isDisposable": true,
-                "postalCode": "3*****",
-                "city": "T********",
-                "state": "Timis",
-                "country": "ROU",
-                "street": "D*********",
-                "number": "1",
-                "neighborhood": "",
-                "complement": "A***** - T******** I*****",
-                "reference": null,
-                "geoCoordinates": [-51.4779552, -0.0039779]
-              },
-              "additionalInfo": "",
-              "dockId": null
-            },
-            "pickupPointId": "rouauchantimisoaraiuliusmall07_cc-rouauchantimisoaraiuliusmall07",
-            "pickupDistance": 0,
-            "polygonName": "Parteneri",
-            "transitTime": "2h"
-          }
-        ],
-        "shipsTo": ["ROU"],
-        "itemId": "36084",
-        "deliveryChannels": [
-          {
-            "id": "pickup-in-point"
-          }
-        ]
-      },
-      {
-        "itemIndex": 9,
-        "selectedSla": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-        "selectedDeliveryChannel": "pickup-in-point",
-        "addressId": "cc-rouauchantimisoaraiuliusmall07",
-        "slas": [
-          {
-            "id": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryChannel": "pickup-in-point",
-            "name": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryIds": [
-              {
-                "courierId": "partenerirouauchantimisoaraiuliusmall07",
-                "warehouseId": "partenerirouauchantimisoaraiuliusmall07",
-                "dockId": "partenerirouauchantimisoaraiuliusmall07",
-                "courierName": "Livrare parteneri Auchan - Timisoara Iulius",
-                "quantity": 2,
-                "kitItemDetails": []
-              }
-            ],
-            "shippingEstimate": "2h",
-            "shippingEstimateDate": "2023-09-05T17:00:00",
-            "lockTTL": "10d",
-            "availableDeliveryWindows": [],
-            "deliveryWindow": {
-              "startDateUtc": "2023-09-05T17:00:00+00:00",
-              "endDateUtc": "2023-09-05T21:00:59+00:00",
-              "price": 0,
-              "lisPrice": 0,
-              "tax": 0
-            },
-            "price": 0,
-            "listPrice": 0,
-            "tax": 0,
-            "pickupStoreInfo": {
-              "isPickupStore": true,
-              "friendlyName": "Click & Collect Auchan - Timisoara Iulius",
-              "address": {
-                "addressType": "pickup",
-                "receiverName": null,
-                "addressId": "cc-rouauchantimisoaraiuliusmall07",
-                "isDisposable": true,
-                "postalCode": "3*****",
-                "city": "T********",
-                "state": "Timis",
-                "country": "ROU",
-                "street": "D*********",
-                "number": "1",
-                "neighborhood": "",
-                "complement": "A***** - T******** I*****",
-                "reference": null,
-                "geoCoordinates": [-51.4779552, -0.0039779]
-              },
-              "additionalInfo": "",
-              "dockId": null
-            },
-            "pickupPointId": "rouauchantimisoaraiuliusmall07_cc-rouauchantimisoaraiuliusmall07",
-            "pickupDistance": 0,
-            "polygonName": "Parteneri",
-            "transitTime": "2h"
-          }
-        ],
-        "shipsTo": ["ROU"],
-        "itemId": "144962",
-        "deliveryChannels": [
-          {
-            "id": "pickup-in-point"
-          }
-        ]
-      },
-      {
-        "itemIndex": 10,
-        "selectedSla": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-        "selectedDeliveryChannel": "pickup-in-point",
-        "addressId": "cc-rouauchantimisoaraiuliusmall07",
-        "slas": [
-          {
-            "id": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryChannel": "pickup-in-point",
-            "name": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryIds": [
-              {
-                "courierId": "partenerirouauchantimisoaraiuliusmall07",
-                "warehouseId": "partenerirouauchantimisoaraiuliusmall07",
-                "dockId": "partenerirouauchantimisoaraiuliusmall07",
-                "courierName": "Livrare parteneri Auchan - Timisoara Iulius",
-                "quantity": 2,
-                "kitItemDetails": []
-              }
-            ],
-            "shippingEstimate": "2h",
-            "shippingEstimateDate": "2023-09-05T17:00:00",
-            "lockTTL": "10d",
-            "availableDeliveryWindows": [],
-            "deliveryWindow": {
-              "startDateUtc": "2023-09-05T17:00:00+00:00",
-              "endDateUtc": "2023-09-05T21:00:59+00:00",
-              "price": 0,
-              "lisPrice": 0,
-              "tax": 0
-            },
-            "price": 0,
-            "listPrice": 0,
-            "tax": 0,
-            "pickupStoreInfo": {
-              "isPickupStore": true,
-              "friendlyName": "Click & Collect Auchan - Timisoara Iulius",
-              "address": {
-                "addressType": "pickup",
-                "receiverName": null,
-                "addressId": "cc-rouauchantimisoaraiuliusmall07",
-                "isDisposable": true,
-                "postalCode": "3*****",
-                "city": "T********",
-                "state": "Timis",
-                "country": "ROU",
-                "street": "D*********",
-                "number": "1",
-                "neighborhood": "",
-                "complement": "A***** - T******** I*****",
-                "reference": null,
-                "geoCoordinates": [-51.4779552, -0.0039779]
-              },
-              "additionalInfo": "",
-              "dockId": null
-            },
-            "pickupPointId": "rouauchantimisoaraiuliusmall07_cc-rouauchantimisoaraiuliusmall07",
-            "pickupDistance": 0,
-            "polygonName": "Parteneri",
-            "transitTime": "2h"
-          }
-        ],
-        "shipsTo": ["ROU"],
-        "itemId": "867293",
-        "deliveryChannels": [
-          {
-            "id": "pickup-in-point"
-          }
-        ]
-      },
-      {
-        "itemIndex": 11,
-        "selectedSla": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-        "selectedDeliveryChannel": "pickup-in-point",
-        "addressId": "cc-rouauchantimisoaraiuliusmall07",
-        "slas": [
-          {
-            "id": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryChannel": "pickup-in-point",
-            "name": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryIds": [
-              {
-                "courierId": "partenerirouauchantimisoaraiuliusmall07",
-                "warehouseId": "partenerirouauchantimisoaraiuliusmall07",
-                "dockId": "partenerirouauchantimisoaraiuliusmall07",
-                "courierName": "Livrare parteneri Auchan - Timisoara Iulius",
-                "quantity": 2,
-                "kitItemDetails": []
-              }
-            ],
-            "shippingEstimate": "2h",
-            "shippingEstimateDate": "2023-09-05T17:00:00",
-            "lockTTL": "10d",
-            "availableDeliveryWindows": [],
-            "deliveryWindow": {
-              "startDateUtc": "2023-09-05T17:00:00+00:00",
-              "endDateUtc": "2023-09-05T21:00:59+00:00",
-              "price": 0,
-              "lisPrice": 0,
-              "tax": 0
-            },
-            "price": 0,
-            "listPrice": 0,
-            "tax": 0,
-            "pickupStoreInfo": {
-              "isPickupStore": true,
-              "friendlyName": "Click & Collect Auchan - Timisoara Iulius",
-              "address": {
-                "addressType": "pickup",
-                "receiverName": null,
-                "addressId": "cc-rouauchantimisoaraiuliusmall07",
-                "isDisposable": true,
-                "postalCode": "3*****",
-                "city": "T********",
-                "state": "Timis",
-                "country": "ROU",
-                "street": "D*********",
-                "number": "1",
-                "neighborhood": "",
-                "complement": "A***** - T******** I*****",
-                "reference": null,
-                "geoCoordinates": [-51.4779552, -0.0039779]
-              },
-              "additionalInfo": "",
-              "dockId": null
-            },
-            "pickupPointId": "rouauchantimisoaraiuliusmall07_cc-rouauchantimisoaraiuliusmall07",
-            "pickupDistance": 0,
-            "polygonName": "Parteneri",
-            "transitTime": "2h"
-          }
-        ],
-        "shipsTo": ["ROU"],
-        "itemId": "206815",
-        "deliveryChannels": [
-          {
-            "id": "pickup-in-point"
-          }
-        ]
-      },
-      {
-        "itemIndex": 12,
-        "selectedSla": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-        "selectedDeliveryChannel": "pickup-in-point",
-        "addressId": "cc-rouauchantimisoaraiuliusmall07",
-        "slas": [
-          {
-            "id": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryChannel": "pickup-in-point",
-            "name": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryIds": [
-              {
-                "courierId": "partenerirouauchantimisoaraiuliusmall07",
-                "warehouseId": "partenerirouauchantimisoaraiuliusmall07",
-                "dockId": "partenerirouauchantimisoaraiuliusmall07",
-                "courierName": "Livrare parteneri Auchan - Timisoara Iulius",
-                "quantity": 2,
-                "kitItemDetails": []
-              }
-            ],
-            "shippingEstimate": "2h",
-            "shippingEstimateDate": "2023-09-05T17:00:00",
-            "lockTTL": "10d",
-            "availableDeliveryWindows": [],
-            "deliveryWindow": {
-              "startDateUtc": "2023-09-05T17:00:00+00:00",
-              "endDateUtc": "2023-09-05T21:00:59+00:00",
-              "price": 0,
-              "lisPrice": 0,
-              "tax": 0
-            },
-            "price": 0,
-            "listPrice": 0,
-            "tax": 0,
-            "pickupStoreInfo": {
-              "isPickupStore": true,
-              "friendlyName": "Click & Collect Auchan - Timisoara Iulius",
-              "address": {
-                "addressType": "pickup",
-                "receiverName": null,
-                "addressId": "cc-rouauchantimisoaraiuliusmall07",
-                "isDisposable": true,
-                "postalCode": "3*****",
-                "city": "T********",
-                "state": "Timis",
-                "country": "ROU",
-                "street": "D*********",
-                "number": "1",
-                "neighborhood": "",
-                "complement": "A***** - T******** I*****",
-                "reference": null,
-                "geoCoordinates": [-51.4779552, -0.0039779]
-              },
-              "additionalInfo": "",
-              "dockId": null
-            },
-            "pickupPointId": "rouauchantimisoaraiuliusmall07_cc-rouauchantimisoaraiuliusmall07",
-            "pickupDistance": 0,
-            "polygonName": "Parteneri",
-            "transitTime": "2h"
-          }
-        ],
-        "shipsTo": ["ROU"],
-        "itemId": "492254",
-        "deliveryChannels": [
-          {
-            "id": "pickup-in-point"
-          }
-        ]
-      },
-      {
-        "itemIndex": 13,
-        "selectedSla": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-        "selectedDeliveryChannel": "pickup-in-point",
-        "addressId": "cc-rouauchantimisoaraiuliusmall07",
-        "slas": [
-          {
-            "id": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryChannel": "pickup-in-point",
-            "name": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryIds": [
-              {
-                "courierId": "partenerirouauchantimisoaraiuliusmall07",
-                "warehouseId": "partenerirouauchantimisoaraiuliusmall07",
-                "dockId": "partenerirouauchantimisoaraiuliusmall07",
-                "courierName": "Livrare parteneri Auchan - Timisoara Iulius",
-                "quantity": 4,
-                "kitItemDetails": []
-              }
-            ],
-            "shippingEstimate": "2h",
-            "shippingEstimateDate": "2023-09-05T17:00:00",
-            "lockTTL": "10d",
-            "availableDeliveryWindows": [],
-            "deliveryWindow": {
-              "startDateUtc": "2023-09-05T17:00:00+00:00",
-              "endDateUtc": "2023-09-05T21:00:59+00:00",
-              "price": 0,
-              "lisPrice": 0,
-              "tax": 0
-            },
-            "price": 0,
-            "listPrice": 0,
-            "tax": 0,
-            "pickupStoreInfo": {
-              "isPickupStore": true,
-              "friendlyName": "Click & Collect Auchan - Timisoara Iulius",
-              "address": {
-                "addressType": "pickup",
-                "receiverName": null,
-                "addressId": "cc-rouauchantimisoaraiuliusmall07",
-                "isDisposable": true,
-                "postalCode": "3*****",
-                "city": "T********",
-                "state": "Timis",
-                "country": "ROU",
-                "street": "D*********",
-                "number": "1",
-                "neighborhood": "",
-                "complement": "A***** - T******** I*****",
-                "reference": null,
-                "geoCoordinates": [-51.4779552, -0.0039779]
-              },
-              "additionalInfo": "",
-              "dockId": null
-            },
-            "pickupPointId": "rouauchantimisoaraiuliusmall07_cc-rouauchantimisoaraiuliusmall07",
-            "pickupDistance": 0,
-            "polygonName": "Parteneri",
-            "transitTime": "2h"
-          }
-        ],
-        "shipsTo": ["ROU"],
-        "itemId": "457",
-        "deliveryChannels": [
-          {
-            "id": "pickup-in-point"
-          }
-        ]
-      },
-      {
-        "itemIndex": 14,
-        "selectedSla": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-        "selectedDeliveryChannel": "pickup-in-point",
-        "addressId": "cc-rouauchantimisoaraiuliusmall07",
-        "slas": [
-          {
-            "id": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryChannel": "pickup-in-point",
-            "name": "Livrare parteneri (cc-rouauchantimisoaraiuliusmall07)",
-            "deliveryIds": [
-              {
-                "courierId": "partenerirouauchantimisoaraiuliusmall07",
-                "warehouseId": "partenerirouauchantimisoaraiuliusmall07",
-                "dockId": "partenerirouauchantimisoaraiuliusmall07",
-                "courierName": "Livrare parteneri Auchan - Timisoara Iulius",
-                "quantity": 8,
-                "kitItemDetails": []
-              }
-            ],
-            "shippingEstimate": "2h",
-            "shippingEstimateDate": "2023-09-05T17:00:00",
-            "lockTTL": "10d",
-            "availableDeliveryWindows": [],
-            "deliveryWindow": {
-              "startDateUtc": "2023-09-05T17:00:00+00:00",
-              "endDateUtc": "2023-09-05T21:00:59+00:00",
-              "price": 0,
-              "lisPrice": 0,
-              "tax": 0
-            },
-            "price": 0,
-            "listPrice": 0,
-            "tax": 0,
-            "pickupStoreInfo": {
-              "isPickupStore": true,
-              "friendlyName": "Click & Collect Auchan - Timisoara Iulius",
-              "address": {
-                "addressType": "pickup",
-                "receiverName": null,
-                "addressId": "cc-rouauchantimisoaraiuliusmall07",
-                "isDisposable": true,
-                "postalCode": "3*****",
-                "city": "T********",
-                "state": "Timis",
-                "country": "ROU",
-                "street": "D*********",
-                "number": "1",
-                "neighborhood": "",
-                "complement": "A***** - T******** I*****",
-                "reference": null,
-                "geoCoordinates": [-51.4779552, -0.0039779]
-              },
-              "additionalInfo": "",
-              "dockId": null
-            },
-            "pickupPointId": "rouauchantimisoaraiuliusmall07_cc-rouauchantimisoaraiuliusmall07",
-            "pickupDistance": 0,
-            "polygonName": "Parteneri",
-            "transitTime": "2h"
-          }
-        ],
-        "shipsTo": ["ROU"],
-        "itemId": "15023",
-        "deliveryChannels": [
-          {
-            "id": "pickup-in-point"
-          }
-        ]
-      }
-    ],
-    "selectedAddresses": [
-      {
-        "addressType": "pickup",
-        "receiverName": "S*** S*** | ",
-        "addressId": "cc-rouauchantimisoaraiuliusmall07",
-        "isDisposable": true,
-        "postalCode": "3*****",
-        "city": "T********",
-        "state": "Timis",
-        "country": "ROU",
-        "street": "D*********",
-        "number": "1",
-        "neighborhood": "",
-        "complement": "A***** - T******** I*****",
-        "reference": null,
-        "geoCoordinates": [-51.4779552, -0.0039779]
-      }
-    ],
-    "availableAddresses": [
-      {
-        "addressType": "pickup",
-        "receiverName": "S*** S*** | ",
-        "addressId": "cc-rouauchantimisoaraiuliusmall07",
-        "isDisposable": true,
-        "postalCode": "3*****",
-        "city": "T********",
-        "state": "Timis",
-        "country": "ROU",
-        "street": "D*********",
-        "number": "1",
-        "neighborhood": "",
-        "complement": "A***** - T******** I*****",
-        "reference": null,
-        "geoCoordinates": [-51.4779552, -0.0039779]
-      }
-    ],
-    "pickupPoints": [
-      {
-        "friendlyName": "Click & Collect Auchan - Timisoara Iulius",
-        "address": {
-          "addressType": "pickup",
-          "receiverName": null,
-          "addressId": "cc-rouauchantimisoaraiuliusmall07",
-          "isDisposable": true,
-          "postalCode": "3*****",
-          "city": "T********",
-          "state": "Timis",
-          "country": "ROU",
-          "street": "D*********",
-          "number": "1",
-          "neighborhood": "",
-          "complement": "A***** - T******** I*****",
-          "reference": null,
-          "geoCoordinates": [-51.4779552, -0.0039779]
-        },
-        "additionalInfo": "",
-        "id": "rouauchantimisoaraiuliusmall07_cc-rouauchantimisoaraiuliusmall07",
-        "businessHours": [
-          {
-            "DayOfWeek": 0,
-            "OpeningTime": "08:00:00",
-            "ClosingTime": "22:00:00"
-          },
-          {
-            "DayOfWeek": 1,
-            "OpeningTime": "08:00:00",
-            "ClosingTime": "22:00:00"
-          },
-          {
-            "DayOfWeek": 2,
-            "OpeningTime": "08:00:00",
-            "ClosingTime": "22:00:00"
-          },
-          {
-            "DayOfWeek": 3,
-            "OpeningTime": "08:00:00",
-            "ClosingTime": "22:00:00"
-          },
-          {
-            "DayOfWeek": 4,
-            "OpeningTime": "08:00:00",
-            "ClosingTime": "22:00:00"
-          },
-          {
-            "DayOfWeek": 5,
-            "OpeningTime": "08:00:00",
-            "ClosingTime": "22:00:00"
-          },
-          {
-            "DayOfWeek": 6,
-            "OpeningTime": "08:00:00",
-            "ClosingTime": "22:00:00"
-          }
-        ]
-      }
-    ]
+  "clientPreferencesData": {
+    "locale": "ro-RO",
+    "optinNewsLetter": false
   },
-  "paymentData": {
-    "giftCards": [
-      {
-        "redemptionCode": null,
-        "provider": "VtexGiftCard",
-        "value": 0,
-        "balance": 0,
-        "name": "loyalty-program",
-        "caption": null,
-        "id": "0594f091-5864-4353-ab5a-e05b656f6b1f_16",
-        "inUse": false,
-        "isSpecialCard": true,
-        "groupName": null
-      }
-    ],
-    "transactions": [
-      {
-        "isActive": true,
-        "transactionId": "B6A66FE4211445B38DE689101CD34133",
-        "merchantName": "AUCHAN",
-        "payments": [
-          {
-            "id": "8494A124A3FE42E484AFB1DBC887E422",
-            "paymentSystem": "204",
-            "paymentSystemName": "Plata Ramburs",
-            "value": 16851,
-            "installments": 1,
-            "connectorResponses": {},
-            "referenceValue": 16851,
-            "cardHolder": null,
-            "cardNumber": null,
-            "firstDigits": null,
-            "lastDigits": null,
-            "cvv2": null,
-            "expireMonth": null,
-            "expireYear": null,
-            "url": null,
-            "koinUrl": null,
-            "tid": null,
-            "redemptionCode": null,
-            "giftCardId": null,
-            "giftCardProvider": null,
-            "giftCardAsDiscount": null,
-            "group": "promissory",
-            "dueDate": null,
-            "accountId": null,
-            "parentAccountId": null,
-            "bankIssuedInvoiceIdentificationNumber": null,
-            "bankIssuedInvoiceIdentificationNumberFormatted": null,
-            "bankIssuedInvoiceBarCodeNumber": null,
-            "bankIssuedInvoiceBarCodeType": null,
-            "billingAddress": null
-          }
-        ],
-        "sharedTransaction": false
-      }
-    ]
-  },
-  "clientPreferencesData": null,
   "commercialConditionData": null,
   "marketingData": null,
   "storePreferencesData": {
@@ -2513,42 +401,98 @@
       "startsWithCurrencySymbol": false
     }
   },
-  "openTextField": {
-    "value": "G**** | T******** | 6********"
-  },
-  "invoiceData": null,
+  "openTextField": null,
   "itemMetadata": null,
   "taxData": null,
   "customData": {
     "customApps": [
       {
         "fields": {
-          "storeId": "",
-          "partnerName": "Glovo",
-          "partnerOrderId": "TMK12FTGL",
-          "partnerOrderJson": "{\\\"order_id\\\":\\\"690653054\\\",\\\"store_id\\\":\\\"00007\\\",\\\"order_time\\\":\\\"2023-09-05 14:11:35\\\",\\\"estimated_pickup_time\\\":\\\"2023-09-05 14:37:35\\\",\\\"payment_method\\\":\\\"DELAYED\\\",\\\"currency\\\":\\\"RON\\\",\\\"courier\\\":{\\\"name\\\":null,\\\"phone_number\\\":null},\\\"customer\\\":{\\\"name\\\":\\\"Sara\\\",\\\"phone_number\\\":\\\"+40745512590\\\",\\\"hash\\\":\\\"9d01ef0d-db4a-3f99-9770-b8f9d1bca958\\\",\\\"invoicing_details\\\":null},\\\"order_code\\\":\\\"TMK12FTGL\\\",\\\"allergy_info\\\":\\\"\\\",\\\"estimated_total_price\\\":16851,\\\"delivery_fee\\\":null,\\\"minimum_basket_surcharge\\\":null,\\\"utc_offset_minutes\\\":\\\"180\\\",\\\"customer_cash_payment_amount\\\":null,\\\"products\\\":[{\\\"quantity\\\":1,\\\"price\\\":1190,\\\"name\\\":\\\"Inlocuitor de sare Kalas 250 g\\\",\\\"id\\\":\\\"309062\\\",\\\"attributes\\\":[],\\\"purchased_product_id\\\":\\\"MTAzNDM0MzM3NDcy\\\"},{\\\"quantity\\\":1,\\\"price\\\":1800,\\\"name\\\":\\\"Suc natural de mere Auchan, 3 l\\\",\\\"id\\\":\\\"471765\\\",\\\"attributes\\\":[],\\\"purchased_product_id\\\":\\\"MTAzNDM0MzM3NDY5\\\"},{\\\"quantity\\\":1,\\\"price\\\":1800,\\\"name\\\":\\\"Pink Ginger Haj, 190 g\\\",\\\"id\\\":\\\"342175\\\",\\\"attributes\\\":[],\\\"purchased_product_id\\\":\\\"MTAzNDM0MzM3NDc4\\\"},{\\\"quantity\\\":1,\\\"price\\\":954,\\\"name\\\":\\\"Tofu in saramura Inedit 300 g\\\",\\\"id\\\":\\\"121378\\\",\\\"attributes\\\":[],\\\"purchased_product_id\\\":\\\"MTAzNDM0MzM3NDc0\\\"},{\\\"quantity\\\":1,\\\"price\\\":954,\\\"name\\\":\\\"Tofu in saramura Inedit cu marar 300 g\\\",\\\"id\\\":\\\"272599\\\",\\\"attributes\\\":[],\\\"purchased_product_id\\\":\\\"MTAzNDM0MzM3NDc1\\\"},{\\\"quantity\\\":1,\\\"price\\\":540,\\\"name\\\":\\\"Lapte de consum Auchan, 3.5% grasime, 1 l\\\",\\\"id\\\":\\\"831585\\\",\\\"attributes\\\":[],\\\"purchased_product_id\\\":\\\"MTAzNDM0MzM3NDcz\\\"},{\\\"quantity\\\":1,\\\"price\\\":1450,\\\"name\\\":\\\"Branza de vaca burrata Deliziosa, 100 g\\\",\\\"id\\\":\\\"713286\\\",\\\"attributes\\\":[],\\\"purchased_product_id\\\":\\\"MTAzNDM0MzM3NDc2\\\"},{\\\"quantity\\\":1,\\\"price\\\":550,\\\"name\\\":\\\"Paine din faina dietetica-integrala de grau Vel Pitar, feliata, 500 g\\\",\\\"id\\\":\\\"218971\\\",\\\"attributes\\\":[],\\\"purchased_product_id\\\":\\\"MTAzNDM0MzM3NDgx\\\"},{\\\"quantity\\\":1,\\\"price\\\":249,\\\"name\\\":\\\"Gulii la bucata\\\",\\\"id\\\":\\\"036084\\\",\\\"attributes\\\":[],\\\"purchased_product_id\\\":\\\"MTAzNDM0MzM3NDcx\\\"},{\\\"quantity\\\":2,\\\"price\\\":395,\\\"name\\\":\\\"Rondele cu usturoi Bake Rolls 7 Days, 80 g\\\",\\\"id\\\":\\\"144962\\\",\\\"attributes\\\":[],\\\"purchased_product_id\\\":\\\"MTAzNDM0MzM3NDc5\\\"},{\\\"quantity\\\":2,\\\"price\\\":350,\\\"name\\\":\\\"Pasta vegetala Auchan 200 g\\\",\\\"id\\\":\\\"867293\\\",\\\"attributes\\\":[],\\\"purchased_product_id\\\":\\\"MTAzNDM0MzM3NDc3\\\"},{\\\"quantity\\\":2,\\\"price\\\":388,\\\"name\\\":\\\"Apa carbogazoasa minerala naturala Dorna, 2 l\\\",\\\"id\\\":\\\"206815\\\",\\\"attributes\\\":[],\\\"purchased_product_id\\\":\\\"MTAzNDM0MzM3NDgy\\\"},{\\\"quantity\\\":2,\\\"price\\\":359,\\\"name\\\":\\\"Pate cu ficat de porc Bucegi, 120g\\\",\\\"id\\\":\\\"492254\\\",\\\"attributes\\\":[],\\\"purchased_product_id\\\":\\\"MTAzNDM0MzM3NDgw\\\"},{\\\"quantity\\\":4,\\\"price\\\":365,\\\"name\\\":\\\"Bere blonda fara alcool Bergenbier, 0.5 l\\\",\\\"id\\\":\\\"000457\\\",\\\"attributes\\\":[],\\\"purchased_product_id\\\":\\\"MTAzNDM0MzM3NDcw\\\"},{\\\"quantity\\\":8,\\\"price\\\":365,\\\"name\\\":\\\"Apa plata Dorna Izvorul Alb, 2 l\\\",\\\"id\\\":\\\"015023\\\",\\\"attributes\\\":[],\\\"purchased_product_id\\\":\\\"MTAzNDM0MzM3NDY4\\\"}],\\\"delivery_address\\\":null,\\\"bundled_orders\\\":[],\\\"pick_up_code\\\":\\\"904\\\",\\\"is_picked_up_by_customer\\\":false,\\\"cutlery_requested\\\":false,\\\"partner_discounts_products\\\":0,\\\"partner_discounted_products_total\\\":16851,\\\"total_customer_to_pay\\\":null,\\\"loyalty_card\\\":null,\\\"special_requirements\\\":null,\\\"clientStoreId\\\":\\\"00007\\\"}"
+          "salesman_email": "a****.a********************.c**"
         },
-        "id": "partnerinformation",
-        "major": 1
-      },
-      {
-        "fields": {
-          "loy_client_code": null
-        },
-        "id": "comarch-simulation",
+        "id": "macromexclient",
         "major": 1
       }
     ]
   },
   "hooksData": null,
-  "changeData": null,
+  "changeData": {
+    "changesData": [
+      {
+        "reason": "test",
+        "discountValue": 95,
+        "incrementValue": 0,
+        "itemsAdded": [],
+        "itemsRemoved": [
+          {
+            "id": "1524",
+            "name": "t*******",
+            "quantity": 1,
+            "price": 95,
+            "unitMultiplier": 1,
+            "measurementUnit": "un",
+            "imageUrl": "https://mcxhoreca.vteximg.com.br/arquivos/ids/167919-55-55/image-a4e475e67a844f6fa065c531b6c8ad1c.jpg?v=638483602655330000"
+          }
+        ],
+        "receipt": {
+          "orderId": "1467320759703-01",
+          "date": "2024-10-07T12:15:05.6566579Z",
+          "receipt": "aa3a5e1c-85c2-4504-84ea-6ad115a5df79"
+        }
+      },
+      {
+        "reason": "test",
+        "discountValue": 95,
+        "incrementValue": 0,
+        "itemsAdded": [],
+        "itemsRemoved": [
+          {
+            "id": "1524",
+            "name": "t*******",
+            "quantity": 1,
+            "price": 95,
+            "unitMultiplier": 1,
+            "measurementUnit": "un",
+            "imageUrl": "https://mcxhoreca.vteximg.com.br/arquivos/ids/167919-55-55/image-a4e475e67a844f6fa065c531b6c8ad1c.jpg?v=638483602655330000"
+          }
+        ],
+        "receipt": {
+          "orderId": "1467320759703-01",
+          "date": "2024-10-07T12:17:09.2329319Z",
+          "receipt": "d47b2fc7-961c-4256-b1a7-ede15d3576c2"
+        }
+      },
+      {
+        "reason": "test",
+        "discountValue": 95,
+        "incrementValue": 0,
+        "itemsAdded": [],
+        "itemsRemoved": [
+          {
+            "id": "1524",
+            "name": "t*******",
+            "quantity": 1,
+            "price": 95,
+            "unitMultiplier": 1,
+            "measurementUnit": "un",
+            "imageUrl": "https://mcxhoreca.vteximg.com.br/arquivos/ids/167919-55-55/image-a4e475e67a844f6fa065c531b6c8ad1c.jpg?v=638483602655330000"
+          }
+        ],
+        "receipt": {
+          "orderId": "1467320759703-01",
+          "date": "2024-10-07T12:17:43.4384423Z",
+          "receipt": "40980e87-e668-43ac-a194-159ce2941c8a"
+        }
+      }
+    ]
+  },
   "subscriptionData": null,
-  "salesChannel": "2",
-  "followUpEmail": "27690f200dde4cf9a7771fc4deb5927b@ct.vtex.com.br",
-  "creationDate": "2023-09-05T11:11:38.6243164Z",
-  "lastChange": "2023-09-05T11:15:01.9223332Z",
-  "timeZoneCreationDate": "2023-09-05T14:11:38.6243164",
-  "timeZoneLastChange": "2023-09-05T14:15:01.9223332",
+  "salesChannel": "1",
+  "followUpEmail": "2**********************************.v***.c**.b*",
+  "creationDate": "2024-10-07T11:32:36.544966Z",
+  "lastChange": "2024-10-08T05:33:32.9096583Z",
+  "timeZoneCreationDate": "2024-10-07T14:32:36.544966",
+  "timeZoneLastChange": "2024-10-08T08:33:32.9096583",
   "isCompleted": true,
   "merchantName": null,
   "userType": "",
@@ -2559,21 +503,21 @@
   "allowChangeSeller": false,
   "cancellationData": {
     "requestedByUser": false,
-    "reason": "Customer has cancelled the order",
-    "cancellationDate": "2023-09-05T11:14:58.4039138Z"
+    "reason": "anulat - test",
+    "cancellationDate": "2024-10-08T05:33:30.290066Z"
   },
   "_accountInfo": {
-    "MainAccountName": "auchan",
-    "AccountName": "auchan",
-    "Cnpj": "1",
-    "Id": "74b18c2b-99b1-431c-a01f-6726c2b8b09e",
+    "MainAccountName": "m********",
+    "AccountName": "m********",
+    "Cnpj": "5052558",
+    "Id": "6ca56cf1-cdff-47f6-9365-64f86ad3614f",
     "AppId": null,
     "IsActive": true,
     "IsOperating": true,
-    "CreationDate": "2022-01-11T16:58:31.4223212Z",
-    "OperationDate": "2022-10-20T10:45:19.9131988+00:00",
-    "CompanyName": "VTEX Ecommerce Platform Limited",
-    "TradingName": "Auchan Romania",
+    "CreationDate": "2021-02-04T18:59:56",
+    "OperationDate": "2021-08-17T13:52:16.2914662+00:00",
+    "CompanyName": "M***********",
+    "TradingName": "B*****",
     "City": null,
     "Complement": null,
     "Country": null,
@@ -2589,6 +533,7 @@
     "Platform": "vtex",
     "Privacy": null,
     "HasPiiRestriction": false,
-    "Infra": null
+    "Infra": null,
+    "Sponsor": "f8a246b4-71f7-424e-b8f5-63164555b86e"
   }
 }
