@@ -1,0 +1,42 @@
+{
+  "data": {
+    "targetEmail": "p**************.c**",
+    "name": "M************",
+    "phone": "0*********",
+    "email": "p********@y****.c**",
+    "companyCui": "RO8998020",
+    "companyName": "P************",
+    "companyAddress": "JUD. BACĂU, MUN. BACĂU, ALEEA GHIOCEILOR, NR.21, BL.21, SC.A, ET.1, AP.5",
+    "companyCode": "MD51584"
+  },
+  "_accountInfo": {
+    "MainAccountName": "m********",
+    "AccountName": "m********",
+    "Cnpj": "5052558",
+    "Id": "6ca56cf1-cdff-47f6-9365-64f86ad3614f",
+    "AppId": null,
+    "IsActive": true,
+    "IsOperating": true,
+    "CreationDate": "2021-02-04T18:59:56",
+    "OperationDate": "2021-08-17T13:52:16.2914662+00:00",
+    "CompanyName": "M***********",
+    "TradingName": "B*****",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [7],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null,
+    "Sponsor": "f8a246b4-71f7-424e-b8f5-63164555b86e"
+  }
+}
