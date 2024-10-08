@@ -3,27 +3,49 @@
     "items": [
       {
         "itemIndex": 0,
-        "quantity": 10,
-        "price": 720,
+        "quantity": 1,
+        "price": 7469,
         "description": null,
         "unitMultiplier": 0
       },
       {
         "itemIndex": 1,
         "quantity": 1,
-        "price": 429,
+        "price": 7566,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 2,
+        "quantity": 1,
+        "price": 7566,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 3,
+        "quantity": 1,
+        "price": 49234,
+        "description": null,
+        "unitMultiplier": 0
+      },
+      {
+        "itemIndex": 4,
+        "quantity": 12,
+        "price": 2425,
         "description": null,
         "unitMultiplier": 0
       }
     ],
-    "courier": "CARGUS",
-    "invoiceNumber": "ONL0053267",
-    "invoiceValue": 11070,
-    "invoiceUrl": "h*************.d*****.n********************************************************************************",
-    "issuanceDate": "2023-09-04T00:00:00",
-    "trackingNumber": "1038851178",
+    "courier": "",
+    "invoiceNumber": "ABU-01479012",
+    "description": null,
+    "invoiceValue": 116361,
+    "invoiceUrl": "h**********.b*****.r***********************************************",
+    "issuanceDate": "2024-10-08T00:00:00",
+    "trackingNumber": "",
     "invoiceKey": null,
-    "trackingUrl": null,
+    "trackingUrl": "",
     "embeddedInvoice": "",
     "type": "Output",
     "courierStatus": null,
@@ -33,73 +55,650 @@
     "EnableInferItems": null
   },
   "subjectItemAttachment": {
-    "item": "Cub hartie Dacline l...",
-    "totalItems": 11,
-    "extraItems": 10
+    "item": "Carne la garnita 700...",
+    "totalItems": 16,
+    "extraItems": 15
   },
   "cancellationReason": null,
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "F41D522E7A8C4358AC88BAAE5D0466D1",
+        "merchantName": "M********",
+        "payments": [
+          {
+            "id": "5040DD9CA7484EE990E496D9A33BCA24",
+            "paymentSystem": "202",
+            "paymentSystemName": "P*********************",
+            "value": 110019,
+            "installments": 1,
+            "referenceValue": 110019,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": null,
+            "lastDigits": null,
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "giftCardId": null,
+            "giftCardName": null,
+            "giftCardCaption": null,
+            "redemptionCode": null,
+            "group": "promissory",
+            "tid": null,
+            "dueDate": null,
+            "connectorResponses": {},
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "koinUrl": null,
+            "accountId": null,
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": null,
+            "paymentOrigin": null
+          }
+        ]
+      }
+    ]
+  },
+  "cancellationRequests": null,
+  "invoiceData": null,
+  "clientProfileData": {
+    "id": "clientProfileData",
+    "email": "c*******.s*******@g****.c****************.c*.v***.c**.b*",
+    "firstName": "S*****",
+    "lastName": "C*******",
+    "documentType": "",
+    "document": null,
+    "phone": "0*********",
+    "corporateName": "E***** R*** S**",
+    "tradeName": "B*******",
+    "corporateDocument": "R*********",
+    "stateInscription": null,
+    "corporatePhone": "0741285044",
+    "isCorporate": true,
+    "userProfileId": "a8e9a632-1ac2-47bb-844c-2434976eeac9",
+    "userProfileVersion": null,
+    "customerClass": null,
+    "customerCode": null
+  },
+  "shippingData": {
+    "id": "shippingData",
+    "address": {
+      "addressType": "residential",
+      "receiverName": "E***** R*** S*** A*****",
+      "addressId": "BU055698-00",
+      "versionId": null,
+      "entityId": null,
+      "postalCode": "0*****",
+      "city": "B******** (******** 6*",
+      "state": "BUCUREŞTI",
+      "country": "ROU",
+      "street": "S** B***** (**** C* D* T*****",
+      "number": "-",
+      "neighborhood": null,
+      "complement": "N* 2** S****** D**** A*****",
+      "reference": "B**********",
+      "geoCoordinates": [-51.4779552, -0.0039779]
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "itemId": "373",
+        "selectedDeliveryChannel": "delivery",
+        "selectedSla": "Livrat de Macromex",
+        "lockTTL": "13d",
+        "price": 0,
+        "listPrice": 0,
+        "sellingPrice": 0,
+        "deliveryWindow": {
+          "startDateUtc": "2024-10-08T00:00:00+00:00",
+          "endDateUtc": "2024-10-08T17:00:59+00:00",
+          "price": 0
+        },
+        "deliveryCompany": null,
+        "shippingEstimate": "1bd",
+        "shippingEstimateDate": "2024-10-08T00:00:00",
+        "slas": [
+          {
+            "id": "Livrat de Macromex",
+            "name": "L*****************",
+            "shippingEstimate": "1bd",
+            "shippingEstimateDate": "2024-10-08T00:00:00",
+            "deliveryWindow": {
+              "startDateUtc": "2024-10-08T00:00:00+00:00",
+              "endDateUtc": "2024-10-08T17:00:59+00:00",
+              "price": 0
+            },
+            "availableDeliveryWindows": [],
+            "deliveryIds": [
+              {
+                "courierId": "PE_BU_t",
+                "courierName": "P******",
+                "dockId": "CD_BU",
+                "quantity": 1,
+                "warehouseId": "warehouse_64",
+                "accountCarrierName": "m*******",
+                "kitItemDetails": []
+              }
+            ],
+            "listPrice": 0,
+            "price": 0,
+            "deliveryChannel": "delivery",
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "polygonName": "",
+            "lockTTL": "13d",
+            "pickupPointId": null,
+            "transitTime": "0bd",
+            "pickupDistance": null
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "deliveryIds": [
+          {
+            "courierId": "PE_BU_t",
+            "courierName": "P******",
+            "dockId": "CD_BU",
+            "quantity": 1,
+            "warehouseId": "warehouse_64",
+            "accountCarrierName": "m*******",
+            "kitItemDetails": []
+          }
+        ],
+        "deliveryChannels": [
+          {
+            "id": "delivery",
+            "stockBalance": 0
+          }
+        ],
+        "deliveryChannel": null,
+        "pickupStoreInfo": {
+          "additionalInfo": null,
+          "address": null,
+          "dockId": null,
+          "friendlyName": null,
+          "isPickupStore": false
+        },
+        "addressId": "BU055698-00",
+        "versionId": null,
+        "entityId": null,
+        "polygonName": "",
+        "pickupPointId": null,
+        "transitTime": "0bd"
+      },
+      {
+        "itemIndex": 1,
+        "itemId": "374",
+        "selectedDeliveryChannel": "delivery",
+        "selectedSla": "Livrat de Macromex",
+        "lockTTL": "13d",
+        "price": 0,
+        "listPrice": 0,
+        "sellingPrice": 0,
+        "deliveryWindow": {
+          "startDateUtc": "2024-10-08T00:00:00+00:00",
+          "endDateUtc": "2024-10-08T17:00:59+00:00",
+          "price": 0
+        },
+        "deliveryCompany": null,
+        "shippingEstimate": "1bd",
+        "shippingEstimateDate": "2024-10-08T00:00:00",
+        "slas": [
+          {
+            "id": "Livrat de Macromex",
+            "name": "L*****************",
+            "shippingEstimate": "1bd",
+            "shippingEstimateDate": "2024-10-08T00:00:00",
+            "deliveryWindow": {
+              "startDateUtc": "2024-10-08T00:00:00+00:00",
+              "endDateUtc": "2024-10-08T17:00:59+00:00",
+              "price": 0
+            },
+            "availableDeliveryWindows": [],
+            "deliveryIds": [
+              {
+                "courierId": "PE_BU_t",
+                "courierName": "P******",
+                "dockId": "CD_BU",
+                "quantity": 1,
+                "warehouseId": "warehouse_64",
+                "accountCarrierName": "m*******",
+                "kitItemDetails": []
+              }
+            ],
+            "listPrice": 0,
+            "price": 0,
+            "deliveryChannel": "delivery",
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "polygonName": "",
+            "lockTTL": "13d",
+            "pickupPointId": null,
+            "transitTime": "0bd",
+            "pickupDistance": null
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "deliveryIds": [
+          {
+            "courierId": "PE_BU_t",
+            "courierName": "P******",
+            "dockId": "CD_BU",
+            "quantity": 1,
+            "warehouseId": "warehouse_64",
+            "accountCarrierName": "m*******",
+            "kitItemDetails": []
+          }
+        ],
+        "deliveryChannels": [
+          {
+            "id": "delivery",
+            "stockBalance": 0
+          }
+        ],
+        "deliveryChannel": null,
+        "pickupStoreInfo": {
+          "additionalInfo": null,
+          "address": null,
+          "dockId": null,
+          "friendlyName": null,
+          "isPickupStore": false
+        },
+        "addressId": "BU055698-00",
+        "versionId": null,
+        "entityId": null,
+        "polygonName": "",
+        "pickupPointId": null,
+        "transitTime": "0bd"
+      },
+      {
+        "itemIndex": 2,
+        "itemId": "371",
+        "selectedDeliveryChannel": "delivery",
+        "selectedSla": "Livrat de Macromex",
+        "lockTTL": "13d",
+        "price": 0,
+        "listPrice": 0,
+        "sellingPrice": 0,
+        "deliveryWindow": {
+          "startDateUtc": "2024-10-08T00:00:00+00:00",
+          "endDateUtc": "2024-10-08T17:00:59+00:00",
+          "price": 0
+        },
+        "deliveryCompany": null,
+        "shippingEstimate": "1bd",
+        "shippingEstimateDate": "2024-10-08T00:00:00",
+        "slas": [
+          {
+            "id": "Livrat de Macromex",
+            "name": "L*****************",
+            "shippingEstimate": "1bd",
+            "shippingEstimateDate": "2024-10-08T00:00:00",
+            "deliveryWindow": {
+              "startDateUtc": "2024-10-08T00:00:00+00:00",
+              "endDateUtc": "2024-10-08T17:00:59+00:00",
+              "price": 0
+            },
+            "availableDeliveryWindows": [],
+            "deliveryIds": [
+              {
+                "courierId": "PE_BU_t",
+                "courierName": "P******",
+                "dockId": "CD_BU",
+                "quantity": 1,
+                "warehouseId": "warehouse_64",
+                "accountCarrierName": "m*******",
+                "kitItemDetails": []
+              }
+            ],
+            "listPrice": 0,
+            "price": 0,
+            "deliveryChannel": "delivery",
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "polygonName": "",
+            "lockTTL": "13d",
+            "pickupPointId": null,
+            "transitTime": "0bd",
+            "pickupDistance": null
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "deliveryIds": [
+          {
+            "courierId": "PE_BU_t",
+            "courierName": "P******",
+            "dockId": "CD_BU",
+            "quantity": 1,
+            "warehouseId": "warehouse_64",
+            "accountCarrierName": "m*******",
+            "kitItemDetails": []
+          }
+        ],
+        "deliveryChannels": [
+          {
+            "id": "delivery",
+            "stockBalance": 0
+          }
+        ],
+        "deliveryChannel": null,
+        "pickupStoreInfo": {
+          "additionalInfo": null,
+          "address": null,
+          "dockId": null,
+          "friendlyName": null,
+          "isPickupStore": false
+        },
+        "addressId": "BU055698-00",
+        "versionId": null,
+        "entityId": null,
+        "polygonName": "",
+        "pickupPointId": null,
+        "transitTime": "0bd"
+      },
+      {
+        "itemIndex": 3,
+        "itemId": "760",
+        "selectedDeliveryChannel": "delivery",
+        "selectedSla": "Livrat de Macromex",
+        "lockTTL": "13d",
+        "price": 0,
+        "listPrice": 0,
+        "sellingPrice": 0,
+        "deliveryWindow": {
+          "startDateUtc": "2024-10-08T00:00:00+00:00",
+          "endDateUtc": "2024-10-08T17:00:59+00:00",
+          "price": 0
+        },
+        "deliveryCompany": null,
+        "shippingEstimate": "1bd",
+        "shippingEstimateDate": "2024-10-08T00:00:00",
+        "slas": [
+          {
+            "id": "Livrat de Macromex",
+            "name": "L*****************",
+            "shippingEstimate": "1bd",
+            "shippingEstimateDate": "2024-10-08T00:00:00",
+            "deliveryWindow": {
+              "startDateUtc": "2024-10-08T00:00:00+00:00",
+              "endDateUtc": "2024-10-08T17:00:59+00:00",
+              "price": 0
+            },
+            "availableDeliveryWindows": [],
+            "deliveryIds": [
+              {
+                "courierId": "PE_BU_t",
+                "courierName": "P******",
+                "dockId": "CD_BU",
+                "quantity": 1,
+                "warehouseId": "warehouse_64",
+                "accountCarrierName": "m*******",
+                "kitItemDetails": []
+              }
+            ],
+            "listPrice": 0,
+            "price": 0,
+            "deliveryChannel": "delivery",
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "polygonName": "",
+            "lockTTL": "13d",
+            "pickupPointId": null,
+            "transitTime": "0bd",
+            "pickupDistance": null
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "deliveryIds": [
+          {
+            "courierId": "PE_BU_t",
+            "courierName": "P******",
+            "dockId": "CD_BU",
+            "quantity": 1,
+            "warehouseId": "warehouse_64",
+            "accountCarrierName": "m*******",
+            "kitItemDetails": []
+          }
+        ],
+        "deliveryChannels": [
+          {
+            "id": "delivery",
+            "stockBalance": 0
+          }
+        ],
+        "deliveryChannel": null,
+        "pickupStoreInfo": {
+          "additionalInfo": null,
+          "address": null,
+          "dockId": null,
+          "friendlyName": null,
+          "isPickupStore": false
+        },
+        "addressId": "BU055698-00",
+        "versionId": null,
+        "entityId": null,
+        "polygonName": "",
+        "pickupPointId": null,
+        "transitTime": "0bd"
+      },
+      {
+        "itemIndex": 4,
+        "itemId": "1158",
+        "selectedDeliveryChannel": "delivery",
+        "selectedSla": "Livrat de Macromex",
+        "lockTTL": "13d",
+        "price": 0,
+        "listPrice": 0,
+        "sellingPrice": 0,
+        "deliveryWindow": {
+          "startDateUtc": "2024-10-08T00:00:00+00:00",
+          "endDateUtc": "2024-10-08T17:00:59+00:00",
+          "price": 0
+        },
+        "deliveryCompany": null,
+        "shippingEstimate": "1bd",
+        "shippingEstimateDate": "2024-10-08T00:00:00",
+        "slas": [
+          {
+            "id": "Livrat de Macromex",
+            "name": "L*****************",
+            "shippingEstimate": "1bd",
+            "shippingEstimateDate": "2024-10-08T00:00:00",
+            "deliveryWindow": {
+              "startDateUtc": "2024-10-08T00:00:00+00:00",
+              "endDateUtc": "2024-10-08T17:00:59+00:00",
+              "price": 0
+            },
+            "availableDeliveryWindows": [],
+            "deliveryIds": [
+              {
+                "courierId": "PE_BU_t",
+                "courierName": "P******",
+                "dockId": "CD_BU",
+                "quantity": 12,
+                "warehouseId": "warehouse_64",
+                "accountCarrierName": "m*******",
+                "kitItemDetails": []
+              }
+            ],
+            "listPrice": 0,
+            "price": 0,
+            "deliveryChannel": "delivery",
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "polygonName": "",
+            "lockTTL": "13d",
+            "pickupPointId": null,
+            "transitTime": "0bd",
+            "pickupDistance": null
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "deliveryIds": [
+          {
+            "courierId": "PE_BU_t",
+            "courierName": "P******",
+            "dockId": "CD_BU",
+            "quantity": 12,
+            "warehouseId": "warehouse_64",
+            "accountCarrierName": "m*******",
+            "kitItemDetails": []
+          }
+        ],
+        "deliveryChannels": [
+          {
+            "id": "delivery",
+            "stockBalance": 0
+          }
+        ],
+        "deliveryChannel": null,
+        "pickupStoreInfo": {
+          "additionalInfo": null,
+          "address": null,
+          "dockId": null,
+          "friendlyName": null,
+          "isPickupStore": false
+        },
+        "addressId": "BU055698-00",
+        "versionId": null,
+        "entityId": null,
+        "polygonName": "",
+        "pickupPointId": null,
+        "transitTime": "0bd"
+      }
+    ],
+    "trackingHints": [],
+    "selectedAddresses": [
+      {
+        "addressId": "BU055698-00",
+        "versionId": null,
+        "entityId": null,
+        "addressType": "residential",
+        "receiverName": "E***** R*** S*** A*****",
+        "street": "S** B***** (**** C* D* T*****",
+        "number": "-",
+        "complement": "N* 2** S****** D**** A*****",
+        "neighborhood": null,
+        "postalCode": "0*****",
+        "city": "B******** (******** 6*",
+        "state": "BUCUREŞTI",
+        "country": "ROU",
+        "reference": "B**********",
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressId": "BU055698-00",
+        "versionId": null,
+        "entityId": null,
+        "addressType": "residential",
+        "receiverName": "E***** R*** S*** A*****",
+        "street": "S** B***** (**** C* D* T*****",
+        "number": "-",
+        "complement": "N* 2** S****** D**** A*****",
+        "neighborhood": null,
+        "postalCode": "0*****",
+        "city": "B******** (******** 6*",
+        "state": "BUCUREŞTI",
+        "country": "ROU",
+        "reference": "B**********",
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "contactInformation": []
+  },
   "items": [
     {
       "additionalInfo": {
-        "categoriesIds": "/250/4/60/",
-        "productClusterId": "137,203,272,273,280,345,392,403,422,440,443,460,505,575,627,719,749,789",
+        "categoriesIds": "/101/10103/1010302/",
+        "productClusterId": "160,215,216,217,220,224",
         "commercialConditionId": "1",
         "dimension": {
-          "cubicweight": 0.0771,
-          "height": 3.7,
-          "length": 10,
-          "weight": 10,
-          "width": 10
+          "cubicweight": 0.0002,
+          "height": 1,
+          "length": 1,
+          "weight": 1.04,
+          "width": 1
         },
-        "brandName": "Dacris",
-        "brandId": "2000068",
+        "brandName": "D*******",
+        "brandId": "22",
         "offeringInfo": null,
         "offeringType": null,
         "offeringTypeId": null
       },
-      "sellerSku": "4488",
+      "sellerSku": "446",
       "priceTable": null,
-      "priceValidUntil": "2024-09-04T08:13:31Z",
+      "priceValidUntil": "2025-10-03T14:09:02Z",
       "callCenterOperator": null,
       "commission": 0,
       "freightCommission": 0,
       "taxCode": "",
-      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:dacris:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/4488",
-      "uniqueId": "5488768C2BF24500B9884B01FA885823",
-      "id": "4488",
-      "productId": "4487",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:mcxhoreca:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/373",
+      "uniqueId": "0FC2C6A478A44EABA784E774AB5AEE71",
+      "id": "373",
+      "productId": "362",
       "productRefId": "",
-      "refId": "DIB990CAL",
-      "ean": "5948772013239",
-      "name": "Cub hartie Dacline lipit 9 x 9 cm 500 file alb",
-      "skuName": "Cub hartie Dacline lipit 9 x 9 cm 500 file alb",
+      "refId": "CO77430",
+      "ean": "5411916568822",
+      "name": "A********************************************************************************",
+      "skuName": "A****************************************",
       "modalType": null,
       "parentItemIndex": null,
       "parentAssemblyBinding": null,
       "assemblies": [],
-      "tax": 184,
-      "price": 900,
-      "listPrice": 900,
+      "tax": 672,
+      "price": 770,
+      "listPrice": 770,
       "manualPrice": null,
       "manualPriceAppliedBy": null,
-      "sellingPrice": 720,
+      "sellingPrice": 7469,
       "rewardValue": 0,
       "isGift": false,
       "preSaleDate": null,
-      "productCategoryIds": "/250/4/60/",
+      "productCategoryIds": "/101/10103/1010302/",
       "productCategories": {
-        "4": "Hartie si articole din hartie",
-        "12": "Produse pentru scoala",
-        "60": "Notite adezive si cuburi",
-        "250": "Articole de birou",
-        "287": "Caiete scolare si hartie",
-        "294": "Notite si cuburi din hartie"
+        "101": "Ingrediente pentru gatit",
+        "10103": "Legume si fructe",
+        "1010302": "Mixuri de legume"
       },
-      "quantity": 10,
-      "seller": "1",
-      "sellerChain": ["1"],
-      "imageUrl": "http://dacris.vteximg.com.br/arquivos/ids/156027-80-80/DIB990CAL.jpg?v=636547152133900000",
-      "detailUrl": "/cub-notite-alb-lipit-neadeziv-dacline-500-file/p",
+      "quantity": 1,
+      "seller": "macromex",
+      "sellerChain": ["macromex"],
+      "imageUrl": "https://mcxhoreca.vteximg.com.br/arquivos/ids/165675-55-55/AM-MEXICAN-2-5-KG-UV-10-KG-CO77430-2.jpg?v=637647079950470000",
+      "detailUrl": "/amestec-legume-in-stil-mexican-2-5kg-co77430/p",
       "components": [],
       "bundleItems": [],
       "attachments": [],
@@ -107,103 +706,93 @@
       "offerings": [],
       "priceTags": [
         {
-          "name": "tax@price-64809a24-afcb-45af-82da-632f721fb168#d9f47421-7aa9-4637-883e-a50df877d7b6",
-          "value": 19,
-          "rawValue": 0.19,
+          "name": "t**********************************************************************************",
+          "value": 9,
+          "rawValue": 0.09,
           "isPercentual": true,
-          "identifier": "64809a24-afcb-45af-82da-632f721fb168"
+          "identifier": null
         },
         {
-          "name": "tax@price-93fdeac7-5e10-438d-99b1-92afaf9513e0#26f52ea9-dcdd-4dcd-b46f-231d2708ca49",
-          "value": 470,
-          "rawValue": 4.7,
+          "name": "d***************************************************************************************",
+          "value": -231,
+          "rawValue": -2.31,
           "isPercentual": false,
-          "identifier": "93fdeac7-5e10-438d-99b1-92afaf9513e0"
-        },
-        {
-          "name": "discount@price-146d39e5-d9aa-4a37-9424-b4ba7a9ab402#89d88f4b-e0ba-448e-9f00-33d1cccf1254",
-          "value": -1800,
-          "rawValue": -18,
-          "isPercentual": false,
-          "identifier": "146d39e5-d9aa-4a37-9424-b4ba7a9ab402"
+          "identifier": "ccd68685-c57c-4533-97c1-773cc6ce01d6"
         }
       ],
       "availability": "available",
-      "measurementUnit": "un",
-      "unitMultiplier": 1,
+      "measurementUnit": "kg",
+      "unitMultiplier": 10,
       "manufacturerCode": null,
       "priceDefinition": {
-        "calculatedSellingPrice": 720,
-        "total": 7200,
+        "calculatedSellingPrice": 7469,
+        "total": 7469,
         "sellingPrices": [
           {
-            "value": 720,
-            "quantity": 10
+            "value": 7469,
+            "quantity": 1
           }
         ]
       }
     },
     {
       "additionalInfo": {
-        "categoriesIds": "/250/2/36/",
-        "productClusterId": "137,203,210,220,272,273,280,332,373,403,417,443,456,559,565,575,614,622,719,732,749,752",
+        "categoriesIds": "/101/10103/1010301/",
+        "productClusterId": "160,215,216,217,220,224",
         "commercialConditionId": "1",
         "dimension": {
-          "cubicweight": 0.0142,
+          "cubicweight": 0.0002,
           "height": 1,
-          "length": 17,
-          "weight": 0.1,
-          "width": 4
+          "length": 1,
+          "weight": 2.6,
+          "width": 1
         },
-        "brandName": "Alte brand-uri",
-        "brandId": "2000014",
+        "brandName": ".",
+        "brandId": "2000000",
         "offeringInfo": null,
         "offeringType": null,
         "offeringTypeId": null
       },
-      "sellerSku": "1596",
+      "sellerSku": "441",
       "priceTable": null,
-      "priceValidUntil": "2024-09-04T08:14:32Z",
+      "priceValidUntil": "2025-10-03T14:09:12Z",
       "callCenterOperator": null,
       "commission": 0,
       "freightCommission": 0,
       "taxCode": "",
-      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:dacris:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/1596",
-      "uniqueId": "993C1C9E45124D98A7970938FDDA0A5B",
-      "id": "1596",
-      "productId": "1595",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:mcxhoreca:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/374",
+      "uniqueId": "5503195567594ADC80075B1116AF2758",
+      "id": "374",
+      "productId": "363",
       "productRefId": "",
-      "refId": "DFOARFECA",
-      "ean": null,
-      "name": "Foarfeca pentru birou 16 cm",
-      "skuName": "Foarfeca pentru birou 16 cm",
+      "refId": "CO768",
+      "ean": "5411916253827",
+      "name": "F******************************************************************",
+      "skuName": "F*********************************",
       "modalType": null,
       "parentItemIndex": null,
       "parentAssemblyBinding": null,
       "assemblies": [],
-      "tax": 104,
-      "price": 429,
-      "listPrice": 429,
+      "tax": 681,
+      "price": 1950,
+      "listPrice": 1950,
       "manualPrice": null,
       "manualPriceAppliedBy": null,
-      "sellingPrice": 429,
+      "sellingPrice": 7566,
       "rewardValue": 0,
       "isGift": false,
       "preSaleDate": null,
-      "productCategoryIds": "/250/2/36/",
+      "productCategoryIds": "/101/10103/1010301/",
       "productCategories": {
-        "2": "Accesorii de birou",
-        "12": "Produse pentru scoala",
-        "36": "Foarfece si cuttere",
-        "250": "Articole de birou",
-        "276": "Biroul de acasa",
-        "283": "Foarfece si cuttere"
+        "101": "Ingrediente pentru gatit",
+        "10103": "Legume si fructe",
+        "1010301": "Legume"
       },
       "quantity": 1,
-      "seller": "1",
-      "sellerChain": ["1"],
-      "imageUrl": "http://dacris.vteximg.com.br/arquivos/ids/205338-80-80/DFOARFECA.png?v=637412952879030000",
-      "detailUrl": "/foarfeca-16cm/p",
+      "seller": "macromex",
+      "sellerChain": ["macromex"],
+      "imageUrl": "https://mcxhoreca.vteximg.com.br/arquivos/ids/165677-55-55/FASOLE-FINA-2-5-KG-UV10-KG-CO7680-2.jpg?v=637647079966870000",
+      "detailUrl": "/fasole-verde-fina-intreaga-2-5kg-co768/p",
       "components": [],
       "bundleItems": [],
       "attachments": [],
@@ -211,31 +800,312 @@
       "offerings": [],
       "priceTags": [
         {
-          "name": "tax@price-64809a24-afcb-45af-82da-632f721fb168#d9f47421-7aa9-4637-883e-a50df877d7b6",
-          "value": 19,
-          "rawValue": 0.19,
+          "name": "t**********************************************************************************",
+          "value": 9,
+          "rawValue": 0.09,
           "isPercentual": true,
-          "identifier": "64809a24-afcb-45af-82da-632f721fb168"
+          "identifier": null
         },
         {
-          "name": "tax@price-93fdeac7-5e10-438d-99b1-92afaf9513e0#26f52ea9-dcdd-4dcd-b46f-231d2708ca49",
-          "value": 22,
-          "rawValue": 0.22,
+          "name": "d***************************************************************************************",
+          "value": -234,
+          "rawValue": -2.34,
           "isPercentual": false,
-          "identifier": "93fdeac7-5e10-438d-99b1-92afaf9513e0"
+          "identifier": "ccd68685-c57c-4533-97c1-773cc6ce01d6"
         }
       ],
       "availability": "available",
       "measurementUnit": "un",
+      "unitMultiplier": 4,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 7566,
+        "total": 7566,
+        "sellingPrices": [
+          {
+            "value": 7566,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/101/10103/1010301/",
+        "productClusterId": "160,215,216,217,220,224",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0.0002,
+          "height": 1,
+          "length": 1,
+          "weight": 2.6,
+          "width": 1
+        },
+        "brandName": "D*******",
+        "brandId": "22",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "439",
+      "priceTable": null,
+      "priceValidUntil": "2025-10-03T14:09:25Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:mcxhoreca:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/371",
+      "uniqueId": "595F2CD43DBB4EAB91E9E82BD7C89385",
+      "id": "371",
+      "productId": "875",
+      "productRefId": "",
+      "refId": "CO767",
+      "ean": "5411916302822",
+      "name": "M************************************",
+      "skuName": "M******************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 681,
+      "price": 1950,
+      "listPrice": 1950,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 7566,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/101/10103/1010301/",
+      "productCategories": {
+        "101": "Ingrediente pentru gatit",
+        "10103": "Legume si fructe",
+        "1010301": "Legume"
+      },
+      "quantity": 1,
+      "seller": "macromex",
+      "sellerChain": ["macromex"],
+      "imageUrl": "https://mcxhoreca.vteximg.com.br/arquivos/ids/165671-55-55/MAZARE-FINA-2-5-KG-DJ-CO767-2.jpg?v=637647079915400000",
+      "detailUrl": "/mazare-fina-2-5kg-co767/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "t**********************************************************************************",
+          "value": 9,
+          "rawValue": 0.09,
+          "isPercentual": true,
+          "identifier": null
+        },
+        {
+          "name": "d***************************************************************************************",
+          "value": -234,
+          "rawValue": -2.34,
+          "isPercentual": false,
+          "identifier": "ccd68685-c57c-4533-97c1-773cc6ce01d6"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 4,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 7566,
+        "total": 7566,
+        "sellingPrices": [
+          {
+            "value": 7566,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/102/10203/1020304/",
+        "productClusterId": "160,215,216,217,220,224,280",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0.0002,
+          "height": 1,
+          "length": 1,
+          "weight": 1.11,
+          "width": 1
+        },
+        "brandName": ".",
+        "brandId": "2000000",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "1072",
+      "priceTable": null,
+      "priceValidUntil": "2025-10-03T14:09:32Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:mcxhoreca:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/760",
+      "uniqueId": "82FEA47E70C64F7E9B452712A58C340E",
+      "id": "760",
+      "productId": "738",
+      "productRefId": "",
+      "refId": "MZ1010",
+      "ean": "0",
+      "name": "C********************************************",
+      "skuName": "C**********************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 4431,
+      "price": 4834,
+      "listPrice": 4834,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 49234,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/102/10203/1020304/",
+      "productCategories": {
+        "102": "Semipreparate si solutii",
+        "10203": "Semipreparate cu carne",
+        "1020304": "Mezeluri si preparate din carne"
+      },
+      "quantity": 1,
+      "seller": "macromex",
+      "sellerChain": ["macromex"],
+      "imageUrl": "https://mcxhoreca.vteximg.com.br/arquivos/ids/166314-55-55/TOCHITURACARNE-GARN-700-G-MZ1010-3-1.jpg?v=637647085609670000",
+      "detailUrl": "/carne-la-garnita-700g-mz1010/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "t**********************************************************************************",
+          "value": 9,
+          "rawValue": 0.09,
+          "isPercentual": true,
+          "identifier": null
+        },
+        {
+          "name": "d***************************************************************************************",
+          "value": -1523,
+          "rawValue": -15.23,
+          "isPercentual": false,
+          "identifier": "ccd68685-c57c-4533-97c1-773cc6ce01d6"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "kg",
+      "unitMultiplier": 10.5,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 49234,
+        "total": 49234,
+        "sellingPrices": [
+          {
+            "value": 49234,
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "additionalInfo": {
+        "categoriesIds": "/102/10201/",
+        "productClusterId": "160,260,322",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 0.0002,
+          "height": 1,
+          "length": 1,
+          "weight": 0.43,
+          "width": 1
+        },
+        "brandName": "E**********",
+        "brandId": "24",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "1743",
+      "priceTable": null,
+      "priceValidUntil": "2025-10-03T14:10:08Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:mcxhoreca:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/1158",
+      "uniqueId": "BBAE799D72FD4BDAB61419CC0F8AF34A",
+      "id": "1158",
+      "productId": "1149",
+      "productRefId": "",
+      "refId": "CO1643",
+      "ean": "5948710016310",
+      "name": "P****************************************************************************************************************",
+      "skuName": "P********************************************************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 218,
+      "price": 2500,
+      "listPrice": 2500,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 2425,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/102/10201/",
+      "productCategories": {
+        "102": "Semipreparate si solutii",
+        "10201": "Sous vide"
+      },
+      "quantity": 12,
+      "seller": "macromex",
+      "sellerChain": ["macromex"],
+      "imageUrl": "https://mcxhoreca.vteximg.com.br/arquivos/ids/167359-55-55/image-d35ddfd07a764c959b9d336dd9fb5417.jpg?v=638167489141830000",
+      "detailUrl": "/pulpa-rata-gatita-sous-vide-2-buc-x-180-190g-425g-edenia-chef-co1643/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "t**********************************************************************************",
+          "value": 9,
+          "rawValue": 0.09,
+          "isPercentual": true,
+          "identifier": null
+        },
+        {
+          "name": "d***************************************************************************************",
+          "value": -900,
+          "rawValue": -9,
+          "isPercentual": false,
+          "identifier": "ccd68685-c57c-4533-97c1-773cc6ce01d6"
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "um",
       "unitMultiplier": 1,
       "manufacturerCode": null,
       "priceDefinition": {
-        "calculatedSellingPrice": 429,
-        "total": 429,
+        "calculatedSellingPrice": 2425,
+        "total": 29100,
         "sellingPrices": [
           {
-            "value": 429,
-            "quantity": 1
+            "value": 2425,
+            "quantity": 12
           }
         ]
       }
@@ -244,9 +1114,9 @@
   "sellers": [
     {
       "subSellerId": "1",
-      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=dacris",
-      "id": "1",
-      "name": "S.C. DACRIS IMPEX S.R.L.",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=macromex&affiliateId=MCH&sc=1",
+      "id": "macromex",
+      "name": "S******************",
       "logo": ""
     }
   ],
@@ -256,277 +1126,64 @@
   "marketPlaceOrderId": "",
   "marketPlaceOrderGroup": null,
   "marketplaceServicesEndpoint": null,
-  "orderFormId": "aee738cf67f749789311ad7c2544e2ba",
-  "sequence": "597891",
+  "orderFormId": "52dda48b47c54d2089f91e33907b1a37",
+  "sequence": "758959",
   "affiliateId": "",
   "status": "",
   "callCenterOperator": "",
-  "userProfileId": "81216b4a-591f-4894-a84d-642b4fe367de",
-  "hostName": "dacris",
+  "userProfileId": "a8e9a632-1ac2-47bb-844c-2434976eeac9",
+  "hostName": "m********",
   "creationVersion": null,
   "creationEnvironment": null,
   "lastChangeVersion": null,
   "workflowInstanceId": null,
   "marketplacePaymentValue": null,
-  "orderId": "1359120597891-01",
-  "orderGroup": "1359120597891",
+  "orderId": "1466380758959-01",
+  "orderGroup": "1466380758959",
   "state": "payment-approved",
   "isCheckedIn": false,
-  "sellerOrderId": "00-1359120597891-01",
+  "sellerOrderId": "MCH-1466380758959-01",
   "storeId": null,
   "checkedInPickupPointId": null,
-  "value": 11070,
+  "value": 110019,
   "totals": [
     {
       "id": "Items",
-      "name": "Total articole",
-      "value": 9429
+      "name": "T*************",
+      "value": 104057
     },
     {
       "id": "Discounts",
-      "name": "Total reduceri",
-      "value": -1800
+      "name": "T*************",
+      "value": -3122
     },
     {
       "id": "Shipping",
-      "name": "Total transport",
-      "value": 1499
+      "name": "T**************",
+      "value": 0
     },
     {
       "id": "Tax",
-      "name": "Total taxe",
-      "value": 1942
+      "name": "T*********",
+      "value": 9084
     }
   ],
-  "clientProfileData": {
-    "email": "b****@h******.c****************.c*.v***.c**.b*",
-    "firstName": "B***",
-    "lastName": "B***** A***",
-    "document": null,
-    "documentType": null,
-    "phone": "0*********",
-    "corporateName": "H** S*** S**",
-    "tradeName": "H** S*** S**",
-    "corporateDocument": "R*********",
-    "stateInscription": "J02/1603/2006",
-    "corporatePhone": null,
-    "isCorporate": true,
-    "profileCompleteOnLoading": false,
-    "profileErrorOnLoading": false,
-    "customerClass": null
-  },
   "ratesAndBenefitsData": {
     "rateAndBenefitsIdentifiers": [
       {
-        "id": "146d39e5-d9aa-4a37-9424-b4ba7a9ab402",
-        "name": "[Discount] 20% la tipizate",
-        "featured": true,
-        "description": null,
-        "matchedParameters": {},
+        "id": "ccd68685-c57c-4533-97c1-773cc6ce01d6",
+        "name": "C**************************************************",
+        "featured": false,
+        "description": "Promotie de lansare (-3% pe toate categoriile)\nfara colectia 321 si fara :\n-produsele din promotii\n-produsele Cocorico (FR005, FR006)",
+        "matchedParameters": {
+          "Seller@CatalogSystem": "macromex|inclusive",
+          "product@CatalogSystem": "2126,2114,343,2261,2127,1142|exclusive",
+          "productCluster@CatalogSystem": "321,395,401,397,399,398,400,396|exclusive"
+        },
         "additionalInfo": null
       }
     ],
     "teaser": []
-  },
-  "shippingData": {
-    "address": {
-      "addressType": "residential",
-      "receiverName": "B*** B***** A***",
-      "addressId": "8469075424325",
-      "isDisposable": false,
-      "postalCode": "3*****",
-      "city": "A***",
-      "state": "Arad",
-      "country": "ROU",
-      "street": "P*********",
-      "number": "2*",
-      "neighborhood": "0*********",
-      "complement": null,
-      "reference": null,
-      "geoCoordinates": [-51.4779552, -0.0039779]
-    },
-    "logisticsInfo": [
-      {
-        "itemIndex": 0,
-        "selectedSla": "Curier rapid",
-        "selectedDeliveryChannel": "delivery",
-        "addressId": "8469075424325",
-        "slas": [
-          {
-            "id": "Curier rapid",
-            "deliveryChannel": "delivery",
-            "name": "Curier rapid",
-            "deliveryIds": [
-              {
-                "courierId": "1",
-                "warehouseId": "1_1",
-                "dockId": "1",
-                "courierName": "Fan Courier",
-                "quantity": 10,
-                "kitItemDetails": []
-              }
-            ],
-            "shippingEstimate": "2bd",
-            "shippingEstimateDate": "2023-09-06T08:19:31.1335499Z",
-            "lockTTL": "10d",
-            "availableDeliveryWindows": [],
-            "deliveryWindow": null,
-            "price": 1498,
-            "listPrice": 1498,
-            "tax": 0,
-            "pickupStoreInfo": {
-              "isPickupStore": false,
-              "friendlyName": null,
-              "address": null,
-              "additionalInfo": null,
-              "dockId": null
-            },
-            "pickupPointId": null,
-            "pickupDistance": 0,
-            "polygonName": "",
-            "transitTime": "2bd"
-          }
-        ],
-        "shipsTo": ["ROU"],
-        "itemId": "4488",
-        "deliveryChannels": [
-          {
-            "id": "delivery"
-          }
-        ]
-      },
-      {
-        "itemIndex": 1,
-        "selectedSla": "Curier rapid",
-        "selectedDeliveryChannel": "delivery",
-        "addressId": "8469075424325",
-        "slas": [
-          {
-            "id": "Curier rapid",
-            "deliveryChannel": "delivery",
-            "name": "Curier rapid",
-            "deliveryIds": [
-              {
-                "courierId": "1",
-                "warehouseId": "1_1",
-                "dockId": "1",
-                "courierName": "Fan Courier",
-                "quantity": 1,
-                "kitItemDetails": []
-              }
-            ],
-            "shippingEstimate": "2bd",
-            "shippingEstimateDate": "2023-09-06T08:19:31.1335499Z",
-            "lockTTL": "10d",
-            "availableDeliveryWindows": [],
-            "deliveryWindow": null,
-            "price": 1,
-            "listPrice": 1,
-            "tax": 0,
-            "pickupStoreInfo": {
-              "isPickupStore": false,
-              "friendlyName": null,
-              "address": null,
-              "additionalInfo": null,
-              "dockId": null
-            },
-            "pickupPointId": null,
-            "pickupDistance": 0,
-            "polygonName": "",
-            "transitTime": "2bd"
-          }
-        ],
-        "shipsTo": ["ROU"],
-        "itemId": "1596",
-        "deliveryChannels": [
-          {
-            "id": "delivery"
-          }
-        ]
-      }
-    ],
-    "selectedAddresses": [
-      {
-        "addressType": "residential",
-        "receiverName": "B*** B***** A***",
-        "addressId": "8469075424325",
-        "isDisposable": false,
-        "postalCode": "3*****",
-        "city": "A***",
-        "state": "Arad",
-        "country": "ROU",
-        "street": "P*********",
-        "number": "2*",
-        "neighborhood": "0*********",
-        "complement": null,
-        "reference": null,
-        "geoCoordinates": [-51.4779552, -0.0039779]
-      }
-    ],
-    "availableAddresses": [
-      {
-        "addressType": "residential",
-        "receiverName": "B*** B***** A***",
-        "addressId": "8469075424325",
-        "isDisposable": false,
-        "postalCode": "3*****",
-        "city": "A***",
-        "state": "Arad",
-        "country": "ROU",
-        "street": "P*********",
-        "number": "2*",
-        "neighborhood": "0*********",
-        "complement": null,
-        "reference": null,
-        "geoCoordinates": [-51.4779552, -0.0039779]
-      }
-    ],
-    "pickupPoints": []
-  },
-  "paymentData": {
-    "giftCards": [],
-    "transactions": [
-      {
-        "isActive": true,
-        "transactionId": "1084C33E9F8F49DB9657336D3B9F9ABF",
-        "merchantName": "DACRIS",
-        "payments": [
-          {
-            "id": "02ACD0901D63413BBCD6FECA4736CA79",
-            "paymentSystem": "202",
-            "paymentSystemName": "Plată ramburs",
-            "value": 11070,
-            "installments": 1,
-            "connectorResponses": {},
-            "referenceValue": 11070,
-            "cardHolder": null,
-            "cardNumber": null,
-            "firstDigits": null,
-            "lastDigits": null,
-            "cvv2": null,
-            "expireMonth": null,
-            "expireYear": null,
-            "url": null,
-            "koinUrl": null,
-            "tid": null,
-            "redemptionCode": null,
-            "giftCardId": null,
-            "giftCardProvider": null,
-            "giftCardAsDiscount": null,
-            "group": "promissory",
-            "dueDate": null,
-            "accountId": null,
-            "parentAccountId": null,
-            "bankIssuedInvoiceIdentificationNumber": null,
-            "bankIssuedInvoiceIdentificationNumberFormatted": null,
-            "bankIssuedInvoiceBarCodeNumber": null,
-            "bankIssuedInvoiceBarCodeType": null,
-            "billingAddress": null
-          }
-        ],
-        "sharedTransaction": false
-      }
-    ]
   },
   "clientPreferencesData": {
     "locale": "ro-RO",
@@ -550,26 +1207,15 @@
     }
   },
   "openTextField": null,
-  "invoiceData": null,
   "itemMetadata": null,
   "taxData": null,
   "customData": {
     "customApps": [
       {
         "fields": {
-          "judet": "Arad",
-          "oras": "Arad",
-          "strada": "Pastorului nr 28"
+          "salesman_email": "f*****.m*****************.c**"
         },
-        "id": "companyinfo",
-        "major": 1
-      },
-      {
-        "fields": {
-          "companyBankName": "Banca Transilvania",
-          "companyIban": "RO17BTRLRONCRT0524289201"
-        },
-        "id": "companyprofile",
+        "id": "macromexclient",
         "major": 1
       }
     ]
@@ -578,11 +1224,11 @@
   "changeData": null,
   "subscriptionData": null,
   "salesChannel": "1",
-  "followUpEmail": "5d942c5f4e95490b9cc842b5acb3b9d1@ct.vtex.com.br",
-  "creationDate": "2023-09-04T08:15:12.7960269Z",
-  "lastChange": "2023-09-04T08:19:34.4110764Z",
-  "timeZoneCreationDate": "2023-09-04T11:15:12.7960269",
-  "timeZoneLastChange": "2023-09-04T11:19:34.4110764",
+  "followUpEmail": "e**********************************.v***.c**.b*",
+  "creationDate": "2024-10-03T14:12:23.8639946Z",
+  "lastChange": "2024-10-03T14:12:30.4548212Z",
+  "timeZoneCreationDate": "2024-10-03T17:12:23.8639946",
+  "timeZoneLastChange": "2024-10-03T17:12:30.4548212",
   "isCompleted": true,
   "merchantName": null,
   "userType": "",
@@ -592,20 +1238,20 @@
   "isUserDataVisible": false,
   "allowChangeSeller": false,
   "_accountInfo": {
-    "MainAccountName": "dacris",
-    "AccountName": "dacris",
-    "Cnpj": "RO5740077",
-    "Id": "e6a1734d-abde-4e12-b161-af7edad56a42",
+    "MainAccountName": "m********",
+    "AccountName": "m********",
+    "Cnpj": "5052558",
+    "Id": "6ca56cf1-cdff-47f6-9365-64f86ad3614f",
     "AppId": null,
     "IsActive": true,
     "IsOperating": true,
-    "CreationDate": "2018-01-15T15:07:59",
-    "OperationDate": "2018-07-31T12:31:11",
-    "CompanyName": "S.C. DACRIS IMPEX S.R.L.",
-    "TradingName": "S.C. DACRIS IMPEX S.R.L.",
+    "CreationDate": "2021-02-04T18:59:56",
+    "OperationDate": "2021-08-17T13:52:16.2914662+00:00",
+    "CompanyName": "M***********",
+    "TradingName": "B*****",
     "City": null,
     "Complement": null,
-    "Country": "ROU",
+    "Country": null,
     "State": null,
     "Address": null,
     "District": null,
@@ -618,6 +1264,7 @@
     "Platform": "vtex",
     "Privacy": null,
     "HasPiiRestriction": false,
-    "Infra": null
+    "Infra": null,
+    "Sponsor": "f8a246b4-71f7-424e-b8f5-63164555b86e"
   }
 }

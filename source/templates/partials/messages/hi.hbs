@@ -1,13 +1,13 @@
 {{#if orders}}
   {{#if orders.0.clientProfileData.firstName}}
     {{#compare orders.0.clientProfileData.firstName '!=' 'isAnonymous'}}
-      ((i18n.common.hi)) {{orders.0.clientProfileData.firstName}} ({{orders.0.clientProfileData.corporateName}}),
+      ((i18n.common.hi)) {{orders.0.clientProfileData.firstName}} ({{orders.0.clientProfileData.corporateName}}).
     {{/compare}}
   {{/if}}
 {{else}}
   {{#if clientProfileData.firstName}}
     {{#compare clientProfileData.firstName '!=' 'isAnonymous'}}
-      ((i18n.common.hi)) {{clientProfileData.firstName}} ({{clientProfileData.corporateName}}),
+      ((i18n.common.hi)) {{clientProfileData.firstName}} ({{clientProfileData.corporateName}}).
     {{/compare}}
   {{/if}}
 {{/if}}

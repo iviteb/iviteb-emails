@@ -78,14 +78,14 @@
   },
   "invoice": {
     "invoiced": "Factura ta a fost emisa.",
-    "manyInvoices": "Comanda ta are mai mult de o factura.",
-    "notifications": "Va vom anunta despre progresul fiecareia dintre ele.",
-    "handlingProduct": "Pregatim produsul tau pentru livrare.",
-    "handlingProducts": "Pregatim produsele tale pentru livrare.",
-    "handlingProductPickup": "Pregatim produsul tau pentru ridicare.",
-    "handlingProductsPickup": "Pregatim produsele tale pentru ridicare.",
-    "product": "Produsul din factura",
-    "products": "Produsele din factura"
+    "manyInvoices": "Comanda ta contine mai mult de o factura.",
+    "notifications": "Te vom tine la curent cu fiecare dintre ele.",
+    "handlingProduct": "Impachetam produsul tau pentru a fi expediat.",
+    "handlingProducts": "Impachetam produsele tale pentru a fi expediate.",
+    "handlingProductPickup": "Impachetam produsul tau pentru a putea fi ridicat.",
+    "handlingProductsPickup": "Impachetam produsele tale pentru a putea fi ridicate.",
+    "product": "Produsul facturat",
+    "products": "Produse facturate"
   },
   "shipping": {
     "address": "Adresa",
