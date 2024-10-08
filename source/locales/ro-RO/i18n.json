@@ -51,7 +51,7 @@
     "on": "pe",
     "titleReplaced": "Comanda ta a fost inlocuita.",
     "titleCancelled": "Am anulat comanda ta.",
-    "titleRefunded": "Comanda ta a fost rambursata.",
+    "titleRefunded": "A fost returnata suma aferenta comenzii tale",
     "reference": "Referitor la comanda",
     "introMessage01": "Iti confirmam ca am primit comanda ta",
     "introMessage02": "Urmareste comanda ta",
@@ -165,7 +165,7 @@
     "seller": "Vandut si livrat de"
   },
   "refund": {
-    "refundedItems": "Produse rambursate",
-    "refundedTotal": "Total rambursat:"
+    "refundedItems": "Produse returnate",
+    "refundedTotal": "Total suma returnata:"
   }
 }

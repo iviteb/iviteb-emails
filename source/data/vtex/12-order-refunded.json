@@ -3,31 +3,18 @@
     "items": [
       {
         "itemIndex": 0,
-        "quantity": 1,
-        "price": 26514,
-        "description": null,
-        "unitMultiplier": 0
-      },
-      {
-        "itemIndex": 1,
-        "quantity": 1,
-        "price": 21600,
-        "description": null,
-        "unitMultiplier": 0
-      },
-      {
-        "itemIndex": 2,
-        "quantity": 1,
-        "price": 138996,
+        "quantity": 3,
+        "price": 95,
         "description": null,
         "unitMultiplier": 0
       }
     ],
     "courier": null,
-    "invoiceNumber": "99991234",
-    "invoiceValue": 190610,
+    "invoiceNumber": "RET 123",
+    "description": null,
+    "invoiceValue": 485,
     "invoiceUrl": null,
-    "issuanceDate": "2023-05-25T00:00:00",
+    "issuanceDate": "2024-09-05T12:23:35.456Z",
     "trackingNumber": null,
     "invoiceKey": null,
     "trackingUrl": null,
@@ -37,334 +24,328 @@
     "cfop": null,
     "restitutions": {
       "Refund": {
-        "value": 190610,
+        "value": 485,
         "giftCardData": null,
         "items": [
           {
-            "id": "115968",
-            "quantity": 1,
-            "price": 26514,
-            "description": null
-          },
-          {
-            "id": "13264",
-            "quantity": 1,
-            "price": 21600,
-            "description": null
-          },
-          {
-            "id": "12091",
-            "quantity": 1,
-            "price": 138996,
+            "isCompensation": false,
+            "compensationValue": 0,
+            "id": "2",
+            "quantity": 3,
+            "price": 95,
             "description": null
           }
         ]
       }
     },
-    "volumes": null,
+    "volumes": 1,
     "EnableInferItems": null
   },
   "subjectItemAttachment": {
-    "item": "Abonament floral - L...",
+    "item": "test 848",
     "totalItems": 3,
     "extraItems": 2
   },
   "cancellationReason": null,
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "F5922825224445419DCF043A49BD8DFA",
+        "merchantName": "M********",
+        "payments": [
+          {
+            "id": "D60DD50678F04D4CBF80261B6E9C221F",
+            "paymentSystem": "202",
+            "paymentSystemName": "P*********************",
+            "value": 485,
+            "installments": 1,
+            "referenceValue": 485,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": null,
+            "lastDigits": null,
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "giftCardId": null,
+            "giftCardName": null,
+            "giftCardCaption": null,
+            "redemptionCode": null,
+            "group": "promissory",
+            "tid": null,
+            "dueDate": null,
+            "connectorResponses": {},
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "koinUrl": null,
+            "accountId": null,
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": null,
+            "paymentOrigin": null
+          }
+        ]
+      }
+    ]
+  },
+  "cancellationRequests": null,
+  "invoiceData": {
+    "address": null,
+    "userPaymentInfo": null,
+    "invoiceSubject": null
+  },
+  "clientProfileData": {
+    "id": "clientProfileData",
+    "email": "d***************@g****.c****************.c*.v***.c**.b*",
+    "firstName": "D*****",
+    "lastName": "C******",
+    "documentType": "",
+    "document": null,
+    "phone": "0*********",
+    "corporateName": "V**** I* C******* I*",
+    "tradeName": "M*******",
+    "corporateDocument": "3*******",
+    "stateInscription": null,
+    "corporatePhone": null,
+    "isCorporate": true,
+    "userProfileId": "9eebca20-b35a-48ed-83c4-c39b97d6344a",
+    "userProfileVersion": null,
+    "customerClass": null,
+    "customerCode": null
+  },
+  "shippingData": {
+    "id": "shippingData",
+    "address": {
+      "addressType": "residential",
+      "receiverName": "V**** I* C******* I* B********",
+      "addressId": "MD090220-01",
+      "versionId": null,
+      "entityId": null,
+      "postalCode": "0*****",
+      "city": "B******** (******** 1*",
+      "state": "BUCUREŞTI",
+      "country": "ROU",
+      "street": "C**** F********",
+      "number": "-",
+      "neighborhood": null,
+      "complement": "N* 2******* P******** M***",
+      "reference": "M**********",
+      "geoCoordinates": [-51.4779552, -0.0039779]
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "itemId": "1524",
+        "selectedDeliveryChannel": "delivery",
+        "selectedSla": "Livrat de Alesano",
+        "lockTTL": "15d",
+        "price": 200,
+        "listPrice": 200,
+        "sellingPrice": 200,
+        "deliveryWindow": {
+          "startDateUtc": "2024-08-27T16:01:00+00:00",
+          "endDateUtc": "2024-08-27T19:00:59+00:00",
+          "price": 0
+        },
+        "deliveryCompany": null,
+        "shippingEstimate": "1bd",
+        "shippingEstimateDate": "2024-08-27T16:01:00",
+        "slas": [
+          {
+            "id": "Livrat de Alesano",
+            "name": "L****************",
+            "shippingEstimate": "1bd",
+            "shippingEstimateDate": "2024-08-27T16:01:00",
+            "deliveryWindow": {
+              "startDateUtc": "2024-08-27T16:01:00+00:00",
+              "endDateUtc": "2024-08-27T19:00:59+00:00",
+              "price": 0
+            },
+            "availableDeliveryWindows": [],
+            "deliveryIds": [
+              {
+                "courierId": "8",
+                "courierName": "T*****************************",
+                "dockId": "1",
+                "quantity": 3,
+                "warehouseId": "1_1",
+                "accountCarrierName": "h********",
+                "kitItemDetails": []
+              }
+            ],
+            "listPrice": 200,
+            "price": 200,
+            "deliveryChannel": "delivery",
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "polygonName": "",
+            "lockTTL": "15d",
+            "pickupPointId": null,
+            "transitTime": "0bd",
+            "pickupDistance": null
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "deliveryIds": [
+          {
+            "courierId": "8",
+            "courierName": "T*****************************",
+            "dockId": "1",
+            "quantity": 3,
+            "warehouseId": "1_1",
+            "accountCarrierName": "h********",
+            "kitItemDetails": []
+          }
+        ],
+        "deliveryChannels": [
+          {
+            "id": "delivery",
+            "stockBalance": 0
+          }
+        ],
+        "deliveryChannel": null,
+        "pickupStoreInfo": {
+          "additionalInfo": null,
+          "address": null,
+          "dockId": null,
+          "friendlyName": null,
+          "isPickupStore": false
+        },
+        "addressId": "MD090220-01",
+        "versionId": null,
+        "entityId": null,
+        "polygonName": "",
+        "pickupPointId": null,
+        "transitTime": "0bd"
+      }
+    ],
+    "trackingHints": [],
+    "selectedAddresses": [
+      {
+        "addressId": "MD090220-01",
+        "versionId": null,
+        "entityId": null,
+        "addressType": "residential",
+        "receiverName": "V**** I* C******* I* B********",
+        "street": "C**** F********",
+        "number": "-",
+        "complement": "N* 2******* P******** M***",
+        "neighborhood": null,
+        "postalCode": "0*****",
+        "city": "B******** (******** 1*",
+        "state": "BUCUREŞTI",
+        "country": "ROU",
+        "reference": "M**********",
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressId": "MD090220-01",
+        "versionId": null,
+        "entityId": null,
+        "addressType": "residential",
+        "receiverName": "V**** I* C******* I* B********",
+        "street": "C**** F********",
+        "number": "-",
+        "complement": "N* 2******* P******** M***",
+        "neighborhood": null,
+        "postalCode": "0*****",
+        "city": "B******** (******** 1*",
+        "state": "BUCUREŞTI",
+        "country": "ROU",
+        "reference": "M**********",
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "contactInformation": []
+  },
   "items": [
     {
       "additionalInfo": {
-        "categoriesIds": "/82/83/",
+        "categoriesIds": "/45/47/",
         "productClusterId": "",
         "commercialConditionId": "1",
         "dimension": {
           "cubicweight": 1,
-          "height": 1,
-          "length": 1,
-          "weight": 1,
-          "width": 1
+          "height": 11,
+          "length": 50,
+          "weight": 35,
+          "width": 11
         },
-        "brandName": "Floria",
-        "brandId": "2000000",
+        "brandName": "T*********",
+        "brandId": "2000010",
         "offeringInfo": null,
         "offeringType": null,
         "offeringTypeId": null
       },
-      "sellerSku": "115968",
+      "sellerSku": "2",
       "priceTable": null,
-      "priceValidUntil": "2024-05-25T12:14:05Z",
+      "priceValidUntil": "2025-08-26T11:43:24Z",
       "callCenterOperator": null,
       "commission": 0,
       "freightCommission": 0,
       "taxCode": "",
-      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:iviteb:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/115968",
-      "uniqueId": "9B7429AD07224E9F9237F681257E587E",
-      "id": "115968",
-      "productId": "115968",
-      "productRefId": "aquacarpatica2l",
-      "refId": "000000206723312",
-      "ean": "11111113123131313123",
-      "name": "Aqua Carpatica 2L",
-      "skuName": "Aqua Carpatica 2L",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:mcxhoreca:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/1524",
+      "uniqueId": "03D653B8CD584178B5D1837044AE2251",
+      "id": "1524",
+      "productId": "1515",
+      "productRefId": "",
+      "refId": "1",
+      "ean": "4556792315",
+      "name": "t*******",
+      "skuName": "t*******",
       "modalType": null,
       "parentItemIndex": null,
       "parentAssemblyBinding": null,
       "assemblies": [],
-      "tax": 3,
-      "price": 805,
-      "listPrice": 805,
+      "tax": 0,
+      "price": 95,
+      "listPrice": 95,
       "manualPrice": null,
       "manualPriceAppliedBy": null,
-      "sellingPrice": 413,
+      "sellingPrice": 95,
       "rewardValue": 0,
       "isGift": false,
       "preSaleDate": null,
-      "productCategoryIds": "/82/83/",
+      "productCategoryIds": "/45/47/",
       "productCategories": {
-        "82": "Grădină",
-        "83": "Mobilier de grădină"
+        "45": "Test Departament",
+        "47": "Test Cat 2"
       },
-      "quantity": 1,
-      "seller": "1",
-      "sellerChain": ["1"],
-      "imageUrl": "http://iviteb.vteximg.com.br/arquivos/ids/291402-55-55/apa-minerala-aqua-carpatica-plata-15l_12215_1_1559210210.jpg?v=637950370846730000",
-      "detailUrl": "/aqua-carpatica-2l/p",
+      "quantity": 3,
+      "seller": "horeca848",
+      "sellerChain": ["horeca848"],
+      "imageUrl": "https://mcxhoreca.vteximg.com.br/arquivos/ids/167919-55-55/image-a4e475e67a844f6fa065c531b6c8ad1c.jpg?v=638483602655330000",
+      "detailUrl": "/test-848-1515/p",
       "components": [],
       "bundleItems": [],
       "attachments": [],
       "attachmentOfferings": [],
       "offerings": [],
-      "priceTags": [
-        {
-          "name": "tax@price-897fda44-344e-4f6e-8eb5-e52ec0763c65#03ceca2a-7e22-4514-bae4-de66ab1775e8",
-          "value": 3,
-          "rawValue": 0.03,
-          "isPercentual": false,
-          "identifier": "897fda44-344e-4f6e-8eb5-e52ec0763c65"
-        },
-        {
-          "name": "discount@price-950ef617-b1f1-4332-9334-7ba57ff371d1#8c1e674f-34e2-4ffc-a48c-1dde947c73b6",
-          "value": -80,
-          "rawValue": -0.8,
-          "isPercentual": false,
-          "identifier": "950ef617-b1f1-4332-9334-7ba57ff371d1"
-        },
-        {
-          "name": "discount@price-202b4291-a74d-4f43-bb81-bcb5830ed8f2#c6505bd3-52b8-45b7-b935-b218be0ba44c",
-          "value": -312,
-          "rawValue": -3.12,
-          "isPercentual": false,
-          "identifier": "202b4291-a74d-4f43-bb81-bcb5830ed8f2"
-        },
-        {
-          "name": "TAXHUB@TVA 5%",
-          "value": 16100,
-          "rawValue": 161.00900000000001,
-          "isPercentual": false,
-          "identifier": null
-        },
-        {
-          "name": "TAXHUB@TVA 19%",
-          "value": 10000,
-          "rawValue": 100,
-          "isPercentual": false,
-          "identifier": null
-        }
-      ],
+      "priceTags": [],
       "availability": "available",
       "measurementUnit": "un",
       "unitMultiplier": 1,
       "manufacturerCode": null,
       "priceDefinition": {
-        "calculatedSellingPrice": 413,
-        "total": 413,
+        "calculatedSellingPrice": 95,
+        "total": 285,
         "sellingPrices": [
           {
-            "value": 413,
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    {
-      "additionalInfo": {
-        "categoriesIds": "/266/",
-        "productClusterId": "",
-        "commercialConditionId": "1",
-        "dimension": {
-          "cubicweight": 1,
-          "height": 101,
-          "length": 82,
-          "weight": 23,
-          "width": 73
-        },
-        "brandName": "Floria",
-        "brandId": "2000000",
-        "offeringInfo": null,
-        "offeringType": null,
-        "offeringTypeId": null
-      },
-      "sellerSku": "13264",
-      "priceTable": null,
-      "priceValidUntil": "2024-05-25T12:14:05Z",
-      "callCenterOperator": null,
-      "commission": 0,
-      "freightCommission": 0,
-      "taxCode": "",
-      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:iviteb:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/13264",
-      "uniqueId": "16948A1375F2432BA80E61B873D97F1B",
-      "id": "13264",
-      "productId": "13264",
-      "productRefId": "13264",
-      "refId": "13264",
-      "ean": null,
-      "name": "Ma bucur ca esti!",
-      "skuName": "Ma bucur ca esti!",
-      "modalType": null,
-      "parentItemIndex": null,
-      "parentAssemblyBinding": null,
-      "assemblies": [],
-      "tax": 67,
-      "price": 24000,
-      "listPrice": 24000,
-      "manualPrice": null,
-      "manualPriceAppliedBy": null,
-      "sellingPrice": 21600,
-      "rewardValue": 0,
-      "isGift": false,
-      "preSaleDate": null,
-      "productCategoryIds": "/266/",
-      "productCategories": {
-        "266": "ABONAMENTE"
-      },
-      "quantity": 1,
-      "seller": "1",
-      "sellerChain": ["1"],
-      "imageUrl": "http://iviteb.vteximg.com.br/arquivos/ids/291385-55-55/ma-bucur.png?v=637884676865900000",
-      "detailUrl": "/ma-bucur-ca-esti/p",
-      "components": [],
-      "bundleItems": [],
-      "attachments": [],
-      "attachmentOfferings": [],
-      "offerings": [],
-      "priceTags": [
-        {
-          "name": "tax@price-897fda44-344e-4f6e-8eb5-e52ec0763c65#03ceca2a-7e22-4514-bae4-de66ab1775e8",
-          "value": 67,
-          "rawValue": 0.67,
-          "isPercentual": false,
-          "identifier": "897fda44-344e-4f6e-8eb5-e52ec0763c65"
-        },
-        {
-          "name": "discount@price-950ef617-b1f1-4332-9334-7ba57ff371d1#8c1e674f-34e2-4ffc-a48c-1dde947c73b6",
-          "value": -2400,
-          "rawValue": -24,
-          "isPercentual": false,
-          "identifier": "950ef617-b1f1-4332-9334-7ba57ff371d1"
-        }
-      ],
-      "availability": "available",
-      "measurementUnit": "un",
-      "unitMultiplier": 1,
-      "manufacturerCode": null,
-      "priceDefinition": {
-        "calculatedSellingPrice": 21600,
-        "total": 21600,
-        "sellingPrices": [
-          {
-            "value": 21600,
-            "quantity": 1
-          }
-        ]
-      }
-    },
-    {
-      "additionalInfo": {
-        "categoriesIds": "/266/",
-        "productClusterId": "",
-        "commercialConditionId": "1",
-        "dimension": {
-          "cubicweight": 1,
-          "height": 101,
-          "length": 82,
-          "weight": 23,
-          "width": 73
-        },
-        "brandName": "Floria",
-        "brandId": "2000000",
-        "offeringInfo": null,
-        "offeringType": null,
-        "offeringTypeId": null
-      },
-      "sellerSku": "12091",
-      "priceTable": null,
-      "priceValidUntil": "2024-05-25T12:14:14Z",
-      "callCenterOperator": null,
-      "commission": 0,
-      "freightCommission": 0,
-      "taxCode": null,
-      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:iviteb:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/12091",
-      "uniqueId": "289794D926E54E138A98245940E07CCD",
-      "id": "12091",
-      "productId": "12091",
-      "productRefId": "12091",
-      "refId": "12091",
-      "ean": null,
-      "name": "Abonament floral - Luna de luna",
-      "skuName": "Abonament floral - Luna de luna",
-      "modalType": null,
-      "parentItemIndex": null,
-      "parentAssemblyBinding": null,
-      "assemblies": [],
-      "tax": 430,
-      "price": 154440,
-      "listPrice": 154440,
-      "manualPrice": null,
-      "manualPriceAppliedBy": null,
-      "sellingPrice": 138996,
-      "rewardValue": 0,
-      "isGift": false,
-      "preSaleDate": null,
-      "productCategoryIds": "/266/",
-      "productCategories": {
-        "266": "ABONAMENTE"
-      },
-      "quantity": 1,
-      "seller": "1",
-      "sellerChain": ["1"],
-      "imageUrl": "http://iviteb.vteximg.com.br/arquivos/ids/291398-55-55/aluna.jpg?v=637884736880900000",
-      "detailUrl": "/abonament-floral-luna-de-luna/p",
-      "components": [],
-      "bundleItems": [],
-      "attachments": [],
-      "attachmentOfferings": [],
-      "offerings": [],
-      "priceTags": [
-        {
-          "name": "tax@price-897fda44-344e-4f6e-8eb5-e52ec0763c65#03ceca2a-7e22-4514-bae4-de66ab1775e8",
-          "value": 430,
-          "rawValue": 4.3,
-          "isPercentual": false,
-          "identifier": "897fda44-344e-4f6e-8eb5-e52ec0763c65"
-        },
-        {
-          "name": "discount@price-950ef617-b1f1-4332-9334-7ba57ff371d1#8c1e674f-34e2-4ffc-a48c-1dde947c73b6",
-          "value": -15444,
-          "rawValue": -154.44,
-          "isPercentual": false,
-          "identifier": "950ef617-b1f1-4332-9334-7ba57ff371d1"
-        }
-      ],
-      "availability": "available",
-      "measurementUnit": "un",
-      "unitMultiplier": 1,
-      "manufacturerCode": null,
-      "priceDefinition": {
-        "calculatedSellingPrice": 138996,
-        "total": 138996,
-        "sellingPrices": [
-          {
-            "value": 138996,
-            "quantity": 1
+            "value": 95,
+            "quantity": 3
           }
         ]
       }
@@ -373,9 +354,9 @@
   "sellers": [
     {
       "subSellerId": "1",
-      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=iviteb",
-      "id": "1",
-      "name": "IVITEB",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=horeca848&affiliateId=MCX&sc=1",
+      "id": "horeca848",
+      "name": "H*****",
       "logo": ""
     }
   ],
@@ -385,416 +366,51 @@
   "marketPlaceOrderId": "",
   "marketPlaceOrderGroup": null,
   "marketplaceServicesEndpoint": null,
-  "orderFormId": "8917c92b546242b1a66fc8d3132c2a69",
-  "sequence": "506985",
+  "orderFormId": "0cc455290416497abd2a9a036bb1a85e",
+  "sequence": "746960",
   "affiliateId": "",
   "status": "",
   "callCenterOperator": "",
-  "userProfileId": "fb3856f2-19a0-492e-beaf-8b7b470d19b7",
-  "hostName": "iviteb",
+  "userProfileId": "9eebca20-b35a-48ed-83c4-c39b97d6344a",
+  "hostName": "m********",
   "creationVersion": null,
   "creationEnvironment": null,
   "lastChangeVersion": null,
   "workflowInstanceId": null,
   "marketplacePaymentValue": null,
-  "orderId": "1334680506985-01",
-  "orderGroup": "1334680506985",
+  "orderId": "1457240746960-01",
+  "orderGroup": "1457240746960",
   "state": "invoiced",
   "isCheckedIn": false,
-  "sellerOrderId": "00-1334680506985-01",
+  "sellerOrderId": "MCX-1457240746960-01",
   "storeId": null,
   "checkedInPickupPointId": null,
-  "value": 190610,
+  "value": 485,
   "totals": [
     {
       "id": "Items",
-      "name": "Total articole",
-      "value": 179245
+      "name": "T*************",
+      "value": 285
     },
     {
       "id": "Discounts",
-      "name": "Total reduceri",
-      "value": -18236
+      "name": "T*************",
+      "value": 0
     },
     {
       "id": "Shipping",
-      "name": "Total transport",
-      "value": 3000
+      "name": "T**************",
+      "value": 200
     },
     {
       "id": "Tax",
-      "name": "Total taxe",
-      "value": 500
-    },
-    {
-      "id": "CustomTax",
-      "name": "TVA 5%",
-      "value": 16101
-    },
-    {
-      "id": "CustomTax",
-      "name": "TVA 19%",
-      "value": 10000
+      "name": "T*********",
+      "value": 0
     }
   ],
-  "clientProfileData": {
-    "email": "19a3fe01080a42fbbd890a75ac2bd47a@ct.vtex.com.br",
-    "firstName": "Claudiu",
-    "lastName": "Ionita",
-    "document": null,
-    "documentType": "document",
-    "phone": "+40231333333",
-    "corporateName": null,
-    "tradeName": null,
-    "corporateDocument": null,
-    "stateInscription": null,
-    "corporatePhone": null,
-    "isCorporate": false,
-    "profileCompleteOnLoading": true,
-    "profileErrorOnLoading": false,
-    "customerClass": null
-  },
   "ratesAndBenefitsData": {
-    "rateAndBenefitsIdentifiers": [
-      {
-        "id": "950ef617-b1f1-4332-9334-7ba57ff371d1",
-        "name": "Promotie procentuala",
-        "featured": true,
-        "description": null,
-        "matchedParameters": {},
-        "additionalInfo": null
-      },
-      {
-        "id": "202b4291-a74d-4f43-bb81-bcb5830ed8f2",
-        "name": "Test promotie nominala",
-        "featured": true,
-        "description": "Descriere test promotie nominala",
-        "matchedParameters": {},
-        "additionalInfo": {
-          "nume info suplimentar": "3"
-        }
-      }
-    ],
+    "rateAndBenefitsIdentifiers": [],
     "teaser": []
-  },
-  "shippingData": {
-    "address": {
-      "addressType": "residential",
-      "receiverName": "asdasd",
-      "addressId": "3368281135050",
-      "isDisposable": false,
-      "postalCode": "031171",
-      "city": "Bucuresti",
-      "state": "Bucuresti",
-      "country": "ROU",
-      "street": "Strada Foișorului",
-      "number": "1",
-      "neighborhood": null,
-      "complement": null,
-      "reference": null,
-      "geoCoordinates": [26.1236185, 44.4221414]
-    },
-    "logisticsInfo": [
-      {
-        "itemIndex": 0,
-        "selectedSla": "Cafenele",
-        "selectedDeliveryChannel": "delivery",
-        "addressId": "3368281135050",
-        "slas": [
-          {
-            "id": "Cafenele",
-            "deliveryChannel": "delivery",
-            "name": "Cafenele",
-            "deliveryIds": [
-              {
-                "courierId": "cafenele",
-                "warehouseId": "cafenele",
-                "dockId": "Cafenele",
-                "courierName": "Cafenele",
-                "quantity": 1,
-                "kitItemDetails": []
-              }
-            ],
-            "shippingEstimate": "1d",
-            "shippingEstimateDate": "2023-05-26T12:14:44.7172009Z",
-            "lockTTL": "12d",
-            "availableDeliveryWindows": [],
-            "deliveryWindow": null,
-            "price": 64,
-            "listPrice": 64,
-            "tax": 0,
-            "pickupStoreInfo": {
-              "isPickupStore": false,
-              "friendlyName": null,
-              "address": null,
-              "additionalInfo": null,
-              "dockId": null
-            },
-            "pickupPointId": null,
-            "pickupDistance": 0,
-            "polygonName": "",
-            "transitTime": "1d"
-          }
-        ],
-        "shipsTo": [
-          "ROU",
-          "HUN",
-          "BGR",
-          "DEU",
-          "ITA",
-          "NLD",
-          "FRA",
-          "GBR",
-          "ESP",
-          "GRC",
-          "TUR",
-          "AUS",
-          "CHN",
-          "IND",
-          "ISR",
-          "MDV",
-          "USA",
-          "BRA"
-        ],
-        "itemId": "115968",
-        "deliveryChannels": [
-          {
-            "id": "delivery"
-          }
-        ]
-      },
-      {
-        "itemIndex": 1,
-        "selectedSla": "Cafenele",
-        "selectedDeliveryChannel": "delivery",
-        "addressId": "3368281135050",
-        "slas": [
-          {
-            "id": "Cafenele",
-            "deliveryChannel": "delivery",
-            "name": "Cafenele",
-            "deliveryIds": [
-              {
-                "courierId": "cafenele",
-                "warehouseId": "cafenele",
-                "dockId": "Cafenele",
-                "courierName": "Cafenele",
-                "quantity": 1,
-                "kitItemDetails": []
-              }
-            ],
-            "shippingEstimate": "1d",
-            "shippingEstimateDate": "2023-05-26T12:14:44.7172009Z",
-            "lockTTL": "12d",
-            "availableDeliveryWindows": [],
-            "deliveryWindow": null,
-            "price": 1468,
-            "listPrice": 1468,
-            "tax": 0,
-            "pickupStoreInfo": {
-              "isPickupStore": false,
-              "friendlyName": null,
-              "address": null,
-              "additionalInfo": null,
-              "dockId": null
-            },
-            "pickupPointId": null,
-            "pickupDistance": 0,
-            "polygonName": "",
-            "transitTime": "1d"
-          }
-        ],
-        "shipsTo": [
-          "ROU",
-          "HUN",
-          "BGR",
-          "DEU",
-          "ITA",
-          "NLD",
-          "FRA",
-          "GBR",
-          "ESP",
-          "GRC",
-          "TUR",
-          "AUS",
-          "CHN",
-          "IND",
-          "ISR",
-          "MDV",
-          "USA",
-          "BRA"
-        ],
-        "itemId": "13264",
-        "deliveryChannels": [
-          {
-            "id": "delivery"
-          }
-        ]
-      },
-      {
-        "itemIndex": 2,
-        "selectedSla": "Cafenele",
-        "selectedDeliveryChannel": "delivery",
-        "addressId": "3368281135050",
-        "slas": [
-          {
-            "id": "Cafenele",
-            "deliveryChannel": "delivery",
-            "name": "Cafenele",
-            "deliveryIds": [
-              {
-                "courierId": "cafenele",
-                "warehouseId": "cafenele",
-                "dockId": "Cafenele",
-                "courierName": "Cafenele",
-                "quantity": 1,
-                "kitItemDetails": []
-              }
-            ],
-            "shippingEstimate": "1d",
-            "shippingEstimateDate": "2023-05-26T12:14:44.7172009Z",
-            "lockTTL": "12d",
-            "availableDeliveryWindows": [],
-            "deliveryWindow": null,
-            "price": 1468,
-            "listPrice": 1468,
-            "tax": 0,
-            "pickupStoreInfo": {
-              "isPickupStore": false,
-              "friendlyName": null,
-              "address": null,
-              "additionalInfo": null,
-              "dockId": null
-            },
-            "pickupPointId": null,
-            "pickupDistance": 0,
-            "polygonName": "",
-            "transitTime": "1d"
-          }
-        ],
-        "shipsTo": [
-          "ROU",
-          "HUN",
-          "BGR",
-          "DEU",
-          "ITA",
-          "NLD",
-          "FRA",
-          "GBR",
-          "ESP",
-          "GRC",
-          "TUR",
-          "AUS",
-          "CHN",
-          "IND",
-          "ISR",
-          "MDV",
-          "USA",
-          "BRA"
-        ],
-        "itemId": "12091",
-        "deliveryChannels": [
-          {
-            "id": "delivery"
-          }
-        ]
-      }
-    ],
-    "selectedAddresses": [
-      {
-        "addressType": "residential",
-        "receiverName": "asdasd",
-        "addressId": "3368281135050",
-        "isDisposable": false,
-        "postalCode": "031171",
-        "city": "Bucuresti",
-        "state": "Bucuresti",
-        "country": "ROU",
-        "street": "Strada Foișorului",
-        "number": "1",
-        "neighborhood": null,
-        "complement": null,
-        "reference": null,
-        "geoCoordinates": [26.1236185, 44.4221414]
-      }
-    ],
-    "availableAddresses": [
-      {
-        "addressType": "residential",
-        "receiverName": "asdasd",
-        "addressId": "3368281135050",
-        "isDisposable": false,
-        "postalCode": "031171",
-        "city": "Bucuresti",
-        "state": "Bucuresti",
-        "country": "ROU",
-        "street": "Strada Foișorului",
-        "number": "1",
-        "neighborhood": null,
-        "complement": null,
-        "reference": null,
-        "geoCoordinates": [26.1236185, 44.4221414]
-      }
-    ],
-    "pickupPoints": []
-  },
-  "paymentData": {
-    "giftCards": [
-      {
-        "redemptionCode": null,
-        "provider": "loyalty",
-        "value": 0,
-        "balance": 0,
-        "name": null,
-        "caption": "Loyalty program",
-        "id": "fb3856f2-19a0-492e-beaf-8b7b470d19b7",
-        "inUse": false,
-        "isSpecialCard": true,
-        "groupName": null
-      }
-    ],
-    "transactions": [
-      {
-        "isActive": true,
-        "transactionId": "7576FD776C6444239DA62B573429A4F7",
-        "merchantName": "IVITEB",
-        "payments": [
-          {
-            "id": "F468EFEB93574EE8BCE504658E378D58",
-            "paymentSystem": "47",
-            "paymentSystemName": "Cash",
-            "value": 190610,
-            "installments": 1,
-            "connectorResponses": {},
-            "referenceValue": 190610,
-            "cardHolder": null,
-            "cardNumber": null,
-            "firstDigits": null,
-            "lastDigits": null,
-            "cvv2": null,
-            "expireMonth": null,
-            "expireYear": null,
-            "url": null,
-            "koinUrl": null,
-            "tid": null,
-            "redemptionCode": null,
-            "giftCardId": null,
-            "giftCardProvider": null,
-            "giftCardAsDiscount": null,
-            "group": "cash",
-            "dueDate": null,
-            "accountId": null,
-            "parentAccountId": null,
-            "bankIssuedInvoiceIdentificationNumber": null,
-            "bankIssuedInvoiceIdentificationNumberFormatted": null,
-            "bankIssuedInvoiceBarCodeNumber": null,
-            "bankIssuedInvoiceBarCodeType": null,
-            "billingAddress": null
-          }
-        ],
-        "sharedTransaction": false
-      }
-    ]
   },
   "clientPreferencesData": {
     "locale": "ro-RO",
@@ -818,19 +434,28 @@
     }
   },
   "openTextField": null,
-  "invoiceData": null,
   "itemMetadata": null,
   "taxData": null,
-  "customData": null,
+  "customData": {
+    "customApps": [
+      {
+        "fields": {
+          "salesman_email": "a****.a********************.c**"
+        },
+        "id": "macromexclient",
+        "major": 1
+      }
+    ]
+  },
   "hooksData": null,
   "changeData": null,
   "subscriptionData": null,
   "salesChannel": "1",
-  "followUpEmail": "cad80175caf042179d4a9778e634d95d@ct.vtex.com.br",
-  "creationDate": "2023-05-25T12:14:40.5130013Z",
-  "lastChange": "2023-05-25T12:24:55.0149985Z",
-  "timeZoneCreationDate": "2023-05-25T15:14:40.5130013",
-  "timeZoneLastChange": "2023-05-25T15:24:55.0149985",
+  "followUpEmail": "3**********************************.v***.c**.b*",
+  "creationDate": "2024-08-26T11:44:06.0678318Z",
+  "lastChange": "2024-09-05T12:23:38.4285293Z",
+  "timeZoneCreationDate": "2024-08-26T14:44:06.0678318",
+  "timeZoneLastChange": "2024-09-05T15:23:38.4285293",
   "isCompleted": true,
   "merchantName": null,
   "userType": "",
@@ -840,17 +465,17 @@
   "isUserDataVisible": false,
   "allowChangeSeller": false,
   "_accountInfo": {
-    "MainAccountName": "iviteb",
-    "AccountName": "iviteb",
-    "Cnpj": "1",
-    "Id": "938dfd28-b682-4d6a-b188-a8b8045d640e",
+    "MainAccountName": "m********",
+    "AccountName": "m********",
+    "Cnpj": "5052558",
+    "Id": "6ca56cf1-cdff-47f6-9365-64f86ad3614f",
     "AppId": null,
     "IsActive": true,
-    "IsOperating": false,
-    "CreationDate": "2020-03-20T01:39:08",
-    "OperationDate": null,
-    "CompanyName": "IVITEB",
-    "TradingName": "IVITEB",
+    "IsOperating": true,
+    "CreationDate": "2021-02-04T18:59:56",
+    "OperationDate": "2021-08-17T13:52:16.2914662+00:00",
+    "CompanyName": "M***********",
+    "TradingName": "B*****",
     "City": null,
     "Complement": null,
     "Country": null,
@@ -866,6 +491,7 @@
     "Platform": "vtex",
     "Privacy": null,
     "HasPiiRestriction": false,
-    "Infra": null
+    "Infra": null,
+    "Sponsor": "f8a246b4-71f7-424e-b8f5-63164555b86e"
   }
 }

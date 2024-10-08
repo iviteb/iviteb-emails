@@ -2,7 +2,7 @@
 <!-- partial:partials/titles/title-order-refunded.hbs --><!-- partial -->
 <!-- partial:partials/container/mail-middle.hbs --><!-- partial -->
 <!--  Main Content Starts Here -->
-<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" class="refundedTable">
+<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" class="refundedTable productsTable">
   <tr style="box-sizing: border-box !important;">
     <td class="pb4 bb b--light-gray">
       <table width="100%" border="0" cellpadding="0" cellspacing="0" class="refundedProducts">
@@ -12,19 +12,19 @@
             {{#each ../package.items}}
               {{#eq @../index this.itemIndex}}
                 <tr>
-                  <td width="72" class="v-mid pr3 pv2">
-                    <img alt="{{../name}}" src="{{replace (replace ../imageUrl "-55-55" "-112-112"
-                      ) "-80-80" "-112-112" }}" width="56" height="56" style="min-width: 56px; object-fit: contain;">
+                  <td width="88" class="v-mid pr3 pv2">
+                    <img alt="{{../name}}"
+                      src="{{replace (replace ../imageUrl "-55-55" "-144-144" ) "-80-80" "-144-144" }}" width="72"
+                      height="72" style="min-width: 72px; object-fit: contain;">
                   </td>
                   <td class="v-mid pv2">
-                    <p class="ma0 fs-15">{{../name}}</p>
-                    <p class="mt-6 mb0">
-                      {{../quantity}} {{#eq ../measurementUnit "un"}} ((i18n.common.units))
-            {{else}} {{../measurementUnit}}
-                      {{/eq}}
-                      <span class="fw7 action-primary">
+                    <p class="ma0 f6 word-wrap">{{../name}}</p>
+                    <p class="mt-4 mb0 f7 lh-title b base-500">{{../refId}}</p>
+                    <p class="mt-4 mb0 f7 lh-title base-500">
+                      {{../quantity}} x
+                      <span>
                         {{#if ../sellingPrice}}
-                          {{formatCurrency ../sellingPrice}} {{ ../../storePreferencesData.currencySymbol }}
+                          {{formatCurrency ../sellingPrice}} ((i18n.common.currency))
                         {{else}}
                           ((i18n.common.free))
                         {{/if}}
@@ -42,8 +42,8 @@
   <tr>
     <td class="pt4 fw7">
       ((i18n.refund.refundedTotal))
-      <span class="action-primary">{{formatCurrency package.restitutions.Refund.value}}
-        {{ storePreferencesData.currencySymbol }}</span>
+      <span>{{formatCurrency package.restitutions.Refund.value}}
+        ((i18n.common.currency))</span>
     </td>
   </tr>
 </table>
