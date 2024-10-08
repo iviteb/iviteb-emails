@@ -1,27 +1,27 @@
 {
   "to": [
     {
-      "name": "claudiu+15",
-      "email": "c*********@i*****.c**"
+      "name": "D***",
+      "email": "t*******.d******@g****.c**"
     }
   ],
   "aditionalData": {
-    "accessKey": "749527",
+    "accessKey": "4*****",
     "locale": "ro-RO",
-    "userAgent": "Chrome, Mac OS X"
+    "userAgent": "Firefox, Windows"
   },
   "_accountInfo": {
-    "MainAccountName": "iviteb",
-    "AccountName": "iviteb",
-    "Cnpj": "1",
-    "Id": "938dfd28-b682-4d6a-b188-a8b8045d640e",
+    "MainAccountName": "m********",
+    "AccountName": "m********",
+    "Cnpj": "5052558",
+    "Id": "6ca56cf1-cdff-47f6-9365-64f86ad3614f",
     "AppId": null,
     "IsActive": true,
-    "IsOperating": false,
-    "CreationDate": "2020-03-20T01:39:08",
-    "OperationDate": null,
-    "CompanyName": "IVITEB",
-    "TradingName": "IVITEB",
+    "IsOperating": true,
+    "CreationDate": "2021-02-04T18:59:56",
+    "OperationDate": "2021-08-17T13:52:16.2914662+00:00",
+    "CompanyName": "M***********",
+    "TradingName": "B*****",
     "City": null,
     "Complement": null,
     "Country": null,
@@ -37,6 +37,7 @@
     "Platform": "vtex",
     "Privacy": null,
     "HasPiiRestriction": false,
-    "Infra": null
+    "Infra": null,
+    "Sponsor": "f8a246b4-71f7-424e-b8f5-63164555b86e"
   }
 }
