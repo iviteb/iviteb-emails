@@ -4,19 +4,20 @@
       {
         "itemIndex": 0,
         "quantity": 1,
-        "price": 52960,
+        "price": 13068,
         "description": null,
         "unitMultiplier": 0
       }
     ],
-    "courier": "Home Delivery - Standard",
-    "invoiceNumber": "65432",
-    "invoiceValue": 52960,
-    "invoiceUrl": "google.com/invoice1.pdf",
-    "issuanceDate": "2022-07-29T14:14:55.637Z",
-    "trackingNumber": "76543",
-    "invoiceKey": "MN",
-    "trackingUrl": "https://www.google.com",
+    "courier": "",
+    "invoiceNumber": "2170",
+    "description": null,
+    "invoiceValue": 15551,
+    "invoiceUrl": "",
+    "issuanceDate": "2024-09-04T10:35:51.758Z",
+    "trackingNumber": "AWB 123",
+    "invoiceKey": "",
+    "trackingUrl": "www.bocado.ro",
     "embeddedInvoice": "",
     "type": "Output",
     "courierStatus": null,
@@ -26,69 +27,293 @@
     "EnableInferItems": null
   },
   "subjectItemAttachment": {
-    "item": "Apa de masa carbogaz...",
+    "item": "Hartie pentru copt i...",
     "totalItems": 1
   },
   "cancellationReason": null,
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "98B8D4170E6B48BE836CEEACBC415EA4",
+        "merchantName": "M********",
+        "payments": [
+          {
+            "id": "FC71791676BF4B3BA3E09C1C740B3429",
+            "paymentSystem": "202",
+            "paymentSystemName": "P*********************",
+            "value": 72096,
+            "installments": 1,
+            "referenceValue": 72096,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": null,
+            "lastDigits": null,
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "giftCardId": null,
+            "giftCardName": null,
+            "giftCardCaption": null,
+            "redemptionCode": null,
+            "group": "promissory",
+            "tid": null,
+            "dueDate": null,
+            "connectorResponses": {},
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "koinUrl": null,
+            "accountId": null,
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": null,
+            "paymentOrigin": null
+          }
+        ]
+      }
+    ]
+  },
+  "cancellationRequests": null,
+  "invoiceData": {
+    "address": null,
+    "userPaymentInfo": null,
+    "invoiceSubject": null
+  },
+  "clientProfileData": {
+    "id": "clientProfileData",
+    "email": "c*******.n******@y****.c****************.c*.v***.c**.b*",
+    "firstName": "C*******",
+    "lastName": "N******",
+    "documentType": "",
+    "document": null,
+    "phone": "0*********",
+    "corporateName": "C*** P**** S*****",
+    "tradeName": "B*******",
+    "corporateDocument": "R*********",
+    "stateInscription": null,
+    "corporatePhone": null,
+    "isCorporate": true,
+    "userProfileId": "7e16cf8b-1e2c-472d-9916-7c13c150c86e",
+    "userProfileVersion": null,
+    "customerClass": null,
+    "customerCode": null
+  },
+  "shippingData": {
+    "id": "shippingData",
+    "address": {
+      "addressType": "residential",
+      "receiverName": "C*** P**** S*****",
+      "addressId": "BU123179-00",
+      "versionId": null,
+      "entityId": null,
+      "postalCode": "0*****",
+      "city": "B*****",
+      "state": "ILFOV",
+      "country": "ROU",
+      "street": "S** M**** E*******",
+      "number": "-",
+      "neighborhood": null,
+      "complement": "1",
+      "reference": "B**********",
+      "geoCoordinates": [-51.4779552, -0.0039779]
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "itemId": "1467",
+        "selectedDeliveryChannel": "delivery",
+        "selectedSla": "Livrat de Alufix",
+        "lockTTL": "15d",
+        "price": 0,
+        "listPrice": 0,
+        "sellingPrice": 0,
+        "deliveryWindow": {
+          "startDateUtc": "2024-09-05T00:00:00+00:00",
+          "endDateUtc": "2024-09-05T12:00:59+00:00",
+          "price": 0
+        },
+        "deliveryCompany": null,
+        "shippingEstimate": "1bd",
+        "shippingEstimateDate": "2024-09-05T00:00:00",
+        "slas": [
+          {
+            "id": "Livrat de Alufix",
+            "name": "L***************",
+            "shippingEstimate": "1bd",
+            "shippingEstimateDate": "2024-09-05T00:00:00",
+            "deliveryWindow": {
+              "startDateUtc": "2024-09-05T00:00:00+00:00",
+              "endDateUtc": "2024-09-05T12:00:59+00:00",
+              "price": 0
+            },
+            "availableDeliveryWindows": [],
+            "deliveryIds": [
+              {
+                "courierId": "1",
+                "courierName": "T*******************",
+                "dockId": "1",
+                "quantity": 1,
+                "warehouseId": "1_1",
+                "accountCarrierName": "a***********",
+                "kitItemDetails": []
+              }
+            ],
+            "listPrice": 0,
+            "price": 0,
+            "deliveryChannel": "delivery",
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "polygonName": "",
+            "lockTTL": "15d",
+            "pickupPointId": null,
+            "transitTime": "0bd",
+            "pickupDistance": null
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "deliveryIds": [
+          {
+            "courierId": "1",
+            "courierName": "T*******************",
+            "dockId": "1",
+            "quantity": 1,
+            "warehouseId": "1_1",
+            "accountCarrierName": "a***********",
+            "kitItemDetails": []
+          }
+        ],
+        "deliveryChannels": [
+          {
+            "id": "delivery",
+            "stockBalance": 0
+          }
+        ],
+        "deliveryChannel": null,
+        "pickupStoreInfo": {
+          "additionalInfo": null,
+          "address": null,
+          "dockId": null,
+          "friendlyName": null,
+          "isPickupStore": false
+        },
+        "addressId": "BU123179-00",
+        "versionId": null,
+        "entityId": null,
+        "polygonName": "",
+        "pickupPointId": null,
+        "transitTime": "0bd"
+      }
+    ],
+    "trackingHints": [],
+    "selectedAddresses": [
+      {
+        "addressId": "BU123179-00",
+        "versionId": null,
+        "entityId": null,
+        "addressType": "residential",
+        "receiverName": "C*** P**** S*****",
+        "street": "S** M**** E*******",
+        "number": "-",
+        "complement": "1",
+        "neighborhood": null,
+        "postalCode": "0*****",
+        "city": "B*****",
+        "state": "ILFOV",
+        "country": "ROU",
+        "reference": "B**********",
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressId": "BU123179-00",
+        "versionId": null,
+        "entityId": null,
+        "addressType": "residential",
+        "receiverName": "C*** P**** S*****",
+        "street": "S** M**** E*******",
+        "number": "-",
+        "complement": "1",
+        "neighborhood": null,
+        "postalCode": "0*****",
+        "city": "B*****",
+        "state": "ILFOV",
+        "country": "ROU",
+        "reference": "B**********",
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "contactInformation": []
+  },
   "items": [
     {
       "additionalInfo": {
-        "categoriesIds": "/5000000/5010000/5010200/",
-        "productClusterId": "166,167",
+        "categoriesIds": "/110/1040123/1040124/",
+        "productClusterId": "160",
         "commercialConditionId": "1",
         "dimension": {
-          "cubicweight": 1,
-          "height": 10,
-          "length": 10,
-          "weight": 10,
-          "width": 10
+          "cubicweight": 0.3825,
+          "height": 18,
+          "length": 34,
+          "weight": 0.5,
+          "width": 3
         },
-        "brandName": "TEST",
-        "brandId": "1",
+        "brandName": "A*****",
+        "brandId": "2000024",
         "offeringInfo": null,
         "offeringType": null,
         "offeringTypeId": null
       },
-      "sellerSku": "4",
+      "sellerSku": "46",
       "priceTable": null,
-      "priceValidUntil": "2023-07-29T14:07:32Z",
+      "priceValidUntil": "2025-09-01T09:07:48Z",
       "callCenterOperator": null,
       "commission": 0,
       "freightCommission": 0,
       "taxCode": "",
-      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:auchanqa:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/4",
-      "uniqueId": "C818E40FD95E48C096F4AC4F9848CB40",
-      "id": "4",
-      "productId": "4",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:mcxhoreca:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/1467",
+      "uniqueId": "1996D1535EA94C5D92E0CF90C55C541D",
+      "id": "1467",
+      "productId": "1458",
       "productRefId": "",
-      "refId": "5942247000618",
-      "ean": "5942247000618",
-      "name": "Apa de masa carbogazoasa Izvorul Ascuns, 2.5L",
-      "skuName": "Apa de masa carbogazoasa Izvorul Ascuns, 2.5L",
+      "refId": "BPINT3332UNI",
+      "ean": "5949509002151",
+      "name": "H**************************************************************",
+      "skuName": "H**************************************************************",
       "modalType": null,
       "parentItemIndex": null,
       "parentAssemblyBinding": null,
       "assemblies": [],
-      "tax": 0,
-      "price": 66200,
-      "listPrice": 300000,
+      "tax": 2483,
+      "price": 13068,
+      "listPrice": 13068,
       "manualPrice": null,
       "manualPriceAppliedBy": null,
-      "sellingPrice": 52960,
-      "rewardValue": 100,
+      "sellingPrice": 13068,
+      "rewardValue": 0,
       "isGift": false,
       "preSaleDate": null,
-      "productCategoryIds": "/5000000/5010000/5010200/",
+      "productCategoryIds": "/110/1040123/1040124/",
       "productCategories": {
-        "5000000": "Bauturi si Tutun",
-        "5010000": "Apa",
-        "5010200": "Apa carbogazoasa"
+        "110": "Consumabile",
+        "1040123": "Folii, pungi, saci",
+        "1040124": "Folii alimentare"
       },
       "quantity": 1,
-      "seller": "1",
-      "sellerChain": ["1"],
-      "imageUrl": "http://auchanqa.vteximg.com.br/arquivos/ids/166200-55-55/apa-de-masa-carbogazoasa-izvorul-ascuns-25l-5942247000618_1_603x603.jpg?v=637939216744700000",
-      "detailUrl": "/apa-de-masa-carbogazoasa-izvorul-ascuns-2-5l/p",
+      "seller": "alufixsrl069",
+      "sellerChain": ["alufixsrl069"],
+      "imageUrl": "https://mcxhoreca.vteximg.com.br/arquivos/ids/167856-55-55/Hartie-pentru-copt-in-cut_BPINT3332UNI_2000x2000px.jpg?v=638467162977070000",
+      "detailUrl": "/hartie-pentru-copt-in-cutie-dispenser-33x32cm-100-coli-bax-12-bpint3332uni/p",
       "components": [],
       "bundleItems": [],
       "attachments": [],
@@ -96,30 +321,23 @@
       "offerings": [],
       "priceTags": [
         {
-          "name": "discount@price-a2ae5e62-f238-42d0-8d68-8d6a1841f885#7aeb88c4-af8b-44b3-9868-d2686c982eee",
-          "value": -13240,
-          "rawValue": -132.4,
-          "isPercentual": false,
-          "identifier": "a2ae5e62-f238-42d0-8d68-8d6a1841f885"
-        },
-        {
-          "name": "discount@shipping-93f64cf3-7d78-423c-8c5f-dc7ee9257fdc#8aed82b8-9bf5-460e-99e7-922e9bc1b4f0",
-          "value": -1500,
-          "rawValue": -15,
-          "isPercentual": false,
-          "identifier": "93f64cf3-7d78-423c-8c5f-dc7ee9257fdc"
+          "name": "t**********************************************************************************",
+          "value": 19,
+          "rawValue": 0.19,
+          "isPercentual": true,
+          "identifier": null
         }
       ],
       "availability": "available",
       "measurementUnit": "un",
       "unitMultiplier": 1,
-      "manufacturerCode": "",
+      "manufacturerCode": null,
       "priceDefinition": {
-        "calculatedSellingPrice": 52960,
-        "total": 52960,
+        "calculatedSellingPrice": 13068,
+        "total": 13068,
         "sellingPrices": [
           {
-            "value": 52960,
+            "value": 13068,
             "quantity": 1
           }
         ]
@@ -129,9 +347,9 @@
   "sellers": [
     {
       "subSellerId": "1",
-      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=auchanqa",
-      "id": "1",
-      "name": "AUCHAN ROMANIA SA",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=alufixsrl069&affiliateId=MCX&sc=1",
+      "id": "alufixsrl069",
+      "name": "A*********",
       "logo": ""
     }
   ],
@@ -141,337 +359,64 @@
   "marketPlaceOrderId": "",
   "marketPlaceOrderGroup": null,
   "marketplaceServicesEndpoint": null,
-  "orderFormId": "7f522f4a3ce94b7a8457ca41afcb6a7f",
-  "sequence": "500687",
+  "orderFormId": "5bd8f9d27b514b46a089295ad54aa61b",
+  "sequence": "748648",
   "affiliateId": "",
   "status": "",
   "callCenterOperator": "",
-  "userProfileId": "e2073996-9e64-4ee4-882e-bdb8e16bbc6d",
-  "hostName": "auchanqa",
+  "userProfileId": "7e16cf8b-1e2c-472d-9916-7c13c150c86e",
+  "hostName": "m********",
   "creationVersion": null,
   "creationEnvironment": null,
   "lastChangeVersion": null,
   "workflowInstanceId": null,
   "marketplacePaymentValue": null,
-  "orderId": "1250300558808-01",
-  "orderGroup": "1250300558808",
-  "state": "payment-approved",
+  "orderId": "1458650748647-02",
+  "orderGroup": "1458650748647",
+  "state": "invoiced",
   "isCheckedIn": false,
-  "sellerOrderId": "00-1250300558808-01",
+  "sellerOrderId": "MCX-1458650748647-02",
   "storeId": null,
   "checkedInPickupPointId": null,
-  "value": 52960,
+  "value": 15551,
   "totals": [
     {
       "id": "Items",
-      "name": "Items Total",
-      "value": 66200
+      "name": "T*************",
+      "value": 13068
     },
     {
       "id": "Discounts",
-      "name": "Discounts Total",
-      "value": -13240
+      "name": "T*************",
+      "value": 0
     },
     {
       "id": "Shipping",
-      "name": "Shipping Total",
-      "value": 0,
-      "alternativeTotals": [
-        {
-          "id": "AlternativeShippingTotal",
-          "name": "Alternative Shipping Total",
-          "value": 1500
-        },
-        {
-          "id": "AlternativeShippingDiscount",
-          "name": "Alternative Shipping Discount",
-          "value": -1500
-        }
-      ]
+      "name": "T**************",
+      "value": 0
     },
     {
       "id": "Tax",
-      "name": "Tax Total",
-      "value": 0
+      "name": "T*********",
+      "value": 2483
     }
   ],
-  "clientProfileData": {
-    "email": "df28790e596c4ed6879a0c72372b335b@ct.vtex.com.br",
-    "firstName": "Mihai",
-    "lastName": "Nutiu",
-    "document": null,
-    "documentType": "document",
-    "phone": "0731547332",
-    "corporateName": null,
-    "tradeName": null,
-    "corporateDocument": null,
-    "stateInscription": null,
-    "corporatePhone": null,
-    "isCorporate": false,
-    "profileCompleteOnLoading": true,
-    "profileErrorOnLoading": false,
-    "customerClass": null
-  },
   "ratesAndBenefitsData": {
     "rateAndBenefitsIdentifiers": [
       {
-        "id": "a2ae5e62-f238-42d0-8d68-8d6a1841f885",
-        "name": "20OFF",
-        "featured": true,
-        "description": null,
-        "matchedParameters": {
-          "productCluster@CatalogSystem": "167|inclusive"
-        },
-        "additionalInfo": null
-      },
-      {
-        "id": "93f64cf3-7d78-423c-8c5f-dc7ee9257fdc",
-        "name": "Transport gratuit la 100 lei",
+        "id": "ad28e3ae-a439-47a1-8614-9bd03efd5b7e",
+        "name": "C******************************************",
         "featured": false,
-        "description": null,
-        "matchedParameters": {},
+        "description": "Promotie de lansare (-3% pe toate categoriile)\nfara colectia 321 si fara :\n-produsele din promotii\n-produsele Cocorico (FR005, FR006)",
+        "matchedParameters": {
+          "Seller@CatalogSystem": "macromex|inclusive",
+          "product@CatalogSystem": "2127,2126|exclusive",
+          "productCluster@CatalogSystem": "388,392,387,390,389,321,386,391|exclusive"
+        },
         "additionalInfo": null
       }
     ],
     "teaser": []
-  },
-  "shippingData": {
-    "address": {
-      "addressType": "pickup",
-      "receiverName": "Mihai Nutiu",
-      "addressId": "db459559-bd71-4abb-a2d1-8c9c28d1fd3b",
-      "isDisposable": true,
-      "postalCode": "032455",
-      "city": "Bucuresti",
-      "state": "Bucuresti",
-      "country": "ROU",
-      "street": "Bulevardul 1 Decembrie 1918",
-      "number": "33a",
-      "neighborhood": null,
-      "complement": null,
-      "reference": null,
-      "geoCoordinates": [26.17775, 44.41979]
-    },
-    "logisticsInfo": [
-      {
-        "itemIndex": 0,
-        "selectedSla": "Livrare Standard (db459559-bd71-4abb-a2d1-8c9c28d1fd3b)",
-        "selectedDeliveryChannel": "pickup-in-point",
-        "addressId": "db459559-bd71-4abb-a2d1-8c9c28d1fd3b",
-        "slas": [
-          {
-            "id": "Livrare Standard (db459559-bd71-4abb-a2d1-8c9c28d1fd3b)",
-            "deliveryChannel": "pickup-in-point",
-            "name": "Livrare Standard (db459559-bd71-4abb-a2d1-8c9c28d1fd3b)",
-            "deliveryIds": [
-              {
-                "courierId": "hd-std",
-                "warehouseId": "hd",
-                "dockId": "hd",
-                "courixerName": "Home Delivery - Standard",
-                "quantity": 1,
-                "kitItemDetails": []
-              }
-            ],
-            "shippingEstimate": "1bd",
-            "shippingEstimateDate": "2022-08-01T14:10:14.9654861Z",
-            "lockTTL": "12d",
-            "availableDeliveryWindows": [],
-            "deliveryWindow": null,
-            "price": 0,
-            "listPrice": 1500,
-            "tax": 0,
-            "pickupStoreInfo": {
-              "isPickupStore": true,
-              "friendlyName": "Titan Auchan",
-              "address": {
-                "addressType": "pickup",
-                "receiverName": null,
-                "addressId": "db459559-bd71-4abb-a2d1-8c9c28d1fd3b",
-                "isDisposable": true,
-                "postalCode": "032455",
-                "city": "Bucuresti",
-                "state": "Bucuresti",
-                "country": "ROU",
-                "street": "Bulevardul 1 Decembrie 1918",
-                "number": "33a",
-                "neighborhood": null,
-                "complement": null,
-                "reference": null,
-                "geoCoordinates": [26.17775, 44.41979]
-              },
-              "additionalInfo": "test information",
-              "dockId": "hd"
-            },
-            "pickupPointId": "1_db459559-bd71-4abb-a2d1-8c9c28d1fd3b",
-            "pickupDistance": 7.537147045135498,
-            "polygonName": "Romania",
-            "transitTime": "1bd"
-          }
-        ],
-        "shipsTo": ["ROU"],
-        "itemId": "4",
-        "deliveryChannels": [
-          {
-            "id": "pickup-in-point"
-          }
-        ]
-      }
-    ],
-    "selectedAddresses": [
-      {
-        "addressType": "pickup",
-        "receiverName": "Mihai Nutiu",
-        "addressId": "db459559-bd71-4abb-a2d1-8c9c28d1fd3b",
-        "isDisposable": true,
-        "postalCode": "032455",
-        "city": "Bucuresti",
-        "state": "Bucuresti",
-        "country": "ROU",
-        "street": "Bulevardul 1 Decembrie 1918",
-        "number": "33a",
-        "neighborhood": null,
-        "complement": null,
-        "reference": null,
-        "geoCoordinates": [26.17775, 44.41979]
-      }
-    ],
-    "availableAddresses": [
-      {
-        "addressType": "pickup",
-        "receiverName": "Mihai Nutiu",
-        "addressId": "db459559-bd71-4abb-a2d1-8c9c28d1fd3b",
-        "isDisposable": true,
-        "postalCode": "032455",
-        "city": "Bucuresti",
-        "state": "Bucuresti",
-        "country": "ROU",
-        "street": "Bulevardul 1 Decembrie 1918",
-        "number": "33a",
-        "neighborhood": null,
-        "complement": null,
-        "reference": null,
-        "geoCoordinates": [26.17775, 44.41979]
-      }
-    ],
-    "pickupPoints": [
-      {
-        "friendlyName": "Titan Auchan",
-        "address": {
-          "addressType": "pickup",
-          "receiverName": null,
-          "addressId": "db459559-bd71-4abb-a2d1-8c9c28d1fd3b",
-          "isDisposable": true,
-          "postalCode": "032455",
-          "city": "Bucuresti",
-          "state": "Bucuresti",
-          "country": "ROU",
-          "street": "Bulevardul 1 Decembrie 1918",
-          "number": "33a",
-          "neighborhood": null,
-          "complement": null,
-          "reference": null,
-          "geoCoordinates": [26.17775, 44.41979]
-        },
-        "additionalInfo": "test information",
-        "id": "1_db459559-bd71-4abb-a2d1-8c9c28d1fd3b",
-        "businessHours": [
-          {
-            "DayOfWeek": 0,
-            "OpeningTime": "09:00:00",
-            "ClosingTime": "23:00:00"
-          },
-          {
-            "DayOfWeek": 1,
-            "OpeningTime": "09:00:00",
-            "ClosingTime": "23:00:00"
-          },
-          {
-            "DayOfWeek": 2,
-            "OpeningTime": "09:00:00",
-            "ClosingTime": "23:00:00"
-          },
-          {
-            "DayOfWeek": 3,
-            "OpeningTime": "09:00:00",
-            "ClosingTime": "23:00:00"
-          },
-          {
-            "DayOfWeek": 4,
-            "OpeningTime": "09:00:00",
-            "ClosingTime": "23:00:00"
-          },
-          {
-            "DayOfWeek": 5,
-            "OpeningTime": "09:00:00",
-            "ClosingTime": "23:00:00"
-          },
-          {
-            "DayOfWeek": 6,
-            "OpeningTime": "09:00:00",
-            "ClosingTime": "23:00:00"
-          }
-        ]
-      }
-    ]
-  },
-  "paymentData": {
-    "giftCards": [
-      {
-        "redemptionCode": null,
-        "provider": "testcomarch",
-        "value": 0,
-        "balance": 450,
-        "name": null,
-        "caption": "gift card by id",
-        "id": "xpto1",
-        "inUse": false,
-        "isSpecialCard": true,
-        "groupName": null
-      }
-    ],
-    "transactions": [
-      {
-        "isActive": true,
-        "transactionId": "09915DDCA10F4852989C25F49FC70F6C",
-        "merchantName": "AUCHANQA",
-        "payments": [
-          {
-            "id": "FD107D5D39C148E28D34141F2FC01FFD",
-            "paymentSystem": "201",
-            "paymentSystemName": "Promissory",
-            "value": 52960,
-            "installments": 1,
-            "connectorResponses": {},
-            "referenceValue": 52960,
-            "cardHolder": null,
-            "cardNumber": null,
-            "firstDigits": null,
-            "lastDigits": null,
-            "cvv2": null,
-            "expireMonth": null,
-            "expireYear": null,
-            "url": null,
-            "koinUrl": null,
-            "tid": null,
-            "redemptionCode": null,
-            "giftCardId": null,
-            "giftCardProvider": null,
-            "giftCardAsDiscount": null,
-            "group": "promissory",
-            "dueDate": null,
-            "accountId": null,
-            "parentAccountId": null,
-            "bankIssuedInvoiceIdentificationNumber": null,
-            "bankIssuedInvoiceIdentificationNumberFormatted": null,
-            "bankIssuedInvoiceBarCodeNumber": null,
-            "bankIssuedInvoiceBarCodeType": null,
-            "billingAddress": null
-          }
-        ],
-        "sharedTransaction": false
-      }
-    ]
   },
   "clientPreferencesData": {
     "locale": "ro-RO",
@@ -495,19 +440,28 @@
     }
   },
   "openTextField": null,
-  "invoiceData": null,
   "itemMetadata": null,
   "taxData": null,
-  "customData": null,
+  "customData": {
+    "customApps": [
+      {
+        "fields": {
+          "salesman_email": "f*****.m*****************.c**"
+        },
+        "id": "macromexclient",
+        "major": 1
+      }
+    ]
+  },
   "hooksData": null,
   "changeData": null,
   "subscriptionData": null,
   "salesChannel": "1",
-  "followUpEmail": "3619337fe7914e9b822402dcda9f312e@ct.vtex.com.br",
-  "creationDate": "2022-07-29T14:09:16.8108901Z",
-  "lastChange": "2022-07-29T14:10:14.5594524Z",
-  "timeZoneCreationDate": "2022-07-29T17:09:16.8108901",
-  "timeZoneLastChange": "2022-07-29T17:10:14.5594524",
+  "followUpEmail": "1**********************************.v***.c**.b*",
+  "creationDate": "2024-09-01T09:09:19.6556941Z",
+  "lastChange": "2024-09-05T07:53:41.8673029Z",
+  "timeZoneCreationDate": "2024-09-01T12:09:19.6556941",
+  "timeZoneLastChange": "2024-09-05T10:53:41.8673029",
   "isCompleted": true,
   "merchantName": null,
   "userType": "",
@@ -517,17 +471,17 @@
   "isUserDataVisible": false,
   "allowChangeSeller": false,
   "_accountInfo": {
-    "MainAccountName": "auchanqa",
-    "AccountName": "auchanqa",
-    "Cnpj": null,
-    "Id": "4213bc0f-f025-42f1-b5f2-48c0d88cc13a",
+    "MainAccountName": "m********",
+    "AccountName": "m********",
+    "Cnpj": "5052558",
+    "Id": "6ca56cf1-cdff-47f6-9365-64f86ad3614f",
     "AppId": null,
     "IsActive": true,
-    "IsOperating": false,
-    "CreationDate": "2022-04-20T13:35:32.9357908Z",
-    "OperationDate": null,
-    "CompanyName": "AUCHAN ROMANIA SA",
-    "TradingName": "AUCHAN ROMANIA SA",
+    "IsOperating": true,
+    "CreationDate": "2021-02-04T18:59:56",
+    "OperationDate": "2021-08-17T13:52:16.2914662+00:00",
+    "CompanyName": "M***********",
+    "TradingName": "B*****",
     "City": null,
     "Complement": null,
     "Country": null,
@@ -543,6 +497,7 @@
     "Platform": "vtex",
     "Privacy": null,
     "HasPiiRestriction": false,
-    "Infra": null
+    "Infra": null,
+    "Sponsor": "f8a246b4-71f7-424e-b8f5-63164555b86e"
   }
 }
