@@ -6,11 +6,18 @@
       {{#eq @index ../itemIndex}}
         <tr>
           <td width="88" class="v-mid pr3 pv2">
-            <img alt="{{name}}" src="{{replace (replace imageUrl "-55-55" "-144-144" ) "-80-80" "-144-144" }}"
-              width="72" height="72" style="min-width: 72px; object-fit: contain;">
+            <img
+              alt="{{#compare name "==" skuName}}{{name}}{{else}}{{#replace name skuName " "}}{{/replace}}{{/compare}}{{name}}"
+              src="{{replace (replace imageUrl " -55-55" "-144-144" ) "-80-80" "-144-144" }}" width="72" height="72"
+              style="min-width: 72px; object-fit: contain;">
           </td>
           <td class="v-mid pv2">
-            <p class="ma0 f6 word-wrap">{{name}}</p>
+            <p class="ma0 f6 word-wrap">
+              {{#compare name "==" skuName}} {{name}}
+                {{else}}
+                {{#replace name skuName ""}} {{/replace}}
+              {{/compare}}
+            </p>
             <p class="mt-4 mb0 f7 lh-title b base-500">{{refId}}</p>
             <p class="mt-4 mb0 f7 lh-title base-500">
               {{quantity}} x
@@ -28,11 +35,16 @@
           {{#if name}}
             <tr>
               <td width="88" class="v-mid pr3 pv2">
-                <img alt="{{name}}" src="{{replace (replace imageUrl "-55-55" "-144-144" ) "-80-80" "-144-144" }}"
+                <img alt="{{name}}" src="{{replace (replace imageUrl " -55-55" "-144-144" ) "-80-80" "-144-144" }}"
                   width="72" height="72" style="min-width: 72px; object-fit: contain;">
               </td>
               <td class="v-mid pv2">
-                <p class="ma0 fs-15 word-wrap">{{name}}</p>
+                <p class="ma0 fs-15 word-wrap">
+                  {{#compare name "==" skuName}} {{name}}
+                    {{else}}
+                    {{#replace name skuName ""}} {{/replace}}
+                  {{/compare}}
+                  </p>
                 <p class="mt-4 mb0 f7 lh-title b base-500">{{refId}}</p>
                 <p class="mt-6 mb0 f7 lt-title b base-500">
                   {{quantity}} x
