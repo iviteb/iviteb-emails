@@ -41,6 +41,7 @@ const whitelist = [
   '.px-30',
   '.mailTitle',
   '.mainContent',
+  '.dbOnMobile',
 ]
 
 // Partials

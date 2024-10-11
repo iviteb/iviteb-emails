@@ -1,14 +1,13 @@
 {
-  "to": [
-    {
-      "name": "D***",
-      "email": "t*******.d******@g****.c**"
-    }
-  ],
-  "aditionalData": {
-    "accessKey": "4*****",
-    "locale": "ro-RO",
-    "userAgent": "Firefox, Windows"
+  "data": {
+    "targetEmail": "p**************.c**",
+    "name": "M************",
+    "phone": "0*********",
+    "email": "p********@y****.c**",
+    "companyCui": "RO8998020",
+    "companyName": "P************",
+    "companyAddress": "JUD. BACĂU, MUN. BACĂU, ALEEA GHIOCEILOR, NR.21, BL.21, SC.A, ET.1, AP.5",
+    "companyCode": "MD51584"
   },
   "_accountInfo": {
     "MainAccountName": "m********",

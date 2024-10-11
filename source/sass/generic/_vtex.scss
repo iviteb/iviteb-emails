@@ -182,10 +182,6 @@ $spaceAmounts: (0, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 32, 36, 40, 48, auto);
   padding-right: 32px;
 }
 
-.mailHeader h1 {
-  white-space: pre;
-}
-
 td,
 p {
   color: $base;
@@ -202,6 +198,10 @@ h6 {
 
 .border-separate {
   border-collapse: separate !important;
+}
+
+.fs-14 {
+  font-size: 14px;
 }
 
 .fs-15 {
@@ -239,4 +239,8 @@ h6 {
   background-size: contain;
   background-size: auto 75%;
   background-position: left bottom;
+}
+
+.fixed-layout {
+  table-layout: fixed;
 }

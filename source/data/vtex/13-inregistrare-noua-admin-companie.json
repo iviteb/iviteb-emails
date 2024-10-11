@@ -1,14 +1,13 @@
 {
-  "to": [
-    {
-      "name": "D***",
-      "email": "t*******.d******@g****.c**"
-    }
-  ],
-  "aditionalData": {
-    "accessKey": "4*****",
-    "locale": "ro-RO",
-    "userAgent": "Firefox, Windows"
+  "data": {
+    "targetEmail": "c***************.c**",
+    "name": "D************",
+    "phone": "0*********",
+    "email": "t*************@g****.c**",
+    "companyCui": "RO17104510",
+    "companyName": "P**************",
+    "companyAddress": "JUD. CĂLĂRAŞI, MUN. OLTENIŢA, BLD. TINERETULUI, NR.80, BL.P21, ET.P",
+    "companyCode": "CT7728"
   },
   "_accountInfo": {
     "MainAccountName": "m********",

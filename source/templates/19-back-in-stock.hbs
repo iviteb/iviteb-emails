@@ -1,0 +1,48 @@
+<!-- partial:partials/container/mail-start.hbs --><!-- partial -->
+<h1 class="fs-32 white mailTitle">{{SkuContext.ProductName}} a revenit pe stoc</h1>
+<!-- partial:partials/container/mail-middle.hbs --><!-- partial -->
+<!--  Main Content Starts Here -->
+<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <p class="mv0 tc b lh-title">
+        {{NotifyRequest.name}}
+      </p>
+      <p class="mt4 lh-copy">
+        Produsul pe care il cautai a revenit pe stoc.
+      </p>
+
+      <table class="productsTable" width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="88" class="v-mid pr3 pv2">
+            <img alt="{{SkuContext.ProductName}}"
+              src="{{replace (replace SkuContext.ImageUrl "-55-55" "-144-144" ) "-80-80" "-144-144" }}" width="72"
+              height="72" style="min-width: 72px; object-fit: contain;">
+          </td>
+          <td class="v-mid pv2">
+            <p class="ma0 f6 word-wrap">{{SkuContext.ProductName}}</p>
+            <p class="mt-4 mb0 f7 lh-title b base-500">{{SkuContext.AlternateIds.RefId}}</p>
+            </p>
+          </td>
+        </tr>
+      </table>
+      <div class="spacer-32"></div>
+      <table border="0" cellpadding="0" cellspacing="0" align="center" class="bg-action-tertiary br-12">
+        <tr>
+          <td>
+            <a class="bg-action-tertiary py-16 px-24 dib b white no-underline lh-title br-12"
+              href="((i18n.common.siteAddress)){{SkuContext.DetailUrl}}" target="_blank">
+              Comanda acum
+            </a>
+          </td>
+        </tr>
+      </table>
+      <p class="mt4 mb0 lh-copy">Alaturi de tine pentru achizitii eficiente,
+        <br>
+        Echipa Bocado
+      </p>
+    </td>
+  </tr>
+</table>
+<!--  Main Content Ends Here -->
+<!-- partial:partials/container/mail-end.hbs --><!-- partial -->

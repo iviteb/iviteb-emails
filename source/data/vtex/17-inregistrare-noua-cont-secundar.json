@@ -1,14 +1,12 @@
 {
-  "to": [
-    {
-      "name": "D***",
-      "email": "t*******.d******@g****.c**"
-    }
-  ],
-  "aditionalData": {
-    "accessKey": "4*****",
-    "locale": "ro-RO",
-    "userAgent": "Firefox, Windows"
+  "data": {
+    "targetEmail": "s******.e.c.2*******.c**",
+    "name": "S*************",
+    "phone": "0*********",
+    "email": "s******.e.c.2*@g****.c**",
+    "companyCui": "34203310",
+    "companyName": "V*******************",
+    "companyCode": "MD090220"
   },
   "_accountInfo": {
     "MainAccountName": "m********",

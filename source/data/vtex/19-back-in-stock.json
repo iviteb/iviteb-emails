@@ -1,0 +1,415 @@
+{
+  "SkuContext": {
+    "Id": 1528,
+    "ProductId": 1519,
+    "NameComplete": "T**************************",
+    "ProductName": "T**************************",
+    "ProductDescription": "Pentru a fi gătită cu ușurință, gospodarii noștri au pregătit pentru tine cea mai valoroasă parte din carnea de pui. Cu mai puţin de 2 % grăsime, cu un aport proteic excelent – pieptul de pui dezosat, întreg sau jumătăţi, satiface orice gust şi poate fi gătit simplu, la grătar sau diverse alte specialități.",
+    "ProductRefId": "",
+    "TaxCode": "",
+    "SkuName": "T**************************",
+    "IsActive": true,
+    "IsTransported": true,
+    "IsInventoried": true,
+    "IsGiftCardRecharge": false,
+    "ImageUrl": "https://mcxhoreca.vteximg.com.br/arquivos/ids/167924-55-55/PozaTest.png?v=638489527999570000",
+    "DetailUrl": "/test-produs-agr-atm-5kg/p",
+    "CSCIdentification": null,
+    "BrandId": "2000010",
+    "BrandName": "T*********",
+    "IsBrandActive": true,
+    "Dimension": {
+      "cubicweight": 1,
+      "height": 10,
+      "length": 33,
+      "weight": 5,
+      "width": 27
+    },
+    "RealDimension": {
+      "realCubicWeight": 0,
+      "realHeight": 0,
+      "realLength": 0,
+      "realWeight": 5,
+      "realWidth": 0
+    },
+    "ManufacturerCode": "",
+    "IsKit": false,
+    "KitItems": [],
+    "Services": [],
+    "Categories": [],
+    "CategoriesFullPath": ["/45/46/48/", "/45/46/", "/45/"],
+    "Attachments": [],
+    "Collections": [],
+    "SkuSellers": [
+      {
+        "SellerId": "1",
+        "StockKeepingUnitId": 1528,
+        "SellerStockKeepingUnitId": "1528",
+        "IsActive": true,
+        "FreightCommissionPercentage": 0,
+        "ProductCommissionPercentage": 0
+      },
+      {
+        "SellerId": "horeca848",
+        "StockKeepingUnitId": 1528,
+        "SellerStockKeepingUnitId": "6",
+        "IsActive": true,
+        "FreightCommissionPercentage": 0,
+        "ProductCommissionPercentage": 0
+      }
+    ],
+    "SalesChannels": [1],
+    "Images": [
+      {
+        "ImageUrl": "https://mcxhoreca.vteximg.com.br/arquivos/ids/167924/PozaTest.png?v=638489527999570000",
+        "ImageName": "",
+        "FileId": 167924
+      },
+      {
+        "ImageUrl": "https://mcxhoreca.vteximg.com.br/arquivos/ids/167961/PIEPT-DEZOSAT-FELIAT-ATM-aprox-5-kg-bax-10-kg_1101714--2-.jpg?v=638511934215400000",
+        "ImageName": "",
+        "FileId": 167961
+      },
+      {
+        "ImageUrl": "https://mcxhoreca.vteximg.com.br/arquivos/ids/167973/Pui-grill-ATM--1.9kg-bax-6.75-8.25kg_1102985--1-.jpg?v=638513035206030000",
+        "ImageName": "",
+        "FileId": 167973
+      }
+    ],
+    "Videos": [],
+    "SkuSpecifications": [],
+    "ProductSpecifications": [
+      {
+        "FieldId": 767,
+        "FieldName": "A*************************",
+        "FieldValueIds": [1864],
+        "FieldValues": ["l"],
+        "IsFilter": false,
+        "FieldGroupId": 390,
+        "FieldGroupName": "A**************************************"
+      },
+      {
+        "FieldId": 663,
+        "FieldName": "I**********",
+        "FieldValueIds": [],
+        "FieldValues": ["Piept de pui provenit de la pui crescut la sol"],
+        "IsFilter": false,
+        "FieldGroupId": 20,
+        "FieldGroupName": "I**********"
+      },
+      {
+        "FieldId": 710,
+        "FieldName": "V**********************",
+        "FieldValueIds": [],
+        "FieldValues": ["451.8"],
+        "IsFilter": false,
+        "FieldGroupId": 340,
+        "FieldGroupName": "V***************************"
+      },
+      {
+        "FieldId": 711,
+        "FieldName": "V************************",
+        "FieldValueIds": [108],
+        "FieldValues": ["108"],
+        "IsFilter": false,
+        "FieldGroupId": 340,
+        "FieldGroupName": "V***************************"
+      },
+      {
+        "FieldId": 712,
+        "FieldName": "G**********",
+        "FieldValueIds": [],
+        "FieldValues": ["1.43"],
+        "IsFilter": false,
+        "FieldGroupId": 340,
+        "FieldGroupName": "V***************************"
+      },
+      {
+        "FieldId": 713,
+        "FieldName": "d********************************",
+        "FieldValueIds": [],
+        "FieldValues": ["0.3"],
+        "IsFilter": false,
+        "FieldGroupId": 340,
+        "FieldGroupName": "V***************************"
+      },
+      {
+        "FieldId": 714,
+        "FieldName": "G**********",
+        "FieldValueIds": [],
+        "FieldValues": ["0.46"],
+        "IsFilter": false,
+        "FieldGroupId": 340,
+        "FieldGroupName": "V***************************"
+      },
+      {
+        "FieldId": 715,
+        "FieldName": "d********************",
+        "FieldValueIds": [0],
+        "FieldValues": ["0"],
+        "IsFilter": false,
+        "FieldGroupId": 340,
+        "FieldGroupName": "V***************************"
+      },
+      {
+        "FieldId": 716,
+        "FieldName": "P***********",
+        "FieldValueIds": [],
+        "FieldValues": ["22.21"],
+        "IsFilter": false,
+        "FieldGroupId": 340,
+        "FieldGroupName": "V***************************"
+      },
+      {
+        "FieldId": 717,
+        "FieldName": "S*******",
+        "FieldValueIds": [],
+        "FieldValues": ["0.08"],
+        "IsFilter": false,
+        "FieldGroupId": 340,
+        "FieldGroupName": "V***************************"
+      },
+      {
+        "FieldId": 718,
+        "FieldName": "T********",
+        "FieldValueIds": [1587, 1588, 1589],
+        "FieldValues": ["Cantina", "Catering", "Restaurant Romanesc"],
+        "IsFilter": true,
+        "FieldGroupId": 341,
+        "FieldGroupName": "T********"
+      },
+      {
+        "FieldId": 719,
+        "FieldName": "P**************",
+        "FieldValueIds": [1590, 1591],
+        "FieldValues": ["Pranz", "Cina"],
+        "IsFilter": true,
+        "FieldGroupId": 342,
+        "FieldGroupName": "P**************"
+      },
+      {
+        "FieldId": 55,
+        "FieldName": "T*****************",
+        "FieldValueIds": [0],
+        "FieldValues": ["0"],
+        "IsFilter": false,
+        "FieldGroupId": 23,
+        "FieldGroupName": "C*********************"
+      },
+      {
+        "FieldId": 56,
+        "FieldName": "T*****************",
+        "FieldValueIds": [4],
+        "FieldValues": ["4"],
+        "IsFilter": false,
+        "FieldGroupId": 23,
+        "FieldGroupName": "C*********************"
+      },
+      {
+        "FieldId": 57,
+        "FieldName": "T*********************",
+        "FieldValueIds": [],
+        "FieldValues": ["REFRIGERATE"],
+        "IsFilter": false,
+        "FieldGroupId": 23,
+        "FieldGroupName": "C*********************"
+      },
+      {
+        "FieldId": 720,
+        "FieldName": "T**********",
+        "FieldValueIds": [1592],
+        "FieldValues": ["Refrigerat"],
+        "IsFilter": true,
+        "FieldGroupId": 343,
+        "FieldGroupName": "T**********"
+      },
+      {
+        "FieldId": 721,
+        "FieldName": "P*********",
+        "FieldValueIds": [1593, 1594],
+        "FieldValues": ["Dezosat", "Fara piele"],
+        "IsFilter": true,
+        "FieldGroupId": 344,
+        "FieldGroupName": "P*********"
+      },
+      {
+        "FieldId": 722,
+        "FieldName": "G*******",
+        "FieldValueIds": [1595],
+        "FieldValues": ["1-5kg"],
+        "IsFilter": true,
+        "FieldGroupId": 345,
+        "FieldGroupName": "G*******"
+      },
+      {
+        "FieldId": 723,
+        "FieldName": "C********",
+        "FieldValueIds": [1596],
+        "FieldValues": ["Necalibrat"],
+        "IsFilter": true,
+        "FieldGroupId": 346,
+        "FieldGroupName": "C********"
+      },
+      {
+        "FieldId": 372,
+        "FieldName": "B*******",
+        "FieldValueIds": [],
+        "FieldValues": ["text"],
+        "IsFilter": false,
+        "FieldGroupId": 123,
+        "FieldGroupName": "G*************"
+      },
+      {
+        "FieldId": 373,
+        "FieldName": "B*******",
+        "FieldValueIds": [694, 695, 696, 700],
+        "FieldValues": [
+          "Promo",
+          "Super Pret",
+          "Top Favorite",
+          "Pret Avantajos"
+        ],
+        "IsFilter": false,
+        "FieldGroupId": 123,
+        "FieldGroupName": "G*************"
+      },
+      {
+        "FieldId": 374,
+        "FieldName": "B*******",
+        "FieldValueIds": [],
+        "FieldValues": ["dino"],
+        "IsFilter": false,
+        "FieldGroupId": 123,
+        "FieldGroupName": "G*************"
+      },
+      {
+        "FieldId": 724,
+        "FieldName": "T***********",
+        "FieldValueIds": [1597],
+        "FieldValues": ["Piept"],
+        "IsFilter": true,
+        "FieldGroupId": 347,
+        "FieldGroupName": "T***********"
+      },
+      {
+        "FieldId": 550,
+        "FieldName": "A********************************************",
+        "FieldValueIds": [],
+        "FieldValues": ["pui grill"],
+        "IsFilter": false,
+        "FieldGroupId": 212,
+        "FieldGroupName": "A************************"
+      },
+      {
+        "FieldId": 567,
+        "FieldName": "D***************",
+        "FieldValueIds": [],
+        "FieldValues": [
+          "Descriere detaliata cu ingredientele Piept de pui provenit de la pui crescut la sol"
+        ],
+        "IsFilter": false,
+        "FieldGroupId": 228,
+        "FieldGroupName": "D********"
+      },
+      {
+        "FieldId": 736,
+        "FieldName": "P****************",
+        "FieldValueIds": [1678],
+        "FieldValues": ["Da"],
+        "IsFilter": false,
+        "FieldGroupId": 360,
+        "FieldGroupName": "G************************"
+      },
+      {
+        "FieldId": 766,
+        "FieldName": "I************************",
+        "FieldValueIds": [],
+        "FieldValues": ["Test instructiuni"],
+        "IsFilter": false,
+        "FieldGroupId": 389,
+        "FieldGroupName": "I****************************"
+      },
+      {
+        "FieldId": 769,
+        "FieldName": "B*****",
+        "FieldValueIds": [1893, 1894, 1895, 1892],
+        "FieldValues": ["Congelat", "Refrigerat", "Cantaribil", "SGR"],
+        "IsFilter": false,
+        "FieldGroupId": 392,
+        "FieldGroupName": "B********"
+      }
+    ],
+    "ProductClustersIds": "",
+    "PositionsInClusters": {},
+    "ProductCategoryIds": "/45/46/48/",
+    "IsDirectCategoryActive": true,
+    "ProductGlobalCategoryId": 422,
+    "ProductCategories": {
+      "45": "Test Departament",
+      "46": "Test Categorie 1",
+      "48": "Test subCat 1.1"
+    },
+    "CommercialConditionId": 1,
+    "RewardValue": 0,
+    "AlternateIds": {
+      "RefId": "TESTAGR1"
+    },
+    "AlternateIdValues": ["123456wwwc", "TESTAGR1"],
+    "EstimatedDateArrival": null,
+    "MeasurementUnit": "un",
+    "UnitMultiplier": 2,
+    "InformationSource": "Indexer",
+    "ModalType": null,
+    "KeyWords": "",
+    "ReleaseDate": "2023-04-17T00:00:00Z",
+    "ProductIsVisible": true,
+    "ShowIfNotAvailable": true,
+    "IsProductActive": true,
+    "ProductFinalScore": 0
+  },
+  "NotifyRequest": {
+    "id": "0c61c320-80b9-11ef-b37f-9e7cf060166b",
+    "name": "A***********",
+    "email": "a***.f******@m*******.c**",
+    "skuId": "1528",
+    "createdAt": "2024-10-02T12:23:00.348Z",
+    "notificationSend": "false",
+    "locale": "ro-RO",
+    "seller": {
+      "sellerId": "1",
+      "sellerName": "B*****",
+      "addToCartLink": "https://portal.vtexcommercestable.com.br/checkout/cart/add?sku=1528&qty=1&seller=1&sc=1&price=0&cv=_&sc=1",
+      "sellerDefault": true
+    }
+  },
+  "_accountInfo": {
+    "MainAccountName": "m********",
+    "AccountName": "m********",
+    "Cnpj": "5052558",
+    "Id": "6ca56cf1-cdff-47f6-9365-64f86ad3614f",
+    "AppId": null,
+    "IsActive": true,
+    "IsOperating": true,
+    "CreationDate": "2021-02-04T18:59:56",
+    "OperationDate": "2021-08-17T13:52:16.2914662+00:00",
+    "CompanyName": "M***********",
+    "TradingName": "B*****",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [7],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null,
+    "Sponsor": "f8a246b4-71f7-424e-b8f5-63164555b86e"
+  }
+}

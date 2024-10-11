@@ -1,488 +1,508 @@
 {
-	"package": {
-		"items": [
-			{
-				"itemIndex": 0,
-				"quantity": 1,
-				"price": 3999,
-				"description": null
-			}
-		],
-		"courier": "PAC",
-		"invoiceNumber": "1234",
-		"invoiceValue": 4499,
-		"invoiceUrl": "www.uol.com.br",
-		"issuanceDate": "2018-07-27T03:00:00Z",
-		"trackingNumber": "2222",
-		"invoiceKey": null,
-		"trackingUrl": "www.visa.com.br",
-		"embeddedInvoice": "",
-		"type": "Output",
-		"courierStatus": {
-			"status": "ok",
-			"finished": true,
-			"data": [
-				{
-					"lastChange": "2015-06-24T00:00:00",
-					"city": "Sao Paulo",
-					"state": "SP",
-					"description": "A caminho de Curitiba"
-				},
-				{
-					"lastChange": "2015-06-23T00:00:00",
-					"city": "Rio de Janeiro",
-					"state": "RJ",
-					"description": "Coletado pela transportadora"
-				}
-			]
-		}
-	},
-	"subjectItemAttachment": {
-		"item": "Camisa Seleção Brasi...",
-		"totalItems": 2,
-		"extraItems": 1
-	},
-	"cancellationReason": null,
-	"items": [
-		{
-			"additionalInfo": {
-				"dimension": {
-					"cubicweight": 0.2,
-					"height": 20,
-					"length": 3,
-					"weight": 50,
-					"width": 20
-				},
-				"categoriesIds": "/1/2/3/",
-				"productClusterId": "135",
-				"commercialConditionId": "1",
-				"brandName": "Marca Exemplo",
-				"brandId": "2000000",
-				"offeringInfo": null,
-				"offeringType": null,
-				"offeringTypeId": null
-			},
-			"sellerSku": "31",
-			"priceTable": null,
-			"priceValidUntil": "2019-07-25T03:00:00",
-			"callCenterOperator": null,
-			"commission": 0,
-			"freightCommission": 0,
-			"uniqueId": "4BB1D5AF200949F7BB4D8B6F50575270",
-			"id": "31",
-			"productId": "20",
-			"refId": "00001",
-			"ean": null,
-			"name": "Camisa Seleção Brasileira",
-			"skuName": "Camisa Seleção Brasileira",
-			"modalType": null,
-			"tax": 0,
-			"priceDefinitions": null,
-			"price": 3999,
-			"listPrice": 1000,
-			"manualPrice": null,
-			"sellingPrice": 3999,
-			"orderRewardStatus": null,
-			"rewardValue": 0,
-			"isGift": false,
-			"preSaleDate": null,
-			"productCategoryIds": "/1/2/3/",
-			"productCategories": {
-				"1": "Departamento 1",
-				"2": "Categoria 1.1",
-				"3": "Subcategoria 1.1"
-			},
-			"quantity": 1,
-			"seller": "1",
-			"sellerChain": [
-				"1"
-			],
-			"imageUrl": "http://vtexgame1.vteximg.com.br/arquivos/ids/155369-55-55/Azul-Talla-S_0.jpg?v=635833511570300000",
-			"detailUrl": "/polera-de-futbol-nike-manga-corta-20/p",
-			"components": [],
-			"bundleItems": [],
-			"attachments": [],
-			"attachmentOfferings": [],
-			"offerings": [],
-			"priceTags": [],
-			"availability": "available",
-			"measurementUnit": "un",
-			"unitMultiplier": 1
-		}
-	],
-	"sellers": [
-		{
-			"subSellerId": "1",
-			"fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=vtexgame1",
-			"id": "1",
-			"name": "vtexgame1",
-			"logo": ""
-		}
-	],
-	"giftRegistryData": null,
-	"receiptData": null,
-	"contextData": null,
-	"marketPlaceOrderId": "",
-	"orderFormId": "b4c2f5dc1b49419fb87878a61014b522",
-	"sequence": "549600",
-	"affiliateId": "",
-	"status": "",
-	"callCenterOperator": "",
-	"userProfileId": "a8c24a30-cbab-4a16-b53c-b48489975d7e",
-	"hostName": "vtexgame1",
-	"creationVersion": null,
-	"creationEnvironment": null,
-	"lastChangeVersion": null,
-	"workflowInstanceId": null,
-	"orderId": "834081519069-01",
-	"orderGroup": "834081519069",
-	"state": "invoiced",
-	"isCheckedIn": false,
-	"sellerOrderId": "00-834081519069-01",
-	"storeId": null,
-	"checkedInPickupPointId": null,
-	"value": 6798,
-	"totals": [
-		{
-			"id": "Items",
-			"name": "Total dos Itens",
-			"value": 6298
-		},
-		{
-			"id": "Discounts",
-			"name": "Total dos Descontos",
-			"value": 0
-		},
-		{
-			"id": "Shipping",
-			"name": "Total do Frete",
-			"value": 500
-		},
-		{
-			"id": "Tax",
-			"name": "Total da Taxa",
-			"value": 0
-		}
-	],
-	"clientProfileData": {
-		"email": "ana.motta@vtex.com.br-35b.ct.vtex.com.br",
-		"firstName": "Ana Luiza",
-		"lastName": "Gomes",
-		"document": "09498512485",
-		"documentType": "cpf",
-		"phone": "+5583991119209",
-		"corporateName": null,
-		"tradeName": null,
-		"corporateDocument": null,
-		"stateInscription": null,
-		"corporatePhone": null,
-		"isCorporate": false,
-		"profileCompleteOnLoading": true,
-		"profileErrorOnLoading": false,
-		"customerClass": null
-	},
-	"ratesAndBenefitsData": {
-		"rateAndBenefitsIdentifiers": [],
-		"teaser": []
-	},
-	"shippingData": {
-		"address": {
-			"addressType": "residential",
-			"receiverName": "Ana Luiza Gomes",
-			"addressId": "-4564401032532",
-			"postalCode": "22225-800",
-			"city": "Rio de Janeiro",
-			"state": "RJ",
-			"country": "BRA",
-			"street": "Praia de Botafogo",
-			"number": "260",
-			"neighborhood": "Botafogo",
-			"complement": null,
-			"reference": null,
-			"geoCoordinates": []
-		},
-		"logisticsInfo": [
-			{
-				"itemIndex": 0,
-				"selectedSla": "PAC",
-				"selectedDeliveryChannel": "delivery",
-				"addressId": "-4564401032532",
-				"slas": [
-					{
-						"id": "PAC",
-						"deliveryChannel": "delivery",
-						"name": "PAC",
-						"deliveryIds": [
-							{
-								"courierId": "1",
-								"warehouseId": "139edf2",
-								"dockId": "1e76746",
-								"courierName": "PAC",
-								"quantity": 1
-							}
-						],
-						"shippingEstimate": "8bd",
-						"shippingEstimateDate": "2018-06-02T00:26:44.4700669Z",
-						"lockTTL": "7d",
-						"availableDeliveryWindows": [],
-						"deliveryWindow": null,
-						"price": 500,
-						"listPrice": 500,
-						"tax": 0,
-						"pickupStoreInfo": {
-							"isPickupStore": false,
-							"friendlyName": null,
-							"address": null,
-							"additionalInfo": null,
-							"dockId": null,
-							"businessHours": null
-						},
-						"pickupPointId": null,
-						"pickupDistance": null,
-						"polygonName": null
-					}
-				],
-				"shipsTo": [
-					"BRA"
-				],
-				"itemId": "31",
-				"deliveryChannels": [
-					{
-						"id": "delivery"
-					}
-				]
-			},
-			{
-				"itemIndex": 1,
-				"selectedSla": "Econômica",
-				"selectedDeliveryChannel": "delivery",
-				"addressId": "-4564401032532",
-				"slas": [
-					{
-						"id": "Econômica",
-						"deliveryChannel": "delivery",
-						"name": "Econômica",
-						"deliveryIds": [
-							{
-								"courierId": "10014ba",
-								"warehouseId": "14a6ebe",
-								"dockId": "11d7fbf",
-								"courierName": "Baratex",
-								"quantity": 1
-							}
-						],
-						"shippingEstimate": "10bd",
-						"shippingEstimateDate": "2018-06-06T00:26:44.4700669Z",
-						"lockTTL": "7d",
-						"availableDeliveryWindows": [],
-						"deliveryWindow": null,
-						"price": 0,
-						"listPrice": 0,
-						"tax": 0,
-						"pickupStoreInfo": {
-							"isPickupStore": false,
-							"friendlyName": null,
-							"address": null,
-							"additionalInfo": null,
-							"dockId": null,
-							"businessHours": null
-						},
-						"pickupPointId": null,
-						"pickupDistance": null,
-						"polygonName": null
-					},
-					{
-						"id": "normal",
-						"deliveryChannel": "delivery",
-						"name": "normal",
-						"deliveryIds": [
-							{
-								"courierId": "13640f5",
-								"warehouseId": "138d525",
-								"dockId": "1",
-								"courierName": "Normal",
-								"quantity": 1
-							}
-						],
-						"shippingEstimate": "11bd",
-						"shippingEstimateDate": null,
-						"lockTTL": "7d",
-						"availableDeliveryWindows": [],
-						"deliveryWindow": null,
-						"price": 199,
-						"listPrice": 199,
-						"tax": 0,
-						"pickupStoreInfo": {
-							"isPickupStore": false,
-							"friendlyName": null,
-							"address": null,
-							"additionalInfo": null,
-							"dockId": null,
-							"businessHours": null
-						},
-						"pickupPointId": null,
-						"pickupDistance": null,
-						"polygonName": null
-					}
-				],
-				"shipsTo": [
-					"BRA"
-				],
-				"itemId": "33",
-				"deliveryChannels": [
-					{
-						"id": "delivery"
-					}
-				]
-			}
-		],
-		"selectedAddresses": [
-			{
-				"addressType": "residential",
-				"receiverName": "Ana Luiza Gomes",
-				"addressId": "-4564401032532",
-				"postalCode": "22225-800",
-				"city": "Rio de Janeiro",
-				"state": "RJ",
-				"country": "BRA",
-				"street": "Praia de Botafogo",
-				"number": "260",
-				"neighborhood": "Botafogo",
-				"complement": null,
-				"reference": null,
-				"geoCoordinates": []
-			}
-		],
-		"availableAddresses": [
-			{
-				"addressType": "residential",
-				"receiverName": "Ana Luiza Gomes",
-				"addressId": "-4564401032532",
-				"postalCode": "22225-800",
-				"city": "Rio de Janeiro",
-				"state": "RJ",
-				"country": "BRA",
-				"street": "Praia de Botafogo",
-				"number": "260",
-				"neighborhood": "Botafogo",
-				"complement": null,
-				"reference": null,
-				"geoCoordinates": []
-			}
-		],
-		"pickupPoints": []
-	},
-	"paymentData": {
-		"giftCards": [],
-		"transactions": [
-			{
-				"isActive": true,
-				"transactionId": "C84FAB684A44487CA716C49A18A6C5B6",
-				"merchantName": "VTEXGAME1",
-				"payments": [
-					{
-						"id": "DD838CC148374CB48F745077A0EB405A",
-						"paymentSystem": "2",
-						"paymentSystemName": "Visa",
-						"value": 6798,
-						"installments": 1,
-						"connectorResponses": {
-							"Tid": "63374265",
-							"ReturnCode": null,
-							"Message": null,
-							"authId": "374265"
-						},
-						"referenceValue": 6798,
-						"cardHolder": null,
-						"cardNumber": null,
-						"firstDigits": "444433",
-						"lastDigits": "1111",
-						"cvv2": null,
-						"expireMonth": null,
-						"expireYear": null,
-						"url": null,
-						"koinUrl": null,
-						"tid": "63374265",
-						"redemptionCode": null,
-						"giftCardId": null,
-						"giftCardProvider": null,
-						"giftCardAsDiscount": null,
-						"group": "creditCard",
-						"dueDate": null,
-						"accountId": "D732E7D4CD4B4C8385F049489DEEF803",
-						"parentAccountId": "D732E7D4CD4B4C8385F049489DEEF803"
-					}
-				],
-				"sharedTransaction": null
-			}
-		]
-	},
-	"clientPreferencesData": {
-		"locale": "pt-BR",
-		"optinNewsLetter": true
-	},
-	"commercialConditionData": null,
-	"marketingData": null,
-	"storePreferencesData": {
-		"countryCode": "BRA",
-		"saveUserData": false,
-		"timeZone": "E. South America Standard Time",
-		"currencyCode": "BRL",
-		"currencyLocale": 1046,
-		"currencySymbol": "R$",
-		"currencyFormatInfo": {
-			"currencyDecimalDigits": 2,
-			"currencyDecimalSeparator": ",",
-			"currencyGroupSeparator": ".",
-			"currencyGroupSize": 3,
-			"startsWithCurrencySymbol": true
-		}
-	},
-	"openTextField": null,
-	"customData": null,
-	"hooksData": null,
-	"changeData": null,
-	"subscriptionData": null,
-	"salesChannel": "1",
-	"followUpEmail": "14fb1186974c4f379123fae55cbff4db@ct.vtex.com.br",
-	"creationDate": "2018-05-23T00:26:05.7454162Z",
-	"lastChange": "2018-07-27T14:05:43.8509746Z",
-	"timeZoneCreationDate": "2018-05-22T21:26:05.7454162",
-	"timeZoneLastChange": "2018-07-27T11:05:43.8509746",
-	"isCompleted": true,
-	"merchantName": null,
-	"userType": "",
-	"roundingError": 0,
-	"allowEdition": false,
-	"allowCancellation": false,
-	"isUserDataVisible": false,
-	"allowChangeSeller": false,
-	"_accountInfo": {
-		"HostName": "vtexgame1",
-		"MainAccountName": "vtexgame1",
-		"IsPersisted": true,
-		"IsRemoved": false,
-		"Id": "b1ecd33c-1b85-430c-bedd-44d3f3919393",
-		"Cnpj": "99999999999999",
-		"CompanyName": "VTEX GAME1",
-		"TradingName": "VTEX GAME1",
-		"AccountName": "vtexgame1",
-		"DefaultUrl": null,
-		"Address": null,
-		"Number": null,
-		"Complement": null,
-		"District": null,
-		"City": null,
-		"State": null,
-		"PostalCode": null,
-		"Country": "Brasil",
-		"Telephone": null,
-		"IsActive": true,
-		"Sponsor": "eb436322-473b-4296-89a9-f129c479be4c",
-		"Logo": null,
-		"AppId": "fddf74e6-cc47-4a7d-8956-f0a6629cb23b",
-		"IsOperating": false,
-		"LV": "LV-1068069",
-		"Sigla": null
-	}
+  "package": {
+    "items": [
+      {
+        "itemIndex": 0,
+        "quantity": 1,
+        "price": 22294,
+        "description": null,
+        "unitMultiplier": 0
+      }
+    ],
+    "courier": "Transportator standard",
+    "invoiceNumber": "PRO2 322746",
+    "description": null,
+    "invoiceValue": 26800,
+    "invoiceUrl": "",
+    "issuanceDate": "2024-10-01T11:02:49.227Z",
+    "trackingNumber": "6208391190",
+    "invoiceKey": "",
+    "trackingUrl": "https://gls-group.com/RO/en/parcel-tracking?match=6208391190",
+    "embeddedInvoice": "",
+    "type": "Output",
+    "courierStatus": {
+      "status": "ok",
+      "finished": true,
+      "deliveredDate": "2024-10-02T12:09:24.1277921Z",
+      "data": []
+    },
+    "cfop": null,
+    "restitutions": null,
+    "volumes": 1,
+    "EnableInferItems": null
+  },
+  "subjectItemAttachment": {
+    "item": "Eritritol (inlocuito...",
+    "totalItems": 1
+  },
+  "cancellationReason": null,
+  "paymentData": {
+    "giftCards": [],
+    "transactions": [
+      {
+        "isActive": true,
+        "transactionId": "B235C0FAE0C247FFA003E3CEA193F2B4",
+        "merchantName": "M********",
+        "payments": [
+          {
+            "id": "E9BCFD8C4241497CA1F942CE68EFF7B6",
+            "paymentSystem": "202",
+            "paymentSystemName": "P*********************",
+            "value": 144917,
+            "installments": 1,
+            "referenceValue": 144917,
+            "cardHolder": null,
+            "cardNumber": null,
+            "firstDigits": null,
+            "lastDigits": null,
+            "cvv2": null,
+            "expireMonth": null,
+            "expireYear": null,
+            "url": null,
+            "giftCardId": null,
+            "giftCardName": null,
+            "giftCardCaption": null,
+            "redemptionCode": null,
+            "group": "promissory",
+            "tid": null,
+            "dueDate": null,
+            "connectorResponses": {},
+            "giftCardProvider": null,
+            "giftCardAsDiscount": null,
+            "koinUrl": null,
+            "accountId": null,
+            "parentAccountId": null,
+            "bankIssuedInvoiceIdentificationNumber": null,
+            "bankIssuedInvoiceIdentificationNumberFormatted": null,
+            "bankIssuedInvoiceBarCodeNumber": null,
+            "bankIssuedInvoiceBarCodeType": null,
+            "billingAddress": null,
+            "paymentOrigin": null
+          }
+        ]
+      }
+    ]
+  },
+  "cancellationRequests": null,
+  "invoiceData": {
+    "address": null,
+    "userPaymentInfo": null,
+    "invoiceSubject": null
+  },
+  "clientProfileData": {
+    "id": "clientProfileData",
+    "email": "c*****.b*****@y****.c****************.c*.v***.c**.b*",
+    "firstName": "b*****",
+    "lastName": "C*****",
+    "documentType": "",
+    "document": null,
+    "phone": "0*********",
+    "corporateName": "D***** S***** & C**** S*****",
+    "tradeName": "B******",
+    "corporateDocument": "4*******",
+    "stateInscription": null,
+    "corporatePhone": "0741081180",
+    "isCorporate": true,
+    "userProfileId": "1cc30a36-924c-4933-a795-92d2ecb40728",
+    "userProfileVersion": null,
+    "customerClass": null,
+    "customerCode": null
+  },
+  "shippingData": {
+    "id": "shippingData",
+    "address": {
+      "addressType": "residential",
+      "receiverName": "D***** S***** & C**** S*****",
+      "addressId": "BU74934-00",
+      "versionId": null,
+      "entityId": null,
+      "postalCode": "1*****",
+      "city": "T**** M*******",
+      "state": "TELEORMAN",
+      "country": "ROU",
+      "street": "B**** I************",
+      "number": "-",
+      "neighborhood": null,
+      "complement": "",
+      "reference": "B*********",
+      "geoCoordinates": [-51.4779552, -0.0039779]
+    },
+    "logisticsInfo": [
+      {
+        "itemIndex": 0,
+        "itemId": "2525",
+        "selectedDeliveryChannel": "delivery",
+        "selectedSla": "Livrat de Pronat",
+        "lockTTL": "15d",
+        "price": 2500,
+        "listPrice": 2500,
+        "sellingPrice": 2500,
+        "deliveryWindow": {
+          "startDateUtc": "2024-10-03T00:00:00+00:00",
+          "endDateUtc": "2024-10-03T13:00:59+00:00",
+          "price": 0
+        },
+        "deliveryCompany": null,
+        "shippingEstimate": "1bd",
+        "shippingEstimateDate": "2024-10-03T00:00:00",
+        "slas": [
+          {
+            "id": "Livrat de Pronat",
+            "name": "L***************",
+            "shippingEstimate": "1bd",
+            "shippingEstimateDate": "2024-10-03T00:00:00",
+            "deliveryWindow": {
+              "startDateUtc": "2024-10-03T00:00:00+00:00",
+              "endDateUtc": "2024-10-03T13:00:59+00:00",
+              "price": 0
+            },
+            "availableDeliveryWindows": [],
+            "deliveryIds": [
+              {
+                "courierId": "1",
+                "courierName": "T*********************",
+                "dockId": "1",
+                "quantity": 1,
+                "warehouseId": "1_1",
+                "accountCarrierName": "p***********",
+                "kitItemDetails": []
+              }
+            ],
+            "listPrice": 2500,
+            "price": 2500,
+            "deliveryChannel": "delivery",
+            "pickupStoreInfo": {
+              "additionalInfo": null,
+              "address": null,
+              "dockId": null,
+              "friendlyName": null,
+              "isPickupStore": false
+            },
+            "polygonName": "",
+            "lockTTL": "15d",
+            "pickupPointId": null,
+            "transitTime": "0bd",
+            "pickupDistance": null
+          }
+        ],
+        "shipsTo": ["ROU"],
+        "deliveryIds": [
+          {
+            "courierId": "1",
+            "courierName": "T*********************",
+            "dockId": "1",
+            "quantity": 1,
+            "warehouseId": "1_1",
+            "accountCarrierName": "p***********",
+            "kitItemDetails": []
+          }
+        ],
+        "deliveryChannels": [
+          {
+            "id": "delivery",
+            "stockBalance": 0
+          }
+        ],
+        "deliveryChannel": null,
+        "pickupStoreInfo": {
+          "additionalInfo": null,
+          "address": null,
+          "dockId": null,
+          "friendlyName": null,
+          "isPickupStore": false
+        },
+        "addressId": "BU74934-00",
+        "versionId": null,
+        "entityId": null,
+        "polygonName": "",
+        "pickupPointId": null,
+        "transitTime": "0bd"
+      }
+    ],
+    "trackingHints": [],
+    "selectedAddresses": [
+      {
+        "addressId": "BU74934-00",
+        "versionId": null,
+        "entityId": null,
+        "addressType": "residential",
+        "receiverName": "D***** S***** & C**** S*****",
+        "street": "B**** I************",
+        "number": "-",
+        "complement": "",
+        "neighborhood": null,
+        "postalCode": "1*****",
+        "city": "T**** M*******",
+        "state": "TELEORMAN",
+        "country": "ROU",
+        "reference": "B*********",
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "availableAddresses": [
+      {
+        "addressId": "BU74934-00",
+        "versionId": null,
+        "entityId": null,
+        "addressType": "residential",
+        "receiverName": "D***** S***** & C**** S*****",
+        "street": "B**** I************",
+        "number": "-",
+        "complement": "",
+        "neighborhood": null,
+        "postalCode": "1*****",
+        "city": "T**** M*******",
+        "state": "TELEORMAN",
+        "country": "ROU",
+        "reference": "B*********",
+        "geoCoordinates": [-51.4779552, -0.0039779]
+      }
+    ],
+    "contactInformation": []
+  },
+  "items": [
+    {
+      "additionalInfo": {
+        "categoriesIds": "/1040134/1040183/1040192/",
+        "productClusterId": "384",
+        "commercialConditionId": "1",
+        "dimension": {
+          "cubicweight": 1.1,
+          "height": 30,
+          "length": 11,
+          "weight": 3,
+          "width": 16
+        },
+        "brandName": "P*****",
+        "brandId": "2000069",
+        "offeringInfo": null,
+        "offeringType": null,
+        "offeringTypeId": null
+      },
+      "sellerSku": "2",
+      "priceTable": null,
+      "priceValidUntil": "2025-10-01T08:54:40Z",
+      "callCenterOperator": null,
+      "commission": 0,
+      "freightCommission": 0,
+      "taxCode": "",
+      "catalogProvider": "vrn:vtex.catalog-api-proxy:-:mcxhoreca:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/2525",
+      "uniqueId": "CC506C717BD54FE298DB57E70502DF45",
+      "id": "2525",
+      "productId": "2507",
+      "productRefId": "",
+      "refId": "PRN13819",
+      "ean": "6426309013819",
+      "name": "E********************************************************************************",
+      "skuName": "E****************************************",
+      "modalType": null,
+      "parentItemIndex": null,
+      "parentAssemblyBinding": null,
+      "assemblies": [],
+      "tax": 2006,
+      "price": 22294,
+      "listPrice": 22294,
+      "manualPrice": null,
+      "manualPriceAppliedBy": null,
+      "sellingPrice": 22294,
+      "rewardValue": 0,
+      "isGift": false,
+      "preSaleDate": null,
+      "productCategoryIds": "/1040134/1040183/1040192/",
+      "productCategories": {
+        "1040134": "Bacanie",
+        "1040183": "Ingrediente pentru panificatie si cofetarie",
+        "1040192": "Zahar si indulcitori"
+      },
+      "quantity": 1,
+      "seller": "pronatsrl672",
+      "sellerChain": ["pronatsrl672"],
+      "imageUrl": "https://mcxhoreca.vteximg.com.br/arquivos/ids/169703-55-55/Eritritol-inlocuitor-de-zahar-bio-3kg_PRN13819--1-.jpg?v=638627725693230000",
+      "detailUrl": "/eritritol-inlocuitor-de-zahar-bio-3kg-prn13819/p",
+      "components": [],
+      "bundleItems": [],
+      "attachments": [],
+      "attachmentOfferings": [],
+      "offerings": [],
+      "priceTags": [
+        {
+          "name": "t**********************************************************************************",
+          "value": 9,
+          "rawValue": 0.09,
+          "isPercentual": true,
+          "identifier": null
+        }
+      ],
+      "availability": "available",
+      "measurementUnit": "un",
+      "unitMultiplier": 1,
+      "manufacturerCode": null,
+      "priceDefinition": {
+        "calculatedSellingPrice": 22294,
+        "total": 22294,
+        "sellingPrices": [
+          {
+            "value": 22294,
+            "quantity": 1
+          }
+        ]
+      }
+    }
+  ],
+  "sellers": [
+    {
+      "subSellerId": "1",
+      "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=pronatsrl672&affiliateId=MCX&sc=1",
+      "id": "pronatsrl672",
+      "name": "P*********",
+      "logo": ""
+    }
+  ],
+  "giftRegistryData": null,
+  "receiptData": null,
+  "contextData": null,
+  "marketPlaceOrderId": "",
+  "marketPlaceOrderGroup": null,
+  "marketplaceServicesEndpoint": null,
+  "orderFormId": "58952052e7ce4d3590e0892fd2159ee6",
+  "sequence": "757860",
+  "affiliateId": "",
+  "status": "",
+  "callCenterOperator": "",
+  "userProfileId": "1cc30a36-924c-4933-a795-92d2ecb40728",
+  "hostName": "m********",
+  "creationVersion": null,
+  "creationEnvironment": null,
+  "lastChangeVersion": null,
+  "workflowInstanceId": null,
+  "marketplacePaymentValue": null,
+  "orderId": "1465850757859-02",
+  "orderGroup": "1465850757859",
+  "state": "invoiced",
+  "isCheckedIn": false,
+  "sellerOrderId": "MCX-1465850757859-02",
+  "storeId": null,
+  "checkedInPickupPointId": null,
+  "value": 26800,
+  "totals": [
+    {
+      "id": "Items",
+      "name": "T*************",
+      "value": 22294
+    },
+    {
+      "id": "Discounts",
+      "name": "T*************",
+      "value": 0
+    },
+    {
+      "id": "Shipping",
+      "name": "T**************",
+      "value": 2500
+    },
+    {
+      "id": "Tax",
+      "name": "T*********",
+      "value": 2006
+    }
+  ],
+  "ratesAndBenefitsData": {
+    "rateAndBenefitsIdentifiers": [
+      {
+        "id": "ccd68685-c57c-4533-97c1-773cc6ce01d6",
+        "name": "C**************************************************",
+        "featured": false,
+        "description": "Promotie de lansare (-3% pe toate categoriile)\nfara colectia 321 si fara :\n-produsele din promotii\n-produsele Cocorico (FR005, FR006)",
+        "matchedParameters": {
+          "Seller@CatalogSystem": "macromex|inclusive",
+          "product@CatalogSystem": "2114,2261,2127,2126,343,1142|exclusive",
+          "productCluster@CatalogSystem": "395,399,398,396,321,397,401,400|exclusive"
+        },
+        "additionalInfo": null
+      }
+    ],
+    "teaser": []
+  },
+  "clientPreferencesData": {
+    "locale": "ro-RO",
+    "optinNewsLetter": true
+  },
+  "commercialConditionData": null,
+  "marketingData": null,
+  "storePreferencesData": {
+    "countryCode": "ROU",
+    "saveUserData": false,
+    "timeZone": "GTB Standard Time",
+    "currencyCode": "RON",
+    "currencyLocale": 1048,
+    "currencySymbol": "lei",
+    "currencyFormatInfo": {
+      "currencyDecimalDigits": 2,
+      "currencyDecimalSeparator": ",",
+      "currencyGroupSeparator": ".",
+      "currencyGroupSize": 3,
+      "startsWithCurrencySymbol": false
+    }
+  },
+  "openTextField": null,
+  "itemMetadata": null,
+  "taxData": null,
+  "customData": {
+    "customApps": [
+      {
+        "fields": {
+          "salesman_email": "m*****.h**************.c**"
+        },
+        "id": "macromexclient",
+        "major": 1
+      }
+    ]
+  },
+  "hooksData": null,
+  "changeData": null,
+  "subscriptionData": null,
+  "salesChannel": "1",
+  "followUpEmail": "5**********************************.v***.c**.b*",
+  "creationDate": "2024-10-01T08:55:02.7286918Z",
+  "lastChange": "2024-10-02T07:53:45.701751Z",
+  "timeZoneCreationDate": "2024-10-01T11:55:02.7286918",
+  "timeZoneLastChange": "2024-10-02T10:53:45.701751",
+  "isCompleted": true,
+  "merchantName": null,
+  "userType": "",
+  "roundingError": 0,
+  "allowEdition": false,
+  "allowCancellation": false,
+  "isUserDataVisible": false,
+  "allowChangeSeller": false,
+  "_accountInfo": {
+    "MainAccountName": "m********",
+    "AccountName": "m********",
+    "Cnpj": "5052558",
+    "Id": "6ca56cf1-cdff-47f6-9365-64f86ad3614f",
+    "AppId": null,
+    "IsActive": true,
+    "IsOperating": true,
+    "CreationDate": "2021-02-04T18:59:56",
+    "OperationDate": "2021-08-17T13:52:16.2914662+00:00",
+    "CompanyName": "M***********",
+    "TradingName": "B*****",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [7],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null,
+    "Sponsor": "f8a246b4-71f7-424e-b8f5-63164555b86e"
+  }
 }

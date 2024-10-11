@@ -1,15 +1,5 @@
 {
-  "to": [
-    {
-      "name": "D***",
-      "email": "t*******.d******@g****.c**"
-    }
-  ],
-  "aditionalData": {
-    "accessKey": "4*****",
-    "locale": "ro-RO",
-    "userAgent": "Firefox, Windows"
-  },
+  "email": "d****.a*****@g****.c**",
   "_accountInfo": {
     "MainAccountName": "m********",
     "AccountName": "m********",

@@ -16,6 +16,22 @@
         {{else}}
           <!-- partial:partials/messages/shipping.hbs --><!-- partial -->
       {{/compare}}
+      <p class="mb0 lh-copy">
+        Gasesti factura
+        {{#if package.invoiceUrl}}
+          <a href="{{package.invoiceUrl}}" target="_blank" class="action-tertiary">aici</a>.
+        {{else}}
+          <a href="((i18n.common.siteAddress))/account#/my-invoices" target="_blank" class="action-tertiary">aici</a>.
+        {{/if}}
+      </p>
+      <p class="mb0 lh-copy">
+        Pentru a vedea unde se afla coletul tau acceseaza link-ul
+        {{#hasSubStr package.trackingUrl "https://" }}
+          <a target='_blank' href="{{package.trackingUrl}}" class="action-tertiary">aici</a>.
+          {{else}}
+            <a target='_blank' href="https://{{package.trackingUrl}}" class="action-tertiary">aici</a>.
+        {{/hasSubStr}}
+      </p>
     </td>
   </tr>
   <!-- Order info -->
